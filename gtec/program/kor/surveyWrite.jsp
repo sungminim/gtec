@@ -29,7 +29,11 @@
                 <p class="requisiteTxt"><span class="bulletRequisite">필수</span>표시 필수 입력 항목</p>
                 <ul class="surveyList">
                     <li>
-                        <strong class="number">1</strong>
+                        <!-- 21-01-18 수정 -->
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>1
+                        </strong>
+                        <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">문항별 노출 영역 입니다. 문항별 노출 영역 입니다. 문항별 노출 영역 입니다. 문항별 노출 영역 입니다.</p>
                         <div class="item">
                             <span class="inp_r"><input type="radio" name="inp_r01" id="inp_r01_1" checked><label for="inp_r01_1">좋음</label></span>
@@ -40,21 +44,33 @@
                         </div>
                     </li>
                     <li>
-                        <strong class="number">2</strong>
+                        <!-- 21-01-18 수정 -->
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>2
+                        </strong>
+                        <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">단답형 노출영역 입니다. 단답형 노출영역 입니다. 단답형 노출영역 입니다.단답형 노출영역 입니다.</p>
                         <div class="item">
                             <textarea class="inp_area" rows="2"></textarea>
                         </div>
                     </li>
                     <li>
-                        <strong class="number">3</strong>
+                        <!-- 21-01-18 수정 -->
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>3
+                        </strong>
+                        <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">서술형 노출영역 입니다. 서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.</p>
                         <div class="item">
                             <textarea class="inp_area" rows="4"></textarea>
                         </div>
                     </li>
                     <li>
-                        <strong class="number">4</strong>
+                        <!-- 21-01-18 수정 -->
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>4
+                        </strong>
+                        <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">다중선택형 노출영역입니다. 다중선택형 노출영역입니다. 다중선택형 노출영역입니다. 다중선택형 노출영역입니다.</p>
                         <div class="item">
                             <span class="inp_c rec green"><input type="checkbox" name="inp_c01" id="inp_c01_01"><label for="inp_c01_01">공식 홈페이지</label></span>
@@ -62,6 +78,13 @@
                             <span class="inp_c rec green"><input type="checkbox" name="inp_c01" id="inp_c01_03"><label for="inp_c01_03">공식 홈페이지</label></span>
                             <span class="inp_c rec green"><input type="checkbox" name="inp_c01" id="inp_c01_04"><label for="inp_c01_04">공식 홈페이지</label></span>
                             <span class="inp_c rec green"><input type="checkbox" name="inp_c01" id="inp_c01_05"><label for="inp_c01_05">공식 홈페이지</label></span>
+                        </div>
+                    </li>
+                    <li>
+                        <strong class="number">5</strong>
+                        <p class="surveyTit">필수가 아닌 영역입니다.필수가 아닌 영역입니다.필수가 아닌 영역입니다.필수가 아닌 영역입니다.</p>
+                        <div class="item">
+                            <textarea class="inp_area" rows="4"></textarea>
                         </div>
                     </li>
                 </ul>     

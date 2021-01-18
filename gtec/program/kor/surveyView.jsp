@@ -28,7 +28,9 @@
                 
                 <ul class="surveyList">
                     <li>
-                        <strong class="number">1</strong>
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>1
+                        </strong>
                         <p class="surveyTit">문항별 노출 영역 입니다. 문항별 노출 영역 입니다. 문항별 노출 영역 입니다. 문항별 노출 영역 입니다.</p>
                         <div class="item">
                             <dl class="resultList">
@@ -50,7 +52,9 @@
                         </div>
                     </li>
                     <li>
-                        <strong class="number">2</strong>
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>2
+                        </strong>
                         <p class="surveyTit">단답형 노출영역 입니다. 단답형 노출영역 입니다. 단답형 노출영역 입니다.단답형 노출영역 입니다.</p>
                         <div class="item">
                             <dl class="resultList">
@@ -63,7 +67,9 @@
                         </div>
                     </li>
                     <li>
-                        <strong class="number">3</strong>
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>3
+                        </strong>
                         <p class="surveyTit">서술형 노출영역 입니다. 서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.</p>
                         <div class="item">
                             <dl class="resultList">
@@ -76,7 +82,9 @@
                         </div>
                     </li>
                     <li>
-                        <strong class="number">4</strong>
+                        <strong class="number">
+                            <span class="mark_need">[필수]</span>4
+                        </strong>
                         <p class="surveyTit">다중선택형 노출영역입니다. 다중선택형 노출영역입니다. 다중선택형 노출영역입니다. 다중선택형 노출영역입니다.</p>
                         <div class="item">
                             <dl class="resultList">
