@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>KGU CMS MANAGER</title>
+<!-- 기존 cms 파일 -->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="css/jquery-ui.theme.css" />
+<link rel="stylesheet" href="css/default.css" />
+<link rel="stylesheet" href="css/dev.css" id="devcss"/>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- //기존 cms 파일 -->
+
+<!-- 고려대학교 전용 cms 파일 -->
+<link rel="stylesheet" href="css/cms_kyonggi.css" />
+<!-- //고려대학교 전용 cms 파일 -->
+
+</head>
+
+<body>
+
+<section id="container">
+
+<script>
+var gnbDep1 = 0;
+var lnbDep1 = 0;
+var lnbDep2 = 0;
+var lnbDep3 = 0;
+</script>
+
+    <header>
+    	<h1><a href="#none"><img src="img/logo.png" alt="KGU - 경기대학교 입학안내"/></a></h1>
+		<p>
+			<a href="#none">홈으로</a>
+			<a href="#none">최고관리자</a>
+            <a href="#none">비밀번호 변경</a>
+			<a href="#none">로그아웃</a>
+		</p>
+		<ul id="gnb">
+            <li><a href="#none">관리자설정</a></li>
+            <li><a href="#none">홈페이지관리</a></li>
+            <li><a href="#none">게시판관리</a></li>
+            <li><a href="#none">학과정보관리</a></li>
+            <li><a href="#none">프로그램관리</a></li>
+            <li><a href="#none">팝업관리</a></li>
+            <li><a href="#none">설문관리</a></li>
+            <li><a href="#none">통계관리</a></li>
+            <li><a href="#none">통합검색</a></li>
+        </ul>
+    </header>
+    <section id="contents">
+        <nav>
+            <div id="my">
+                <span><img src="img/sample_profile.png" alt="" /></span>
+                <dl>
+                    <dt>
+                        <b>신창순 주임</b>
+                        고려대학교 센터
+                    </dt>
+                    <dd>최종접속 : 15.08.11 09:05</dd>
+                </dl>
+                <button type="button" class="btn_edit">수정</button>
+            </div>
+            <ul class="major_link">
+                <li><a href="#none">인재발굴처</a></li>
+                <li><a href="#none">세종캠퍼스</a></li>
+                <li><a href="#none">인재발굴처 인트로</a></li>
+            </ul>
+        </nav>
+
+        <article>
+
+            <!-- 메인 -->
+            <div class="ku_main">
+                <div class="mToday">
+                    <p class="tit"><b>TODAY</b> 2019.04.11(수요일)</p>
+                    <div class="wrap">
+                        <div class="grpToday">
+                            <strong><span>인재<br />발굴처</span></strong>
+                            <ul>
+                                <li class="visit"><span>방문자</span>456374342</li>
+                                <li class="bbs"><span>게시글</span>12</li>
+                            </ul>
+                        </div>
+                        <div class="grpToday">
+                            <strong><span>세종<br />캠퍼스</span></strong>
+                            <ul>
+                                <li class="visit"><span>방문자</span>1</li>
+                                <li class="bbs"><span>게시글</span>45637</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="button" class="btn_more">더보기</button>
+                </div>
+
+                <div class="mSystem">
+                    <ul>
+                        <li class="sys_cpu">
+                            <strong>CPU 전체 2.25Ghz</strong>
+                            <p><em>잔여 : <b>1.125</b>Ghz</em><span>사용 : 1.125Ghz</span></p>
+
+                            <div class="graphBar">
+                                <p class="bar"><span style="width:50%"></span></p> 50%
+                            </div>
+                        </li>
+                        <li class="sys_hdd">
+                            <strong>하드드라이브 C:\ 250.00GB</strong>
+                            <p><em>잔여 : <b>125.00</b>GB</em><span>사용 : 125.00GB</span></p>
+
+                            <div class="graphBar">
+                                <p class="bar"><span style="width:1%"></span></p> 1%
+                            </div>
+                        </li>
+                        <li class="sys_pMemory">
+                            <strong>Physical Meomory 8000.0Mb</strong>
+                            <p><em>잔여 : <b>4000.00</b>Mb</em><span>사용 : 4000.00Mb</span></p>
+
+                            <div class="graphBar">
+                                <p class="bar"><span style="width:100%"></span></p>100%
+                            </div>
+                        </li>
+                        <li class="sys_jMemory">
+                            <strong>JVM heap Meomory 8000.0Mb</strong>
+                            <p><em>잔여 : <b>1.125</b>Mb</em><span>사용 : 1.125Mb</span></p>
+
+                            <div class="graphBar">
+                                <p class="bar"><span style="width:25%"></span></p>26%
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mBoard">
+                    <div class="grp seoul">
+                        <p class="tit">
+                            <strong>인재발굴처</strong>
+                            <span class="bbs_num">총<b>12</b>건</span>
+                        </p>
+
+                        <div class="list">
+                            <div class="limit_area">
+                                <ul>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>학사일반공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>교내행사공지</p>
+                                        <span class="num">4</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>장학공지</p>
+                                        <span class="num">14</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>진로취업공지</p>
+                                        <span class="num">100</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>학사일반공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>교내행사공지</p>
+                                        <span class="num">4</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>장학공지</p>
+                                        <span class="num">14</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>진로취업공지</p>
+                                        <span class="num">100</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">인재발굴처</span>
+                                        <p>구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지 구매입찰공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grp sejong">
+                        <p class="tit">
+                            <strong>세종캠퍼스</strong>
+                            <span class="bbs_num">총<b>12</b>건</span>
+                        </p>
+
+                        <div class="list">
+                            <div class="limit_area">
+                                <ul>
+                                    <li>
+                                        <span class="sort">세종캠퍼스</span>
+                                        <p>학사일반공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">세종캠퍼스</span>
+                                        <p>교내행사공지</p>
+                                        <span class="num">400</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">세종캠퍼스</span>
+                                        <p>장학공지</p>
+                                        <span class="num">0</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">세종캠퍼스</span>
+                                        <p>진로취업공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li>
+                                        <span class="sort">세종캠퍼스</span>
+                                        <p>구매입찰공지</p>
+                                        <span class="num">1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //메인 -->
+
+        </article>
+
+    </section>
+</section>
+
+<footer>
+	<address>
+        인재발굴처 (02841) 서울시 성북구 안암로 145 고려대학교 라이시움 1층 / TEL 02-290-5161~3<br />
+        세종캠퍼스 (30019) 세종특별자치시 세종로 2511 고려대학교 행정관 2층 / TEL 044-860-1900<br />
+        ⓒ2019 ADMISSIONS OFFICE KOREA UNIVERSITY. ALL RIGHTS RESERVED.
+    </address>
+</footer>
+
+</body>
+</html>

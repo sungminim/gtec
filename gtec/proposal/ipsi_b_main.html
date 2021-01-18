@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!--[if IE 8]>    <html lang="kor" class="ie8"> <![endif]-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>경기과학기술대학교</title>
+    <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+
+    <script type="text/javascript" src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/mCustomScrollbar/jquery.mCustomScrollbar.css" />
+
+    <script type="text/javascript" src="js/counter/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/counter/jquery.counterup.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/ipsi_a.css" />
+</head>
+<script>
+    $(function(){
+        $('.gTecLogo').slick({
+            slidesToShow: 2,
+            varibleWidth: true,
+            arrows: false,
+            dots:true
+        })  
+        $('.mSupport').slick({
+            arrows:true,
+            dots:false,
+            varibleWidth: true
+        })
+        $('.mDepth').slick({
+        arrows:true,
+        dots:false,
+        varibleWidth: true
+        })
+
+        $('.mVisual .slick-dots li button').prepend('0');
+
+        $(".mVisual .unit>img").animate({
+            "opacity": 1,
+        }, 1200, 'easeOutQuad');
+
+        // animation
+        $('.mVisual .dots').animate({
+            "opacity": "1"
+        }, 1300, "linear");
+
+        $('.mVisual .unit .inner .tit_b').delay(50).animate({
+            "top": "0",
+            "opacity": "1"
+        }, 800, "linear");
+
+        $('.mVisual .unit .inner .tit_s').delay(50).animate({
+            "top": "0",
+            "opacity": "1"
+        }, 800, "linear");
+
+        $('.mSection1 ul li:eq(0)').delay(0).animate({
+            "opacity": "1",
+            "margin-top": "0"
+        }, 550, "easeInOutQuad");
+
+        $('.mSection1 ul li:eq(1)').delay(0).animate({
+            "opacity": "1",
+            "margin-top": "0"
+        }, 550, "easeInOutQuad");
+
+        $('.mSection1 ul li:eq(2)').delay(00).animate({
+            "opacity": "1",
+            "margin-top": "0"
+        }, 550, "easeInOutQuad");
+
+        // set Scroll Ani
+        function mBlueSec() {
+            $('.blueBg ul').animate({
+                "opacity": "1",
+                "margin-top": "0"
+            }, 550, "easeInOutQuad");
+        }
+
+        function gTecSec() {
+            $('.mGtec .titImg').animate({
+                "opacity": "1",
+                "top": "0"
+            }, 550, "easeInOutQuad");
+        }
+
+        function gTec1() {
+            $('.gTec1 .gTit').animate({
+                "opacity": "1"
+            }, 250, "easeInOutQuad");
+
+            $('.gTec1 ul li:eq(0)').delay(100).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec1 ul li:eq(1)').delay(270).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec1 ul li:eq(2)').delay(470).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec1 ul li:eq(3)').delay(670).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec2 .gTit').delay(800).animate({
+                "opacity": "1"
+            }, 250, "easeInOutQuad");
+
+            $('.gTec2 ul li:eq(0)').delay(870).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec2 ul li:eq(1)').delay(1070).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec2 ul li:eq(2)').delay(1270).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec2 ul li:eq(3)').delay(1470).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec3 .gTit').delay(1600).animate({
+                "opacity": "1"
+            }, 250, "easeInOutQuad");
+
+            $('.gTec3 ul li:eq(0)').delay(1670).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec3 ul li:eq(1)').delay(1970).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec3 ul li:eq(2)').delay(2170).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+
+            $('.gTec3 ul li:eq(3)').delay(2370).animate({
+                "opacity": "1",
+                "top": "0"
+            }, 400, "easeInOutQuad");
+        }
+        
+        $(window).scroll(function(){
+            var userLoc = $(window).scrollTop();
+            console.log(userLoc);
+            
+            if(userLoc > 480){
+                mBlueSec();
+            }
+            if(userLoc > 1000){
+                gTecSec();
+            }
+
+            if(userLoc > 1100){
+                gTec1();
+            }
+        });
+    })
+</script>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="util">
+                <div class="inner">
+                    <img src="img/ipsi_a/util_l.png" alt="" class="utilL">
+                    <img src="img/ipsi_a/util_r.png" alt="" class="utilR">
+                </div>
+            </div>
+            <div class="header">
+                <div class="inner">
+                    <h1>
+                        <a href="ipsi_b_sub.html"><img src="img/ipsi_a/logo.png" alt=""></a>
+                    </h1>
+                    <div class="gnb">
+                        <img src="img/ipsi_a/gnb.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div class="mVisual">
+                <div class="unit">
+                    <img src="img/ipsi_a/mVisual.jpg" alt="">
+                    <div class="inner">
+                        <div class="dots">
+                            <img src="img/ipsi_a/mVisual_dots.png" alt="">
+                        </div>
+                        <img src="img/ipsi_a/mVisual_tit_b.png" alt="" class="tit_b">
+                        <img src="img/ipsi_a/mVisual_tit_s.png" alt="" class="tit_s">
+                    </div>
+                </div>
+            </div>
+            <div class="mSection mSection1">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mNotice_tit.png" alt="">
+                            </div>
+                            <img src="img/ipsi_a/mNotice.png" alt="">
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mSupport_tit.png" alt="">
+                            </div>
+                            <div class="mSupport">
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mSupport.png" alt="">
+                                </div>
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mSupport.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mGtecWhy_tit.png" alt="">
+                            </div>
+                            <div class="gTecLogo">
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mGtec_logo1.png" alt="">
+                                </div>
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mGtec_logo2.png" alt="">
+                                </div>
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mGtec_logo1.png" alt="">
+                                </div>
+                            </div>
+                            <img src="img/ipsi_a/mGtec_btm.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mSection blueBg">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mInfo_tit.png" alt="">
+                            </div>
+                            <img src="img/ipsi_a/mInfo.png" alt="">
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mDepth_tit.png" alt="">
+                            </div>
+                            <div class="mDepth">
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mDepth.png" alt="">
+                                </div>
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mDepth.png" alt="">
+                                </div>
+                                <div class="unit">
+                                    <img src="img/ipsi_a/mDepth.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tit">
+                                <img src="img/ipsi_a/mNews_tit.png" alt="">
+                            </div>
+                            <img src="img/ipsi_a/mNews.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mGtec">
+                <div class="inner">
+                    <div class="tit">
+                        <img src="img/ipsi_a/mGtec_tit.png" alt="" class="titImg">
+                        <img src="img/ipsi_a/btn_gtec.png" alt="" class="btnSubscribe">
+                    </div>
+                    <div class="gTec_area gTec1">
+                        <div class="gTit">
+                            <img src="img/ipsi_a/gTec_sub_tit.png" alt="">
+                        </div>
+                            <ul>
+                                <li>
+                                    <img src="img/ipsi_a/video1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/ipsi_a/video2.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/ipsi_a/video3.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="img/ipsi_a/video4.png" alt="">
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="gTec_area gTec2">
+                        <div class="gTit">
+                            <img src="img/ipsi_a/gTec_sub_tit2.png" alt="">
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="img/ipsi_a/video5.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video6.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video7.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video8.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gTec_area gTec3">
+                        <div class="gTit">
+                            <img src="img/ipsi_a/gTec_sub_tit3.png" alt="">
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="img/ipsi_a/video9.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video10.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video11.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/ipsi_a/video12.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="inner">
+                    <img src="img/ipsi_a/footer_l.png" alt="" class="footerL">
+                    <img src="img/ipsi_a/footer_r.png" alt="" class="footerR">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

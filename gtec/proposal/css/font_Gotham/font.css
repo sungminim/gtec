@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'Gotham';
+   font-style: normal;
+   font-weight: normal;
+   src: url(./Gotham-Light.eot) format('eot'),
+   url(./Gotham-Light.woff) format('woff'),
+   url(./Gotham-Light.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'Gotham';
+   font-style: normal;
+   font-weight: bold;
+   src: url(./Gotham-Medium.eot) format('eot'),
+   url(./Gotham-Medium.woff) format('woff'),
+   url(./Gotham-Medium.otf) format('opentype');
+}

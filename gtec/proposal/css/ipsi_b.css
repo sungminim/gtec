@@ -1,0 +1,73 @@
+@charset "utf-8";
+@import url(font_Gotham/font.css);
+
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, table, caption, thead, tfoot, tbody, tr, th, td
+{margin:0;padding:0;font:14px/1.5 'Noto Sans KR', '맑은고딕','Malgun Gothic','나눔고딕','nanumgothic',굴림,Gulim,돋움,Dotum, Arial, Sans-serif;color:#000;-webkit-text-size-adjust:none;}
+b, span, strong, input, a, button, pre {font-size:inherit;font-family:inherit;color:inherit}
+article, aside, dialog, footer, header, section, footer, nav, figure, hgroup, details, summary, figure, figcaption {display: block;}
+cite {display:inline}
+html, body {height:100%;}
+body {margin:0px;overflow-y:scroll;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+img {border:0;}
+label, input, textarea, select {vertical-align:middle}
+ol, ul {list-style:none;}
+table {border-collapse:collapse;table-layout:fixed;}
+fieldset {border:none}
+hr {position:absolute;left:-1000%;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden;}
+button {margin:0;padding:0;border:none;background:none;outline:none;cursor:pointer;display:inline-block;overflow:visible}
+figure {margin:0;padding:0}
+
+/* contents */
+.dnhuIpsi_b {position:relative;overflow-x:hidden;width:100%;max-width:1920px;min-width:1760px;margin: 0 auto;}
+#header {z-index:10;background:#edf0f4;font-size:0;}
+#header .topUtil {padding: 14px 276px  12px 276px;font-size:0;border-bottom: 1px solid #d8dee4}
+#header .topUtil img.utllR {float:right;position:relative;left:9px;margin-top:-1px;}
+#header .header {position:relative;width:100%;margin:0 auto;text-align:center;}
+#header .header h1 {position:absolute;left:276px;top:26px;}
+#header .header .gnb {overflow:hidden;margin-left:556px;padding-top:36px;padding-bottom: 30px;}
+#header .header .util {position:absolute;right:235px;top:35px;overflow:hidden;}
+.mView {background:#edf0f4;padding-bottom:145px;}
+.mView ul {font-size:0;padding-left:280px;}
+.mView ul li{display:inline-block;font-size:0;background:#edf0f4;}
+.mView ul li:hover {box-shadow: 0px 14px 8px -5px rgba(0, 0, 0, 0.2);transition:0.3s all}
+.mView ul li.first{box-shadow: 0px 14px 8px -5px rgba(0, 0, 0, 0.2);}
+.mView ul li + li {margin-left:20px;}
+.mVisual {position:relative;height:370px;margin-top:-100px;margin-bottom:50px;padding-left:280px;}
+.mVisual .txt  {position:relative;padding-top:70px;padding-bottom:60px;font-size: 0;z-index:5;top:30px;opacity: 0;}
+.mVisual .util  {position:relative;top:30px;opacity: 0;}
+.mVisual .util img {vertical-align: top;}
+.mVisual .img {position:absolute;right:0;top:0;width:1315px;height:370px;z-index:1;overflow:hidden;}
+.mVisual .img img {width:100%;height:100%;animation:ivisual 12s ease-out 0s forwards;opacity:0}
+
+.mVisual .util img:last-child {margin-left:25px;margin-top:-11px;}
+
+.mNews {padding-left:280px;font-size:0;overflow: hidden;}
+.mNews .tit {float:left;margin-right:155px;opacity:0;}
+.mNews ul {font-size:0;}
+.mNews ul li {display:inline-block;opacity:0;position:relative;left:90px;}
+.mNews ul li + li {margin-left:65px;}
+
+.mNavi {margin:65px 0 50px 0;padding: 52px 0;text-align: center;background:#edf0f4;}
+.mNavi ul {position: relative;top:40px;opacity: 0;}
+.mNavi ul li {display:inline-block;vertical-align: top;font-size: 0;}
+.mNavi ul li + li {margin-left:90px;}
+
+.mBook {text-align: center;margin-bottom:100px}
+.mBook .tit {margin-bottom:40px;opacity:0;position:relative;top:30px;}
+.mBook ul {position:relative;opacity: 0;top:50px}
+.mBook ul li {position:relative;display:inline-block;vertical-align: top;font-size: 0;box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.1);transition:0.5s all}
+.mBook ul li:hover {animation:mBook 0.5s ease-out 0s both;  animation-direction: alternate;transition: 0.5s all}
+@keyframes mBook {
+    0% {
+        top:0
+    }
+    100% {
+        top:-20px
+    }
+}
+.mBook ul li + li {margin-left:50px;}
+
+.footer {background:url(../img/ipsi_b/bg_footer.png)  repeat-x;text-align: center;font-size:0}

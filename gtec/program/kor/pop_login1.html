@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>경기과학기술대학교</title>
+
+<link rel="shortcut icon" href="/gtec/type/common/img/common/ico_favicon.ico" />
+<link rel="icon" type="image/png" href="/gtec/type/common/img/common/ico_favicon.png" sizes="192x192" />
+
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/common.css" /><!-- reset -->
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/board.css" /><!-- board -->
+
+<link rel="stylesheet" type="text/css" href="/gtec/type/KOR_A/css/layout.css" /><!-- layout -->
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/kor.css" /><!-- kor contents -->
+
+<!--[if lt IE 9]>
+<script src="/gtec/type/common/js/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script>
+</head>
+<body class="typeSub typeSeparate">
+
+    <div id="container">
+        <div id="contents">
+            <article>
+                <div class="pop_wrap">
+                    <!-- popup layer(레이어) -->
+                    <section class="popLayout popLayer pop_loginView">
+                        <div class="popConts">
+                            <!-- 팝업 내용 입력-->
+                            <div class="popInner limit">
+                                <p class="loginTit"><img src="/gtec/type/common/img/common/program/icon_popLogin.png" alt="">Login</p>
+                                
+                                <div class="loginOpt">
+                                    <div class="Grp">
+                                        <strong>SNS 로그인</strong>
+                                        <p>SNS 로그인을 통해 설문 참여가 가능 하십니다.</p>
+                                        
+                                        <a href="#none" class="kakao"><span>카카오톡</span></a>
+                                        <a href="#none" class="naver"><span>네이버</span></a>
+                                        <a href="#none" class="facebook"><span>페이스북</span></a>
+                                    </div>
+                                    <div class="Grp">
+                                        <strong>회원 로그인</strong>
+                                        <p>경기과학기술대학교 아이디/비밀번호를 입력해 주세요.</p>
+                                       
+                                        <fieldset class="popLoginArea">
+                                            <legend>로그인 영역</legend>
+                                            <input type="text" class="inp_t" placeholder="아이디 입력" title="아이디를 입력하세요">
+                                            <input type="password" class="inp_t" placeholder="비밀번호 입력" title="비밀번호 입력하세요">
+                                            <a href="#none" class="subMit"><span>로그인</span></a>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //팝업 내용 입력 -->
+                        </div>
+                        <button type="button" class="btn_popClose">창닫기</button>
+                    </section>
+                    <!-- //popup layer(레이어) -->
+                </div>
+                <script>
+                    $(window).bind('resize load', function(){
+                        $(".pop_wrap .popInner").css({
+                            "max-height": $(window).height() * 0.9 - $(".loginTit").height() 
+                        });
+                    });
+                </script>
+            </article>
+        </div>
+    </div>
+  
+</body>
+</html>

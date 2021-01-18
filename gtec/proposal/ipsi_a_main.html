@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>경기과학기술대학교</title>
+<script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+
+<script type="text/javascript" src="js/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+
+<script type="text/javascript" src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/mCustomScrollbar/jquery.mCustomScrollbar.css" />
+
+<script type="text/javascript" src="js/counter/waypoints.min.js"></script>
+<script type="text/javascript" src="js/counter/jquery.counterup.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/ipsi_b.css" />
+</head>
+<script>
+    $(function () {
+        $(".mVisual .img img").animate({
+            "opacity": 1,
+        }, 1500, 'easeOutQuad');
+
+        function main_motion(){
+            $('.mVisual .txt ').delay(200).animate({
+            "top": 0,
+            "opacity": 1,
+            }, 1350, 'easeOutQuad');
+
+            $('.mVisual .util ').delay(200).animate({
+            "top": 0,
+            "opacity": 1,
+            }, 1350, 'easeOutQuad');
+
+            $('.mNews .tit').delay(650).animate({
+            "opacity": 1,
+            }, 1300, 'easeOutQuad');
+
+            $('.mNews ul li:eq(0)').delay(850).animate({
+            "opacity": 1,
+            "left":0
+            }, 800, 'easeOutQuad');
+            
+            $('.mNews ul li:eq(1)').delay(1050).animate({
+            "opacity": 1,
+            "left":0
+            }, 800, 'easeOutQuad');
+
+            $('.mNews ul li:eq(2)').delay(1250).animate({
+            "opacity": 1,
+            "left":0
+            }, 800, 'easeOutQuad');
+
+            $('.mNews ul li:eq(3)').delay(1450).animate({
+            "opacity": 1,
+            "left":0
+            }, 800, 'easeOutQuad');
+        }
+
+        function icon_motion(){
+            $('.mNavi ul').delay(50).animate({
+            "opacity": 1,
+            "top":0
+            }, 800, 'easeOutQuad');
+        }
+
+        function book_motion(){
+            $('.mBook .tit').delay(50).animate({
+            "opacity": 1,
+            "top":0
+            }, 800, 'easeOutQuad');
+
+            $('.mBook ul').delay(200).animate({
+            "opacity": 1,
+            "top":0
+            }, 800, 'easeOutQuad');
+        }
+
+        $(window).scroll(function(){
+            cont_loc = $(window).scrollTop();
+            console.log(cont_loc);
+
+            if(cont_loc > 150){
+                icon_motion()
+            }
+
+            if(cont_loc > 480){
+                book_motion()
+            }
+
+        });
+
+        main_motion();  
+    })
+</script>
+<body>
+    <div class="dnhuIpsi_b">
+        <div id="header">
+            <div class="topUtil">
+                <img src="img/ipsi_b/util_l.png" alt="" class="utilL">
+                <img src="img/ipsi_b/util_r.png" alt="" class="utllR">
+            </div>
+            <div class="header">
+                <h1>
+                    <a href="ipsi_a_sub.html"><img src="img/ipsi_b/logo.png" alt=""></a>
+                </h1>
+                <div class="gnb">
+                    <img src="img/ipsi_b/gnb.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div class="content">
+                <div class="mView">
+                    <ul>
+                        <li class="first">
+                            <img src="img/ipsi_b/view1.png" alt="">
+                        </li>
+                        <li class="second">
+                            <img src="img/ipsi_b/view2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/view3.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/view4.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/view5.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="mVisual">
+                    <div class="img">
+                        <img src="img/ipsi_b/mVisualbg.jpg" alt="">
+                    </div>
+                    <div class="txt">
+                        <img src="img/ipsi_b/mVisual_tit.png" alt="">
+                    </div>
+                    <div class="util">
+                        <img src="img/ipsi_b/mVisual_util1.png" alt="">
+                        <img src="img/ipsi_b/mVisual_util2.png" alt="">
+                    </div>
+                </div>
+                <div class="mNews">
+                    <div class="tit">
+                        <img src="img/ipsi_b/mNews_tit.png" alt="">
+                    </div>
+                    <ul>
+                        <li><img src="img/ipsi_b/mNews1.png" alt=""></li>
+                        <li><img src="img/ipsi_b/mNews2.png" alt=""></li>
+                        <li><img src="img/ipsi_b/mNews3.png" alt=""></li>
+                        <li><img src="img/ipsi_b/mNews4.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="mNavi">
+                    <ul>
+                        <li><img src="img/ipsi_b/navi1.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi2.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi3.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi4.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi5.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi6.png" alt=""></li>
+                        <li><img src="img/ipsi_b/navi7.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="mBook">
+                    <div class="tit"><img src="img/ipsi_b/mBook_tit.png" alt=""></div>
+                    <ul>
+                        <li>
+                            <img src="img/ipsi_b/book1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/book2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/book3.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/book4.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/ipsi_b/book5.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="img/ipsi_b/footer.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

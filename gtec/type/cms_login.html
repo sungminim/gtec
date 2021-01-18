@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>DAELIM CMS MANAGER</title>
+<!-- 기존 cms 파일(퍼블확인용) -->
+<!-- [참고]
+1. html내에 cms_temp폴더경로로 있는 파일은 퍼블 확인용 파일임.
+-->
+<link rel="stylesheet" href="/cms_temp/css/jquery-ui.css" />
+<link rel="stylesheet" href="/cms_temp/css/jquery-ui.theme.css" />
+<link rel="stylesheet" href="/cms_temp/css/default.css" />
+<link rel="stylesheet" href="/cms_temp/css/dev.css" id="devcss"/>
+
+<script src="/cms_temp/js/jquery-1.11.3.min.js"></script>
+<!-- //기존 cms 파일(퍼블확인용) -->
+
+<!-- 대림대학교 전용 cms 파일 -->
+<link rel="stylesheet" href="/daelim/type/common/css/cms_login.css" />
+<!-- //대림대학교 전용 cms 파일 -->
+
+</head>
+
+<body>
+
+<section id="container" class="cms_login">
+
+    <header>
+    	<h1>
+            <a href="#none" class="logo"><img src="/daelim/type/common/img/cms/logo_login.png" alt="KGU"/></a>
+            <span class="tit">DAELIM CMS MANAGER</span>
+        </h1>
+    </header>
+
+    <section id="contents">
+        <div class="loginBox">
+            <fieldset>
+                <legend>CMS LOGIN</legend>
+                <!--
+                <p class="log_id"><input type="text" name="log_id" id="log_id" title="아이디 입력" required /><label for="log_id">아이디</label></p>
+                <p class="log_pw"><input type="password" name="log_pw" id="log_pw" title="비밀번호 입력" required /><label for="log_pw">비밀번호</label></p>
+                -->
+                <p class="log_id"><input type="text" name="log_id" id="log_id" value="아이디" title="아이디 입력" onfocus="this.value=''" required /></p>
+                <p class="log_pw"><input type="password" name="log_pw" id="log_pw" value="비밀번호" title="비밀번호 입력" onfocus="this.value=''" required /></p>
+                <button type="button" class="btn_login">LOG IN</button>
+            </fieldset>
+
+            <ul class="list_dot">
+                <li>해당부서에 따라 로그인 정보가 상이할 수 있습니다.</li>
+                <li>로그인 정보에 대한 문의나 기타 문의사항은 홈페이지 관리자에게 문의하시기 바랍니다.</li>
+            </ul>
+        </div>
+
+    </section>
+
+</section>
+
+<footer>
+	<address>
+        13916 경기도 안양시 동안구 임곡로 29 대림대학교 © 2020 BY Daelim University College. ALL RIGHTS RESERVED.
+    </address>
+</footer>
+
+</body>
+</html>

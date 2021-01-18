@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>경기과학기술대학교</title>
+
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/common.css" /><!-- reset -->
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/board.css" /><!-- board -->
+
+<!--[if lt IE 9]>
+<script src="/gtec/type/common/js/html5shiv.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script>
+
+<script type="text/javascript" src="/gtec/type/common/js/slick/slick.min.js"></script><!-- swipe -->
+<script type="text/javascript" src="/gtec/type/common/js/slick/slick.css"></script><!-- swipe -->
+
+<script type="text/javascript" src="/gtec/type/common/js/board.js"></script><!-- swipe -->
+
+<style>
+body {padding:20px;}
+h1 {display:block;width:100%;margin-bottom:20px;border-bottom:1px solid #333;font-size:20px;font-weight:bold;line-height:30px;}
+h2 {display:block;color:#666;font-size:14px;font-weight:bold;line-height:24px;}
+h3 {display:block;margin-bottom:15px;padding-left:10px;color:#666;font-size:14px;line-height:24px;background:#f9f9f9;}
+hr {position:relative;left:auto;width:100%;height:1px;margin:0 0 10px;border:none;background:#e0e0e0;}
+.sampleGrp {/*overflow:hidden;*/padding:10px 0;}
+h3+div {margin-bottom:30px;}
+.guide_info {padding:10px;font-size:13px;line-height:24px;background:#f9f9f9;color:#666;}
+.guide_notice {padding:5px 0;color:#666;font-size:14px;line-height:24px;}
+
+.typeColor>span {display:inline-block;padding:10px;font-size:12px;font-weight:bold;}
+.typeColor>span+span {margin-left:15px;}
+.colorBox01, .colorBox01_t, .colorBox02, .colorBox02_t {display:inline-block;height:30px;padding:0 15px;line-height:30px;text-align:center;vertical-align:top;}
+.colorBox01_t,
+.colorBox02_t {color:#fff;font-weight:bold;}
+.colorBox01>span,
+.colorBox02>span,
+.colorBox01_t>span,
+.colorBox02_t>span {margin-right:15px;color:#333;font-size:12px;}
+</style>
+</head>
+
+<body>
+<h1>샘플소스</h1>
+
+<!--<h2>기본 color값</h2>
+<div class="sampleGrp typeColor">-->
+    <!-- 컬러만 참조 -->
+    <!--<span class="colorBox01" style="background:#4daf36;"><span>bg : #4daf36</span></span><span class="colorBox01_t" style="background:#4d9d3a;"><span>bg : #4d9d3a</span>T</span>
+    <span class="colorBox02" style="background:#ff8932;"><span>bg : #ff8932</span></span><span class="colorBox02_t" style="background:#f26700;"><span>bg : #f26700</span>T</span>
+
+    <br /><br />-->
+
+    <!--<span style="background:#b9193f;color:#fff;">(기본) #b9193f</span>
+    <span style="background:#846841;color:#fff;">(기본) #846841</span>
+    <span style="background:#000;color:#fff;">(폰트) #000</span>
+    <span style="background:#666;color:#fff;">(폰트) #666</span>
+    <span style="background:#dbdee1;">(라인) #dbdee1</span>
+</div>
+
+<hr noshade="noshade" />-->
+
+<h2>페이징</h2>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <div class="pagination">
+        <button type="button" class="btn_first"><span>처음</span></button>
+        <button type="button" class="btn_prev"><span>이전</span></button>
+        <ul class="paging">
+            <li><button type="button" class="on">1</button></li>
+            <li><button type="button">2</button></li>
+            <li><button type="button">3</button></li>
+            <li><button type="button">4</button></li>
+            <li><button type="button">5</button></li>
+            <li><button type="button">6</button></li>
+            <li><button type="button">7</button></li>
+            <li><button type="button">8</button></li>
+            <li><button type="button">9</button></li>
+            <li><button type="button">10</button></li>
+        </ul>
+        <button type="button" class="btn_next"><span>다음</span></button>
+        <button type="button" class="btn_end"><span>끝</span></button>
+    </div>
+
+<!-- //소스 -->
+</div>
+
+<hr noshade="noshade" />
+
+<h2>버튼</h2>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <h3>게시판&amp;프로그램&amp;컨텐츠 기본(h:60px)</h3>
+
+    <a href="#none" class="btnC"><span>목록(기본)</span></a>
+    <a href="#none" class="btnC Black"><span>목록</span></a>
+    <a href="#none" class="btnC WhiteLine"><span>답글쓰기</span></a>
+    <a href="#none" class="btnC Gray"><span style="width:160px;height:120px;line-height:120px;">등록하기(수동개별설정)</span></a>
+
+    <br /><br />
+
+    <h3>게시판&amp;프로그램&amp;컨텐츠 아이콘(h:54px)</h3>
+
+    <a href="#none" class="btnI btnDown"><span>학생회 회칙 다운로드</span></a>
+    
+    <br /><br />
+
+    <h3>게시판&amp;프로그램&amp;컨텐츠 아이콘(h:40px)</h3>
+
+    <a href="#none" class="btnI_s btnDown"><span>학생회 회칙 다운로드</span></a>
+
+    <br /><br />
+
+    <!--<h3>좋아요(over기능) / SNS연동</h3>
+    <div class="shareArea">
+		<div class="btnArea">
+			<button type="button" class="btnBBS btn_like"><span>190</span></button>
+			<button type="button" class="btnBBS btn_share"><span>공유하기</span></button>
+		</div>
+
+		<div class="shareBox">
+			<ul>
+				<li><a href="#none" class="sns_facebook" title="새창">페이스북</a></li>
+				<li><a href="#none" class="sns_nBand" title="새창">네이버밴드</a></li>
+                <li><a href="#none" class="sns_kakaoStory" title="새창">카카오스토리</a></li>
+				<li><a href="#none" class="sns_twitter" title="새창">트위터</a></li>
+				<li><a href="#none" class="sns_nBlog" title="새창">네이버블로그</a></li>
+                <li><a href="#none" class="sns_pinterest" title="새창">핀터레스트</a></li>
+				<li><a href="#none" class="sns_googlePlus" title="새창">구글+</a></li>
+				<li><a href="#none" class="sns_tumblr" title="새창">텀블러</a></li>
+                <li><a href="#none" class="sns_url" title="새창">URL복사</a></li>
+			</ul>
+		</div>
+	</div>
+
+    <br /><br />
+
+    <h3>기타 컨텐츠 버튼</h3>
+    <a href="#none" class="btnC_fileDown"><span>다운로드 버튼</span></a>
+    <a href="#none" class="btnC_arrLineR"><span>바로가기버튼</span></a>
+    <a href="#none" class="btnC_fileDown_white"><span>다운로드 버튼</span></a>
+    <a href="#none" class="btnC_arrLineR_white"><span>바로가기버튼</span></a>-->
+
+<!-- //소스 -->
+</div>
+
+<hr noshade="noshade" />
+
+<h2>[컨텐츠] 입력(기본값 : 100%)</h2>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <span class="inp_r"><input type="radio" name="inp_r01" id="inp_r01_1"><label for="inp_r01_1">라디오버튼 기본</label></span>
+    &nbsp;&nbsp;
+    <span class="inp_r"><input type="radio" name="inp_r01" id="inp_r01_2" checked=""><label for="inp_r01_2">라디오버튼 선택</label></span>
+    <br><br>
+
+    <span class="inp_r cCir"><input type="radio" name="inp_r03" id="inp_cCir01"><label for="inp_cCir01">라디오버튼 체크</label></span>
+    &nbsp;&nbsp;
+    <span class="inp_r cCir"><input type="radio" name="inp_r03" id="inp_cCir02" checked=""><label for="inp_cCir02">라디오버튼 체크</label></span>
+    <br><br>
+
+    <span class="inp_c"><input type="checkbox" name="inp_c01" id="inp_c_01"><label for="inp_c_01">체크박스 기본</label></span>
+    &nbsp;&nbsp;
+    <span class="inp_c"><input type="checkbox" name="inp_c02" id="inp_c_02" checked=""><label for="inp_c_02">체크박스 선택</label></span>
+    &nbsp;&nbsp;
+
+    <br><br>
+    <span class="inp_c rec"><input type="checkbox" name="inp_c02" id="inp_c2_01"><label for="inp_c2_01">체크박스2 기본</label></span>
+    &nbsp;&nbsp;
+    <span class="inp_c rec"><input type="checkbox" name="inp_c02" id="inp_c2_02" checked=""><label for="inp_c2_02">체크박스2 선택</label></span>
+
+    <br><br>
+
+    <select class="inp_s">
+        <option>선택</option>
+        <option>옵션</option>
+        <option>옵션옵션옵션옵션옵션옵션옵션</option>
+    </select>
+
+    <br><br>
+
+    <input type="text" class="inp_t" name="" id="" onfocus="if(this.value != ''){value=''}" value="입력값">
+
+    <br><br>
+
+    <textarea class="inp_area" onfocus="if(this.value != ''){value=''}" value="">샘플텍스트
+샘플텍스트
+샘플텍스트
+샘플텍스트
+샘플텍스트
+    </textarea>
+
+<!-- //소스 -->
+</div>
+
+<hr noshade="noshade" />
+
+<h2>[컨텐츠] 탭</h2>
+<p class="guide_info">
+* 페이지탭은 고정비율 정렬<br />
+- 탭 갯수에 따라 class추가(tab2 ~ tab10)<br />
+- 탭 텍스트가 긴 경우 2열 중앙정렬<br />
+- 모바일에서는 탭 갯수와 관계없이 강제 정렬<br />
+  (1041px이하 4개, 768px이하 3개, 420px이하 2개)<br />
+- 기본설정 값 이외의 셋팅은 개별 설정
+</p>
+<div class="sampleGrp">
+<!-- 소스 -->
+<div id="pageTab">
+    <ul class="tabList tab9"><!-- 탭갯수 2개~10개까지 tab2~tab10 추가 -->
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="" class="on">탭메뉴</a></li>
+        <li><a href="">탭메뉴가 긴 경우</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴우~</a></li>
+        <li><a href="">탭메뉴가 기~인 경우탭메뉴가 기~인 경우탭메뉴가 기~인 경우</a></li>
+    </ul>
+</div>
+
+<br><br>
+
+<div id="pageTab">
+    <ul class="tabList tab2">
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="" class="on">탭메뉴</a></li>
+    </ul>
+</div>
+
+<br><br>
+
+<script>
+$(function(){
+    var contTab_txt = $("#contTab .tabList>li a.on").text();
+    $("#contTab .btn_mSelect").text(contTab_txt);
+
+    $("#contTab .btn_mSelect").click(function(){
+        $("#contTab").addClass('on');
+    });
+
+    $("#contTab .tabList>li a").click(function(e){
+        $("#contTab .btn_mSelect").text($(this).text());
+        $("#contTab").removeClass('on');
+    });
+});
+</script>
+<!--<div id="contTab">
+    <button type="button" class="btn_mSelect">특별전형(일반과정 졸업자 전형)</button>
+    <ul class="tabList">
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="" class="on">탭메뉴</a></li>
+        <li><a href="">탭메뉴가 긴 경우</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴</a></li>
+        <li><a href="">탭메뉴우~</a></li>
+        <li><a href="">탭메뉴가 기~인 경우</a></li>
+    </ul>
+</div>-->
+
+<!-- //소스 -->
+</div>
+
+<hr noshade="noshade" />
+
+<h2>[컨텐츠] 텍스트</h2>
+<p class="guide_notice">#참고# 타이틀은 태그 종류에 관계없이 스타일 적용 가능</p>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <strong class="pageTit">페이지 타이틀</strong>
+
+    <strong class="contTit">컨텐츠 타이틀(대)</strong>
+
+    <strong class="contTit_m">컨텐츠 타이틀(중)</strong>
+
+    <strong class="contTit_s">컨텐츠 타이틀(소)</strong>
+
+
+    <br /><br />
+
+    <p class="txt">기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 <span class="point_orange">본문영역입니다.</span> 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다.
+기본 본문영역입니다. 기본 본문영역입니다.</p>
+
+    <br /><br />
+
+    <p class="exclam">기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다.
+    기본 본문영역입니다. 기본 본문영역입니다.</p>
+
+
+    <br /><br />
+
+    <ul class="list_dotGreen">
+        <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이</li>
+        <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나 리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나</li>
+    </ul>
+
+    <br /><br />
+
+    <ul class="list_hyphen">
+        <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이</li>
+        <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나 리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나</li>
+    </ul>
+
+    <br /><br />
+
+    <ul class="list_dotGreen">
+        <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이</li>
+        <li>
+            리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나 리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나
+
+            <ul class="list_hyphen">
+                <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이</li>
+                <li>리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나 리스트 고등학교나 대학에 재학하는 학생들도 빠짐없이 징병검사를 받아야 하며, 징병검사 결과 현역병 입영대상이나</li>
+            </ul>
+        </li>
+    </ul>
+
+    <br /><br />
+
+    <!--<div class="icoInfoBox" style="background-image:url(/gtec/type/common/img/ipsi/icoInfoBox_img01.png);">-->
+    <!--<div class="icoInfoBox"> <!-- 각 아이콘은 페이지 class 경로를 이용해서 개별 설정 -->
+        <!--<strong class="boxTit">타이틀 영역</strong>
+        <p class="txt">기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다.
+        기본 본문영역입니다. 기본 본문영역입니다.</p>
+    </div>
+
+    <br /><br />
+
+    <div class="lineInfoBox">
+        <p class="exclam">기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다. 기본 본문영역입니다.
+        기본 본문영역입니다. 기본 본문영역입니다.</p>
+    </div>-->
+
+<!-- //소스 -->
+</div>
+
+<hr noshade="noshade" />
+
+<h2>[컨텐츠] 테이블</h2>
+<p class="guide_info">
+<b>테이블 규칙</b><br />
+<span style="color:red;">* 테이블 셀 기본은 중앙정렬.</span><br />
+  - 좌측정렬이 필요한 경우 :<br />
+  &nbsp;&nbsp;전체 좌측정렬일때는 table태그에 tdL 클래스 추가. 예) &lt;table class="lineTop_tb tdL"&gt;<br />
+  &nbsp;&nbsp;부분 좌측정렬일때는 td태그에 txtL 클래스 추가. 예) &lt;td class="txtL"&gt;학기 개강전&lt;/td&gt;<br />
+* lineTop_tb는 항목이 위에 있는 표 / lineTop_tbL는 항목이 좌측에 있는 표.<br />
+* lineTop_tb, lineTop_tbL는 all line 표 / lineTop_tb2, lineTop_tbL2 좌우 line 없는 표.<br />
+</p>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <!--<div class="lineTop_tbArea">
+        <table class="lineTop_tb">
+            <caption><p>수업료반환사유 발생일별 반환금액 표</p></caption>
+            <colgroup>
+                <col width="33.3%"><col width="33.3%"><col width="33.3%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">반환사유발생일<br />반환사유발생일</th>
+                    <th scope="col">반환금액</th>
+                    <th scope="col">반환금액</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>학기 개강전</td>
+                    <td>수업료 전액 반환</td>
+                    <td>수업료 전액 반환</td>
+                </tr>
+                <tr>
+                    <td colspan="3">학기개시일 30일 경과 전</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">학기개시일 30일 경과한 날로부터 60일 경과 전<br />학기개시일 30일 경과한 날로부터 60일 경과 전</td>
+                    <td colspan="2">수업료의 2/3 해당액</td>
+                </tr>
+                <tr>
+                    <td class="txtL">수업료의 2/3 해당액</td>
+                    <td class="txtL">수업료의 1/3 해당액</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br /><br />-->
+
+    <div class="lineTop_tbArea">
+        <table class="lineTop_tb2">
+            <caption><p>수업료반환사유 발생일별 반환금액 표</p></caption>
+            <colgroup>
+                <col width="25%"><col width="25%"><col width="25%"><col width="25%">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th scope="col">반환사유발생일<br />반환사유발생일</th>
+                    <th scope="col" colspan="3">반환금액</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>학기 개강전</td>
+                    <td>수업료 전액 반환1</td>
+                    <td>수업료 전액 반환2</td>
+                    <td>수업료 전액 반환3</td>
+                </tr>
+                <tr>
+                    <td colspan="4">학기개시일 30일 경과 전</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">학기개시일 30일 경과한 날로부터 60일 경과 전<br />학기개시일 30일 경과한 날로부터 60일 경과 전</td>
+                    <td colspan="2">수업료의 2/3 해당액</td>
+                    <td>수업료의 2/3 해당액</td>
+                </tr>
+                <tr>
+                    <td>수업료의 1/2 해당액</td>
+                    <td colspan="2">수업료의 1/2 해당액</td>
+                </tr>
+                <tr>
+                    <td>수업료의 1/2 해당액</td>
+                    <td rowspan="2">수업료의 1/2 해당액</td>
+                    <td>수업료의 1/2 해당액</td>
+                    <td class="point">수업료의 1/2 해당액</td>
+                </tr>
+                <tr>
+                    <td>수업료의 1/2 해당액</td>
+                    <td>수업료의 1/2 해당액</td>
+                    <td>수업료의 1/2 해당액</td>
+                </tr>
+                <tr class="point">
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td rowspan="2" class="txtL">수업료의 1/2 해당액</td>
+                </tr>
+                <tr class="point">
+                    <td colspan="2" class="txtL">수업료의 1/2 해당액</td>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br /><br />
+
+    <!--<div class="lineTop_tbArea">
+        <table class="lineTop_tbL">
+            <caption><p>수업료반환사유 발생일별 반환금액 표</p></caption>
+            <colgroup>
+                <col width="33.3%"><col width="33.3%"><col width="33.3%">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th scope="row">반환사유발생일<br/>반환사유발생일</th>
+                    <td>학기 개강전</td>
+                    <td>학기 개강전</td>
+                </tr>
+                <tr>
+                    <th scope="row">반환금액</th>
+                    <td rowspan="2">학기개시일 30일 경과 전</td>
+                    <td>학기개시일 30일 경과 전</td>
+                </tr>
+                <tr>
+                    <th scope="row">반환금액</th>
+                    <td>학기개시일 30일 경과 전</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br /><br />-->
+
+    <div class="lineTop_tbArea">
+        <table class="lineTop_tbL2">
+            <caption><p>수업료반환사유 발생일별 반환금액 표</p></caption>
+            <colgroup>
+                <col width="20%"><col width="20%"><col width="20%"><col width="20%"><col width="20%">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th scope="row">반환사유<br/>발생일</th>
+                    <td>학기 개강전</td>
+                    <td>수업료 전액 반환</td>
+                    <td>수업료 전액 반환</td>
+                    <td>수업료 전액 반환</td>
+                </tr>
+                <tr>
+                    <th scope="row">반환금액</th>
+                    <td colspan="2">학기개시일 30일 경과 전</td>
+                    <td>학기개시일 30일 경과 전</td>
+                    <td>학기개시일 30일 경과 전</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">반환금액</th>
+                    <td>수업료의 2/3 해당액</td>
+                    <td rowspan="2">학기개시일 30일 경과한 날로부터 60일 경과 전<br/>학기개시일 30일 경과한 날로부터 60일 경과 전</td>
+                    <td>수업료의 2/3 해당액</td>
+                    <td>수업료의 2/3 해당액</td>
+                </tr>
+                <tr>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td rowspan="2" class="txtL">수업료의 1/2 해당액</td>
+                </tr>
+                <tr>
+                    <td class="txtL">수업료의 1/2 해당액</td>
+                    <td colspan="2" class="txtL">수업료의 1/2 해당액</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br /><br />
+
+
+
+<hr noshade="noshade" />
+
+<h2>[컨텐츠] 검색옵션</h2>
+<p class="guide_info">
+<b>검색옵션 규칙</b><br>
+    <span style="color:red;">* .optUnit은 옵션 줄간 영역 / .labelUnit은 옵션 항목</span><br>
+    &lt;div class=&ldquo;optUnit opt3&rdquo;&gt; : 한 줄 옵션에 항목이 3개 있을때<br>
+    &lt;div class=&ldquo;optUnit opt2&rdquo;&gt; : 한 줄 옵션에 항목이 2개 있을때<br>
+    &lt;div class=&ldquo;optUnit opt1&rdquo;&gt; : 한 줄 옵션에 항목이 1개 있을때<br>
+    <span style="color:red;">* .labelUnit에 있는 .sort2~.sort10는 항목글자수</span><br>
+    &lt;div class=&ldquo;labelUnit에 sort2&rdquo;&gt; : 항목글자수가 2글자인 옵션<br>
+    &lt;div class=&ldquo;labelUnit에 sort10&rdquo;&gt; : 항목글자수가 10글자인 옵션<br>
+    <span style="color:red;">* .optUnit이나 .labelUnit에 추가 class가 없으면 기본셋팅값</span><br><br>
+
+    <span style="color:blue;">* .BBS_boxOption .opt_각네이밍의 추가 class가 있으면 별도 셋팅된 옵션</span><br>
+    ex) &lt;div class=&ldquo;BBS_boxOption opt_subjct_name&rdquo;&gt; : 과목선택+성명(학번) 옵션
+</p>
+<div class="sampleGrp">
+<!-- 소스 -->
+
+    <!-- 리스트 박스옵션(기본) -->
+    <div class="BBS_boxOption typeDefault">
+		<fieldset>
+			<legend>검색옵션</legend>
+			<div class="optUnit">
+				<div class="labelUnit">
+					<input type="text" class="inp_t" name="" id="" onfocus="if(this.value != ''){value=''}" value="검색어를 입력하세요." title="검색어 입력">
+				</div>
+			</div>
+
+			<div class="search">
+				<button type="button" class="btn_search"><span>검색</span></button>
+			</div>
+		</fieldset>
+	</div>
+    <!-- //리스트 박스옵션(기본) -->
+
+    <!-- 리스트 박스옵션(기본2) -->
+    <div class="BBS_boxOption typeDefault2">
+		<fieldset>
+			<legend>검색옵션</legend>
+			<div class="optUnit">
+				<div class="labelUnit">
+					<select class="inp_s">
+						<option>전체</option>
+						<option>제목</option>
+						<option>내용</option>
+						<option>작성자</option>
+                        <option>제목+작성자</option>
+					</select>
+					<input type="text" class="inp_t" name="" id="" onfocus="if(this.value != ''){value=''}" value="검색어를 입력하세요." title="검색어 입력">
+				</div>
+			</div>
+
+			<div class="search">
+				<button type="button" class="btn_search"><span>검색</span></button>
+			</div>
+		</fieldset>
+	</div>
+    <!-- //리스트 박스옵션(기본2) -->
+
+    <!-- 리스트 박스옵션(기본3) -->
+    <div class="BBS_boxOption typeDefault3">
+		<fieldset>
+			<legend>검색옵션</legend>
+			<div class="optUnit">
+				<div class="labelUnit">
+					<select class="inp_s" title="검색옵션 선택">
+						<option>전체</option>
+						<option>제목</option>
+						<option>내용</option>
+						<option>작성자</option>
+                        <option>제목+작성자</option>
+					</select>
+                    <select class="inp_s" title="검색옵션 선택">
+						<option>전체</option>
+						<option>제목</option>
+						<option>내용</option>
+						<option>작성자</option>
+                        <option>제목+작성자</option>
+					</select>
+					<input type="text" class="inp_t" name="" id="" onfocus="if(this.value != ''){value=''}" value="검색어를 입력하세요." title="검색어 입력">
+				</div>
+			</div>
+
+			<div class="search">
+				<button type="button" class="btn_search"><span>검색</span></button>
+			</div>
+		</fieldset>
+	</div>
+    <!-- //리스트 박스옵션(기본3) -->
+
+    <br /><br />
+
+    <!-- 리스트 박스옵션(컨텐츠별) -->
+    <div class="BBS_boxOption">
+        <fieldset>
+            <legend>검색옵션</legend>
+            <div class="optUnit opt2">
+                <div class="labelUnit sort4">
+                    <label>분류선택</label>
+                    <select class="inp_s">
+                        <option>선택</option>
+                        <option>선택</option>
+                        <option>선택</option>
+                    </select>
+                </div>
+                <div class="labelUnit sort4">
+                    <label>년도선택</label>
+                    <select class="inp_s">
+                        <option>선택</option>
+                        <option>선택</option>
+                        <option>선택</option>
+                    </select>
+                </div>
+            </div>
+            <div class="search">
+                <button type="button" class="btn_search"><span>조회하기</span></button>
+            </div>
+        </fieldset>
+    </div>
+
+
+    <div class="BBS_boxOption">
+        <fieldset>
+            <legend>검색옵션</legend>
+            <div class="optUnit opt3">
+                <div class="labelUnit sort4">
+                    <label>분류선택</label>
+                    <select class="inp_s">
+                        <option>선택</option>
+                        <option>선택</option>
+                        <option>선택</option>
+                    </select>
+                </div>
+                <div class="labelUnit sort4">
+                    <label>년도선택</label>
+                    <select class="inp_s">
+                        <option>선택</option>
+                        <option>선택</option>
+                        <option>선택</option>
+                    </select>
+                </div>
+                <div class="labelUnit sort4">
+                    <label>학과선택</label>
+                    <select class="inp_s">
+                        <option>선택</option>
+                        <option>선택</option>
+                        <option>선택</option>
+                    </select>
+                </div>
+            </div>
+            <div class="search">
+                <button type="button" class="btn_search"><span>조회하기</span></button>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="BBS_boxOption">
+        <fieldset>
+            <legend>검색옵션</legend>
+
+            <div class="optUnit opt1">
+                <div class="labelUnit sort4">
+                    <label for="inp_c2_01">구분</label>
+                    <div class="inp_c_grp"> <!-- 체크박스나 라디오버튼일 때만 div 그룹핑(inp_c_grp / inp_r_grp) -->
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_0"><label for="counsel_0">전체</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_1"><label for="counsel_1">구분1</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_2"><label for="counsel_2">구분2</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_3"><label for="counsel_3">구분3</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_4"><label for="counsel_4">구분4</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_5"><label for="counsel_5">구분5</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_6"><label for="counsel_6">구분6</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_7"><label for="counsel_7">구분7</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_8"><label for="counsel_8">구분8</label></span>
+                        <span class="inp_c rec"><input type="checkbox" name="counsel" id="counsel_9"><label for="counsel_9">구분9</label></span>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <!-- //리스트 박스옵션(컨텐츠별) -->
+
+<!-- //소스 -->
+</div>
+
+
+
+<!-- //소스 -->
+</div>
+
+</body>
+</html>

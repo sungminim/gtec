@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>경기과학기술대학교</title>
+
+<link rel="shortcut icon" href="/gtec/type/common/img/common/ico_favicon.ico" />
+<link rel="icon" type="image/png" href="/gtec/type/common/img/common/ico_favicon.png" sizes="192x192" />
+
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/common.css" /><!-- reset -->
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/board.css" /><!-- board -->
+
+<link rel="stylesheet" type="text/css" href="/gtec/type/KOR_A/css/layout.css" /><!-- layout -->
+<link rel="stylesheet" type="text/css" href="/gtec/type/common/css/kor.css" /><!-- kor contents -->
+
+<!--[if lt IE 9]>
+<script src="/gtec/type/common/js/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script>
+</head>
+<body class="typeSub typeSeparate">
+
+    <div id="container">
+        <div id="contents">
+            <article>
+                <div class="pop_wrap">
+                    <!-- popup layer(레이어) -->
+                    <!--1개 타입 옵션일경우 single 클레스 추가-->
+                    <section class="popLayout popLayer pop_loginView single">
+                        <div class="popConts">
+                            <!-- 팝업 내용 입력-->
+                            <div class="popInner limit">
+                                <div class="loginOpt">
+                                    <div class="Grp">
+                                        <strong>회원 로그인</strong>
+                                        <p>경기과학기술대학교 아이디/비밀번호를 입력해 주세요.</p>
+                                       
+                                        <fieldset class="popLoginArea">
+                                            <legend>로그인 영역</legend>
+                                            <input type="text" class="inp_t" placeholder="아이디 입력" title="아이디를 입력하세요">
+                                            <input type="password" class="inp_t" placeholder="비밀번호 입력" title="비밀번호 입력하세요">
+                                            <a href="#none" class="subMit"><span>로그인</span></a>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //팝업 내용 입력 -->
+                        </div>
+                        <button type="button" class="btn_popClose">창닫기</button>
+                    </section>
+                    <!-- //popup layer(레이어) -->
+                </div>
+                <script>
+                    $(window).bind('resize load', function(){
+                        $(".pop_wrap .popInner").css({
+                            "max-height": $(window).height() * 0.9 - $(".loginTit").height() 
+                        });
+                    });
+                </script>
+            </article>
+        </div>
+    </div>
+  
+</body>
+</html>

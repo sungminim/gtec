@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'Oswald';
+   font-style: normal;
+   /*font-weight: normal;*/
+   src: url(./Oswald-Light.eot) format('eot'),
+   url(./Oswald-Light.woff) format('woff'),
+   url(./Oswald-Light.otf) format('opentype');
+}

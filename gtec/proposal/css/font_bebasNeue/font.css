@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'BebasNeue';
+   font-style: normal;
+   /*font-weight: normal;*/
+   src: url(./BebasNeue-Regular.eot) format('eot'),
+   url(./BebasNeue-Regular.woff) format('woff'),
+   url(./BebasNeue-Regular.otf) format('opentype');
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, table, caption, thead, tfoot, tbody, tr, th, td
+{margin:0;padding:0;font:14px/1.5 'Noto Sans KR', '맑은고딕','Malgun Gothic','나눔고딕','nanumgothic',굴림,Gulim,돋움,Dotum, Arial, Sans-serif;color:#000;-webkit-text-size-adjust:none;}
+b, span, strong, input, a, button, pre {font-size:inherit;font-family:inherit;color:inherit}
+article, aside, dialog, footer, header, section, footer, nav, figure, hgroup, details, summary, figure, figcaption {display: block;}
+cite {display:inline}
+html, body {height:100%;}
+body {margin:0px;overflow-y:scroll;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+img {border:0;max-width:100%;font-size:0}
+label, input, textarea, select {vertical-align:middle}
+ol, ul {list-style:none;font-size:0}
+table {border-collapse:collapse;table-layout:fixed;}
+fieldset {border:none}
+hr {position:absolute;left:-1000%;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden;}
+button {margin:0;padding:0;border:none;background:none;outline:none;cursor:pointer;display:inline-block;overflow:visible}
+figure {margin:0;padding:0}
+
+/* contents */
+body  {position:relative;overflow-x:auto;min-width:1600px;max-width:1920px;width:100%;margin:0 auto;z-index:9999}
+#container {padding-top:150px;}
+.inner {width:100%;max-width:1200px;margin:0 auto}
+#header {position:fixed;width:100%;background:#fff;z-index:9999;max-width:1920px;}
+#header>.util {width:100%;height:35px;background:#6db327;}
+#header>.util .utilL {position:relative;top:8px;}
+#header>.util .utilR {float:right;}
+#header>.header .inner {text-align:center;}
+#header>.header .inner h1 {padding:12px 0 8px 0;border-bottom:1px solid #eaeaea;}
+#header>.header .inner .gnb {padding:13px 0 9px 0}
+
+.mVisual {position:relative;z-index:90}
+.mVisual .unit {position: relative;overflow: hidden;}
+.mVisual .unit .inner {position:absolute;top:120px;left:355px;}
+.mVisual .unit .inner .dots {margin-bottom:55px;}
+.mVisual .unit .inner .tit_b {margin-bottom:35px;}
+.mVisual .unit .inner img {display:block;}
+.mVisual .slick-dots {position:absolute;top:115px;left:355px;}
+.mVisual .slick-dots li {position:relative;float:left;padding-bottom:24px;}
+.mVisual .slick-dots li+li {margin-left:30px;}
+.mVisual .slick-dots li button {font-family: 'Roboto', sans-serif;font-size:23px;color:#fff;opacity:0.6;font-weight:200;letter-spacing:-1px;}
+.mVisual .slick-dots li:before {content:'';display:block;position:absolute;bottom:0;left:0;width:54px;height:1px;background:#fff;opacity:0.6;}
+.mVisual .slick-dots li.slick-active button {margin-top:1px;opacity:1;font-weight:400;font-size:24px}
+.mVisual .slick-dots li.slick-active:before {opacity:1;}
+.mVisual .unit>img {width:100%;height:100%;animation:mvisual 6s ease-out 0s forwards;opacity:0}
+
+@keyframes mvisual {
+    0% {
+        transform:scale(1.2);
+        -webkit-transform:scale(1.2);
+        -ms-transform:scale(1.2);
+    }
+    100% {
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+    }
+}
+
+.mSection {padding:60px 0 90px 0} 
+.mSection>.inner>ul {overflow:hidden;}
+.mSection>.inner>ul>li {float:left;}
+.mSection>.inner>ul>li+li {margin-left:59px}
+.mSection>.inner>ul>li .tit {margin-bottom:40px;}
+
+.mSection>.inner .mSupport {position:relative;width:360px;}
+.mSection>.inner .mSupport .slick-arrow {position:absolute;right:20px;top:-68px;width:21px;height:21px;background:url(../img/ipsi_a/mSupport_arrL.png) no-repeat;font-size:2px;text-indent:-9999px;z-index:999}
+.mSection>.inner .mSupport .slick-next {width:21px;height:21px;right:0;background:url(../img/ipsi_a/mSupport_arrR.png) no-repeat;}
+
+.mSection>.inner .gTecLogo {position:relative;width:360px;height:215px;padding:26px 20px 20px 20px;margin-bottom:45px;border:1px solid #ddd;text-align:center;box-sizing:border-box;overflow:hidden;}
+.mSection>.inner .gTecLogo .unit {position:relative;height:135px;text-align:center;}
+.mSection>.inner .gTecLogo .unit img {margin:0 auto}
+.mSection>.inner .gTecLogo .slick-dots {position:absolute;top:180px;left:50%;margin-left:-33px;}
+.mSection>.inner .gTecLogo .slick-dots li {float:left;}
+.mSection>.inner .gTecLogo .slick-dots li+li {margin-left:14px}
+.mSection>.inner .gTecLogo .slick-dots li button {width:6px;height:6px;background:#afafaf;border-radius:50%;text-indent:-9999px;font-size:1px;}
+.mSection>.inner .gTecLogo .slick-dots li.slick-active button {background:#404040}
+
+.mSection.blueBg {background:#f1f1f5;background-size:cover;}
+.mSection.blueBg .inner>ul>li .tit {margin-bottom:30px;}
+
+.mDepth {width:360px;}
+.mDepth .slick-arrow {position:absolute;right:45px;bottom:0px;width:44px;height:44px;background:#73b631 url(../img/ipsi_a/mDepth_arrL.png) no-repeat center;font-size:2px;text-indent:-9999px;z-index:999}
+.mDepth .slick-next {width:44px;height:44px;right:0;background:#73b631 url(../img/ipsi_a/mDepth_arrR.png) no-repeat center center;}
+.mGtec {background:#172432;padding:70px 0 120px 0}
+.mGtec .tit {padding-left:110px;text-align:center;;}
+.mGtec .tit>.btnSubscribe {float:right;}
+.mGtec .gTec_area ul {overflow:hidden;padding-bottom:40px;}
+.mGtec .gTec_area ul>li {float:left;;}
+.mGtec .gTec_area ul>li+li {margin-left:20px;}
+.mGtec .gTec_area .gTit {margin-top:18px;margin-bottom:20px;}
+
+.footer {padding:35px 0;overflow:hidden;}
+.footer .footerR {float:right;}
+
+/* animation */
+ @keyframes titAni {
+    0% {
+        -webkit-filter: blur(50px);
+    }
+    100% {
+        -webkit-filter: blur(0px) !important;
+    }   
+}
+.mVisual .dots {opacity:0}
+.mVisual .unit .inner .tit_b {opacity:0;position:relative;top:0px;animation-name:titAni;animation-duration: 0.75s;animation-timing-function: ease-out;}
+.mVisual .unit .inner .tit_s {opacity:0;position:relative;top:0px;animation-name:titAni;animation-duration: 0.75s;animation-timing-function: ease-out;}
+
+.mSection1 .inner>ul>li {opacity:0;position:relative;margin-top:60px;}
+.blueBg ul {opacity:0;margin-top:60px;}
+.mGtec .titImg {opacity:0;position:relative;top:60px;}
+
+.mGtec .gTit {opacity:0}
+.gTec_area ul li {opacity:0;position:relative;top:60px;}
+
+/* ie */
+.service .ie {display:none;}
+.service .left, .service .right {display:inline-block;}
+
+.ie8 .service .ie {display:block;padding-bottom:0px;}
+.ie8 .service .left, .ie8 .service .right {display:none;}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url(font_noto/font.css);
+
+/* Reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, table, caption, thead, tfoot, tbody, tr, th, td
+{margin:0;padding:0;font:14px/1.5 'Noto Sans KR', '맑은고딕','Malgun Gothic','나눔고딕','nanumgothic',굴림,Gulim,돋움,Dotum, Arial, Sans-serif;color:#000;-webkit-text-size-adjust:none;}
+b, span, strong, input, a, button, pre {font-size:inherit;font-family:inherit;color:inherit}
+article, aside, dialog, footer, header, section, footer, nav, figure, hgroup, details, summary, figure, figcaption {display: block;}
+cite {display:inline}
+html, body {height:100%;}
+body {margin:0px;overflow-y:scroll;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+img {border:0;}
+label, input, textarea, select {vertical-align:middle}
+ol, ul {list-style:none;}
+table {border-collapse:collapse;table-layout:fixed;}
+fieldset {border:none}
+hr {position:absolute;left:-1000%;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden;}
+button {margin:0;padding:0;border:none;background:none;outline:none;cursor:pointer;display:inline-block;overflow:visible}
+figure {margin:0;padding:0}
+
+/* layout common */
+html,body {height:100%;}
+body {min-width:1720px;position:relative;margin:0 auto;overflow-x:auto;}
+div {font-size:0;}
+
+/* contents */
+
+#header,
+#container,
+#footer {position: relative;width:100%;margin:0 auto;}
+
+#header {height:100px;max-width: 1920px;}
+#header h1 {position:absolute;left:100px;top:21px;}
+#header .gnb {position:absolute;left:650px;top:40px;}
+
+.mVisual {position:relative;width:100%;height:500px;overflow:hidden;}
+.mVisual .img {position:absolute;width:100%;height:100%}
+.mVisual .img img {width:100%}
+
+.mVisual .img img {width:100%;height:100%;animation:mvisual 12s ease-out 0s forwards;opacity:0}
+@keyframes mvisual {
+    0% {
+        transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -ms-transform:scale(1.3);
+    }
+    100% {
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        -ms-transform:scale(1);
+    }
+}
+.mVisual .txt {position:relative;padding-left:360px;padding-top:150px;}
+.mVisual .btn {position:absolute;right:360px;top:95px;}
+
+.navi {text-align: center; padding: 45px 0 45px 0;background:#f0f3fa}
+
+.notice {padding:85px 0 120px 0;overflow: hidden;text-align: center;}
+.noticeWrap{display:inline-block;overflow:hidden;}
+.notice > img {float:left;margin-right:60px;}
+.notice ul {position: relative;width:264px;float:left;margin-right:15px}
+.notice ul .slick-dots {position:absolute;left:0px;bottom:18px;}
+.notice ul .slick-dots li {font-size:0;display:inline-block;vertical-align: top;width:24px;height:4px;box-sizing: border-box;background:url(../img/temp_a/btn_off.png)}
+.notice ul .slick-dots li + li {margin-left:3px}
+.notice ul .slick-dots li.slick-active {font-size:0;display:inline-block;vertical-align: top;width:24px;height:4px;background:url(../img/temp_a/btn_on.png)}
+.notice .admission .slick-dots li {background:url(../img/temp_a/btn_off2.png)}
+.notice .admission .slick-dots li.slick-active {background:url(../img/temp_a/btn_on2.png)}
+.footer {font-size:0;background:url(../img/temp_a/footerbg.png) repeat-x;text-align: center;}
+.footer img {margin-left:-60px;}

@@ -1,0 +1,531 @@
+@charset "utf-8";
+
+/* txtStyle */
+.titSt0 {margin-bottom:15px;font-size:44px;letter-spacing:-1.5px;font-weight:600;color:#000;}
+.titSt1 {font-size:45px;letter-spacing:-1.5px;font-weight:500;color:#000;}
+.titSt2 {font-size:28px;letter-spacing:-1.5px;font-weight:500;color:#000;}
+.titSt3 {font-size:30px;letter-spacing:-1.5px;font-weight:500;color:#000;font-weight:600}
+.titSt4 {font-size:45px;letter-spacing:-1.5px;color:#000;}
+.titSt5 {font-size:24px;letter-spacing:-1.5px;color:#000;}
+.titSt6 {font-size:22px;letter-spacing:-1px;color:#000;}
+.titSt7 {font-size:36px;letter-spacing:-1px;color:#000;}
+.titSt6_green {margin-top:27px;margin-bottom:10px;font-size:22px;letter-spacing:-1px;color:#419639;font-weight:600;}
+.titSt3+.titSt6_green {margin-top:13px}
+.titSt0+.titSt3 {margin-top:8px;}
+
+.txtSt1 {font-size:18px;letter-spacing:-0.5px;}
+.txtSt2 {font-size:26px;letter-spacing:-1px;}
+.txtSt3 {font-size:14px;letter-spacing:-0.5px;}
+.txtSt4 {font-size:14px;letter-spacing:-0.5px;}
+.pointGreen {color:#419639 !important}
+.pointGray {color:#555 !important}
+.pointYellowGreen {color:#a7bf05 !important}
+.pointOrange {color:#ff8315 !important}
+
+.txtW1 {font-weight:300 !important}
+.txtW2 {font-weight:400 !important}
+.txtW3 {font-weight:500 !important}
+.txtW4 {font-weight:700 !important}
+
+/* listStyle */
+.list_range {font-size:0}
+.list_range>li {position:relative;display:inline-block;vertical-align:top;}
+
+/* 컨텐츠 공통 */
+.info_area {position:relative;margin-top:-5px;padding-left:590px;}
+.info_area .img {position:absolute;left:0;top:10px;}
+.info_area .info {margin-top:-10px;}
+.info_area .info .titSt3 {margin-bottom:13px;font-weight:600;letter-spacing:-1.5px;}
+.info_area .info .titSt7 {margin-bottom:8px;font-weight:500;letter-spacing:-2px;}
+.info_area .info .titSt2 {margin-top:25px;margin-bottom:4px;}
+.info_area .info .txtSt1 {color:#555;line-height:1.8em;letter-spacing:-1px;}
+.info_area .info p.txt {color:#555;line-height:1.9em;}
+.info_area .info .btn {margin-top:100px;}
+.info_area .info .btn .btnC {padding:0 10px;}
+
+.defaultWrap .contTit_m {margin-top:54px;}
+.defaultWrap .titSt0+.contTit_m {margin-top:10px;}
+.defaultWrap .contTit_m.mT_s {margin-top:20px}
+.defaultWrap b.txtSt1 {display:block;margin-top:20px;margin-bottom:3px;font-weight:500;}
+.defaultWrap p.txt {color:#555;line-height:1.8em;}
+
+.borderBox {padding:20px;border:3px solid #dfe1e2;text-align:center;}
+.borderBox>p {font-weight:500;color:#222;line-height:1.4em;}
+
+/* 산업체위탁 */
+.industrialCon_intro .info_area .info .titSt3 {padding-top:66px;}
+
+/* 학사학위전공심화 */
+.arrowContWrap {position:relative;margin-top:40px;;font-size:0}
+.arrowContWrap:before {content:'';display:block;position:absolute;width:100%;height:2px;background:#a7bf05;top:171px;}
+.arrowContWrap:after {content:'';display:block;position:absolute;top:166px;right:-1px;width:0;height:0;border-style: solid;border-width: 6px 0 6px 8px;border-color: transparent transparent transparent #a6bf05}
+.arrowContWrap>.arrowCont {position:relative;display:inline-block;width:228px;vertical-align:top;text-align:center;transition:0.2s all;}
+.arrowContWrap>.arrowCont .arrowTit {position:relative;width:228px;height:60px;margin-top:81px;line-height:60px;background:#fff;box-sizing:border-box;border:1px solid #000;text-align:center;letter-spacing:-1px;}
+.arrowContWrap>.arrowCont .arrowTit:before {content:'';display:block;position:absolute;left:50%;margin-left:-8px;bottom:-9px;width:16px;height:9px;background:url(../img/ipsi/ipsiCont/arrow_bg_black.png) no-repeat}
+.arrowContWrap>.arrowCont .arrowTit:after {content:'';display:block;position:absolute;left:50%;margin-left:-7px;bottom:-39px;width:14px;height:14px;border-radius:50%;border:2px solid #fff;box-sizing:border-box;background:#ff8315;}
+.arrowContWrap>.arrowCont .arrowTit.bgGreen {height:auto;;padding:14px 10px;margin-top:0;background:#419639;line-height:1.8em;color:#fff;border:0}
+.arrowContWrap>.arrowCont .arrowTit.bgGreen:before {background-image:url(../img/ipsi/ipsiCont/arrow_bg_green.png)}
+.arrowContWrap>.arrowCont .arrowTit.bgGreen span {font-size:18px;}
+.arrowContWrap>.arrowCont.cont1 {margin-left:40px;}
+.arrowContWrap>.arrowCont.cont2 {margin-left:178px;}
+.arrowContWrap>.arrowCont.cont3 {margin-left:144px;margin-right:134px;}
+.arrowContWrap>.arrowCont .subTxt{padding-left:40px;padding-top:59px;text-align:left;letter-spacing:-1px;line-height:1.8em;}
+
+/* 계약학과 */
+.subway_img {margin-top:0px;padding:50px 70px;border:1px solid #d9d9d9;box-sizing:border-box;text-align:center;}
+
+.intro_major .subInfo {display:block;margin-top:3px;padding-left:69px;}
+.intro_major .info {margin-top:20px;margin-bottom:15px;letter-spacing:-0.5px;}
+.intro_major .nextList {position:relative;width:calc(100% + 60px);margin-left:-60px;}
+.intro_major .nextList>li {width:calc(33.333% - 60px);margin-left:60px;}
+.intro_major .nextList>li:before {content:'';display:block;position:absolute;right:-37px;top:50%;margin-top:-12px;width:12px;height:24px;background:url(../img/ipsi/ipsiCont/nextList_arrR.png) no-repeat;}
+.intro_major .nextList>li .grayTit {height:54px;line-height:54px;background:#dcdfe3;letter-spacing:-1px;text-align:center;font-weight:500}
+.intro_major .nextList>li .cont {height:115px;padding:15px;border:1px solid #c5c8cb;border-top:0;box-sizing:border-box;letter-spacing:-1px;color:#555;}
+.intro_major .nextList>li .cont>p {display:table;width:100%;height:100%;text-align:center;}
+.intro_major .nextList>li .cont>p>span {display:table-cell;vertical-align:middle;letter-spacing:-1px;color:#555;}
+.intro_major .nextList>li .cont ul.list_dotGreen {width:150px;margin:0 auto;}
+.intro_major .nextList.listTop>li:nth-child(3):before {right:50%;top:auto;bottom:-33px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+.intro_major .nextList.listBtm {margin-top:52px;margin-bottom:15px;}
+.intro_major .nextList.listBtm>li .cont {height:57px;}
+.intro_major .nextList.listBtm>li:before {background-image:url(../img/ipsi/ipsiCont/nextList_arrL.png)}
+.intro_major .nextList.listBtm>li:nth-child(1) {position:absolute;right:0;top:0}
+.intro_major .nextList.listBtm>li:nth-child(1):before {display:none;}
+.intro_major .nextList.listBtm>li:nth-child(2) {margin-left:calc(33.333% + 60px);}
+.intro_major .nextList.listBtm>li:nth-child(3) {position:absolute;left:0;top:0}
+
+.eduRequest .requestStep {width:calc(100% + 44px);margin-left:-44px;margin-top:19px;margin-bottom:27px;}
+.eduRequest .requestStep>li {position:relative;width:calc(16.666% - 44px);height:178px;padding:15px 10px;margin-left:44px;border:1px solid #000;box-sizing:border-box;text-align:center;}
+.eduRequest .requestStep>li:before {content:'';display:block;position:absolute;right:-31px;top:50%;margin-top:-12px;width:12px;height:24px;background:url(../img/ipsi/ipsiCont/nextList_arrR.png) no-repeat;}
+.eduRequest .requestStep>li:last-child:before {display:none;}
+.eduRequest .requestStep>li .stepNum {color:#419639;letter-spacing:-0.5px;}
+.eduRequest .requestStep>li .stepTit {margin-top:31px;margin-bottom:7px;font-weight:500;letter-spacing:-0.5px;font-size:18px;}
+.eduRequest .requestStep>li .stepTxt {position:relative;display:inline-block;color:#555;letter-spacing:-0.5px;}
+.eduRequest .requestStep>li .stepTxt>span {position:absolute;right:-21px;top:2px;font-size:12px;color:#222;}
+.eduRequest .requestStep>li:nth-child(2) .stepTit {margin-top:12px;margin-bottom:1px;}
+.eduRequest .btn {margin:17px 0}
+.eduRequest .list_hyphen li .exclam.small {line-height:1.8em;}
+
+/* 학사도우미 */
+.applicationBox {margin-top:30px;border-top:1px solid #000;}
+.applicationBox>li {width:33.333%;border-right:1px solid #d9d9d9;box-sizing:border-box;}
+.applicationBox>li .tit {height:65px;line-height:65px;text-align:center;border-bottom:1px solid #d9d9d9;box-sizing:border-box;font-weight:500;letter-spacing:-1px;}
+.applicationBox>li .tit img {display:inline-block;margin-top:20px;margin-left:5px;vertical-align:top;}
+.applicationBox>li .box {height:195px;padding:20px;border-bottom:1px solid #d9d9d9;box-sizing:border-box;}
+.applicationBox>li .box .btnSquare {display:block;padding:10px;max-width:245px;width:100%;box-sizing:border-box;margin:0 auto;background:#e94c55;font-size:15px;font-weight:400;letter-spacing:-0.5px;text-align:center;color:#fff;}
+.applicationBox>li .box .btnSquare.blue {background:#1d2675;}
+.applicationBox>li .box .btnSquare.green {background:#6ab848;}
+.applicationBox>li .box .btnSquare+.btnSquare {margin-top:10px}
+.applicationBox>li:last-child {border-right:0;}
+.application .titSt3 {margin-top:35px;margin-bottom:15px;}
+.application .borderBox {margin-top:21px;}
+.application .borderBox p>span {letter-spacing:-0.8px;font-weight:500}
+
+.refundList {margin-top:-20px;}
+.refundList>li {width:calc(50% - 20px);margin-top:40px;padding:35px 40px 40px 40px;box-sizing:border-box;background:#f6f7f9;}
+.refundList>li .txtSt2 {font-weight:500;}
+.refundList>li:nth-child(odd) {margin-right:40px;}
+.refundList>li .btn {margin-top:15px;font-size:0}
+.refundList>li .btn a {display:block;width:100%;padding:15px 10px;border:1px solid #69b848;box-sizing:border-box;background:#fff;color:#419639;font-size:17px;font-weight:500;letter-spacing:-1px;text-align:center;}
+.refundList>li .btn.col2 a {display:inline-block;width:calc(50% - 5px);vertical-align:top;}
+.refundList>li .btn.col2 a:first-child {margin-right:10px;}
+
+/* 학과안내 */
+.major_info .titSt3 {margin-top:45px;margin-bottom:8px;}
+.major_list {width:calc(100% + 32px);margin-top:-32px;margin-left:-32px;}
+.major_list>li>a {position:relative;display:block;width:100%;height:100%;}
+.major_list>li>a:before {content:'';display:block;position:absolute;left:50%;margin-left:-25px;top:50%;margin-top:-40px;width:50px;height:50px;background:url(../img/ipsi/ipsiCont/ico_youtube.png) no-repeat;}
+.major_list>li .major_name {display:block;margin-top:12px;box-sizing:border-box;font-size:18px;letter-spacing:-1px;font-weight:500}
+.major_list.col4>li {width:calc(25% - 32px);margin-left:32px;margin-top:32px;}
+.major_list.col4>li img {display:block;width:100%;font-size:0}
+.major_list.col2>li {width:calc(50% - 32px);margin-left:32px;margin-top:32px;}
+.major_info .infoCir {display:inline-block;width:19px;height:19px;border-radius:50%;background:#6ab848;vertical-align:top;font-size:12px;text-align:center;vertical-align:middle;font-style:normal;color:#fff;text-indent:-1px;font-weight:500;line-height:18.5px;}
+.major_info .infoCir.orange {background:#ff8315;}
+.major_info p.txt {letter-spacing:-0.5px;}
+.major_info p.txt .info {margin-left:11px;vertical-align:top;}
+.major_info p.txt .info .infoCir{margin-right:4px;margin-top:-3px;}
+.major_info p.txt .info .infoCir.orange {margin-left:15px;}
+.major_info .major_list .infoCir {margin-top:-3px;margin-left:5px;line-height:20px;}
+
+/* 성적진단하기 */
+.gradeDiagnosis .list_dotGreen li{word-break:keep-all;}
+.gradeDiagnosis .lineTop_tbArea.inpR{margin-top:60px;}
+.gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 th{border-right:none;padding-left:0;font-weight:500;}
+.gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td .inp_r{margin-right:40px;}
+.gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td .inp_r:last-of-type{margin-right:0;}
+.gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td .inp_r>label{color:#555;}
+.gradeDiagnosis .lineTop_tbArea{margin-top:40px;}
+.gradeDiagnosis .lineTop_tbArea .btnC.WhiteLine{width:100%;padding:0;border-color:#989898;}
+.gradeDiagnosis .lineTop_tbArea .btnC.WhiteLine>span{height:48px;width:100%;line-height:50px;font-size:16px;color:#555;font-weight:400;}
+.gradeDiagnosis .lineTop_tbArea .inp_t{height:50px;}
+
+.grayInfobox{width:100%;height:auto;background-color:#f5f7f9;padding:35px;box-sizing:border-box;margin-bottom:15px;}
+.grayInfobox>table{max-width:580px;margin:0 auto;}
+.grayInfobox>table td{font-size:16px;color:#222;vertical-align:middle;padding:0 5px;}
+.grayInfobox>table td hr{position:static;border:none;margin:5px 0;width:100%;height:1px;background-color:#222222;}
+
+.gradeResult{width:100%;padding:30px 20px;box-sizing:border-box;border:3px solid #dfe1e2;text-align:center;margin-top:60px;}
+.gradeResult>p{font-size:20px;color:#222;letter-spacing:-1px;vertical-align:middle;line-height:1em;}
+.gradeResult>p>b{display:inline-block;vertical-align:baseline;font-size:35px;color:#419639;line-height:1em;}
+
+.btn_Area{width:100%;margin-top:40px;font-size:0px;text-align:center;}
+.btn_Area>.btnC{padding:0px;margin:0 5px;}
+.btn_Area>.btnC>span{min-width:180px;padding:0 20px;box-sizing:border-box;}
+
+/*입학자료신청*/
+.termsArea{width:100%;height:auto;;padding:25px 0 25px 30px;box-sizing:border-box;background-color:#f5f7f9;}
+.termsArea>div{height:195px;padding-right:30px;box-sizing:border-box;overflow-y:auto;}
+.termsArea>div .txt{word-break:keep-all;}
+.termsArea>div .list_hyphen{margin-top:35px;}
+
+.termsArea + .CheckArea{margin-top:20px;}
+.termsArea + .CheckArea .inp_c>label{color:#555;}
+
+.ipsiData .contTit_m:nth-of-type(n+2){margin-top:40px;}
+.ipsiData .lineList_tbW.typeDefault2{margin-top:20px;}
+.ipsiData .lineList_tbW.typeDefault2 colgroup>col:nth-child(1){width:200px;}
+.ipsiData .lineList_tbW.typeDefault2 th{background-color:#fff;border-right:none;height:90px;box-sizing:border-box;}
+.ipsiData .lineList_tbW.typeDefault2 td{height:90px;box-sizing:border-box;}
+.ipsiData .lineList_tbW.typeDefault2 td .inp_t{height:50px;}
+.ipsiData .exclam{margin-top:15px;}
+.ipsiDataList{width:100%;font-size:0;}
+.ipsiDataList >li{width:calc(25% - 15px);display:inline-block;vertical-align:top;margin:0 20px 40px 0;}
+.ipsiDataList >li:nth-of-type(4n){margin-right:0px;}
+.ipsiDataList >li .imgBox{width:100%;position:relative;margin-bottom:15px;}
+.ipsiDataList >li .imgBox::before{content:"";display:block;padding-top:121.5%;}
+.ipsiDataList >li .imgBox>img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
+.ipsiDataList >li .nameArea{width:100%;}
+.ipsiDataList >li .nameArea > p{font-size:18px;color:#000;margin-bottom:15px;}
+.ipsiDataList >li .nameArea .inp_s{width:135px;}
+
+/*입학상담신청*/
+.onLineipsiCounselCal{}
+.ipsiPeriod {position:relative;margin-top:40px;margin-bottom:30px;font-size:0;text-align:center;}
+.ipsiPeriod .today{position:absolute;left:0;top:10px;width:55px;height:35px;border-radius:20px;font-size:14px;color:#fff;text-align:center;line-height:35px;background-color:#009fdb;}
+.ipsiPeriod .example{position:absolute;right:0;top:25px;}
+.ipsiPeriod .example>span{position:relative;display:inline-block;padding-left:15px;margin-right:25px;font-size:15px;line-height:1em;color:#666;}
+.ipsiPeriod .example>span:last-of-type{margin-right:0px;}
+.ipsiPeriod .example>span.stateIng::before{content:"";position:absolute;left:0;top:3px;display:block;width:9px;height:9px;border:1px solid #70bb51;box-sizing:border-box;border-radius:50%;background-color:#fff;}
+.ipsiPeriod .example>span.stateCom::before{content:"";position:absolute;left:0;top:3px;display:block;width:9px;height:9px;border:1px solid #d9d9d9;box-sizing:border-box;border-radius:50%;background-color:#d9d9d9;}
+.ipsiPeriod fieldset{display:inline-block;font-size:0;}
+.ipsiPeriod fieldset>button {display:inline-block;overflow:hidden;width:50px;height:50px;text-indent:-999px;vertical-align:top;}
+.ipsiPeriod fieldset>.btn_prev {background:url(../img/common/program/dietBtn_arrL.png) no-repeat center;}
+.ipsiPeriod fieldset>.btn_next {background:url(../img/common/program/dietBtn_arrR.png) no-repeat center;}
+.ipsiPeriod fieldset>.dateNum {display:inline-block;box-sizing:border-box;padding:0 40px;font-size:45px;font-weight:500;line-height:50px;text-align:center;vertical-align:top;letter-spacing:-1.5px;}
+.ipsiPeriod fieldset>.dateNum i{font-size:inherit;line-height:inherit;font-weight:inherit;font-style:normal;color:#419639;}
+
+.bookingTable{position:relative;width:100%;height:auto;padding-top:1px;}
+.bookingTable::before{content:"";display:block;position:absolute;left:0px;top:0px;width:100%;height:1px;background-color:#222;z-index:101}
+.bookingTable table{width:100%;}
+.bookingTable table thead th{height:45px;padding:20px 10px;border-bottom:1px solid #d9d9d9;border-left:1px solid #d9d9d9;box-sizing:border-box;font-size:16px;font-weight:500;line-height:1em;color:#222;text-align:center;}
+.bookingTable table thead th:last-of-type{border-right:1px solid #d9d9d9}
+.bookingTable table thead th:nth-child(1){color:#fd5151;}
+.bookingTable table tbody td{position:relative;height:100px;box-sizing:border-box;border-bottom:1px solid #d9d9d9;border-right:1px solid #dddfe5;}
+.bookingTable table tbody td:first-of-type{border-left:1px solid #dddfe5}
+.bookingTable table tbody td button {position:relative;display:block;padding:20px;box-sizing:border-box;width:100%;height:100%;font-size:16px;line-height:1em;color:#555;text-align:center;z-index:10;}
+.bookingTable table tbody td button>span{position:relative;z-index:100;font-size:inherit;line-height:inherit;font-weight:inherit;}
+.bookingTable table tbody td button:disabled{color:#ababab;background-color:#eef0f2;}
+.bookingTable table tbody td button:not(:disabled)::before{content: "";position:absolute;left:-1px;top:-1px;display:block;width:calc(100% + 2px);height:calc(100% + 2px);border:1px solid #69b848;box-sizing:border-box;z-index:2}
+.bookingTable table tbody td.disabled b{color:#a6a6a6}
+.bookingTable table tbody td .bookingList{overflow:hidden;}
+.bookingTable table tbody td .bookingList>a{position:relative;display:inline-block;float:left;padding-left:15px;margin:0 10px 10px 0;font-size:15px;line-height:1em;z-index:10;}
+.bookingTable table tbody td .bookingList>a:nth-of-type(2n){margin-right:0px;}
+.bookingTable table tbody td .bookingList>a:nth-of-type(2n+1){clear:both;}
+.bookingTable table tbody td .bookingList>a.stateIng::before{content:"";position:absolute;left:0;top:2px;display:block;width:11px;height:11px;border-radius:50%;background-color:#009fdb;}
+.bookingTable table tbody td .bookingList>a.stateCom{background:url(../img/ipsi/program/icon_stateCom.png) no-repeat left center;}
+.bookingTable table tbody td.today{background-color:#69b848;}
+.bookingTable table tbody td.today button{color:#fff;}
+.bookingTable table tbody td.today .bookingList>a{color:#fff;}
+.bookingTable table tbody td.today .bookingList>a.stateIng::before{background-color:#fff;}
+.bookingTable table tbody td.today .bookingList>a.stateCom{background:url(../img/ipsi/program/icon_stateComWhite.png) no-repeat left center;}
+
+.onLineipsiCounselCal .contTit_m:nth-of-type(n+2){margin-top:40px;}
+.onLineipsiCounselCal .lineList_tbW.typeDefault2{margin-top:20px;}
+.onLineipsiCounselCal .lineList_tbW.typeDefault2 colgroup>col:nth-child(1){width:200px;}
+.onLineipsiCounselCal .lineList_tbW.typeDefault2 th{background-color:#fff;border-right:none;height:90px;box-sizing:border-box;}
+.onLineipsiCounselCal .lineList_tbW.typeDefault2 td{height:90px;box-sizing:border-box;}
+.onLineipsiCounselCal .lineList_tbW.typeDefault2 td .inp_t,
+.onLineipsiCounselCal .lineList_tbW.typeDefault2 td .inp_s{height:50px;}
+.onLineipsiCounselCal p.txt{color:#555;}
+.onLineipsiCounselCal p.txt b{color:#222;font-weight:500;}
+.onLineipsiCounselCal .exclam{margin:10px 0 15px 0;}
+.onLineipsiCounselCal .lineTop_tbArea .lineTop_tbL2 th{background-color:#fff;border-right:none;word-break:keep-all;}
+.onLineipsiCounselCal .lineTop_tbArea .lineTop_tbL2 td{color:#555;word-break:keep-all;}
+
+.btnM{display:inline-block;width:auto;min-width:130px;padding:0 20px;background-color:#fff;border:1px solid #989898;font-size:16px;color:#555;line-height:50px;height:50px;}
+
+.inp_t.sW{width:160px;}
+.inp_t.mW{width:325px;}
+
+.telNumber{width:100%;font-size:0;}
+.telNumber .inp_t{width:100px !important;display:inline-block;vertical-align:middle !important;}
+.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+
+.addressArea{width:100%;font-size:0}
+.addressArea .postNumber{width:160px !important;margin-right:10px;}
+.addressArea .inp_t:not(.postNumber){width:520px !important; display:block;margin-top:10px;}
+
+.timeArea{width:100%;font-size:0;}
+.timeArea>span{display:inline-block;margin-right:20px;color:#555;font-size:16px;vertical-align:middle;}
+.timeArea>.inp_s{width:140px !important;vertical-align:middle !important;}
+.timeArea .pickerInp{position:relative;width:180px;display:inline-block;margin-right:5px; vertical-align:middle;}
+.timeArea .pickerInp .date-picker-dateval:link{position:absolute;right:12px;top:17px;margin:0;}
+
+.etcData1{width:100%;font-size:0;}
+.etcData1 .itemG{width:auto;display:inline-block;vertical-align:middle;width:auto;margin:5px 40px 5px 0;}
+.etcData1 .itemG:last-of-type{margin-right:0px;}
+.etcData1 .itemG>span{display:inline-block;font-size:16px;color:#222;vertical-align:middle;}
+.etcData1 .itemG>span:nth-of-type(2){color:#555;margin-left:5px;}
+.etcData1 .itemG>.inp_r:nth-of-type(2){margin-left:10px;}
+.etcData1 .itemG>.inp_r{margin-right:20px;}
+.etcData1 .itemG>.inp_r:last-of-type{margin-right:0px;}
+.etcData1 .itemG>.inp_t{width:80px !important;margin: 0 0px 0 10px;vertical-align:middle !important;}
+.etcData1 .itemG>.inp_t.mid{width:120px!important}
+
+.emailArea{width:100%;font-size:0;}
+.emailArea .inp_t{width:220px !important;display:inline-block;vertical-align:middle !important;}
+.emailArea .bar{width:30px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+.emailArea .inp_s{width:220px !important;display:inline-block;margin-left:5px;}
+
+.confirmationNumber{width:100%;font-size:0;}
+.confirmationNumber>.inp_t{width:220px !important;display:inline-block;vertical-align:middle !important;}
+.confirmationNumber>span{margin-left:10px;font-size:15px;color:#555;display:inline-block;vertical-align:middle;}
+
+@media all and (max-width:1280px) {
+    /* 컨텐츠 공통 */
+    .pcBr {display:none;}
+
+    .info_area .info .txtSt1 br {display:none;}
+
+    /* 학사학위전공심화 */
+    .arrowContWrap>.arrowCont.cont2 {margin-left:120px;}
+    .arrowContWrap>.arrowCont.cont3 {margin-left:120px;margin-right:0px;}
+
+
+    /* 계약학과 */
+    .eduRequest .requestStep>li {width:calc(33.333% - 44px)}
+    .eduRequest .requestStep>li:nth-child(n+4)  {margin-top:44px;}
+}
+
+@media all and (max-width:1040px) {
+    /* 컨텐츠 공통 */
+    .info_area {margin-top:0;;padding-left:0;}
+    .info_area .img {position:inherit;left:0;top:0;margin-bottom:30px;}
+    .info_area .info .btn {margin-top:30px;}
+    .info_area .info {min-height:1px;}
+
+    /* 산업체위탁 */
+    .industrialCon_intro .info_area .info .titSt3 {padding-top:0}
+
+    /* 학사학위전공심화 */
+    .arrowContWrap>.arrowCont .arrowTit {width:190px;}
+    .arrowContWrap>.arrowCont.cont1 {margin-left:20px;}
+    .arrowContWrap>.arrowCont.cont2 {margin-left:60px;}
+    .arrowContWrap>.arrowCont.cont3 {margin-left:60px;}
+
+    /* 계약학과 */
+    .eduRequest .requestStep>li {height:160px;}
+    .eduRequest .requestStep>li:nth-child(3):before {display:none;}
+
+    /* 입시도우미 */
+    .refundList>li {padding:20px;}
+
+    /* 학과소개 */
+    .major_list {width:calc(100% + 20px);margin-top:-20px;margin-left:-20px;}
+    .major_list>li .major_name {font-size:16px}
+    .major_list.col4>li {width:calc(25% - 20px);margin-left:20px;margin-top:20px;}
+    .major_list.col4>li img {display:block;font-size:0}
+    
+    .inp_t.mW{width:100%;}
+    .emailArea .inp_t{width:calc(50% - 15px) !important;}
+    .emailArea .inp_s{width:100% !important;margin:10px 0 0 0;}
+    
+    .confirmationNumber>.inp_t{width:100% !important;}
+    .confirmationNumber>span{margin:10px 0 0 0;}
+}
+
+@media all and (max-width:900px) {
+
+    /* 학사학위전공심화 */
+    .arrowContWrap {height:calc(100% + 30px);}
+    .arrowContWrap:before {width:2px;;height:100%;top:0;}
+    .arrowContWrap>.arrowCont {display:block;width:calc(100% - 20px); margin-left:20px !important;}
+    .arrowContWrap>.arrowCont .arrowTit.bgGreen
+    .arrowContWrap>.arrowCont+.arrowCont {margin-top:20px;}
+    .arrowContWrap:after {top:auto;bottom:-2px;left:-5px;width:0;height:0;border-style:solid;border-width:8px 6px 0 6px;border-color:#a6bf05 transparent transparent transparent;}
+    .arrowContWrap>.arrowCont .arrowTit {width:100%;height:40px;line-height:40px;}
+    .arrowContWrap>.arrowCont.cont3 .arrowTit:before {display:none;}
+    .arrowContWrap>.arrowCont .arrowTit:after {left:-20px;bottom:auto;top:50%;margin-top:-7px;}
+    .arrowContWrap>.arrowCont .subTxt {padding-top:20px;padding-left:10px;padding-right:10px;padding-bottom:20px;text-align:center;}
+    .arrowContWrap>.arrowCont .arrowTit {margin-top:0px;}
+
+    /* 학사도우미 */
+    .applicationBox>li .box {height:auto;}
+}
+
+@media all and (max-width:768px) {
+    /* txtStyle */
+    .titSt0 {font-size:28px;}
+    .titSt1 {font-size:25px;}
+    .titSt2 {font-size:21px;}
+    .titSt3 {font-size:20px;}
+    .titSt5 {font-size:18px;}
+    .titSt6 {font-size:17px;}
+    .titSt7 {font-size:23px;}
+
+    .txtSt1 {font-size:16px;}
+    .txtSt2 {font-size:17px;}
+
+    .titSt6_green {margin-top:12px;margin-bottom:6px;font-size:17px;}
+
+    /* 컨텐츠 공통 */
+    .info_area .img {margin-bottom:20px;}
+    .info_area .info .titSt2 {margin-top:15px;}
+    .info_area .info .btn {margin-top:20px;}
+    .info_area .info .titSt3 {margin-bottom:7px;}
+
+    .defaultWrap .contTit_m {margin-top:30px;font-size:17px;}
+    .defaultWrap .titSt0+.contTit_m {margin-top:7px;}
+    .defaultWrap .contTit_m.mT_s {margin-top:12px}
+    .defaultWrap b.txtSt1 {display:block;margin-top:12px !important;margin-bottom:3px;font-weight:500;}
+
+    /* 계약학과 */
+    .subway_img {padding:10px;}
+
+    .intro_major .nextList {width:100%;margin-left:0px;}
+    .intro_major .nextList>li {position:relative !important;width:100%;margin-left:0 !important}
+    .intro_major .nextList>li+li {margin-top:30px;}
+    .intro_major .nextList.listBtm {margin-top:0px;}
+    .intro_major .nextList>li .grayTit {height:40px;line-height:40px;}
+    .intro_major .nextList>li .cont {height:auto;padding:10px;}
+    .intro_major .nextList>li:before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .intro_major .nextList.listTop>li:nth-child(3):before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .intro_major .nextList.listBtm>li:nth-child(1) {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .intro_major .nextList.listBtm>li:before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .intro_major .nextList.listBtm>li:last-child:before {display:none;}
+    .intro_major .subInfo {padding-left:0px;}
+
+    .eduRequest .requestStep {width:100%;margin-left:0}
+    .eduRequest .requestStep>li {width:100%;margin-left:0;height:auto;padding:20px;}
+    .eduRequest .requestStep>li .stepTit {margin-top:7px !important}
+    .eduRequest .requestStep>li+li {margin-top:25px !important}
+    .eduRequest .requestStep>li:before {right:50%;top:auto;bottom:-21px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .eduRequest .requestStep>li:nth-child(3):before {display:block;}
+    .eduRequest .btn {margin:10px 0}
+
+    /* 학사도우미 */
+    .applicationBox {width:100%;margin-left:0}
+    .applicationBox>li {width:100%;margin-left:0}
+    .applicationBox>li .tit {height:40px;line-height:40px;}
+    .applicationBox>li .tit img {margin-top:9px;}
+    .applicationBox>li .box {padding:15px;}
+    .applicationBox>li .box .btnSquare {padding:5px;font-size:13px;}
+    .applicationBox>li {border-right:0}
+    .application .titSt3 {margin-top:17px;margin-bottom:7px;}
+
+    .refundList {margin-top:0}
+    .refundList>li {width:100%;margin-right:0 !important;margin-top:20px;}
+    .refundList>li .btn {margin-top:12px;}
+    .refundList>li .btn.col2 a {width:100%;margin-right:0 !important;}
+    .refundList>li .btn.col2 a+a {margin-top:5px;}
+    .refundList>li .btn a {padding:10px 5px;font-size:15px;}
+
+    /* 학과소개 */
+    .major_list.col4>li {width: calc(50% - 20px);}
+    .major_list>li .major_name {padding-right:16px;margin-top:8px;background-position:right 5px top 2px;font-size:16px;}
+    
+    /*내신성적 산출방법*/
+    .grayInfobox{padding:20px 15px;}
+    .grayInfobox>table colgroup col:nth-of-type(1){width:20%;}
+    .grayInfobox>table colgroup col:nth-of-type(2){width:50%;}
+    .grayInfobox>table colgroup col:nth-of-type(3){width:20%;}
+    .grayInfobox>table td{font-size:11px;}
+    .grayInfobox>table td>p{font-size:11px;}
+    .gradeDiagnosis .lineTop_tbArea.inpR{margin-top:30px;}
+    .gradeDiagnosis .lineTop_tbArea.inpR colgroup{display:none}
+    .gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 tr{display:block;width:100%;}
+    .gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 th{display:block;width:100%;height:auto;padding:10px;box-sizing:border-box;}
+    .gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td{display:block;width:100%;height:auto;padding:10px;box-sizing:border-box;}
+    .gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td .inp_r{margin:0 0 10px 0;}
+    .gradeDiagnosis .lineTop_tbArea.inpR .lineTop_tb2 td .inp_r:last-of-type{margin-bottom:0px;}
+    
+    .gradeDiagnosis .lineTop_tbArea .inp_t{height:35px;padding:0 10px;}
+    .gradeDiagnosis .lineTop_tbArea .btnC.WhiteLine>span{height:33px;line-height:35px;font-size:14px;min-width:0px;}
+    .gradeDiagnosis .lineTop_tbArea colgroup col:nth-of-type(4){width:80px !important;}
+    
+    .btn_Area{margin-top:30px;}
+    .btn_Area>.btnC>span{min-width:0;}
+    
+    .gradeResult{padding:15px;margin-top:30px;border:2px solid #dfe1e2;}
+    .gradeResult>p{font-size:15px;word-break:keep-all;}
+    .gradeResult>p>b{font-size:24px;}
+    
+    /*입학자료신청*/
+    .termsArea{padding:20px 0 20px 20px;}
+    .termsArea>div{padding-right:20px;height:150px}
+    .termsArea>div .list_hyphen{margin-top:20px;}
+    .CheckArea + .CheckArea{margin-top:15px;}
+    .ipsiData .contTit_m:nth-of-type(n+2){margin-top:25px;}
+    .ipsiData .lineList_tbW.typeDefault2 td,
+    .ipsiData .lineList_tbW.typeDefault2 th{height:auto;}
+    .ipsiData .lineList_tbW.typeDefault2 td .inp_t{height:40px;}
+    .ipsiData .exclam{margin-top:10px;}
+    
+    /*입시상담신청*/
+    .ipsiPeriod{margin-bottom:10px;}
+    .ipsiPeriod fieldset {margin-bottom:15px;}
+    .ipsiPeriod fieldset .dateNum {padding:0 25px;font-size:23px;line-height:25px;}
+    .ipsiPeriod fieldset>button {width:25px;height:25px;}
+    .ipsiPeriod fieldset .btn_next {background-size:25px auto;}
+    .ipsiPeriod fieldset .btn_prev {background-size:25px auto;}
+    .ipsiPeriod .today{top:4px;width:40px;height:20px;font-size:12px;line-height:20px;}
+    .ipsiPeriod .example{position:static;text-align:right;}
+    .ipsiPeriod .example>span{padding-left:15px;margin-right:10px;font-size:12px;}
+    .ipsiPeriod .example>span.stateIng::before{width:8px;height:8px;top:1px;}
+    .ipsiPeriod .example>span.stateCom::before{width:8px;height:8px;top:1px;}
+    
+    
+    .bookingTable::before{display:none;}
+    .bookingTable table colgroup{display:none;}
+    .bookingTable table thead{display:none;}
+    .bookingTable table tbody tr{display:block;}
+    .bookingTable table tbody td.noDay{display:none;}
+    .bookingTable table tbody td{display:block;width:100%;height:auto;border-left:1px solid #dddfe5;}
+    .bookingTable table tbody td button{font-size:16px;width:100%;text-align:left;}
+    .bookingTable table tbody td button::after{content:attr(data-day);display:inline-block;margin-left:5px;}
+    .bookingTable table tbody tr td:nth-child(1) button::after{color:#fd5151}
+    
+    .btnM{height:40px;line-height:38px;font-size:14px;padding:0 10px;min-width:0;}
+    
+    .inp_t.sW{width:100%;}
+    
+    .telNumber .inp_t{width:calc(33.333% - 13.3333px) !important;}
+    .timeArea .pickerInp .date-picker-dateval:link{top:11px;}
+    
+    .addressArea .postNumber{width:calc(100% - 130px) !important;}
+    .addressArea .btnM{width:120px;}
+    .addressArea .inp_t:not(.postNumber){width:100% !important;}
+    
+    .onLineipsiCounselCal .contTit_m:nth-of-type(n+2){margin-top:25px;}
+    .onLineipsiCounselCal .lineList_tbW.typeDefault2 td,
+    .onLineipsiCounselCal .lineList_tbW.typeDefault2 th{height:auto;}
+    .onLineipsiCounselCal .lineList_tbW.typeDefault2 td .inp_t,
+    .onLineipsiCounselCal .lineList_tbW.typeDefault2 td .inp_s{height:40px;}
+    
+    .timeArea .pickerInp{width:125px;}
+    .timeArea>.inp_s{width:130px !important;}
+    
+    .etcData1 .itemG{margin:8px 20px 8px 0;}
+}
+@media all and (max-width:600px) {
+    .ipsiDataList >li{width:calc(50% - 10px);margin:0 20px 20px 0 !important;}
+    .ipsiDataList >li:nth-child(2n){margin-right:0px !important}
+    .ipsiDataList >li .imgBox{margin-bottom:10px;}
+    .ipsiDataList >li .nameArea > p{margin-bottom:10px;font-size:14px;}
+    .ipsiDataList >li .nameArea .inp_s{width:100%;}
+}
+@media all and (max-width:500px) {
+    .major_list {width:100%;margin-left:0;}
+    .major_list.col4>li {width:100%;margin-left:0;}
+    .major_info p.txt .info {display:block;margin-left:0;margin-top:5px;}
+}
+

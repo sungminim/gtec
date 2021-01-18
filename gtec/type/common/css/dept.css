@@ -1,0 +1,766 @@
+@charset "utf-8";
+/* txtStyle */
+.titSt0 {margin-bottom:15px;font-size:44px;letter-spacing:-1.5px;font-weight:600;}
+.titSt1 {font-size:45px;letter-spacing:-1.5px;font-weight:500;}
+.titSt2 {font-size:28px;letter-spacing:-1.5px;font-weight:500;}
+.titSt3 {font-size:30px;letter-spacing:-1.5px;font-weight:500}
+.titSt4 {font-size:45px;letter-spacing:-1.5px;}
+.titSt5 {font-size:24px;letter-spacing:-1.5px;}
+.titSt6 {font-size:22px;letter-spacing:-1px;}
+.titSt7 {font-size:36px;letter-spacing:-1px;}
+.titSt8 {font-size:55px;letter-spacing:-1px;}
+.titSt6_green {margin-top:27px;margin-bottom:10px;font-size:22px;letter-spacing:-1px;color:#419639;}
+.titSt3+.titSt6_green {margin-top:13px}
+.titSt0+.titSt3 {margin-top:8px;}
+.contTit_m {font-weight:500}
+
+.txtSt1 {font-size:18px;letter-spacing:-0.5px;}
+.txtSt2 {font-size:26px;letter-spacing:-1px;}
+.txtSt3 {font-size:14px;letter-spacing:-0.5px;}
+.txtSt4 {font-size:14px;letter-spacing:-0.5px;}
+.pointGreen {color:#419639 !important}
+.pointGray {color:#555 !important}
+.pointYellowGreen {color:#a7bf05 !important}
+.pointOrange {color:#ff8315 !important}
+
+/* listStyle */
+.list_range {font-size:0}
+.list_range>li {position:relative;display:inline-block;vertical-align:top;}
+
+/* 컨텐츠 공통 */
+.dept_link {padding:31px 35px 29px 35px;box-sizing:border-box;background:#f5f7f9;}
+.dept_link>ul {font-size:0}
+.dept_link>ul>li {position:relative;display:inline-block;width:25%;padding-left:25px;box-sizing:border-box;vertical-align:top;}
+.dept_link>ul>li:before {content:'';display:block;position:absolute;top:5px;right:0;width:1px;height:calc(100% - 13px);background:#d9d9d9;}
+.dept_link>ul>li:last-child:before {display:none;}
+.dept_link>ul>li:first-child {padding-left:0;border-left:0;}
+.dept_link>ul>li .goLink {display:block;}
+.dept_link>ul>li .goLink:hover>span,
+.dept_link>ul>li .goLink.on>span {color:#419639;background-image:url(../img/dept/goLink_arrR_green.png);}
+.dept_link>ul>li .goLink>span {display:inline-block;padding-right:17px;background:url(../img/dept/goLink_arrR.png) no-repeat top 50% right 0;;letter-spacing:-0.5px;vertical-align:top;}
+.dept_link>ul>li .goLink+.goLink {margin-top:7px;}
+
+.dept_link.col5>ul>li {width:20%;min-height:245px;}
+.dept_link>ul>li>b {display:block;margin-bottom:10px;font-size:18px;}
+.dept_link>ul>li .link_s {display:block;margin-top:5px;}
+.dept_link>ul>li .link_s>li {position:relative;padding-left:8px;}
+.dept_link>ul>li .link_s>li:before {content:'';display:block;position:absolute;top:10px;left:0;width:2px;height:2px;background:#222;}
+.dept_link>ul>li .link_s>li>a {font-size:15px;color:#555;letter-spacing:-0.5px;;}
+.dept_link>ul>li .link_s>li+li {margin-top:3px;}
+
+.deptWrap p.txt {color:#555;line-height:1.8em;letter-spacing:-0.8px;}
+.deptWrap p.txt+ul.list_dotGreen {margin-top:5px;}
+.deptWrap .contTit+.contTit_m {margin-top:30px;}
+.deptWrap .contTit_m {margin:52px 0 7px 0}
+.deptWrap .contTit_m+ul.list_dotGreen {margin-top:15px;}
+.deptWrap .lineTop_tbArea {margin-top:20px;}
+.deptWrap .lineTop_tbArea+p.txt {margin-top:15px;}
+.deptWrap .titSt0+.contTit_m {margin-top:4px;}
+
+.intro_dept .titSt8 {margin-top:53px;margin-bottom:14px;color:#419639;font-weight:500;letter-spacing:-2.5px;}
+.intro_dept .titSt8+p.exclam {margin-top:-25px;margin-bottom:32px;letter-spacing:-0.5px;}
+.intro_dept .intro_head {position:relative;padding-left:622px;padding-bottom:60px;margin-bottom:15px;border-bottom:1px solid #d9d9d9;}
+.intro_dept .intro_head>.img  {position:absolute;left:0;top:6px;}
+.intro_dept .intro_head .info {min-height:440px;}
+.intro_dept .intro_head .info_tit {margin-bottom:15px;font-size:36px;line-height:1.4em;font-weight:300;letter-spacing:-1.5px;}
+.intro_dept .intro_head .info_txt {font-size:16px;color:#555;line-height:1.9em;letter-spacing:-0.7px;}
+.intro_dept .intro_head .info_txt b {display:block;color:#222;}
+.intro_dept .intro_head .btn {position:absolute;bottom:55px;}
+.intro_dept .intro_head .btn .btnC {padding:0 10px;}
+.intro_dept .intro_head .info.typeLong .btn {position:inherit;left:0;top:0;margin-top:53px;}
+
+.contactBox {width:calc(100% + 20px);margin-left:-20px;margin-top:15px;}
+.contactBox>li {width:calc(33.333% - 20px);min-height:113px;margin-left:20px;padding:28px 20px 20px 125px;border:1px solid #d9d9d9;box-sizing:border-box;;}
+.contactBox>li .tit {display:block;font-size:18px;}
+.contactBox>li.name {background:url(../img/dept/contact_ico_name.png) no-repeat left 44px top 30px;}
+.contactBox>li.tel {background:url(../img/dept/contact_ico_tel.png) no-repeat left 38px top 32px;}
+.contactBox>li.email {background:url(../img/dept/contact_ico_mail.png) no-repeat left 40px top 29px;}
+.contactBox>li.location {background:url(../img/dept/contact_ico_location.png) no-repeat left 42px top 34px;}
+.contactBox>li.fax {background:url(../img/dept/contact_ico_fax.png) no-repeat left 40px top 33px;}
+
+p.txt+.hexagon_list {padding-top:5px;}
+.hexagon_list {margin-top:42px;}
+.hexagon_list>li {padding-right:30px;box-sizing:border-box;;}
+.hexagon_list.col3>li {width:33.333%;}
+.hexagon_list.col3>li:nth-child(n+4) {margin-top:60px;}
+.hexagon_list.col4>li {width:25%}
+.hexagon_list.col4>li:nth-child(n+5) {margin-top:60px;}
+.hexagon_list>li .num {width:40px;height:26px;background:#a7bf04;position:relative;text-align:center;font-size:20px;color:#fff;font-weight:500;line-height:26px;}
+.hexagon_list>li .num:before {content:"";position:absolute;top:-10px;left:0;width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;border-bottom:10px solid #a7bf04;}
+.hexagon_list>li .num:after {content:"";position:absolute;bottom:-10px;left:0;width:0;height:0;border-left:20px solid transparent;border-right:20px solid transparent;border-top:10px solid #a7bf04;}
+.hexagon_list>li .tit {margin-top:30px;font-size:18px;font-weight:500;letter-spacing:-0.5px;;}
+.hexagon_list>li ul.list_dotGreen {margin-top:3px;}
+
+.bgFullGray {position:relative;margin-top:40px;padding:15px 0 70px 0;background:#f5f7f9;}
+.bgFullGray:before, .bgFullGray:after {content:'';position:absolute;top:0;left:100%;display:block;width:400%;height:100%;background:#f5f7f9;}
+.bgFullGray:after {left:auto;right:100%}
+
+.list_icoInfo {margin-top:17px;border-top:1px solid #d9d9d9;}
+.list_icoInfo>li {position:relative;width:50%;height:130px;padding-left:148px;padding-right:20px;border-bottom:1px solid #d9d9d9;box-sizing:border-box;background:url(../img/dept/info_ico_location.png) no-repeat left 40px top 20px;color:#555;letter-spacing:-0.5px;;}
+.list_icoInfo>li .wrap {display:table;width:100%;height:100%;}
+.list_icoInfo>li .innerWrap {display:table-cell;vertical-align:middle;color:#555;line-height:1.8em;}
+.list_icoInfo>li .info_tit {margin-right:4px;font-size:18px;color:#222}
+.list_icoInfo>li.full {width:100%;}
+.list_icoInfo>li.etc {padding-left:190px;}
+.list_icoInfo>li.etc .info_tit {position:absolute;left:150px;}
+.list_icoInfo>li.email {background-image:url(../img/dept/info_ico_mail.png);}
+.list_icoInfo>li.fax {background-image:url(../img/dept/info_ico_fax.png);}
+.list_icoInfo>li.tel {background-image:url(../img/dept/info_ico_tel.png);}
+.list_icoInfo>li.etc {background-image:url(../img/dept/info_ico_etc.png);}
+
+.cir_typeList {margin-top:25px;text-align:center;}
+.cir_typeList>li .cirTit {position:relative;width:180px;height:180px;margin:0 auto;border:2px solid #a7bf05;background:#fff;box-sizing:border-box;border-radius:50%;z-index:2;}
+.cir_typeList>li+li:before {content:'';display:block;position:absolute;width:95%;height:1px;left:-50px;top:90px;background:#d9d9d9;z-index:1;}
+.cir_typeList>li .cirTit>p {display:table;width:100%;height:100%;text-align:center;}
+.cir_typeList>li .cirTit>p>span {display:table-cell;vertical-align:middle;font-size:18px;font-weight:500;letter-spacing:-0.5px;}
+.cir_typeList>li .cirTxt {margin-top:13px;letter-spacing:-0.5px;color:#555;font-size:15px;}
+.cir_typeList.col1>li .cirTit {margin:0 auto;}
+.cir_typeList.col2>li+li {padding-left:170px;}
+.cir_typeList.col3>li+li {padding-left:140px;}
+.cir_typeList.col4>li+li {padding-left:90px;}
+.cir_typeList.col5>li+li {padding-left:70px;}
+
+.addressArea{width:100%;font-size:0}
+.addressArea .postNumber{width:160px !important;margin-right:10px;}
+.addressArea .inp_t:not(.postNumber){width:520px !important; display:block;margin-top:10px;}
+.btnM{display:inline-block;width:auto;min-width:130px;padding:0 20px;background-color:#fff;border:1px solid #989898;font-size:16px;color:#555;line-height:50px;height:50px;}
+
+/* 학과소개 */
+.cmc_eduCont {margin-top:45px;}
+.cmc_eduCont .boxTit {position:relative;width:100%;padding:16px 10px;margin-bottom:20px;background:#ff8315;box-sizing:border-box;font-size:18px;color:#fff;letter-spacing:-0.5px;text-align:center;line-height:1.6em;}
+.cmc_eduCont .boxTit.boxGreen {margin-top:155px;background:#69b848}
+.cmc_eduCont .boxTit.boxGreen:before {content:'';display:block;position:absolute;top:-124px;left:0;width:100%;height:112px;background:url(../img/dept/bachelor/bg_arrowUp.png) no-repeat;background-size:contain;}
+.cmc_eduCont .boxTit.boxYellowGreen {margin-top:50px;background:#a7bf04}
+.cmc_eduCont .boxTit.boxGray {background:#dcdfe3;color:#000}
+.cmc_eduCont .boxTit>strong {display:block;margin-top:12px;font-size:28px;font-weight:500;}
+.cmc_eduCont .boxCont {width:calc(100% + 20px);margin-left:-20px;}
+.cmc_eduCont .boxCont>li {width:calc(33.333% - 20px);margin-left:20px;border:1px solid #c5c8cb;box-sizing:border-box;text-align:center;}
+.cmc_eduCont .boxCont>li .tit {height:52px;box-sizing:border-box;border-bottom:1px solid #c5c8cb;line-height:52px;font-weight:500;letter-spacing:-0.5px;}
+.cmc_eduCont .boxCont>li .txt {height:58px;line-height:58px;color:#555;letter-spacing:-0.5px;}
+
+.cir_character {position:relative;margin-top:85px;padding-bottom:35px;font-size:0;}
+.cir_character .cirWrap {position:relative;display:inline-block;box-sizing:border-box;vertical-align:top;font-size:0;}
+.cir_character .cirWrap1 {width:663px;padding-left:160px;}
+.cir_character .cirWrap .cir {position:relative;width:180px;height:180px;border-radius:50%;background:#69b848;z-index:2;}
+.cir_character .cirWrap .cir>p {display:table;width:100%;height:100%;text-align:center;}
+.cir_character .cirWrap .cir>p>span {display:table-cell;color:#fff;font-size:18px;letter-spacing:-0.5px;vertical-align:middle;}
+.cir_character .cirWrap1:before {content:'';display:block;position:absolute;left:105px;width:545px;height:250px;background:#fff url(../img/dept/bachelor/bg_plus.png)  no-repeat center;border:1px solid #69b848;box-sizing:border-box;border-radius:150px;z-index:1;}
+.cir_character .cirWrap1 .cir {display:inline-block;margin-top:32px;}
+.cir_character .cirWrap1 .cir+.cir {margin-left:80px;}
+.cir_character .cirWrap2 {width:calc(100% - 663px);}
+.cir_character .cirWrap2:before {content:'';display:block;position:absolute;top:50%;left:-50px;margin-top:-0.5px;width:50%;height:1px;background:#c5c8cb;z-index:0;}
+.cir_character .cirWrap2 .cir:after {content:'';display:block;position:absolute;top:50%;left:-7.5px;margin-top:-7.5px;width:15px;height:15px;background:#ff8315;box-sizing:border-box;border:2px solid #fff;border-radius:50%;z-index:5;}
+.cir_character .cirWrap2 .cir {width:250px;height:250px;margin:0 auto;background:#ff8315;}
+
+.office_info.ee .list_icoInfo>li.etc {height:200px;}
+
+.smart_strategy .boxTit {padding:16px 10px;margin-bottom:20px;background:#ff8315;box-sizing:border-box;font-size:18px;letter-spacing:-0.5px;color:#fff;text-align:center;}
+.smart_strategy .arrowTit {padding-top:65px;background:url(../img/dept/arrowTit_bg.png) no-repeat left 50% bottom 0;font-size:18px;letter-spacing:-0.5px;text-align:center;font-weight:500;}
+.smart_strategy .boxTit.green {margin-top:50px;background:#69b848;}
+.smart_strategy {margin-top:32px;}
+.smart_strategy .taskArea>li {position:relative;width:380px;margin-right:60px;height:170px;}
+.smart_strategy .taskArea>li:nth-child(1) .grayTit {height:75px;background:#dcdfe3;text-align:center;font-weight:500;letter-spacing:-0.5px;line-height:75px;}
+.smart_strategy .taskArea>li:nth-child(1) .grayTit+.grayTit {margin-top:21px;}
+.smart_strategy .taskArea>li:nth-child(2),
+.smart_strategy .taskArea>li:nth-child(3) {width:calc(50% - 230px);border:1px solid #d9d9d9;box-sizing:border-box;margin-right:0;}
+.smart_strategy .taskArea>li:nth-child(2) {margin-right:20px}
+.smart_strategy .taskArea>li.grayBox .tit {height:54px;border-bottom:1px solid #d9d9d9;box-sizing:border-box;text-align:center;line-height:54px;font-weight:500;}
+.smart_strategy .taskArea>li.grayBox .cont {padding:15px 10px;box-sizing:border-box;}
+.smart_strategy .taskArea>li.grayBox .cont .list_dotGreen {margin:0 auto;}
+.smart_strategy .taskArea>li:nth-child(2) .list_dotGreen {width:auto;}
+.smart_strategy .taskArea>li:nth-child(3) .list_dotGreen {width:auto;}
+.smart_strategy .taskArea>li:nth-child(1):before {content:'';display:block;position:absolute;top:50%;margin-top:-24px;right:-50px;width:40px;height:48px;background:url(../img/dept/arrR_hexagon.png) no-repeat center;}
+
+.car_eduTarget {max-width:835px;margin:50px auto 20px auto;font-size:0;}
+.car_eduTarget .boxList {display:inline-block;width:calc(100% - 340px);margin-right:160px;vertical-align:top;}
+.car_eduTarget .boxList .tit {padding:15px 10px;background:#a7bf04;box-sizing:border-box;text-align:center;color:#fff;font-weight:500;letter-spacing:-0.5px;}
+.car_eduTarget .boxList .cont {position:relative;width:100%;padding:16px 10px;box-sizing:border-box;border:1px solid #c5c8cb;background:#fff;border-top:0;z-index:3;}
+.car_eduTarget .boxList>li {position:relative;}
+.car_eduTarget .boxList>li:before {content:'';display:block;position:absolute;right:-40px;top:50%;width:40px;height:1px;background:#c5c8cb}
+.car_eduTarget .boxList>li:last-child:after {display:none;}
+.car_eduTarget .boxList>li:after {content:'';display:block;position:absolute;right:-40px;top:50%;height:calc(100% + 20px);width:1px;background:#c5c8cb;}
+.car_eduTarget .boxList>li:nth-child(1) .cont>ul {width:250px;margin:0 auto;}
+.car_eduTarget .boxList>li:nth-child(2) .cont>ul {width:320px;margin:0 auto;}
+.car_eduTarget .boxList>li:nth-child(3) .cont>ul {width:240px;margin:0 auto;}
+.car_eduTarget .boxList>li+li {margin-top:20px}
+.car_eduTarget .targetCir {position:relative;display:inline-block;width:180px;height:180px;margin-top:140px;border-radius:50%;background:#69b848;vertical-align:top;}
+.car_eduTarget .targetCir:before {content:'';display:block;position:absolute;left:-300px;top:50%;width:300px;height:1px;background:#c5c8cb;z-index:1;}
+.car_eduTarget .targetCir:after {content:'';display:block;position:absolute;left:-8px;top:50%;width:15px;height:15px;margin-top:-7.5px;border:3px solid #fff;border-radius:50%;box-sizing:border-box;background:#69b848;z-index:5;}
+.car_eduTarget .targetCir>p {display:table;width:100%;height:100%;text-align:center;}
+.car_eduTarget .targetCir>p>span {display:table-cell;vertical-align:middle;color:#fff;font-size:18px;}
+
+.chemical_intro {font-size:0;margin-top:60px;margin-bottom:30px;}
+.chemical_intro .boxInfo {position:relative;display:inline-block;width:290px;vertical-align:top;}
+.chemical_intro .boxInfo:before {content:'';display:block;position:absolute;top:210px;left:110px;width:400px;height:1px;background:#a7bf04;z-index:1;}
+.chemical_intro .boxInfo.deepGreen:before {left:-210px;background:#69b848;z-index:1;}
+.chemical_intro .boxInfo .tit {padding:13px 10px;margin-bottom:20px;background:#a7bf04;color:#fff;letter-spacing:-0.5px;font-weight:500;text-align:center;}
+.chemical_intro .boxInfo.deepGreen .tit {background:#69b848;}
+.chemical_intro .boxInfo .cont {position:relative;height:270px;padding:15px 10px;background:#fff;border:1px solid #a7bf04;box-sizing:border-box;text-align:center;color:#555;font-weight:500;letter-spacing:-1px;line-height:1.7em;z-index:3;}
+.chemical_intro .boxInfo.deepGreen .cont {border-color:#69b848}
+.chemical_intro .cirInfo {position:relative;display:inline-block;width:calc(100% - 580px);vertical-align:top;z-index:3;}
+.chemical_intro .cirInfo:before {content:'';display:block;position:absolute;left:65px;top:211px;margin-top:-24px;width:40px;height:48px;background:url(../img/dept/spe_bachelor/chemical_arrR.png) no-repeat;}
+.chemical_intro .cirInfo:after {content:'';display:block;position:absolute;right:65px;top:211px;margin-top:-24px;width:40px;height:48px;background:url(../img/dept/spe_bachelor/chemical_arrL.png) no-repeat;}
+.chemical_intro .cirInfo .cir {width:180px;height:180px;margin:120px auto 0 auto;border-radius:50%;background:#ff8315;}
+.chemical_intro .cirInfo .cir>p {display:table;width:100%;height:100%;text-align:center;}
+.chemical_intro .cirInfo .cir>p>span {display:table-cell;vertical-align:middle;color:#fff;font-size:18px;letter-spacing:-0.5px;font-weight:500}
+.chemical_intro .arrowTit {height:112px;margin-top:10px;background:url(../img/dept/spe_bachelor/arrTit.png) no-repeat center;font-size:18px;letter-spacing:-0.5px;text-align:center;font-weight:500;line-height:112px;}
+
+/* 계약학과 */
+.cbe_mean b.txtSt1 {display:block;margin-top:20px;margin-bottom:3px;font-weight:500;}
+.cbe_mean .contTit_m {margin-bottom:17px;}
+.subway_img {margin-top:0px;padding:50px 70px;border:1px solid #d9d9d9;box-sizing:border-box;text-align:center;}
+.cbe_mean .subInfo {display:block;margin-top:3px;padding-left:69px;}
+.cbe_mean .info {margin-top:20px;margin-bottom:15px;letter-spacing:-0.5px;}
+.cbe_mean .nextList {position:relative;width:calc(100% + 60px);margin-left:-60px;}
+.cbe_mean .nextList>li {width:calc(33.333% - 60px);margin-left:60px;}
+.cbe_mean .nextList>li:before {content:'';display:block;position:absolute;right:-37px;top:50%;margin-top:-12px;width:12px;height:24px;background:url(../img/ipsi/ipsiCont/nextList_arrR.png) no-repeat;}
+.cbe_mean .nextList>li .grayTit {height:54px;line-height:54px;background:#dcdfe3;letter-spacing:-1px;text-align:center;font-weight:500}
+.cbe_mean .nextList>li .cont {height:115px;padding:15px;border:1px solid #c5c8cb;border-top:0;box-sizing:border-box;letter-spacing:-1px;color:#555;}
+.cbe_mean .nextList>li .cont>p {display:table;width:100%;height:100%;text-align:center;}
+.cbe_mean .nextList>li .cont>p>span {display:table-cell;vertical-align:middle;letter-spacing:-1px;color:#555;}
+.cbe_mean .nextList>li .cont ul.list_dotGreen {width:150px;margin:0 auto;}
+.cbe_mean .nextList.listTop>li:nth-child(3):before {right:50%;top:auto;bottom:-33px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+.cbe_mean .nextList.listBtm {margin-top:52px;margin-bottom:15px;}
+.cbe_mean .nextList.listBtm>li .cont {height:57px;}
+.cbe_mean .nextList.listBtm>li:before {background-image:url(../img/ipsi/ipsiCont/nextList_arrL.png)}
+.cbe_mean .nextList.listBtm>li:nth-child(1) {position:absolute;right:0;top:0}
+.cbe_mean .nextList.listBtm>li:nth-child(1):before {display:none;}
+.cbe_mean .nextList.listBtm>li:nth-child(2) {margin-left:calc(33.333% + 60px);}
+.cbe_mean .nextList.listBtm>li:nth-child(3) {position:absolute;left:0;top:0}
+
+.eduRequest .requestStep {width:calc(100% + 44px);margin-left:-44px;margin-top:19px;margin-bottom:27px;}
+.eduRequest .requestStep>li {position:relative;width:calc(16.666% - 44px);height:178px;padding:15px 10px;margin-left:44px;border:1px solid #000;box-sizing:border-box;text-align:center;}
+.eduRequest .requestStep>li:before {content:'';display:block;position:absolute;right:-31px;top:50%;margin-top:-12px;width:12px;height:24px;background:url(../img/ipsi/ipsiCont/nextList_arrR.png) no-repeat;}
+.eduRequest .requestStep>li:last-child:before {display:none;}
+.eduRequest .requestStep>li .stepNum {color:#419639;letter-spacing:-0.5px;}
+.eduRequest .requestStep>li .stepTit {margin-top:31px;margin-bottom:7px;font-weight:500;letter-spacing:-0.5px;font-size:18px;}
+.eduRequest .requestStep>li .stepTxt {position:relative;display:inline-block;color:#555;letter-spacing:-0.5px;}
+.eduRequest .requestStep>li .stepTxt>span {position:absolute;right:-21px;top:2px;font-size:12px;color:#222;}
+.eduRequest .requestStep>li:nth-child(2) .stepTit {margin-top:12px;margin-bottom:1px;}
+.eduRequest .btn {margin:17px 0}
+.eduRequest .list_hyphen li .exclam.small {line-height:1.8em;}
+
+/*교수진소개*/
+.professor.list{}
+.professorListArea{width:100%;height:auto;}
+.professorListArea>ul{width:100%;height:auto;font-size:0}
+.professorListArea>ul>li{display:inline-block;width:calc(50% - 20px);margin:0 40px 40px 0;vertical-align:top;min-height:260px;border:1px solid #d9d9d9;box-sizing:border-box;}
+.professorListArea>ul>li:nth-of-type(2n){margin-right:0px;}
+.professorListArea>ul>li .topName{position:relative;height:56px;width:100%;padding:18px 140px 12px 30px;box-sizing:border-box;background-color:#f5f7f9;border-bottom:1px solid #d9d9d9;box-sizing:border-box;}
+.professorListArea>ul>li .topName>p{font-size:22px;line-height:1em;color:#222;font-weight:500;}
+.professorListArea>ul>li .topName>p>span{font-size:15px;color:#419639;font-weight:normal;display:inline-block;}
+.professorListArea>ul>li .icon.Home {position:absolute;right:113px;top:15px;width:17px;height:19px;background:url(../img/common/program/icon_home.png) no-repeat center center; z-index:10;text-indent:-9999px;}
+.professorListArea>ul>li .icon.eMail{position:absolute;right:75px;top:19px;width:19px;height:15px;background:url(../img/common/program/icon_mail.png) no-repeat center center; z-index:10;text-indent:-9999px;}
+.professorListArea>ul>li .icon.dtl{position:absolute;right:-1px;top:-1px;width:57px;height:57px;background:#a7bf04 url(../img/common/program/icon_plus.png) no-repeat center center; z-index:10;text-indent:-9999px;}
+.professorListArea>ul>li .bottomInfo{width:100%;padding:25px 30px;box-sizing:border-box;font-size:0}
+.professorListArea>ul>li .bottomInfo .imgBox{position:relative;overflow:hidden;width:120px;height:152px;display:inline-block;vertical-align:top;background:#f1f3f5 url(../img/common/program/icon_noImgData.png) no-repeat center center}
+.professorListArea>ul>li .bottomInfo .imgBox>img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:100%;}
+.professorListArea>ul>li .bottomInfo dl{width:calc(100% - 120px);padding:10px 0 0 30px;box-sizing:border-box;display:inline-block;vertical-align:top;font-size:0;}
+.professorListArea>ul>li .bottomInfo dl dt{width:80px;display:inline-block;margin-bottom:10px;padding-right:10px;box-sizing:border-box;vertical-align:top;font-size:16px;color:#222;font-weight:500;line-height:22px;letter-spacing:-0.5px;}
+.professorListArea>ul>li .bottomInfo dl dd{width:calc(100% - 80px);display:inline-block;margin-bottom:10px;vertical-align:top;font-size:16px;color:#555;line-height:22px;word-break:keep-all;}
+.professorListArea>ul>li .bottomInfo dl dt:last-of-type,
+.professorListArea>ul>li .bottomInfo dl dd:last-of-type{margin-bottom:0px;}
+
+.professor.dtl{}
+.professor.dtl .professorListArea{position:relative;}
+.professor.dtl .professorListArea::before{content:"";position:absolute;width:100%;height:1px;top:0;left:0;background-color:#000;z-index:1;}
+.professor.dtl .professorListArea>ul>li{width:100%;margin:0 !important;}
+.professor.dtl .professorListArea>ul>li .icon.Home{right:70px;}
+.professor.dtl .professorListArea>ul>li .icon.eMail{right:30px;}
+.professor.dtl .dtlInfo{width:100%;padding:45px 30px 35px 30px;box-sizing:border-box;border-bottom:1px solid #d9d9d9}
+.professor.dtl .dtlInfo ul{width:100%;font-size:0;}
+.professor.dtl .dtlInfo ul>li{position:relative;width:50%;display:inline-block;vertical-align:top;padding:0 10px 0 0px;margin-bottom:10px;box-sizing:border-box;font-size:0;}
+.professor.dtl .dtlInfo ul>li>span{position:relative;display:inline-block;font-size:16px;color:#222;line-height:22px;padding:0 10px;width:110px;box-sizing:border-box;letter-spacing:-0.5px;vertical-align:top;}
+.professor.dtl .dtlInfo ul>li>span::before{content:"";position:absolute;left:0;top:7px;display:block;width:3px;height:3px;background-color:#69b848;}
+.professor.dtl .dtlInfo ul>li>p{display:inline-block;width:calc(100% - 110px);font-size:16px;color:#555;line-height:22px;letter-spacing:-0.5px;vertical-align:top;}
+
+.btn_Area{width:100%;margin-top:40px;font-size:0px;text-align:center;}
+.btn_Area>.btnC{padding:0px;margin:0 5px;}
+.btn_Area>.btnC>span{min-width:180px;padding:0 20px;box-sizing:border-box;}
+
+.curriculum{}
+.curriculum .dtlOptSelect{position:relative;}
+.curriculum .dtlOptSelect .inp_s{width:185px;height:50px;float:right;margin-top:-60px;}
+.curriculum .bullet{width:15px;height:15px;display:inline-block;border-radius:50%;background-color:#555555;}
+.curriculum .cir{display:inline-block;padding:0 10px;width:auto;min-width:50px;height:26px;line-height:26px;border: 1px solid #a7bf04;color:#a7bf04;box-sizing:border-box;border-radius:15px;letter-spacing:-0.5px;font-size:15px;}
+.curriculum .contTit_s:nth-of-type(n+2){margin-top:40px;}
+
+/*기숙사 입사신청 목록*/
+.dormJoin.list{}
+.dormJoin.list .lineTop_tbArea .lineTop_tb2 thead th,
+.dormJoin.list .lineTop_tbArea .lineTop_tb2 tbody td{border-right:none;}
+.dormJoin.list .lineTop_tbArea .lineTop_tb2 tbody td{color:#555;}
+.C_org{color:#ff8315;}
+.C_green{color:#419639;}
+
+/* 뷰 */
+.dormJoin.view{}
+.dormJoin.view .lineTop_tbArea .lineTop_tbL2 th{text-align:left;background-color:#fff;border-right:none;}
+.dormJoin.view .lineTop_tbArea .lineTop_tbL2 td{text-align:left;color:#555;}
+
+/* 쓰기 */
+.dormJoin.write{}
+.dormJoin.write .lineList_tbW.typeDefault2{margin-top:20px;}
+.dormJoin.write .lineList_tbW.typeDefault2 colgroup>col:nth-child(1),
+.dormJoin.write .lineList_tbW.typeDefault2 colgroup>col:nth-child(3){width:160px;}
+.dormJoin.write .lineList_tbW.typeDefault2 th{background-color:#fff;border-right:none;height:65px;box-sizing:border-box;padding-left:0px;}
+.dormJoin.write .lineList_tbW.typeDefault2 tr td+th{border-left:none;}
+.dormJoin.write .lineList_tbW.typeDefault2 td{height:65px;box-sizing:border-box;border-right:none;padding:10px 15px 10px 10px;box-sizing:border-box;color:#555;}
+.dormJoin.write .lineList_tbW.typeDefault2 td .inp_t,
+.dormJoin.write .lineList_tbW.typeDefault2 td .inp_s{height:50px;}
+.dormJoin.write .lineList_tbW.typeDefault2 td>.inp_r{margin-right:30px;}
+.dormJoin.write .write_guide{margin-top:30px;}
+.dormJoin.write .termsArea{margin-top:30px;}
+.dormJoin.write .selGrp .inp_s {width:80px;}
+.dormJoin.write .selGrp>span {display:inline-block;padding:0 5px;line-height:50px;vertical-align:top;}
+.dormJoin.write .selS {width:160px}
+
+.dtlmultiInfo{font-size:0;width:100%;}
+.dtlmultiInfo>span{position:relative;display:inline-block;vertical-align:middle;padding-right:15px;margin-right:15px;font-size:16px;color:#555;line-height:1em;}
+.dtlmultiInfo>span::before{content:"";position:absolute;right:0;top:1px;width:1px;height:12px;background-color:#d9d9d9;}
+.dtlmultiInfo>span:last-of-type{margin-right:0px;padding-right:0px;}
+.dtlmultiInfo>span:last-of-type::before{display:none;}
+.dtlmultiInfo>span>b{font-weight:500;color:#222;}
+
+.termsArea{width:100%;height:auto;;padding:25px 0 25px 30px;box-sizing:border-box;background-color:#f5f7f9;}
+.termsArea>div{height:195px;padding-right:30px;box-sizing:border-box;overflow-y:auto;}
+.termsArea>div .txt{word-break:keep-all;}
+.termsArea>div .txt:nth-of-type(n+2){margin:10px 0 5px 0;}
+.termsArea>div .list_hyphen{margin:10px 0;}
+
+.termsArea + .CheckArea{margin-top:20px;}
+.termsArea + .CheckArea .inp_c>label{color:#555;}
+
+.etcData{width:100%;font-size:0;}
+.etcData .itemG{width:auto;display:inline-block;vertical-align:middle;width:auto;margin:5px 40px 5px 0;}
+.etcData .itemG:last-of-type{margin-right:0px;}
+.etcData .itemG>span{display:inline-block;font-size:16px;color:#222;vertical-align:middle;margin:0 20px 0 10px;}
+.etcData .itemG>span:last-of-type{margin-right:0px;}
+.etcData .itemG>.inp_t{display:inline-block;width:100px;vertical-align:middle;}
+.etcData .itemG>.inp_t.small{width:80px}
+
+.emailArea{width:100%;font-size:0;}
+.emailArea .inp_t{width:calc(50% - 15px);display:inline-block;vertical-align:middle !important;}
+.emailArea .bar{width:30px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+
+/* label 4글자 기본형 */
+.labelGrp{width:100%;font-size:0}
+.labelGrp .itemG{width:100%;position:relative;margin-bottom:10px;padding-left:70px;box-sizing:border-box;}
+.labelGrp.multi .itemG>label{line-height:24px;top:50%;transform:translate(0,-50%);height:auto;}
+
+.labelGrp .itemG>label{position:absolute;left:0px;top:0;width:70px;height:50px;line-height:50px;font-size:16px;color:#222;letter-spacing:-0.5px;}
+.labelGrp .itemG>.inp_t{vertical-align:middle;}
+.labelGrp .itemG>.inp_t.postNumber{width:160px;}
+.labelGrp .itemG:last-of-type{margin-bottom:0px;}
+.labelGrp .itemG.telNumber{font-size:0;}
+.labelGrp .itemG.telNumber .inp_t{width:100px;display:inline-block;vertical-align:middle !important;}
+.labelGrp .itemG.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+.labelGrp .itemG .inp_r{vertical-align:middle;}
+.labelGrp .itemG .inp_r + .inp_r{margin-left:20px;}
+.labelGrp .itemG.email>.inp_t{width:150px;}
+.labelGrp .itemG.email>.bar{width:20px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+
+/*5글자*/
+.labelGrp.length5 .itemG{padding-left:85px;}
+.labelGrp.length5 .itemG>label{width:85px;}
+
+/*8글자*/
+.labelGrp.length8 .itemG{padding-left:120px;}
+.labelGrp.length8 .itemG>label{width:120px;}
+
+fieldset.telNumber{width:100%;font-size:0;}
+fieldset.telNumber .inp_t{width:100px !important;display:inline-block;vertical-align:middle !important;}
+fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;display:inline-block;vertical-align:middle;}
+
+fieldset.telNumber.half .inp_t{width:calc(33.333% - 13.3333px) !important;}
+
+.pickerPeriod{width:100%;font-size:0;}
+.pickerPeriod .pickerInp{position:relative;width:160px;vertical-align:middle;display:inline-block;}
+.pickerPeriod .pickerInp .date-picker-dateval:link{position:absolute;right:12px;top:17px;margin:0;}
+.pickerPeriod .pickerInp .date-picker-control:link{position:absolute;right:12px;top:17px;margin:0;}
+
+.pickerPeriod .bar{font-size:16px;width:20px;text-align:center;vertical-align:middle;display:inline-block;}
+
+.inp_s.wS,
+.inp_t.wS{width:160px}
+.inp_s.wM,
+.inp_t.wM{width:220px}
+
+.inp_s.wL,
+.inp_t.wL{width:350px}
+
+
+@media all and (max-width:1280px) {
+    /* 컨텐츠 공통 */
+    .pcBr {display:none;} 
+
+    .intro_dept .intro_head .info_tit br {display:none;}
+    .intro_dept .intro_head .info_txt br {display:none;}
+
+    .hexagon_list>li br {display:none;}
+
+    .cir_typeList.col5>li {width:33.333%}
+    .cir_typeList.col5>li+li {padding-left:0}
+    .cir_typeList.col5>li:nth-child(n+4) {margin-top:30px}
+    .cir_typeList.col5>li .cirTit {margin:0 auto;}
+    .cir_typeList.col5>li:before {display:none;}
+
+    /* 계약학과 */
+    .eduRequest .requestStep>li {width:calc(33.333% - 44px)}
+    .eduRequest .requestStep>li:nth-child(n+4)  {margin-top:44px;}
+}
+
+@media all and (max-width:1200px){
+    /* 컨텐츠 공통 */
+    .cir_typeList.col4>li+li {padding-left:30px;}
+    .cir_typeList.col4>li .cirTit {width:140px;height:140px;}
+    .cir_typeList>li+li:before {top:69px}
+    .cir_typeList.col2>li+li:before {top:90px}
+    .cir_typeList.col3>li+li:before {top:90px;}
+
+    .dept_link.col5>ul>li {width:50%;min-height:1px;}
+    .dept_link.col5>ul>li:nth-child(n+3) {margin-top:20px;}
+    .dept_link.col5>ul>li:nth-child(odd) {padding-left:0;}
+    .dept_link.col5>ul>li:nth-child(even):before {display:none;}
+    
+
+
+    /* 학과소개 */
+    .pme.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .aid.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .smart3.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .cmc.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .media.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .pme.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .design3d.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .aid.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .energy.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .car.intro_dept .contactBox>li {min-height:140px}
+    .welfare.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .childec.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+    .design.intro_dept .intro_head .btn {position:inherit;top:0;margin-top:40px;}
+
+    .chemical_intro .cirInfo:before {left:20px}
+    .chemical_intro .cirInfo:after {right:20px}
+
+}   
+
+@media all and (max-width:1041px){
+    /* txt */
+    .contTit_m {font-size:22px;}
+
+    /* 컨텐츠 공통 */
+    .dept_link>ul>li {width:50%;}
+    .dept_link>ul>li:nth-child(n+3) {margin-top:20px;}
+    .dept_link>ul>li:nth-child(odd) {padding-left:0;}
+    .dept_link>ul>li:nth-child(even):before {display:none;}
+
+    .intro_dept .intro_head {padding:0 0 60px 0;}
+    .intro_dept .intro_head .info {min-height:1px;}
+    .intro_dept .intro_head>.img {position:inherit;left:0;top:0;margin-bottom:20px;}
+    .intro_dept .intro_head .btn {position:inherit;left:0;top:0;margin-top:60px !important;}
+
+    .contactBox {width:100%;margin-left:0;}
+    .contactBox>li {width:100%;margin-left:0;}
+    .contactBox>li+li {margin-top:10px;}
+
+    .hexagon_list.col3>li {width:50%;}
+    .hexagon_list.col3>li:nth-child(n+3) {margin-top:30px;}
+
+    .list_icoInfo>li {width:100%;}
+    .list_icoInfo>li .info_tit {display:block;}
+    .list_icoInfo>li.etc {padding-left:148px}
+    .list_icoInfo>li.etc .info_tit {position:inherit;left:0;}
+
+    .cir_typeList.col3>li+li {padding-left:50px;}
+
+    /* 학과소개 */
+    .cmc_eduCont .boxCont>li .txt {height:50px;line-height:inherit;padding:20px 10px;}
+    .cmc_eduCont .boxTit.boxGreen {margin-top:135px;}
+    .cmc_eduCont .boxTit.boxGreen:before {top:-100px;}
+
+    .cir_character {margin-top:45px;}
+    .cir_character .cirWrap1 {width:372px;padding-left:40px;}
+    .cir_character .cirWrap1:before {width:384px;height:168px;left:13px;top:19px;}
+    .cir_character .cirWrap2 {width:calc(100% - 372px);}
+    .cir_character .cirWrap1 .cir {width:140px;height:140px;}
+    .cir_character .cirWrap2 .cir {width:210px;height:210px;}
+    .cir_character .cirWrap1 .cir+.cir {margin-left:50px;}
+    .cir_character .cirWrap .cir>p>span {font-size:17px;letter-spacing:-1px;}
+
+    .smart_strategy .taskArea>li {width:100%;height:auto;}
+    .smart_strategy .taskArea>li:nth-child(1) {margin-right:0;margin-bottom:70px;}
+    .smart_strategy .taskArea>li:nth-child(1):before {background-image:url(../img/dept/arrB_hexagon.png);right:auto;left:50%;margin-left:-20px;top:auto;bottom:-60px;}
+    .smart_strategy .taskArea>li:nth-child(2),
+    .smart_strategy .taskArea>li:nth-child(3) {width:calc(50% - 10px)}
+    .smart_strategy .taskArea>li:nth-child(1) .grayTit {height:auto;padding:16px 10px;line-height:inherit;}
+
+    .car.intro_dept .contactBox>li {min-height:1px;}
+    .car.intro_dept .cir_typeList>li .cirTit>p>span {letter-spacing:-1px;}
+    .car_eduTarget .targetCir {margin-top:136px}
+
+    .chemical_intro .boxInfo {width:100%;}
+    .chemical_intro .cirInfo{width:100%;}
+    .chemical_intro .cirInfo .cir {margin:100px auto 100px auto;}
+    .chemical_intro .boxInfo .cont {height:auto;padding:10px;line-height:1.4em;}
+    .chemical_intro .boxInfo .tit {margin-bottom:10px;}
+    .chemical_intro .boxInfo:before {width:1px;height:100px;left:50%;top:auto;bottom:-100px;}
+    .chemical_intro .boxInfo.deepGreen:before {width:1px;height:100px;left:50%;top:-100px;}
+    .chemical_intro .cirInfo:before {width:48px;height:40px;left:50%;margin-left:-24px;top:30px;margin-top:0px;background-image:url(../img/dept/spe_bachelor/chemical_arrB.png);}
+    .chemical_intro .cirInfo:after {width:48px;height:40px;left:50%;margin-left:-24px;bottom:30px;top:auto;margin-top:0px;background-image:url(../img/dept/spe_bachelor/chemical_arrT.png);}
+
+	
+	/*교수진소개*/
+    .professorListArea>ul>li{width:calc(50% - 10px);margin:0 20px 20px 0;}
+    .professorListArea>ul>li .topName{padding-left:20px;}
+    .professorListArea>ul>li .bottomInfo{padding:20px;}
+    .professorListArea>ul>li .bottomInfo dl{padding-left:20px;}
+    
+    .professor.dtl .dtlInfo ul>li{width:100%;}
+    
+    /*기숙사 입사신청 목록*/
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 colgroup{display:none;}
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 thead{display:none;}
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 tr{display:block;width:100%;border-bottom:1px solid #dddfe5;font-size:0;padding:5px 0;}
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 td{display:inline-block;width:auto;border:none;height:auto;box-sizing:border-box;padding:5px 10px;vertical-align:top;}
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 td:nth-child(1){width:50px;}
+    .dormJoin.list .lineTop_tbArea .lineTop_tb2 td:nth-child(2){width:calc(100% - 50px);}
+
+    .dormJoin.write .selGrp .inp_s {width:60px;}
+    
+    .inp_s.wM,
+    .inp_t.wM{width:100%;}
+    
+    fieldset.telNumber .inp_t{width:calc(33.333% - 13.3333px) !important;}
+    
+    .inp_s.wL,
+    .inp_t.wL{width:100%}
+}
+
+@media all and (max-width:850px){
+    .professorListArea>ul>li .bottomInfo dl dt{display:block;width:100%;margin-bottom:5px !important;padding-right:0px;}
+    .professorListArea>ul>li .bottomInfo dl dd{display:block;width:100%;}
+}
+
+@media all and (max-width:768px){
+       /* txtStyle */
+    .titSt0 {font-size:28px;}
+    .titSt1 {font-size:25px;}
+    .titSt2 {font-size:21px;}
+    .titSt3 {font-size:20px;}
+    .titSt5 {font-size:18px;}
+    .titSt6 {font-size:17px;}
+    .titSt7 {font-size:23px;}
+    .titSt8 {font-size:35px;}
+
+    .txtSt1 {font-size:16px;}
+    .txtSt2 {font-size:17px;}
+
+    .contTit_m {font-size:17px;}
+
+    /* 컨텐츠 공통 */
+    .intro_dept .titSt8+p.exclam {margin-top:-10px;margin-bottom:20px;letter-spacing:-0.5px;}
+
+    .deptWrap .contTit_m {margin:30px 0 5px 0}
+    .deptWrap .contTit_m+ul.list_dotGreen {margin-top:7px;}
+    .deptWrap .lineTop_tbArea {margin-top:15px;}
+    .deptWrap .contTit+.contTit_m {margin-top:15px;}
+
+    .dept_link {padding:15px 20px;}
+    .dept_link>ul>li {width:100%;padding-left:0;}
+    .dept_link>ul>li:before {display:none;}
+    .dept_link>ul>li .goLink+.goLink {margin-top:6px;}
+    .dept_link>ul>li+li {margin-top:5px !important;}
+    .dept_link.col5>ul>li {width:100%;padding-left:0;}
+    .dept_link.col5>ul>li+li {margin-top:20px !important;}
+    .dept_link>ul>li>b {margin-bottom:5px;font-size:16px;}
+    .dept_link>ul>li .link_s>li>a {font-size:13px;}
+
+    .intro_dept .titSt8 {margin-top:30px;}
+    .intro_dept .intro_head{padding:0 0 30px 0;}
+    .intro_dept .intro_head>.img img {max-width:300px;width:100%;}
+    .intro_dept .intro_head .info_tit {margin-bottom:10px;font-size:24px;}
+    .intro_dept .intro_head .info_txt {font-size:14px;}
+    .intro_dept .intro_head .btn {margin-top:20px !important;}
+    
+    .contactBox>li {min-height:1px;padding:20px 20px 20px 90px;background-size:auto 35px !important;background-position:left 25px top 50% !important;}
+    .contactBox>li .tit {font-size:16px;}
+
+    .hexagon_list {margin-top:20px;}
+    .hexagon_list>li {width:100% !important;margin-right:0;}
+    .hexagon_list>li+li {margin-top:15px !important}
+    .hexagon_list>li .num {position:relative;width:25px;height:14.43px;background-color:#a7bf04;margin:7.22px 0;line-height:16px;font-size:15px;}
+    .hexagon_list>li .num:before,
+    .hexagon_list>li .num:after {content:"";position:absolute;width:0;border-left:12.5px solid transparent;border-right:12.5px solid transparent;}
+    .hexagon_list>li .num:before {top:auto;bottom:100%;border-bottom:7.22px solid #a7bf04;}
+    .hexagon_list>li .num:after {top:100%;width:0;border-top:7.22px solid #a7bf04;}
+    .hexagon_list>li .tit {margin-top:18px;font-size:16px;}
+
+    .list_icoInfo>li {width:100%;height:auto;padding:20px 10px 20px 100px;background-size:60px auto;background-position:left 20px top 13px;}
+    .list_icoInfo>li .info_tit {font-size:16px;}
+    .list_icoInfo>li.etc {padding-left:100px;}
+
+    .cir_typeList>li {display:block;padding-left:0 !important;}
+    .cir_typeList>li+li {margin-top:30px !important}
+    .cir_typeList>li .cirTit {width:135px;height:135px;margin:0 auto;}
+    .cir_typeList>li .cirTit>p>span {font-size:16px;}
+    .cir_typeList>li+li:before {display:none;}
+    .cir_typeList.col5>li {width:100%;}
+    .cir_typeList>li .cirTxt {font-size:13px;}
+
+    .addressArea .postNumber{width:calc(100% - 130px) !important;}
+    .addressArea .btnM{width:120px;height:40px;line-height:40px;}
+    .addressArea .inp_t:not(.postNumber){width:100% !important;}
+    .btnM{height:45px;line-height:45px;font-size:14px;padding:0 10px;min-width:0;}
+
+    /* 기숙사 신청 */
+    .dormJoin.write .selGrp>span {line-height:40px;}
+    
+    /* 학과소개 */
+    .cmc_eduCont {margin-top:20px;}
+    .cmc_eduCont .boxTit {padding:12px 10px;margin-bottom:10px;font-size:16px;}
+    .cmc_eduCont .boxTit>strong {margin-top:5px;font-size:20px;}
+    .cmc_eduCont .boxTit.boxGreen:before {top:-65px}
+    .cmc_eduCont .boxTit.boxGreen {margin-top:80px;}
+    .cmc_eduCont .boxCont {width:100%;margin-left:0;}
+    .cmc_eduCont .boxCont>li {width:100%;margin-left:0;}
+    .cmc_eduCont .boxCont>li+li {margin-top:10px;}
+    .cmc_eduCont .boxCont>li .tit {height:auto;padding:10px;line-height:inherit;}
+    .cmc_eduCont .boxCont>li .txt {height:auto;padding:15px 10px;}
+    .cmc_eduCont .boxTit.boxYellowGreen{margin-top:25px;}
+
+    .cir_character .cirWrap1 {width:100%;padding-left:0;}
+    .cir_character .cirWrap1:before {width:145px;height:334px;top:-22px;left:50%;margin-left:-72.5px;}
+    .cir_character .cirWrap1 .cir {display:block;width:120px;height:120px;margin:0 auto !important;}
+    .cir_character .cirWrap1 .cir+.cir {margin-top:50px !important}
+    .cir_character .cirWrap2 {width:100%;margin-top:60px;}
+    .cir_character .cirWrap2 .cir {width:160px;height:160px;margin:0 auto;}
+    .cir_character .cirWrap .cir>p>span {font-size:16px;}
+    .cir_character .cirWrap2 .cir:after {left:50%;margin-left:-7.5px;top:-7.5px;margin-top:0;}
+    .cir_character .cirWrap2:before {width:1px;height:50%;left:50%;margin-left:-0.5px;margin-top:0;top:-50px;}
+
+    .office_info.ee .list_icoInfo>li.etc {height:auto;}
+
+    .smart_strategy .boxTit {padding:10px 5px;font-size:16px;}
+    .smart_strategy .taskArea>li:nth-child(1) .grayTit {padding:10px 5px;}
+    .smart_strategy .arrowTit {padding-top:40px;background-size:contain;background-position:left 50% top 0;font-size:16px;}
+    .smart_strategy .boxTit.green {margin-top:25px;margin-bottom:10px;}
+    .smart_strategy .taskArea>li:nth-child(1) .grayTit+.grayTit {padding:10px 5px;margin-top:10px;}
+    .smart_strategy .taskArea>li:nth-child(2),
+    .smart_strategy .taskArea>li:nth-child(3) {width:100%;}
+    .smart_strategy .taskArea>li:nth-child(2) {margin-bottom:10px;}
+    .smart_strategy .taskArea>li.grayBox .tit {height:35px;line-height:35px;}
+    .smart_strategy .taskArea>li.grayBox .cont {padding:10px;}
+    .chemical_intro .cirInfo .cir {width:130px;height:130px;}
+    .chemical_intro .cirInfo .cir>p>span {font-size:16px;}
+    .chemical_intro .arrowTit {padding-top:40px;margin-top:0;background-size:contain;height:auto;font-size:16px;line-height:inherit;}
+
+    .chemical_intro {margin-top:30px;}
+    .chemical_intro .boxInfo .tit {padding:10px;}
+
+    .car_eduTarget {margin:25px 0 10px 0;}
+    .car_eduTarget .boxList {width:100%;}
+    .car_eduTarget .boxList>li:before {display:none;}
+    .car_eduTarget .boxList>li:after {display:none;}
+    .car_eduTarget .targetCir {display:block;margin:0 auto;}
+    .car_eduTarget .boxList .tit {position:relative;padding:10px;z-index:3;}
+    .car_eduTarget .boxList .cont {padding:10px;}
+    .car_eduTarget .boxList>li .cont>ul {width:100% !important}
+    .car_eduTarget .targetCir {width:120px;height:120px;margin-top:100px;}
+    .car_eduTarget .targetCir>p>span {font-size:16px;letter-spacing:-1px;}
+    .car_eduTarget .targetCir:after {width:12px;height:12px;top:-6px;margin-top:0;left:50%;margin-left:-6px;border-width:2px;}
+    .car_eduTarget .targetCir:before {width:1px;height:400px;left:50%;top:auto;bottom:120px;}
+	
+    .professorListArea>ul>li{width:100%; margin:0 0 20px 0 !important;min-height:0;}
+    .professorListArea>ul>li .topName{height:40px;padding:12px 125px 10px 20px}
+    .professorListArea>ul>li .topName>p{font-size:18px;}
+    .professorListArea>ul>li .topName>p>span{font-size:13px;}
+    .professorListArea>ul>li .icon.dtl{width:41px;height:41px;}
+    .professorListArea>ul>li .icon.eMail{right:60px;top:13px;}
+    .professorListArea>ul>li .icon.Home{right:96px;top:9px;}
+    .professorListArea>ul>li .bottomInfo .imgBox{width:100px;height:125px;}
+    .professorListArea>ul>li .bottomInfo dl{padding:5px 0 0 15px;width:calc(100% - 100px)}
+    .professorListArea>ul>li .bottomInfo dl dt,
+    .professorListArea>ul>li .bottomInfo dl dd{font-size:14px;}
+    
+    .professor.dtl .dtlInfo{padding:20px;}
+    .professor.dtl .dtlInfo ul>li{padding-right:0px;}
+    .professor.dtl .dtlInfo ul>li>span{display:block;width:100%;margin-bottom:0px;font-size:14px;}
+    .professor.dtl .dtlInfo ul>li>p{display:block;padding-left:10px;width:100%;font-size:14px;}
+    .professor.dtl .professorListArea>ul>li .icon.eMail{right:15px;}
+    .professor.dtl .professorListArea>ul>li .icon.Home{right:50px;}
+    .btn_Area{margin-top:30px;}
+    .btn_Area>.btnC>span{min-width:80px;}
+
+    /* 계약학과 */
+    .subway_img {padding:10px;}
+
+    .cbe_mean .nextList {width:100%;margin-left:0px;}
+    .cbe_mean .nextList>li {position:relative !important;width:100%;margin-left:0 !important}
+    .cbe_mean .nextList>li+li {margin-top:30px;}
+    .cbe_mean .nextList.listBtm {margin-top:0px;}
+    .cbe_mean .nextList>li .grayTit {height:40px;line-height:40px;}
+    .cbe_mean .nextList>li .cont {height:auto;padding:10px;}
+    .cbe_mean .nextList>li:before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .cbe_mean .nextList.listTop>li:nth-child(3):before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .cbe_mean .nextList.listBtm>li:nth-child(1) {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .cbe_mean .nextList.listBtm>li:before {right:50%;top:auto;bottom:-23px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .cbe_mean .nextList.listBtm>li:last-child:before {display:none;}
+    .cbe_mean b.txtSt1 {margin-top:12px;}
+    .cbe_mean .nextList {margin-top:15px;}
+
+    .eduRequest .requestStep {width:100%;margin-left:0}
+    .eduRequest .requestStep>li {width:100%;margin-left:0;height:auto;padding:20px;}
+    .eduRequest .requestStep>li .stepTit {margin-top:7px !important}
+    .eduRequest .requestStep>li+li {margin-top:25px !important}
+    .eduRequest .requestStep>li:before {right:50%;top:auto;bottom:-21px;margin-right:-12px;width:24px;height:12px;background:url(../img/ipsi/ipsiCont/nextList_arrB.png) no-repeat}
+    .eduRequest .requestStep>li:nth-child(3):before {display:block;}
+    .eduRequest .btn {margin:10px 0}
+    .cbe_mean .subInfo {padding-left:0}
+    
+    .curriculum .contTit_s:nth-of-type(n+2){margin-top:20px;}
+    .curriculum .cir{font-size:13px;}
+    
+    .curriculum .dtlOptSelect .inp_s{float:none;margin:0 0 15px;width:100%;height:40px;}
+    
+    .termsArea{padding:20px 0 20px 20px;}
+    .termsArea>div{padding-right:20px;height:150px}
+    .CheckArea + .CheckArea{margin-top:15px;}
+    
+    .dormJoin.write .write_guide{margin-top:20px;}
+    .dormJoin.write .lineList_tbW.typeDefault2 td .inp_t, 
+    .dormJoin.write .lineList_tbW.typeDefault2 td .inp_s{height:40px}
+    
+    .dormJoin.write .lineList_tbW.typeDefault2{margin-top:10px;}
+    .dormJoin.write .lineList_tbW.typeDefault2 th{height:auto;}
+    .dormJoin.write .lineList_tbW.typeDefault2 td{height:auto;padding:0;}
+    .dormJoin.write .lineList_tbW.typeDefault2 td>.inp_r{margin-right:20px;}
+    
+    .etcData .itemG{width:100%;margin:10px 0px;font-size:0;}
+    .etcData .itemG>.inp_t{width:80px;}
+    .etcData .itemG>span{font-size:13px;}
+    .etcData .itemG>.inp_t.small{width:60px;}
+    
+    .labelGrp .itemG{margin:10px 0;padding-left:60px;}
+    .labelGrp .itemG>label{width:60px; height:40px;line-height:40px;font-size:13px;}
+    .labelGrp .itemG>.inp_t.postNumber{width:100%;}
+    .labelGrp .itemG .inp_r + .inp_r{margin:10px;}
+    
+    .labelGrp .itemG.telNumber .inp_t{width:calc(33.333% - 13.333px);}
+    
+    .labelGrp.length5 .itemG{padding-left:70px;}
+    .labelGrp.length5 .itemG>label{width:70px}
+    
+    .labelGrp.length8 .itemG{padding-left:90px;}
+    .labelGrp.length8 .itemG>label{width:90px;}
+    
+    .inp_s.wS,
+    .inp_t.wS{width:100%;}
+    
+    .dtlmultiInfo>span{margin:0px 0 10px;padding-right:0px;font-size:13px;display:block;}
+    .dtlmultiInfo>span::before{display:none;}
+
+    .pickerPeriod .pickerInp{width:calc(50% - 15px);}
+    .pickerPeriod .pickerInp .date-picker-dateval:link{top:11px;}
+    .pickerPeriod .pickerInp .date-picker-control:link{top:11px;}
+}

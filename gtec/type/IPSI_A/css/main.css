@@ -1,0 +1,309 @@
+@charset "utf-8";
+.typeMain #container{padding-top:150px;}
+
+
+/*상단 슬라이드*/
+.mVisual{position:relative;width:100%;height:auto;}
+.mVisual .sliderArea{max-width:1920px;width:100%;margin:0 auto;}
+.mVisual .sliderArea .item{position:relative;display:block;width:100%;height:574px;overflow:hidden;}
+.mVisual .sliderArea .item > a{display:block;width:100%;height:100%;}
+/*.mVisual .sliderArea .item > a:focus .textArea{outline:1px solid blue}*/
+.mVisual .sliderArea .item .imgBox{position:absolute;width:1920px;left:50%;top:0;transform:translate(-50%,0);-webkit-transform:translate(-50%,0)}
+.mVisual .sliderArea .item .imgBox .mobile{display:none;}
+.mVisual .sliderArea .item .textArea{position:relative;max-width:1240px;width:100%;margin:0 auto;padding:0 30px;box-sizing:border-box;top:220px;z-index:1;}
+.mVisual .sliderArea .item .textArea .lv1{position:relative;opacity:0;top:15px;font-size:45px;letter-spacing:-2px;color:#fff;line-height:45px;font-weight:300;}
+.mVisual .sliderArea .item .textArea .lv1>b{font-size:inherit;letter-spacing:inherit;color:inherit;line-height:inherit;font-weight:bold;}
+.mVisual .sliderArea .item .textArea .lv2{position:relative;opacity:0;top:20px;margin-top:25px;font-size:20px;letter-spacing:-1px;color:#fff;line-height:30px;}
+
+.mVisual .mVisualDot{position:absolute;top:115px;left:0;max-width:100%;width:100%;margin:0 auto;text-align:center;}
+.mVisual .mVisualDot .slick-dots{width:100%;max-width:1240px;display:inline-block;padding:0 30px;box-sizing:border-box;text-align:left;font-size:0;}
+.mVisual .mVisualDot .slick-dots li{position:relative;width:auto;display:inline-block;border-bottom:1px solid rgba(255,255,255, 0.3);}
+.mVisual .mVisualDot .slick-dots li::before{content:"";position:absolute;left:0;bottom:-1px;display:block;width:0;height:1px;background-color:#fff;transition:width 0.4s;}
+.mVisual .mVisualDot .slick-dots li:last-of-type .default{padding-right:20px;}
+.mVisual .mVisualDot .slick-dots li .default{position:relative;padding:0 30px 25px 0;font-size:23px;line-height:1em;color:rgba(255,255,255,0.6);font-weight:300;letter-spacing:-0.5px;}
+.mVisual .mVisualDot .slick-dots li.slick-active::before{width:100%}
+.mVisual .mVisualDot .slick-dots li.slick-active .default{color:#fff;font-size:24px;font-weight:500;}
+
+
+.mTit{display:block;margin-bottom:25px;font-size:26px;color:#222;line-height:1em;letter-spacing:-0.5px;font-weight:bold;}
+.mContArea{width:100%;height:auto;}
+.mContArea.line1{padding:55px 0 80px 0;background-color:#fff;}
+.mContArea.line2{padding:55px 0 80px 0;background-color:#edeef0;}
+.mContArea.line3{padding:60px 0 120px 0;background-color:#17232f;}
+.innerCont{width:100%;max-width:1240px;padding:0 30px;box-sizing:border-box;margin:0 auto;font-size:0;}
+.innerCont .half{width:100%;font-size:0;}
+.innerCont .half .mNotice{position:relative;display:inline-block;width:calc(100% - 410px);margin-right:60px;box-sizing:border-box;vertical-align:top;font-size:0;}
+.innerCont .half .mIpsiServices{position:relative;display:inline-block;width:350px;box-sizing:border-box;vertical-align:top;font-size:0;}
+
+/* mNotice */
+.mNotice .mTit{margin-bottom:40px;}
+.mNotice .tabBtn{width:100%;height:auto;font-size:0;}
+.mNotice .tabBtn .default{display:inline-block;width:16.666%;height:48px;border:1px solid #eaeaea;padding-top:2px;box-sizing:border-box;background-color:#f5f7f9;vertical-align:top;}
+.mNotice .tabBtn .default>span{font-size:15px;color:#222;letter-spacing:-1px;}
+.mNotice .tabBtn .default:nth-of-type(n+2){margin-left:-1px;width:calc(16.666% + 1px);}
+.mNotice .tabBtn .default.on{background-color:#a7bf04;border:1px solid #a7bf04 !important;position:relative; z-index:1;}
+.mNotice .tabBtn .default.on>span{color:#fff;font-weight:500;}
+.mNotice .noticeList{display:none;width:100%;height:272px;padding:20px;box-sizing:border-box;border:1px solid #eaeaea;border-top:none;}
+.mNotice .noticeList.on{display:block;}
+.mNotice .noticeList li{display:block;padding:10px 0;}
+.mNotice .noticeList li>a{position:relative;display:block;padding-left:10px;box-sizing:border-box;height:18px;padding-right:80px;}
+.mNotice .noticeList li>a::before{content:"";position:absolute;left:0;top:6px;width:3px;height:3px;background-color:#69b848;}
+.mNotice .noticeList li>a>span:not(.ico_new){display:inline-block;width:auto;max-width:100%;box-sizing:border-box;font-size:18px;line-height:1em;letter-spacing:-0.5px;color:#222;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;}
+.mNotice .noticeList li>a.new>span:not(.ico_new){max-width:calc(100% - 30px);}
+.mNotice .noticeList li>a> .ico_new{display:inline-block;max-width:inherit;width:14px;height:16px;background:url(../img/main/new_icon.png) no-repeat center center;background-size:14px auto;text-indent:-9999px;margin-left:3px;vertical-align:-2px;}
+.mNotice .noticeList li>a>time{position:absolute;right:0px;top:0px;display:block;width:80px;text-align:right;font-size:15px;letter-spacing:-0.5px;line-height:1em;color:#555;}
+.mNotice .noticeList .no_article{padding:160px 0 50px 0;background-position:center 30px; background-size:100px auto;}
+.mNotice .plus{position:absolute;right:0;top:0;width:21px;height:21px;border:1px solid #dfdfdf;box-sizing:border-box;background:url(../img/main/icon_noticePlus.png) no-repeat center center;text-indent:-9999px;z-index:1;}
+
+/*입시서비스*/
+.mIpsiServices .mTit{margin-bottom:40px;}
+.mIpsiServices .SliderBtn{position:absolute;right:0;top:0;width:43px;height:21px;z-index:1;font-size:0;}
+.mIpsiServices .SliderBtn .contArr{width:22px;height:22px;border:1px solid #dfdfdf;box-sizing:border-box;display:inline-block;text-indent:-9999px;}
+.mIpsiServices .SliderBtn .contArr.prev{background:url(../img/main/icon_contPrev.png) no-repeat center center;}
+.mIpsiServices .SliderBtn .contArr.next{margin-left:-1px;background:url(../img/main/icon_contNext.png) no-repeat center center;}
+.mIpsiServices .sliderArea{width:100%;height:auto;font-size:0;}
+.mIpsiServices .sliderArea .item{width:100%;height:auto;font-size:0;}
+.mIpsiServices .sliderArea .item>a{position:relative;display:inline-block;width:calc(50% - 5px);height:80px; padding:20px 5px 20px 60px;border-top:1px solid #eaeaea;border-bottom:1px solid #eaeaea; box-sizing:border-box;vertical-align:top;}
+.mIpsiServices .sliderArea .item>a>div{display:table;width:100%;height:100%;}
+.mIpsiServices .sliderArea .item>a:nth-of-type(2n){margin-left:10px;}
+.mIpsiServices .sliderArea .item>a:nth-of-type(n+3){border-top:none;}
+.mIpsiServices .sliderArea .item>a span{font-size:16px;color:#222;line-height:20px;display:table-cell;vertical-align:middle;letter-spacing:-1px;}
+.mIpsiServices .sliderArea .item>a img{position:absolute;left:0;top:calc(50% - 20px);}
+
+/*입학상담안내*/
+.mInfoCh{widows:100%;height:auto;padding:55px 0 0 0;}
+.mInfoCh .chInnerBox{width:100%;border:3px solid #dfe1e2;padding:40px 0;box-sizing:border-box;font-size:0;}
+.mInfoCh .chInnerBox .item{position:relative;width:33.333%;height:74px;display:inline-block;vertical-align:middle;text-align:center;}
+.mInfoCh .chInnerBox .item span{display:inline-block;vertical-align:middle;font-size:20px;line-height:1em;letter-spacing:-1px;color:#222;}
+.mInfoCh .chInnerBox .item img{display:inline-block;vertical-align:middle;margin-right:24px;}
+.mInfoCh .chInnerBox .item::before{content:"";position:absolute;right:0px;top:0;display:block;width:1px;height:100%;background-color:#eaeaea;}
+.mInfoCh .chInnerBox .item:last-of-type::before{display:none;}
+
+.innerItem{position:relative;width:calc(33.333% - 40px);margin-right:60px;display:inline-block;vertical-align:top;}
+.innerItem:nth-of-type(3){margin-right:0px;}
+
+/* 입학정보 */
+.mIpsiInfo{width:100%;height:334px;}
+.mIpsiInfo > a{position:relative;display:table;width:100%;height:98px;padding:0 100px 0 40px;box-sizing:border-box;background-color:#fff;margin-bottom:20px;}
+.mIpsiInfo > a:last-of-type{margin-bottom:0px;}
+.mIpsiInfo > a span{display:table-cell;vertical-align:middle;font-size:20px;color:#222;line-height:1em;letter-spacing:-1px;}
+.mIpsiInfo > a img{position:absolute; right:40px;top:calc(50% - 22px);}
+
+/* 학과소개 */
+.mDeptInfo{width:100%;height:334px;background-color:#419639;padding:15px 40px;box-sizing:border-box;}
+.mDeptInfo > a{display:block;width:100%;padding:25px 30px 25px 0;box-sizing:border-box;border-bottom:1px solid rgba(255,255,255, 0.15);background:url(../img/main/icon_mDeptInfoArr.png) no-repeat right center;}
+.mDeptInfo > a span{font-size:20px;color:#fff;letter-spacing:-1px;line-height:1em;}
+.mDeptInfo > a:last-of-type{border-bottom:none;}
+
+/*WHY GTEC*/
+.mWhyGTEC{width:100%;height:auto;}
+.mWhyGTEC .sliderArea{font-size:0;height:334px;}
+.mWhyGTEC .sliderArea .item{width:100%;height:334px;padding:35px 40px;box-sizing:border-box;background-position:center center;background-size:cover}
+.mWhyGTEC .sliderArea .item .itemTit{font-size:30px;line-height:36px;color:#fff;font-weight:300;margin-bottom:18px;letter-spacing:-1px;}
+.mWhyGTEC .sliderArea .item .itemTit>b{font-weight:500;font-size:inherit;line-height:inherit;}
+.mWhyGTEC .sliderArea .item .itemDot{position:relative;padding-left:10px;font-size:15px;color:#fff;line-height:21px;letter-spacing:-0.5px;margin-bottom:10px;} 
+.mWhyGTEC .sliderArea .item .itemDot::before{content:"";position:absolute;left:0;top:8px;display:block;width:3px;height:3px;background-color:#69b848;}
+.mWhyGTECsliderDot{position:absolute;width:100%;right:0;top:10px;text-align:right;}
+.mWhyGTECsliderDot .slick-dots{width:100%;text-align:right;font-size:0;}
+.mWhyGTECsliderDot .slick-dots li{width:auto;display:inline-block;vertical-align:middle;margin-right:10px;}
+.mWhyGTECsliderDot .slick-dots li:last-of-type{margin-right:0;}
+.mWhyGTECsliderDot .slick-dots li .default{width:10px;height:10px;border:1px solid #d7d8d9;background-color:rgba(255,255,255,0);text-indent:-9999px;transition:all 0.2s;-webkit-transition:all 0.2s;border-radius:50%;}
+.mWhyGTECsliderDot .slick-dots li.slick-active .default{background-color:#6ab847;border-color:#6ab847;}
+
+/*GTEC pick*/
+.mGTECPick{position:relative;width:100%;}
+.mGTECPick .mTit2{font-size:48px;line-height:1em;color:#fff;letter-spacing:-2px;text-align:center;font-weight:bold;}
+.mGTECPick .grennBtn{position:absolute;right:0;top:0;display:block;width:145px;height:45px;font-size:16px;color:#fff;line-height:45px;background-color:#69b848;text-align:center;z-index:1;}
+.mGTECPick .movieList{width:100%;margin-top:55px;}
+.mGTECPick .movieList strong{margin-bottom:20px;display:block;padding-left:22px;box-sizing:border-box;background:url(../img/main/icon_mGTECPickTit.png) no-repeat left center;font-size:20px;color:#6db327;letter-spacing:-1px;line-height:1em;font-weight:normal;}
+.mGTECPick .movieList ul{width:100%;height:auto;font-size:0;}
+.mGTECPick .movieList ul li{width:calc(25% - 15px);margin-right:20px;height:158px;display:inline-block;vertical-align:top;overflow:hidden;}
+.mGTECPick .movieList ul li:nth-of-type(4n){margin-right:0px;}
+.mGTECPick .movieList ul li>.item{display:block;width:100%;height:100%;position:relative;}
+.mGTECPick .movieList ul li>.item::before{content:"";position:absolute;left:calc(50% - 25px);top:35px;width:50px;height:51px;background:url(../img/main/icon_GTECpickPlay.png) no-repeat center center;z-index:1;}
+.mGTECPick .movieList ul li>.item img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%;height:100%;z-index:0;}
+.mGTECPick .movieList ul li>.item p{position:absolute;bottom:10px;left:0;padding:0 20px;box-sizing:border-box;font-size:22px;color:#fff;letter-spacing:-1px;line-height:30px;font-weight:bold;}
+.mGTECPick .movieList ul li>.item time{position:absolute;right:0;height:20px;width:auto;background-color:#17242e;padding:0 5px;font-size:14px;font-weight:500;letter-spacing:-0.5px;line-height:20px;color:#fff;;}
+
+@media all and (max-width:1150px){
+	.innerCont .half .mNotice{width:calc(100% - 380px); margin-right:30px;}
+	.innerItem{width:calc(33.3333% - 20px);margin-right:30px;}
+	.mIpsiInfo > a{padding-left:30px;}
+	.mWhyGTEC .sliderArea .item{padding:30px;}
+	.mDeptInfo{padding:15px 30px;}
+	.mNotice .tabBtn .default>span{font-size:14px;}
+} 
+
+@media all and (max-width:1041px){
+	.typeMain #container{padding-top:50px;}
+	.mVisual .sliderArea .item{height:400px;}	
+	.mVisual .mVisualDot{top:70px}
+	.mVisual .sliderArea .item .imgBox{width:1330px;height:400px;}
+	.mVisual .sliderArea .item .textArea{top:160px}
+	.mVisual .sliderArea .item .textArea .lv1{font-size:40px;}
+	.mVisual .sliderArea .item .textArea .lv2{font-size:18px;margin-top:15px;}
+	
+	.mContArea.line1{padding:35px 0 60px 0;}
+    .mContArea.line2{padding:40px 0 60px 0;}
+    .mContArea.line3{padding:40px 0 80px 0;}
+    
+	.mIpsiServices .mTit,
+	.mNotice .mTit{margin-bottom:30px;}
+	
+	.mNotice .tabBtn .default{width:33.333%;height:42px;}
+	.mNotice .tabBtn .default:nth-of-type(n+2){width:calc(33.333% + 1px);}
+	.mNotice .tabBtn .default:nth-of-type(4){margin-left:0; width:33.333%;}
+	.mNotice .tabBtn .default:nth-of-type(n+4){margin-top:-1px;}
+	.mNotice .noticeList{padding:10px 20px; height: 237px;}
+	.mNotice .noticeList li>a>span{font-size:16px;}
+	.mNotice .noticeList li>a>time{font-size:14px;}
+	
+	.mInfoCh{padding-top:40px;}
+	.mInfoCh .chInnerBox{padding:30px 0;}
+	.mInfoCh .chInnerBox .item{height:55px;}
+	.mInfoCh .chInnerBox .item img{width:55px;margin-right:15px;}
+	.mInfoCh .chInnerBox .item span{font-size:18px;}
+	
+	.mIpsiInfo{height:304px;}
+	.mIpsiInfo > a{height:88px;padding:0 60px 0 20px;}
+	.mIpsiInfo > a span{font-size:17px;}
+	.mIpsiInfo > a img{width:40px; right:20px;top:calc(50% - 17px)}
+	
+    .mDeptInfo{height:304px;padding:15px 20px;}
+	.mDeptInfo > a{padding:23px 15px 23px 0;}
+    .mDeptInfo > a span{font-size:18px;}
+    
+    .mWhyGTEC .sliderArea{height:304px;}
+    .mWhyGTEC .sliderArea .item{height:304px;padding:20px;}
+    
+    .mGTECPick .movieList{margin-top:40px;}
+    .mGTECPick .movieList ul li{width:calc(25% - 7.5px);margin-right:10px;}
+    .mGTECPick .movieList ul li>.item p{width:100%;padding:0 10px;font-size:16px;line-height:21px;}
+    
+    .mWhyGTEC .sliderArea .item .itemTit{font-size:24px;line-height:30px;}
+}
+
+@media all and (max-width:768px){
+    .mVisual .sliderArea .item{height:350px;}
+    .mVisual .sliderArea .item .imgBox{width:100%;height:350x;}
+    .mVisual .sliderArea .item .imgBox>img{display:none;}
+    .mVisual .sliderArea .item .imgBox .mobile{display:block;width:100%;height:100%;background-size:cover;background-position:center center;}
+    
+    .mVisual .sliderArea .item .textArea{padding:0 20px;top:180px;}
+    .mVisual .sliderArea .item .textArea .lv1{font-size:30px;line-height:34px;}
+    .mVisual .sliderArea .item .textArea .lv1>b{display:block;}
+    .mVisual .sliderArea .item .textArea .lv2{font-size:13px;line-height:18px;}
+    
+    .mVisual .mVisualDot{top:125px;}
+    .mVisual .mVisualDot .slick-dots{padding:0 20px;}
+    .mVisual .mVisualDot .slick-dots li{border-bottom:2px solid rgba(255,255,255, 0.3)}
+    .mVisual .mVisualDot .slick-dots li::before{height:2px;bottom:-2px}
+    .mVisual .mVisualDot .slick-dots li .default{font-size:13px;padding:0 20px 10px 0;}
+    .mVisual .mVisualDot .slick-dots li.slick-active .default{font-size:13px;}
+    
+    .mContArea.line1{padding:30px 0 30px 0;}
+    .mContArea.line2{padding:35px 0 45px 0;}
+    .mContArea.line3{padding:30px 0 40px 0;}
+    .innerCont{padding:0 20px;}
+    
+    .mTit{font-size:20px;margin-bottom:15px;}
+    
+    .innerCont .half .mNotice{width:100%;margin:0px 0 30px 0;}
+    
+    .mIpsiServices .mTit, 
+    .mNotice .mTit{margin-bottom:15px;}
+    .mNotice .plus{width:19px;height:19px;top:1px;}
+    
+    .mNotice .tabBtn .default{height:38px;}
+    .mNotice .tabBtn .default>span{font-size:13px;}
+    .mNotice .noticeList{height:200px;padding:15px 20px 10px 20px;}
+    .mNotice .noticeList li{padding:7px 0;}
+    .mNotice .noticeList li>a{padding-right:70px;height:14px;}
+    .mNotice .noticeList li>a>span:not(.ico_new){font-size:14px;}
+    .mNotice .noticeList li>a>time{font-size:13px;width:70px;top:1px;}
+    .mNotice .typeNoArticle{height:125px !important;}
+    .mNotice .noticeList .no_article{padding-top:120px;background-size:60px auto;background-position:center top 40px;}
+    
+    .innerCont .half .mIpsiServices{width:100%;}
+    .mIpsiServices .SliderBtn{text-align:right;}
+    .mIpsiServices .sliderArea .item>a{width:calc(50% - 7.5px);height:57px;padding:0px 5px 0px 30px;}
+    .mIpsiServices .sliderArea .item>a:nth-of-type(2n){margin-left:15px;}
+    .mIpsiServices .sliderArea .item>a img{width:25px;top:calc(50% - 12px);}
+    .mIpsiServices .sliderArea .item>a span{font-size:13px;padding-top:3px;letter-spacing:-0.5px;}
+    .mIpsiServices .sliderArea .item>a span br{display:none;}
+    
+    .mInfoCh{padding-top:30px;}
+    .mInfoCh .chInnerBox{padding:20px 0;border:2px solid #dfe1e2}
+    .mInfoCh .chInnerBox .item{height:85px;margin:0 auto;}
+    .mInfoCh .chInnerBox .item img{display:block;width:38px;margin:0 auto;}
+    .mInfoCh .chInnerBox .item span{width:77px;margin-top:10px;font-size:15px;line-height:19px; word-break:keep-all;}
+    
+    .innerItem{width:100%;margin:0 0 30px 0;}
+    .innerItem:nth-of-type(3){margin-bottom:0px;}
+    
+    .mIpsiInfo{height:auto;}
+    .mIpsiInfo > a{height:50px;margin-bottom:8px;}
+    .mIpsiInfo > a span{font-size:13px;padding-top:2px;}
+    .mIpsiInfo > a img{width:30px;top:50%;transform:translate(0,-50%)}
+    
+    .mDeptInfo{height:auto;padding:3px 20px;}
+    .mDeptInfo > a{padding:13px 10px 13px 0;}
+    .mDeptInfo > a span{font-size:15px;}
+    
+    .mWhyGTECsliderDot{top:5px;}
+    
+    .mWhyGTEC .sliderArea{height:315px;}
+    .mWhyGTEC .sliderArea .item{height:315px;padding:35px 20px;}
+    .mWhyGTEC .sliderArea .item .itemTit{margin-bottom:12px;}
+    .mWhyGTEC .sliderArea .item .itemDot{font-size:14px;margin-bottom:8px;}
+    
+    .mGTECPick .mTit2{text-align:left;font-size:27px;}
+    .mGTECPick .grennBtn{top:-2px;width:90px;height:27px;line-height:27px;font-size:12px;padding-top:1px;box-sizing:border-box;}
+    .mGTECPick .movieList{margin-top:25px;}
+    .mGTECPick .movieList strong{font-size:14px;margin-bottom:15px;background-size:8px auto;padding-left:15px;}
+    .mGTECPick .movieList ul li{width:calc(50% - 7.5px);margin-right:15px;height:90px;}
+    .mGTECPick .movieList ul li:nth-of-type(2n){margin-right:0;}
+    .mGTECPick .movieList ul li:nth-of-type(n+3){margin-top:15px;}
+    .mGTECPick .movieList ul li>.item::before{display:none;}
+    .mGTECPick .movieList ul li>.item time{display:none;}
+    .mGTECPick .movieList ul li>.item p{font-size:14px;line-height:18px;padding:0 10px;bottom:7px;}
+}
+
+@media all and (max-width:320px){
+    .mIpsiServices .sliderArea .item>a span{font-size:11px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900');
+
+/*** login ***/
+.cms_login {position:relative;background:url(../img/cms/bg_login.jpg) no-repeat center top !important;background-size:1920px auto !important;}
+.cms_login header {overflow:hidden;height:auto;padding:160px 0 30px;text-align:center;}
+.cms_login header h1 {position:relative;left:auto;top:auto;width:auto;height:auto;line-height:normal;}
+.cms_login header .logo {display:inline-block;margin-bottom:15px;}
+.cms_login header .tit {display:block;margin-top:5px;color:#fff;font-family:'Roboto';font-size:40px;font-weight:500;line-height:41px;}
+.cms_login #contents {background:none !important;}
+
+.cms_login .loginBox {position:relative;overflow:hidden;width:475px;margin:0 auto 195px;padding:40px;}
+.cms_login .loginBox::before {content:'';display:block;position:absolute;left:0;top:0;width:100%;height:100%;background:#fff;opacity:0.85;z-index:0;}
+.cms_login .loginBox fieldset {position:relative;z-index:1;}
+.cms_login .loginBox fieldset>p {position:relative;}
+.cms_login .loginBox fieldset>p+p {margin-top:15px;}
+.cms_login .loginBox fieldset>p label {display:block;position:absolute;left:0;top:0;width:100%;height:50px;box-sizing:border-box;padding:0 0 0 50px;color:#666;font-size:15px;line-height:50px;}
+.cms_login .loginBox fieldset>p input {width:100%;height:50px;box-sizing:border-box;padding:0 20px 0 60px;border:1px solid #bcbfc6;border-radius:2px;color:#3e4551;font-size:15px;line-height:50px;}
+/*.cms_login .loginBox fieldset>p input:valid+label {display:none;}
+.cms_login .loginBox fieldset .log_id label {background:url(../img/cms/ico_human.png) no-repeat left 20px top 13px;}
+.cms_login .loginBox fieldset .log_pw label {background:url(../img/cms/ico_lock.png) no-repeat left 20px top 13px;}*/
+.cms_login .loginBox fieldset .log_id>input {background:#fff url(../img/cms/ico_human.png) no-repeat left 25px top 13px;}
+.cms_login .loginBox fieldset .log_pw>input {background:#fff url(../img/cms/ico_lock.png) no-repeat left 25px top 13px;}
+.cms_login .loginBox fieldset .btn_login {display:block;width:100%;height:50px;margin-top:15px;box-sizing:border-box;border-radius:2px;background:#009fdb;color:#fff;font-family:'arial';font-size:22px;font-weight:bold;line-height:50px;text-align:center;} /*200708*/
+.cms_login .loginBox .list_dot {position:relative;margin-top:25px;padding-top:20px;border-top:1px solid #9d9fa4;z-index:1;}
+.cms_login .loginBox .list_dot>li {position:relative;padding-left:7px;}
+.cms_login .loginBox .list_dot>li::before {content:'';display:block;position:absolute;left:0;top:8px;width:2px;height:2px;background:#3e4551;color:#000;font-size:12px;line-height:16px;letter-spacing:-1px;}
+.cms_login .loginBox .list_dot>li+li {margin-top:5px;}
+
+.cms_login #contents {height:calc(100% + 50px);padding:0;}
+
+footer {position:fixed;left:0;bottom:0;width:100%;/*margin-top:-50px;*/z-index:999;}
+footer address {box-sizing:border-box;padding:14px 0 12px;line-height:18px;background:#1a191f;color:#fff}

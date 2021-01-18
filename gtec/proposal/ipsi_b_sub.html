@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>경기과학기술대학교</title>
+<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+
+<script type="text/javascript" src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/mCustomScrollbar/jquery.mCustomScrollbar.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/ipsi_a_sub.css" />
+<script>
+$(function(){
+    $(window).scroll(function(){
+        var navTop = $('.navigation').offset().top;
+        var headerHeight = $(window).innerHeight() - 360;
+        cont_loc = $(window).scrollTop();
+        console.log(cont_loc);
+        console.log(headerHeight);
+
+        if(cont_loc >= 420){
+            $('.navigation').addClass('on');
+        } else {
+            $('.navigation').removeClass('on');
+        }
+    });
+});
+</script>
+</head>
+<body class="typeSub">
+    <div id="wrap">
+        <div id="header">
+            <div class="util">
+                <div class="inner">
+                    <img src="img/ipsi_a/util_l.png" alt="" class="utilL">
+                    <img src="img/ipsi_a/util_r.png" alt="" class="utilR">
+                </div>
+            </div>
+            <div class="header">
+                <div class="inner">
+                    <h1>
+                        <a href="temp_a_main.html"><img src="img/ipsi_a/logo.png" alt=""></a>
+                    </h1>
+                    <div class="gnb">
+                        <img src="img/ipsi_a/gnb.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <img src="img/ipsi_a/sub/subVisual.png" alt="">
+        </div>
+        <div class="navigation">
+            <img src="img/ipsi_a/sub/nav.png" alt="">
+        </div>
+        <div id="container">
+            <img src="img/ipsi_a/sub/cont.png" alt="">
+            <div class="footer">
+                <div class="inner">
+                    <img src="img/ipsi_a/footer_l.png" alt="" class="footerL">
+                    <img src="img/ipsi_a/footer_r.png" alt="" class="footerR">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

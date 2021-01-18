@@ -1,0 +1,1456 @@
+
+<!DOCTYPE jsp PUBLIC "-//W3C//DTD Xjsp 1.0 Transitional//EN" "http://www.w3.org/TR/xjsp1/DTD/xjsp1-transitional.dtd">
+<jsp xmlns="http://www.w3.org/1999/xjsp" xml:lang="ko" lang="ko">
+
+<head>
+    <meta http-equiv="content-type" content="text/jsp; charset=utf-8" />
+    <title>경기과학기술대학교 작업현황판</title>
+</head>
+
+<body>
+    <h1 style="margin-bottom:10px;font-size:20px;">경기과학기술대학교(국문)</h1>
+    <div class="status_menu menu08">
+        <ul>
+            <li class="on"><a href="status_kor.html" target="_self">국문</a></li>
+            <li><a href="status_eng.html" target="_self">영문</a></li>
+            <li><a href="status_chn.html" target="_self">중문</a></li>
+            <li><a href="status_ipsi.html" target="_self">입학</a></li>
+            <li><a href="status_dept.html" target="_self">학사</a></li>
+            <li><a href="status_dept_ad.html" target="_self">전문학사</a></li>
+            <li><a href="status_affi.html" target="_self">부속기관</a></li>
+            <li><a href="status_etc.html" target="_self">기타</a></li>
+        </ul>
+    </div>
+
+    <div class="making_guide">
+        <strong>[작업 참고사항]</strong>
+        <ul>
+            <li style="color:red">
+                <strong>* 작업기준</strong> : 국문을 기준<br />
+            </li>
+            <li>
+                <strong>* root/type 폴더</strong> : <br />
+                <!--- 운영에 직접 반영되는 프로그램같은 페이지는 type폴더에 / 컨텐츠같은 간접반영은 root에 위치 -->
+                root/type/common/*.*(공통파일, 가이드파일, layout &amp; main 파일)<br />
+                root/type/KOR_A/*.*(국문 layout 파일)<br />
+                root/type/ENG_A/*.*(국문 layout 파일)<br />
+                root/type/CHN_A/*.*(국문 layout 파일)<br />
+                root/type/IPSI_A/*.*(입학 layout 파일)<br />
+                root/type/DEPT_A/*.*(학사/전문학사/계약/e-MU layout 파일)<br />
+                root/cont/*.*(html 컨텐츠 파일)<br />
+                root/program/*.*(프로그램 컨텐츠 파일)<br />
+            </li>
+            <li style="color:red">
+                <strong>* 퍼블상태표기</strong> : x : 삭제 / △ : 보류,협의 / ○ : 부분완료 / ● : 완료
+            </li>
+            <li>
+                <strong>* 참고</strong> : <br />
+                - 최종 화면설계버전 :  <br />
+                <span style="color:blue">01. GTEC-COM-AN-03 대표국문_메뉴구조도_To-Be_v1.6.xlsx</span><br />
+            </li>
+        </ul>
+    </div>
+
+    <div class="making_guide">
+        <strong>[구분표]</strong>
+        <ul>
+            <li>
+                <strong class="program">***.jsp</strong> : <span style="color:red">프로그램페이지</span>
+            </li>
+        </ul>
+    </div>
+
+    <p class="totalpage"></p>
+
+    <table>
+        <caption>가이드</caption>
+        <colgroup>
+            <col width="8%" />
+            <col width="10%" />
+            <col width="10%" />
+            <col width="15%" />
+            <col width="13%" />
+            <col width="5%" />
+            <col width="5%" />
+            <col width="*" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">대분류</th>
+                <th scope="col">중분류</th>
+                <th scope="col">소분류</th>
+                <th scope="col">소분류 이하</th>
+                <th scope="col">file</th>
+                <th scope="col" title="△ :대기 / ○ :부분완료 /  ● :완료">stat</th>
+                <th scope="col" title="yyyy-mm-dd">date</th>
+                <th scope="col">note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Layout -->
+            <tr>
+                <td class="tit">[공통] 샘플소스</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/common/style_guide/sample_source.html">sample_source.html</a></td>
+                <td class="stat">●</td>
+                <td class="data"></td>
+                <td class="note">페이징, 버튼, 탭, 타이틀, 리스트, 테이블, 검색옵션 등</td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="3">layout</td>
+                <td>intro</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/intro.jsp">intro.jsp</a><br /></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.01</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>index</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/index.jsp">index.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.20</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>sub</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/sub.jsp">sub.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.02</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="11">[공통] 게시판</td>
+                <td rowspan="4">일반</td>
+                <td rowspan="2">리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/board_default_list.jsp">board_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.16</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/board_default_list_addTxt.jsp">board_default_list_addTxt.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.16</td>
+                <td class="note">
+                    *게시글 상세 추가버전(txtP 클래스 추가)<br />
+                </td>
+            </tr>
+            <tr>
+                <td>상세</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/board_default_view.jsp">board_default_view.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note">*답글/댓글은 필요에 따라 추가/삭제해서 사용</td>
+            </tr>
+            <tr>
+                <td>쓰기</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/board_default_write.jsp">board_default_write.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note">*각 항목은 필요에 따라 추가/삭제해서 사용</td>
+            </tr>
+            <tr>
+                <td>갤러리/동영상</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/gallery_default_list.jsp">gallery_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note">*썸네일형 / 상세형*</td>
+            </tr>
+            <tr>
+                <td>Q&amp;A</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/qna_default_list.jsp">qna_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.24</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>FAQ</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/faq_default_list.jsp">faq_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.24</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">PDF</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/pdf_default_list.jsp">pdf_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>상세</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/pdf_default_view.jsp">pdf_default_view.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data"></td>
+                <td class="note"></td>
+            </tr>
+            <!--<tr>
+                <td>링크</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/link_default_list.jsp">link_default_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note">*썸네일형*</td>
+            </tr>-->
+            <tr>
+                <td>링크</td>
+                <td>리스트</td>
+                <td></td>
+                <td class="file">기본게시판 리스트(일반)와 동일</td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note">*일반형*</td>
+            </tr>
+            <tr>
+                <td>팝업</td>
+                <td>확인번호 입력</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/board/pop_numCheck.jsp">pop_numCheck.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td class="tit" rowspan="17">[공통] 프로그램</td>
+                <td rowspan="2">학사일정</td>
+                <td>달력형</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/academicCalendar_month.jsp">academicCalendar_month.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>목록형</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/academicCalendar_list.jsp">academicCalendar_list.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">사이버투어</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/cyberTour.jsp">cyberTour.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[pop]조감도 바로가기</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/pop_cyberTour.jsp">pop_cyberTour.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">전화번호</td>
+                <td>부서</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/telNumberTab1.jsp">telNumberTab1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>학과</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/telNumberTab2.jsp">telNumberTab2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+             <tr>
+                <td>기타</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/telNumberTab3.jsp">telNumberTab3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+           <tr>
+                <td rowspan="6">온라인설문</td>
+                <td>목록</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/surveyList.jsp">surveyList.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+           <tr>
+                <td>[pop]로그인 SNS/회원</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/pop_surveyList1.jsp">pop_surveyList1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[pop]로그인 SNS</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/pop_surveyList2.jsp">pop_surveyList2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[pop]로그인 회원</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/pop_surveyList3.jsp">pop_surveyList3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.05</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>작성</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/surveyWrite.jsp">surveyWrite.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>결과</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/surveyView.jsp">surveyView.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>성희롱 성폭련신고</td>
+                <td>신청접수</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/sexualhar_reportWrite.jsp">sexualhar_reportWrite.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.15</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">규정</td>
+                <td>목록</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/ruleBook.jsp">ruleBook.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[pop]개정이력</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/pop_ruleBook.jsp">pop_ruleBook.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>셔틀버스</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/shuttleBus.jsp">shuttleBus.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td class="tit" rowspan="6">기타</td>
+                <td>에러페이지</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/common/style_guide/etc/error.html">error.html</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.17</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>사이트맵</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/sitemap.jsp">sitemap.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">로그인</td>
+                <td>로그인</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/program/kor/login.jsp">login.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.13</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 초기화</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/KOR_A/.jsp"></a></td>
+                <td class="stat"></td>
+                <td class="data"></td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">통합검색</td>
+                <td>검색창</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/common/style_guide/totalSearch/totalSearch.html">totalSearch.html</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.16</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>검색결과</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/common/style_guide/totalSearch/totalSearch_result.jsp">totalSearch_result.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="data">20.12.07</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="2">CMS</td>
+                <td>로그인</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/cms_login.html"></a></td>
+                <td class="stat"></td>
+                <td class="data"></td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>메인</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/type/cms_main.html"></a></td>
+                <td class="stat"></td>
+                <td class="data"></td>
+                <td class="note">좌측상단 로고만 참조</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>국문 컨텐츠</caption>
+        <colgroup>
+            <col width="10%" />
+            <col width="15%" />
+            <col width="18%" />
+            <col width="12%" />
+            <col width="10%" />
+            <col width="15%" />
+            <col width="5%" />
+            <col width="*" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">dept</th>
+                <th scope="col">2depth</th>
+                <th scope="col">3depth</th>
+                <th scope="col">4depth</th>
+                <th scope="col">5depth</th>
+                <th scope="col">file</th>
+                <th scope="col" title="△ :대기 / ○ :부분완료 / ● :완료">stat</th>
+                <th scope="col">note</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tit" rowspan="29">1.대학안내</td>
+                <td>1.총장인사말</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/greeting.jsp">greeting.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="6">2.비전&middot;특성화</td>
+                <td>[Tab] 추진배경 및 목</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter1.jsp">visionNcharacter1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 대학의 미션 및 비전 개요</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter2.jsp">visionNcharacter2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 비전 및 전략체계</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter3.jsp">visionNcharacter3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 대학 특성화 계획</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter4.jsp">visionNcharacter4.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 대학 특성화 전략목표</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter5.jsp">visionNcharacter5.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 대학 특성화 연차별 전략목표</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/visionNcharacter6.jsp">visionNcharacter6.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="8">3.연혁과특성</td>
+                <td>1.연혁</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/history.jsp">history.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="6">2.역사</td>
+                <td>[Tab] 1966~1979 한국정밀기기센터(FIC)시대</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story1.jsp">gtec_story1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 1999~2004 한국기계금속시험 연구소(KIMM)시대</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story2.jsp">gtec_story2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 1981~1989 한국기계연구소(KIMM)시대</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story3.jsp">gtec_story3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 1989~1999 한국생산기술연구원(KAITECH)시대</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story4.jsp">gtec_story4.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 학교법인 및 대학설립 인가</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story5.jsp">gtec_story5.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>Tab 취합버전 (Tab1~5)</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_story.jsp">gtec_story.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>3.대학특성</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/collegeCharacter.jsp">collegeCharacter.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">4.상징</td>
+                <td>1.교훈 및 인재상</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/rightPeople.jsp">rightPeople.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.UI</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/gtec_ui.jsp">gtec_ui.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>5.조직도</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/organization.jsp">organization.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">6.정보공개</td>
+                <td>1.규정</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판,프로그램</td>
+                <td class="stat">●</td>
+                <td class="note">
+                    1안 게시판 진행<br />
+                    하지만 프로그램도 제공 요청
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2.예산/결산<br />
+                    3.업무추진비 사용내역<br />
+                    4.기부금 공시<br />
+                    5.학교법인<br />
+                    6.법인이사회회의록<br />
+                    7.대학평의원회회의록<br />
+                    8.대학자체평가<br />
+                    9.대학등록금심의위원회회의록<br />
+                    10.재정위원회회의록<br />
+                    11.학사과정자체평가<br />
+                    12.정부포상 추천대상자 공개검증<br />
+                    13.청탁금지법 공지<br />
+                    14.혁신지원사업 실행실적<br />
+                </td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>15.정보공개 제도안내</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/infoOpen.jsp">infoOpen.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>7.발전기금</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/develop_fund.jsp">develop_fund.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="7">8.캠퍼스안내</td>
+                <td>1.사이버투어</td>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">2.찾아오시는길</td>
+                <td>[Tab] 지하철이용</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/comeway_subway.jsp">comeway_subway.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 버스이용</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/comeway_bus.jsp">comeway_bus.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 자가운전</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/info/comeway_car.jsp">comeway_car.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">3.전화번호</td>
+                <td>[Tab] 부서</td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 학과</td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 기타</td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit">2.입학안내</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file">링크</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="4">3.학과안내</td>
+                <td>1.전문학사과정</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/major_info/major_info1.jsp">major_info1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note">썸네일형 이미지 외부링크 페이지 추가</td>
+            </tr>
+            <tr>
+                <td>2.학사과정</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/major_info/major_info2.jsp">major_info2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note">썸네일형 이미지 외부링크 페이지 추가</td>
+            </tr>
+            <tr>
+                <td>3.계약학과</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/major_info/major_info3.jsp">major_info3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note">썸네일형 이미지 외부링크 페이지 추가</td>
+            </tr>
+            <tr>
+                <td>4.e-MU</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/major_info/major_info4.jsp">major_info4.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note">
+                    썸네일형 이미지 외부링크 페이지 추가<br />
+                     - 전문학사 (전자통신과, 자동차과)<br />
+                     - 전공심화 (전자통신공학과, 특수자동차공학과)<br />
+                    <br />
+                    두개의 그룹으로 표시해서 디자인 필요<br />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="52">4.대학생활</td>
+                <td rowspan="2">1.학사일정</td>
+                <td>1.월간행사</td>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note">*학사 일정 캘린더(달력보기)*</td>
+            </tr>
+            <tr>
+                <td>2.학사일정</td>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note">*학사 일정 캘린더(목록보기)*</td>
+            </tr>
+            <tr>
+                <td rowspan="6">2.학사민원실</td>
+                <td>1.학사Q&amp;A</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.학사민원실</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="#none"></a></td>
+                <td class="stat"></td>
+                <td class="note">
+                    콘텐츠 수급 필요<br />
+                    <span style="color:red">보류</span>
+                </td>
+            </tr>
+            <tr>
+                <td>3.서식자료</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>4.건의합니다.</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">5.성희롱성폭력신고</td>
+                <td>1.성폭력 고충 신고</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/sexualhar_report.jsp">sexualhar_report.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="16">3.학사안내</td>
+                <td>1.학칙</td>
+                <td>
+                    [Tab] 학칙<br />
+                    [Tab] 학칙시행세칙<br />
+                    [Tab] 대학요람<br />
+                </td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.등록</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_registration.jsp">degree_registration.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="6">3.수업</td>
+                <td>[Tab] 수강신청</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_resistationGo.jsp">degree_resistationGo.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 수업</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_class.jsp">degree_class.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 평가시험</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_test.jsp">degree_test.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 전자출결</td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note">*PDF뷰어*</td>
+            </tr>
+            <tr>
+                <td>[Tab] 학기제 현장실습</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_placement.jsp">degree_placement.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note">구 인턴실습</td>
+            </tr>
+            <tr>
+                <td>[Tab] 현장실습</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_placement2.jsp">degree_placement2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="8">4.학적</td>
+                <td>[Tab] 휴학</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_stopOut.jsp">degree_stopOut.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 복학</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_return.jsp">degree_return.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 자퇴</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_leave.jsp">degree_leave.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 졸업</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_graduation.jsp">degree_graduation.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 전과</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_change.jsp">degree_change.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 재입학</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_readmission.jsp">degree_readmission.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 학적포기</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_giveUp.jsp">degree_giveUp.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 학적부정정</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/degree_correction.jsp">degree_correction.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">4.장학/대출</td>
+                <td>1.장학 및 대출공지</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.장학안내</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note">*PDF뷰어*</td>
+            </tr>
+            <tr>
+                <td>3.한국장학재단 학자금대출</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/studentLoan.jsp">studentLoan.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">5.증명서/학생증발급</td>
+                <td>1.중명서발급안내</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/certificate_issue1.jsp">certificate_issue1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.증명서발급 및 신청</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/certificate_issue2.jsp">certificate_issue2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>3.학생증발급</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/certificate_issue3.jsp">certificate_issue3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">6.학생활동</td>
+                <td>1.학생회소개</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/stuActivity1.jsp">stuActivity1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.동아리소개</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/stuActivity2.jsp">stuActivity2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>3.운영지침</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note">*PDF뷰어*</td>
+            </tr>
+            <tr>
+                <td rowspan="8">7.편의복지</td>
+                <td>1.취업상담</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/employmentConsel.jsp">employmentConsel.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.진로심리상담</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/psyCounsel.jsp">psyCounsel.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>3.장애학생지원</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/disabled_support.jsp">disabled_support.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>4.편의시설</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/accommodation.jsp">accommodation.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>5.기숙사</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/dormitory.jsp">dormitory.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>6.셔틀버스</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/shuttleBus.jsp">shuttleBus.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>7.통학버스</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/schoolBus.jsp">schoolBus.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>8.금주의식단</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>8.국제교류</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file">링크</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="8">9.학군단/병무</td>
+                <td>1.학생군사교육단</td>
+                <td></td>
+                <td></td>
+                <td class="file">링크</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.학군인력양성센터소개</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/rotc_intro.jsp">rotc_intro.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="4">3.병무행정</td>
+                <td>[Tab] 징병검사</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/conscriptionAdmin1.jsp">conscriptionAdmin1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 재학생입영연기</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/conscriptionAdmin2.jsp">conscriptionAdmin2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 재학생입영신청</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/conscriptionAdmin3.jsp">conscriptionAdmin3.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>[Tab] 모집병지원</td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/conscriptionAdmin4.jsp">conscriptionAdmin4.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>4.예비군업무</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/reservist_work.jsp">reservist_work.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>5.장교/부사관지원</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/officer_support.jsp">officer_support.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">10.IT지원안내</td>
+                <td>1.무선인터넷</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/it_support1.jsp">it_support1.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>2.오피스365</td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/campuslife/it_support2.jsp">it_suppor2.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="3">5.GTEC홍보</td>
+                <td>
+                    1.공지사항<br />
+                    2.코로나19공지<br />
+                    3.포커스뉴스<br />
+                    4.홍보동영상<br />
+                    5.포토갤러리<br />
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>6.GTEC SNS</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/gtec_promotion/gtec_sns.jsp">gtec_sns.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>7.온라인설문</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit">6.취업정보</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file">링크</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+
+            <tr>
+                <td class="tit" rowspan="6">이용안내</td>
+                <td>사이트맵</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file program">프로그램</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td rowspan="3">개인정보처리방침</td>
+                <td>개인정보처리방침</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note">*PDF뷰어*</td>
+            </tr>
+            <tr>
+                <td>이전 개인정보처리방침</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>영상정보처리기기운영&middot;관리방침</td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note">클릭 시 pdf 열림</td>
+            </tr>
+            <tr>
+                <td>개인정보제3자제공공시</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file">게시판</td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+            <tr>
+                <td>이메일주소 무단수집거부</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="file"><a target="_blank" href="/gtec/cont/kor/hidden/emailRefuse.jsp">emailRefuse.jsp</a></td>
+                <td class="stat">●</td>
+                <td class="note"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+<style type="text/css">
+* {margin: 0;padding: 0;font-size: 11px;font-family: 'NanumGothic', verdana;color: #666}
+ol,ul {list-style: none;}
+a {color: #27e;text-decoration: none;}
+a:focus,
+a:hover,
+a:active {text-decoration: underline;}
+body {padding: 10px;}
+h1 {font-size: 14px;}
+h1 a {font-size: 16px;color: #666}
+
+.status_menu {overflow: hidden;width: 100%;margin-bottom: 20px;padding-bottom: 1px;}
+.status_menu li {float: left;width: 14.2%;margin: 0 -1px -1px 0;}
+.status_menu.menu01 li {width:100%;}
+.status_menu.menu02 li {width:50%;}
+.status_menu.menu03 li {width:33.3%;}
+.status_menu.menu04 li {width:25%;}
+.status_menu.menu05 li {width:20%;}
+.status_menu.menu06 li {width:33.3%;}
+.status_menu.menu07 li {width:25%;}
+.status_menu.menu08 li {width:25%;}
+.status_menu li a {display: block;height: 25px;border: 1px solid #999;background: #fff;font-size: 14px;color: #999;line-height: 25px;text-align: center;}
+.status_menu li a:hover {text-decoration: none;}
+.status_menu li.on a {background: #999;color: #fff;font-weight: bold;}
+.totalpage {text-align: right;font-weight: bold;font-size: 12px;}
+.down {text-align: right;font-weight: bold;padding-top: 10px;}
+.down a {font-size: 12px;color: #666}
+.making_guide {margin-bottom: 10px;}
+.making_guide>strong {display: block;margin-bottom: 7px;}
+.making_guide ul {padding: 10px;border: 1px solid #ddd;}
+.making_guide li {overflow: hidden;line-height:16px;}
+.making_guide li+li {margin-top: 5px;}
+.making_guide .order_main,
+.making_guide .order_sub,
+.making_guide .program {display: inline-block;padding: 2px 5px 0;border: 1px solid #ddd;vertical-align: top;}
+
+table {width: 100%;border-collapse: collapse;}
+table caption {text-align: left;font-weight: bold;padding: 20px 5px 5px;}
+table th {border: 1px solid #ddd;padding: 5px;background: #f9f9f9}
+table td {height: 24px;border: 1px solid #ddd;padding: 5px;line-height:16px;word-break:break-all;word-wrap:break-word;}
+table tr:hover td {background: #f3ffff}
+table tr.gray td {background: #f5f5f5;}
+table .stat,
+table .data,
+table .tit {text-align: center;}
+table .line td {border-top: 2px solid #999}
+
+.order_main {background: #e2f0e8 !important;}
+.order_sub {background: #fef4d7 !important;}
+.program {background: #ffffcc !important;}
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery.fn.stat = function (options) {
+    var settings = jQuery.extend({
+            total: '.totalpage',
+            title: 'caption',
+            content: 'table',
+            files: 'tbody tr',
+            stat: 'td.stat',
+            completed: '●',
+            index: 0,
+            openAll: true,
+            speed: 'fast',
+
+            total2: '.totalpage2',
+            files2: 'tbody td.order_yoo',
+            stat2: 'td.order_yoo+td.stat',
+
+            total3: '.totalpage3',
+            files3: 'tbody td.order_oh',
+            stat3: 'td.order_oh+td.stat',
+        }, options),
+        all_sections = this;
+    return this.each(function () {
+        var self = this,
+            $self = $(self),
+            title_text = [],
+            completed = 0;
+        self.section_title = $(settings.title, $self);
+        self.content = $(settings.content, $self);
+        self.files = $(settings.files, $self);
+        self.files.each(function () {
+            var stat = $(settings.stat, this);
+            stat.each(function () {
+                var text = $(this).text();
+                if (text && (text === settings.completed)) {
+                    completed++;
+                }
+            });
+        });
+        title_text = [self.section_title.text(), '(', completed, '/', self.files.length, ')'];
+        self.section_title.text(title_text.join(''));
+
+        //total
+        var completedAll = 0;
+        var completedPer = 0;
+        $(settings.stat).each(function () {
+            var text = $(this).text();
+            if (text && (text == settings.completed)) {
+                completedAll++;
+                completedPer = Math.round((100 / $(settings.files).length) *
+                    completedAll);
+            }
+        });
+        $(settings.total).text('[Total : ' + completedAll + '/' + $(settings.files).length +
+            'pages] [Progress : ' + completedPer + '%/' + '100%]');
+
+        //유수지
+        var completedAll2 = 0;
+        var completedPer2 = 0;
+        $(settings.stat2).each(function () {
+            var text = $(this).text();
+            if (text && (text == settings.completed)) {
+                completedAll2++;
+                completedPer2 = Math.round((100 / $(settings.files2).length) *
+                    completedAll2);
+            }
+        });
+        $(settings.total2).text('[Total : ' + completedAll2 + ' / ' + $(settings.files2)
+            .length +
+            'pages] [Progress : ' + completedPer2 + '% / ' + '100%]');
+
+        //오광현
+        var completedAll3 = 0;
+        var completedPer3 = 0;
+        $(settings.stat3).each(function () {
+            var text = $(this).text();
+            if (text && (text == settings.completed)) {
+                completedAll3++;
+                completedPer3 = Math.round((100 / $(settings.files3).length) *
+                    completedAll3);
+            }
+        });
+        $(settings.total3).text('[Total : ' + completedAll3 + ' / ' + $(settings.files3)
+            .length +
+            'pages] [Progress : ' + completedPer3 + '% / ' + '100%]');
+    });
+};
+$(document).ready(function () {
+    $('table').stat();
+});
+</script>
+
+</body>
+</jsp>

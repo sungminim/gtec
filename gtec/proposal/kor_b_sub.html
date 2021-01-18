@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>경기과학기술대학교</title>
+<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+
+<script type="text/javascript" src="js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/mCustomScrollbar/jquery.mCustomScrollbar.css"/>
+
+<link rel="stylesheet" type="text/css" href="css/kor_b_sub.css" />
+
+<script>
+$(function(){
+    $("#pcBox").mCustomScrollbar();
+
+        $(window).scroll(function(){
+            var navTop = $('.nav').offset().top;
+            var headerHeight = $(window).innerHeight() - 360;
+            cont_loc = $(window).scrollTop();
+            console.log(cont_loc);
+            console.log(headerHeight);
+
+            if(cont_loc >= 358){
+                $('.nav').addClass('on');
+            } else {
+                $('.nav').removeClass('on');
+            }
+
+        });
+});
+</script>
+<style>
+.logo {position:absolute;left:160px !important;width:260px !important;height:80px !important;z-index: 100;background:red;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;}
+</style>
+</head>
+<body class="typeSub">
+    <div class="wrap">
+        <div class="header">
+            <div class="headerInner">
+                <a href="ipsi_b_main.html" class="logo"></a>
+                <img src="img/kor_b/sub_head.png" alt="">
+            </div>
+        </div>
+        <div class="nav">
+            <img src="img/kor_b/sub_nav.png" alt="">
+        </div>
+        <div id="container">
+            <img src="img/kor_b/kor_b_main.jpg" alt="">
+        </div>
+        <div class="footer">
+            <img src="img/kor_b/footer.png" alt="">
+        </div>
+    </div>
+    
+
+</body>
+</html>
