@@ -15,7 +15,7 @@
         </script>
         
         <div id="pageTab">
-            <ul class="tabList tab2">
+            <ul class="tabList tab5">
                 <li><a href="#none" class="on">Faculty of Smart System</a></li>
                 <li><a href="#none">Faculty of Electronics and Information Engineering</a></li>
                 <li><a href="#none">Faculty of High Technology Convergence</a></li>
@@ -27,6 +27,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="intro_dept engDefault">
+                <script>
+                    $(function () {
+                        $('.intro_dept').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="bigTit">Faculty of Smart System</div>
 
                 <div class="contTit">Dept. of Mechatronics Engineering</div>

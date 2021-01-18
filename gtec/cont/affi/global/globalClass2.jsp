@@ -31,7 +31,7 @@
                         </colgroup>
                         <thead>
                             <tr>
-                                <th scope="col"></th>
+                                <th scope="col">장학금</th>
                                 <th scope="col" colspan="3">영어</th>
                                 <th scope="col" colspan="2">일본어</th>
                             </tr>

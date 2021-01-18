@@ -26,6 +26,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="langProgram2 engDefault">
+                <script>
+                    $(function () {
+                        $('.langProgram2').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="contTit mT0">Scholarships</div>
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2">

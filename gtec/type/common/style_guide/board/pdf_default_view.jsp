@@ -8,7 +8,7 @@
 								<div class="pdf_info">
 									<ul class="pdf_infoMenu">
 										<li><a href="#none" class="btnPdf fileDown"><span>PDF 다운로드</span></a></li>
-										<li><a href="#none" class="btnPdf fileDown"><span>HWP 다운로드</span></a></li>
+										<li><a href="#none" class="btnPdf fileDown hwp"><span>HWP 다운로드</span></a></li>
 										<li><a href="#none" class="btnPdf pdfView"><span>PDF뷰어 다운로드</span></a></li>
 										<li><a href="#none" class="btnPdf fullView"><span>전체화면으로 보기</span></a></li>
 									</ul>

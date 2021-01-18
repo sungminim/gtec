@@ -100,9 +100,8 @@
                 </ul>   
                 
                 <div class="btn_Area">
-                    <a href="#none" class="btnC Black"><span>제출하기</span></a>
+                    <a href="#none" class="btnC Black"><span>목록</span></a>
                 </div>
-                      
             </div>
 			<!--/컨텐츠 영역-->
 		</article>

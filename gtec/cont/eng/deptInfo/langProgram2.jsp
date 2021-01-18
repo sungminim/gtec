@@ -26,6 +26,10 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="langProgram2 engDefault">
+                <script>
+                    var element = document.getElementById('pageTab');
+                    element.classList.add('typeLong2');
+                </script>
                 <div class="contTit mT0">Course Schedule & Contents</div>
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2" style="min-width:600px">

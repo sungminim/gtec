@@ -47,7 +47,7 @@
 .exclam2 b {position:absolute;left:23px;top:0;color:#ff8315;font-weight:400;}
 
 /* 소개 */
-.affi_greet {position:relative;padding-left:536px;box-sizing:border-box;}
+.affi_greet {position:relative;min-height:600px;padding-left:536px;box-sizing:border-box;}
 .affi_greet .greet_img {position:absolute;left:0;top:0;}
 .affi_greet .greet_cont {position:relative;}
 .affi_greet .greet_cont .greet_tit {position:relative;display:inline-block;padding:25px 0 40px;box-sizing:border-box;font-size:40px;letter-spacing:-2px;font-weight:300;line-height:1.2em;word-break:keep-all;}
@@ -272,7 +272,7 @@
     .imgAbsCtR .ct_right .txt {margin-top:15px;font-size:16px;}
     
     /* 소개 */
-    .affi_greet {padding-left:0 !important;}
+    .affi_greet {min-height:none;padding-left:0 !important;}
     .affi_greet .greet_img {position:relative;margin-bottom:20px;}
     .affi_greet .greet_cont .greet_tit {padding:0 0 20px;font-size:30px;}
     .affi_greet .greet_cont .quoteTit {padding-left:35px;padding-right:35px;text-align:center;}
@@ -421,15 +421,15 @@
     .bus_range .contTit_m {margin-bottom:10px !important}
     .bus_range>li:nth-child(n+2) .contTit_m {margin-top:15px;}
     
-    .affi_history .historyArea::before {left:8px;top:20px;}
+    .affi_history .historyArea::before {left:8px;}
     .affi_history .historyList li {width:100%;margin-left:0;padding:0 0 0 30px;}
     .affi_history .historyList li::before {display:none;}
-    .affi_history .historyList li::after {left:0;top:2px;width:17px;height:17px;}
+    .affi_history .historyList li::after {left:0;top:2px;background-size:14px auto;}
     .affi_history .historyList li div+div {margin-top:6px;}
-    .affi_history .historyList li div.year {font-size:20px;}
+    .affi_history .historyList li div.year {margin-bottom:10px;font-size:20px;}
     .affi_history .historyList li div .historytxt {padding:0 0 0 60px;}
     .affi_history .historyList li:nth-child(odd) {padding:0 0 30px 30px;text-align:left;}
-    .affi_history .historyList li:nth-child(odd)::after {left:0;right:auto;}
+    .affi_history .historyList li:nth-child(odd)::after {left:0;right:auto;background-size:14px auto;}
     .affi_history .historyList li:nth-child(odd) div .month {left:0;right:auto;}
     .affi_history .historyList li:nth-child(odd) div .historytxt {padding:0 0 0 60px;}
     

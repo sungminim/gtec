@@ -38,7 +38,8 @@ header>nav {position:relative;}
 /* gnb_parent */
 header>nav #gnb_parent {overflow:hidden;max-width:1240px;height:125px;margin:0 auto;box-sizing:border-box;padding:65px 30px 0 340px;font-size:0;text-align:right;}
 header>nav #gnb_parent>li {display:inline-block;padding:0 2.8%;}
-header>nav #gnb_parent>li:last-child {padding-right:0;}
+/* header>nav #gnb_parent>li:last-child {padding-right:0;} */
+header>nav #gnb_parent>li.gnbLast {padding-right:0;}
 header>nav #gnb_parent>li>a {display:block;position:relative;height:24px;color:#000;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:20px;font-weight:600;line-height:24px;text-align:center;vertical-align:middle;z-index:1002;letter-spacing:-1px;}
 header>nav #gnb_parent>li>a.act,
 header>nav #gnb_parent>li>a:hover {color:#419639 !important;}
@@ -142,7 +143,7 @@ footer address .copyright {display:block;margin-top:7px;font-style:normal;font-s
 #snb_nav .snb_area {position:relative;width:100%;max-width:1180px;height:55px;margin:0 auto;box-sizing:border-box;padding:0;z-index:500;line-height:36px;}
 #snb_nav .snb_area .btn_home {display:block;position:relative;float:left;overflow:hidden;width:53px;height:55px;margin:0;padding:0;background:url(../img/layout/snb_home_white.png) no-repeat center;color:#fff;font-family:'Malgun Gothic';font-size:16px;line-height:54px;text-indent:-999px;}
 #snb_nav .snb_area .btn_home::before {content:'';display:block;position:absolute;left:0;top:0;width:1px;height:100%;background:#fff;opacity:0.2;}
-#snb_nav .snb_area>button {position:relative;float:left;height:55px;min-width:180px;margin-left:1px;box-sizing:border-box;padding:0 35px 0 15px;background:url(../img/layout/snb_selArrB_white.png) no-repeat right 15px top 50%;color:#fff;font-family:'Malgun Gothic';font-size:16px;line-height:55px;text-align:left;}
+#snb_nav .snb_area>button {position:relative;float:left;height:55px;min-width:180px;margin-left:1px;box-sizing:border-box;padding:0 35px 0 15px;background:url(../img/layout/snb_selArrB_white.png) no-repeat right 15px top 50%;color:#fff;font-size:16px;line-height:55px;text-align:left;font-weight:300;}
 #snb_nav .snb_area>button::before {content:'';display:block;position:absolute;left:-1px;top:0;width:1px;height:100%;background:#fff;opacity:0.2;}
 #snb_nav .snb_area>button:last-of-type::after {content:'';display:block;position:absolute;right:0;top:0;width:1px;height:100%;background:#fff;opacity:0.2;}
 #snb_nav .snb_area>button.active {background:#000f20 url(../img/layout/snb_selArrB_white.png) no-repeat right 15px top 50%;color:#fff;}
@@ -153,7 +154,7 @@ footer address .copyright {display:block;margin-top:7px;font-style:normal;font-s
 #snb_nav #snb li+li {margin-top:10px;}
 #snb_nav #snb li a {color:#666;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:15px;font-weight:400;line-height:16px;letter-spacing:-1px;}
 #snb_nav #snb li a:hover,
-#snb_nav #snb li a:active {color:#009fdb !important;}
+#snb_nav #snb li a:active {color:#419639  !important;}
 #snb_nav #snb li .gnbTit {display:none !important;}
 #snb_nav #snb>li>ul {margin-bottom:10px;}
 #snb_nav #snb>li>ul ul {margin-bottom:0;}
@@ -225,13 +226,13 @@ footer address .copyright {display:block;margin-top:7px;font-style:normal;font-s
 #contents {position:relative;}
 
 .sVisual {display:table;position:relative;width:100%;height:277px;}
-.sVisual .sVisual_wrap {display:table-cell;height:277px;background-repeat:no-repeat;background-position:center;background-size:auto 100%;text-align:center;vertical-align:middle;}
+.sVisual .sVisual_wrap {display:table-cell;height:277px;background-repeat:no-repeat;background-position:center;background-size:auto 101%;text-align:center;vertical-align:middle;}
 .sVisual .mImg {display:none !important;}
 .sVisual .sVisual_tit {font-family:'Roboto','Noto Sans KR',sans-serif;color:#fff;font-size:50px;line-height:60px;letter-spacing:-1px;}
 
 #contents>.pageTit {width:100%;max-width:1240px;margin:0 auto 25px;box-sizing:border-box;padding:0 30px;color:#000;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:44px;line-height:54px;text-align:left;letter-spacing:-1px}
 #contents>.pateTit+article:before {content:'';position:absolute;left:0;top:0;width:100%;height:1px;background:#e1e1e1;}
-article {position: relative;max-width:1240px;min-height:600px;box-sizing: border-box;margin: 0 auto;padding: 0 30px 100px;}
+article {position: relative;max-width:1240px;min-height:500px;box-sizing: border-box;margin: 0 auto;padding: 0 30px 100px;}
 
 #pageTab {max-width:1240px;}
 

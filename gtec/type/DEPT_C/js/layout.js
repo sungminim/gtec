@@ -76,7 +76,11 @@ $(function(){
 			$("#gnb>li>a").removeClass('act');
 			$("#gnb .menuM").removeClass('act');
 		}
-	});
+    });
+    
+    var last_visible_element = $('header>nav #gnb_parent>li:visible:last');
+    last_visible_element.addClass('gnbLast');
+
 
 	/*mobile*/
 	$("header .mBtn_topMenu").click(function(){

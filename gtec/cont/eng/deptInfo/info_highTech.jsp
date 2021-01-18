@@ -27,6 +27,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="intro_dept engDefault">
+                <script>
+                    $(function () {
+                        $('.intro_dept').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="bigTit">Faculty of High Technology Convergence</div>
 
                 <div class="contTit">Dept. of Intelligence Mechanical Design</div>

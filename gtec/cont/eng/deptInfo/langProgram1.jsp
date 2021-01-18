@@ -26,6 +26,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="langProgram1 engDefault">
+                <script>
+                    $(function () {
+                        $('.langProgram1').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="topGrayBox">
                     <p class="txt">
                         GTEC has a variety of Korean language courses for foreign students who wish to study Korean language in Korea. This program aims to help 

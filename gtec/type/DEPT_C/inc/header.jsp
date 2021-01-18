@@ -76,6 +76,7 @@
                 <li><a href="#none">교수진소개</a></li>
                 <li><a href="#none">학과소개</a></li>
                 <li><a href="#none">자료실</a></li>
+                <li style="display:none"><a href="#none">사이트맵</a></li>
             </ul>
             <ul id="gnb">
                 <li class="child"><a href="#none">학과소개</a>

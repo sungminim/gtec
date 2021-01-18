@@ -120,14 +120,12 @@
                         <tr>
                             <td>8</td>
                             <td>16:30 ~ 17:20</td>
-                            <td>&nbsp;</td>
-                            <td>&nbsp;</td>
+                            <td rowspan="3">&nbsp;</td>
+                            <td rowspan="3">&nbsp;</td>
                         </tr>
                         <tr>
                             <td>9</td>
                             <td>17:30 ~ 18:20</td>
-                            <td rowspan="2">&nbsp;</td>
-                            <td rowspan="2">&nbsp;</td>
                         </tr>
                         <tr>
                             <td>10</td>

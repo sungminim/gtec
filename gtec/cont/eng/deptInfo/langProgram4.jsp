@@ -26,6 +26,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="langProgram2 engDefault">
+                <script>
+                    $(function () {
+                        $('.langProgram2').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="contTit mT0">Tuition</div>
 
                 <div class="titSt3">Tuition Fee (3 Months)</div>

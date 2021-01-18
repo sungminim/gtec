@@ -66,6 +66,10 @@
                     </li>
                 </ul>     
             </div>
+
+            <div class="btn_Area">
+                <a href="#none" class="btnC Black"><span>제출하기</span></a>
+            </div>
 			<!--/컨텐츠 영역-->
 		</article>
 	</div>

@@ -761,7 +761,7 @@
                         <li class="hiddenList">
                             <p class="year">2016</p>
                             <p class="month">02.24 </p>
-                            <p class="cont">산․학․관 교류협력 협정식 - 시흥시, (주)신세계사이먼</p>
+                            <p class="cont">산&middot;학&middot;관 교류협력 협정식 - 시흥시, (주)신세계사이먼</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2016</p>
@@ -861,7 +861,7 @@
                         <li class="hiddenList">
                             <p class="year">2016</p>
                             <p class="month">09.23</p>
-                            <p class="cont">산․학 교류협력 협약식 - 경기과학기술대학교, 안산시 근로자종합복지관</p>
+                            <p class="cont">산&middot;학 교류협력 협약식 - 경기과학기술대학교, 안산시 근로자종합복지관</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2016</p>
@@ -911,7 +911,7 @@
                         <li class="hiddenList">
                             <p class="year">2017</p>
                             <p class="month">02.09 </p>
-                            <p class="cont">2016학년도 영어뮤지컬 ‘흥부와 놀부’ 공연 개최 - 시흥시 중앙도서관∙경기과학기술대학교 기관 협력사업</p>
+                            <p class="cont">2016학년도 영어뮤지컬 ‘흥부와 놀부’ 공연 개최 - 시흥시 중앙도서관&middot;경기과학기술대학교 기관 협력사업</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2017</p>
@@ -1081,7 +1081,7 @@
                         <li class="hiddenList">
                             <p class="year">2018</p>
                             <p class="month">05.23 </p>
-                            <p class="cont">산․학․관협력 스마트팩토리 간담회 개최</p>
+                            <p class="cont">산&middot;학&middot;관협력 스마트팩토리 간담회 개최</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2018</p>
@@ -1091,7 +1091,7 @@
                         <li class="hiddenList">
                             <p class="year">2018</p>
                             <p class="month">05.30</p>
-                            <p class="cont"> ㈜파카한일유압․경기과학기술대학교 감사패 증정식</p>
+                            <p class="cont"> ㈜파카한일유압&middot;경기과학기술대학교 감사패 증정식</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2018</p>
@@ -1135,7 +1135,7 @@
                         <li class="hiddenList">
                             <p class="year">2018</p>
                             <p class="month">09.20 </p>
-                            <p class="cont">화공․환경기업협의회와 MOU 체결</p>
+                            <p class="cont">화공&middot;환경기업협의회와 MOU 체결</p>
                         </li>
                         <li class="hiddenList">
                             <p class="year">2018</p>
@@ -1340,7 +1340,7 @@
                                 </li>
                             </ul>
                         </li>
-                    </d>
+                    </ul>
 
                     <ul class="history_list" id="con2">
                         <li>

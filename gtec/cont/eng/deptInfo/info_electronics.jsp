@@ -27,6 +27,11 @@
 		<article>
 			<!--컨텐츠 영역-->
             <div class="intro_dept engDefault electronics">
+                <script>
+                    $(function () {
+                        $('.intro_dept').parents('#contents').find('#pageTab').addClass('typeLong')
+                    })
+                </script>
                 <div class="bigTit">Faculty of Electronics and Information Engineering</div>
 
                 <div class="contTit">Dept. of Electronic Engineering</div>
