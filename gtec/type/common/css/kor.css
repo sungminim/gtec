@@ -1747,13 +1747,14 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .topBoldLine_list>li {min-height:1px;padding:20px 20px 20px 0;}
     .topBoldLine_list>li>strong {position:inherit;top:0;left:0;margin-bottom:10px;font-size:20px;}
 
-    .topBoldLine_list2>li {padding: 20px 20px 20px 0 !important;}
+    .topBoldLine_list2>li {padding: 20px 0px 20px 0 !important;}
     .topBoldLine_list2>li>strong {font-size:20px}
     .topBoldLine_list2>li .borderBox {padding:15px;}
     .topBoldLine_list2>li .list_dotGreen>li .list_hyphen>li {font-size:14px;}
     .topBoldLine_list2>li>.txtSt1:nth-of-type(n+2) {margin-top:13px;}
 
     /* 컨텐츠 공통 */
+    .pL_tit {padding-left:0 !important}
     .mbBr {display:block !important}
     .LR_arrow {width:25px;height:9px;background-size:25px auto;}
 

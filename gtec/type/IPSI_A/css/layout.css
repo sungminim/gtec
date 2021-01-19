@@ -312,7 +312,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     .gnbOn header .top_util .utilGrp a+button::before,
     .gnbOn header .top_util .utilGrp button+a::before {background:#fff;}
 
-    .btn_scrollTop {right:20px;width:30px;height:36px;background-size:30px auto;opacity:0.8;}
+    .btn_scrollTop {right:20px;bottom:50px;width:30px;height:36px;background-size:30px auto;opacity:0.8;}
 
     .familySite {height:35px;padding:0;}
     .familySite .family_btn {padding:0 20px;}

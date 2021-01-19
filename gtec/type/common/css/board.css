@@ -889,7 +889,8 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     /* pdf */
     .lineList_v.typePdfview .pdf_info {width:220px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList li a {height:48px;padding-left:20px;font-size:14px;line-height:16px;}
-    .lineList_v.typePdfview .pdf_view{width:calc(100% - 220px);padding-left:20px;}
+    .lineList_v.typePdfview .pdf_view{width:calc(100% - 220px);height:400px;padding-left:20px;}
+    .lineList_v.typePdfview .pdf_view iframe {height:400px;}
 
     .btnPdf>span {height:48px;padding-left:20px;font-size:15px;line-height:48px;}
 
@@ -1163,7 +1164,7 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList .list li:hover a {font-weight:400;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList.on .btn_mSelect {z-index:99;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList.on .list {height:auto;}
-    .lineList_v.typePdfview .pdf_view {float:inherit;width:100%;height:auto;margin-top:15px;padding-left:0;}
+    .lineList_v.typePdfview .pdf_view {float:inherit;width:100%;margin-top:15px;padding-left:0;}
 
     .btnPdf>span {height:40px;padding:0 40px 0 15px;background-position:right 10px center;background-size:auto 15px;font-size:14px;line-height:40px;}
 

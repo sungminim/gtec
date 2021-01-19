@@ -368,7 +368,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     .gnbOn header .top_util .utilGrp button::after {display:none;}
     .gnbOn header .top_util .utilGrp .btn_topLanguage {background-image:url(../img/layout/ico_arrB_white.png) !important;}
 
-    .btn_scrollTop {right:20px;width:30px;height:36px;background-size:30px auto;opacity:0.8;}
+    .btn_scrollTop {right:20px;bottom:50px;width:30px;height:36px;background-size:30px auto;opacity:0.8;}
 
     .familySite {height:35px;padding:0;}
     .familySite .family_btn {padding:0 20px;}
