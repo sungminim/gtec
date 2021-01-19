@@ -228,7 +228,7 @@ th 9번 : 조회수 / th.headView
 .lineList_ul .txtL .ico_new {display:inline-block;overflow:hidden;width:20px;height:20px;margin:0;background:url(../img/board/ico_new.png) no-repeat 50% 50%;text-indent:-200px;vertical-align:middle;}
 .lineList_ul .answer {display:block;position:absolute;right:5px;top:30px;margin-top:0;color:#666;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:14px;}
 .lineList_ul .answer a {display:inline-block;padding:0 7px;border:1px solid #adb1bc;color:#666;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:14px;font-weight:300;line-height:21px;vertical-align:middle;}
-.lineList_ul .answer em {color:#1056ab;font-weight:500;font-style:normal;}
+.lineList_ul .answer em {color:#419639;font-weight:500;font-style:normal;}
 .lineList_ul .hasArea {position:absolute;right:5px;top:33px;min-width:20px;padding:0;}
 .lineList_ul .hasArea .hasfile {display:inline-block;overflow:hidden;width:20px;height:20px;background:url(../img/board/ico_fileDown_black.png) no-repeat 50% 50%;text-indent:-100px;}
 .lineList_ul .hasArea .hasfileNum {display:inline-block;position:relative;;left:-10px;top:5px;min-width:21px;height:21px;margin:0;box-sizing:border-box;border-radius:50%;background:#000;color:#fff;font-size:12px;line-height:21px;text-align:center;letter-spacing:-1px;text-indent:-2px;}
@@ -385,7 +385,7 @@ th 9번 : 조회수 / th.headView
 .lineList_ul.typeGallery.typePdf li.typeFile .fileDown a,
 .lineList_ul.typeGallery.typePdf li.typeFile .fileDown button {display:inline-block;margin-right:2px;padding:0 30px 0 15px;background:url(../img/board/ico_fileDown_s_white.png) no-repeat right 12px center;color:#fff;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:14px;font-weight:400;line-height:29px;}
 .lineList_ul.typeGallery.typePdf li.typeFile .fileDown .btn_pdf {background-color:#cd1c22;}
-.lineList_ul.typeGallery.typePdf li.typeFile .fileDown .btn_hwp {background-color:#1056ab;}
+.lineList_ul.typeGallery.typePdf li.typeFile .fileDown .btn_hwp {background-color:#419639;}
 .lineList_ul.typeGallery.typePdf li .txtInfo>.txtL {display:inline-block;height:auto;margin:-4px 0 0 5px;padding:0 !important;vertical-align:top;}
 .lineList_ul.typeGallery.typePdf li .txtInfo>.txtL .info_comment {height:auto;font-size:16px;font-weight:400;}
 
@@ -653,7 +653,7 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
 
 .pageAddFile>div {position:relative;padding: 4px 174px 4px 0;font-size:0;}
 .pageAddFile>div .inp_t {width:100%;}
-.pageAddFile>div .btn_fileFind {display:inline-block;position:absolute;top:2px;right:120px;width:90px;height:40px;border:1px solid #1056ab;background:#fff;color:#1056ab;font-size:15px;font-weight:normal;line-height:40px;text-align:center;cursor:pointer;letter-spacing:-1px;}
+.pageAddFile>div .btn_fileFind {display:inline-block;position:absolute;top:2px;right:120px;width:90px;height:40px;border:1px solid #419639;background:#fff;color:#419639;font-size:15px;font-weight:normal;line-height:40px;text-align:center;cursor:pointer;letter-spacing:-1px;}
 .pageAddFile>div .btn_fileFind input {position:absolute;top:0;right:0;width:100%;height:100%;opacity:0;cursor:pointer}
 .pageAddFile>div .btn_fileAdd,
 .pageAddFile>div .btn_fileRe,
@@ -706,20 +706,20 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
 .prevNnext li.next>strong {background:url(../img/board/prevNnext_btm.png) no-repeat left 20px top 50%;}
 .prevNnext li>p {display:block;float:left;overflow:hidden;width:calc(100% - 110px);height:57px;box-sizing:border-box;padding:0;background:none !important;font-size:16px;line-height:57px;white-space:nowrap;}
 .prevNnext li>.no_article {color:#666;text-align:left;}
-.prevNnext li>.article>.mark_categ {display:inline-block;vertical-align: top;margin-right:5px;color:#1056ab;font-size:15px;line-height:57px;}
+.prevNnext li>.article>.mark_categ {display:inline-block;vertical-align: top;margin-right:5px;color:#419639;font-size:15px;line-height:57px;}
 .prevNnext li>.article>a {display:block;overflow:hidden;text-overflow:ellipsis;width:100%;color:#000;font-size:16px;line-height:57px;text-align:left;white-space:nowrap;}/*기본(구분값,날짜 없을때)*/
 /*.prevNnext li>.article>a {display:block;float:left;overflow:hidden;text-overflow:ellipsis;width:calc(100% - 60px);color:#000;font-size:15px;line-height:17px;text-align:left;white-space:nowrap;}*//*날짜없을때(구분값+a태그)*/
 /*.prevNnext li>.article>a {display:inline-block;overflow:hidden;text-overflow:ellipsis;width:calc(100% - 60px);color:#000;font-size:15px;line-height:57px;text-align:left;white-space:nowrap;}*//*날짜있을때(구분값+a태그)*/
 /*.prevNnext li>.article>a {display:block;overflow:hidden;text-overflow:ellipsis;width:100%;color:#000;font-size:15px;line-height:57px;text-align:left;white-space:nowrap;}/*구분값이 a태그 안에*//*날짜없을때*/
 /*.prevNnext li>.article>a {display:inline-block;overflow:hidden;text-overflow:ellipsis;width:calc(100% - 100px);color:#000;font-size:16px;line-height:57px;text-align:left;white-space:nowrap;vertical-align:top;}*//*구분값이 a태그 안에)*//*날짜있을때*/
 .prevNnext li>.article>a+.date {display:inline-block;overflow:hidden;width:80px;padding-right:20px;color:#666;font-family:'Roboto',sans-serif;font-size:16px;;line-height:57px;text-align:right;vertical-align:top;}
-.prevNnext li>.article>a>.mark_categ {display:inline-block;margin-right:5px;color:#1056ab;font-size:15px;line-height:57px;vertical-align:top;}/*구분값이 a태그 안에*/
+.prevNnext li>.article>a>.mark_categ {display:inline-block;margin-right:5px;color:#419639;font-size:15px;line-height:57px;vertical-align:top;}/*구분값이 a태그 안에*/
 
 /* 상세(Q&A) */
 .replyArea .fileArea {overflow:hidden;margin:25px 0 0;padding:20px;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;background: #f4f5f9 url(../img/board/ico_fileDown_black.png) no-repeat 20px 50%;background-size:16px 16px;}
 .replyArea .fileArea p {padding:0 0 0 45px;}
 .replyArea .fileArea p+p {margin:10px 0 0;}
-.replyArea .fileArea p a {display:inline;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 25px);color:#1056ab;font-size:15px;line-height:20px;vertical-align:middle;}
+.replyArea .fileArea p a {display:inline;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 25px);color:#419639;font-size:15px;line-height:20px;vertical-align:middle;}
 .replyArea .fileArea p a:hover {text-decoration:underline;}
 
 .replyArea.typeQna .list li {padding:25px 0 20px;}
@@ -882,7 +882,7 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
 	.pdf_viewL .pdf_info .pdf_infoMenu li a img {margin:3px 10px 0 0;vertical-align:top}
 	.pdf_viewL .pdf_info .pdf_infoMenu li:nth-child(4) a {margin-top:10px;}
 	.pdf_viewL .pdf_info .pdf_infoList li a {display:none}
-	.pdf_viewL .pdf_info .inp_s {display:block;position:relative;width:100%;height:45px;margin:15px 0 20px 0;padding:0 15px;border:1px solid #1056ab;background: url(../img/layout/icon_snb_arrowD.svg) no-repeat 97% 50%;background-size: 9px 6px;color:#1056ab;font-weight:500;letter-spacing:-1px;z-index:10;}
+	.pdf_viewL .pdf_info .inp_s {display:block;position:relative;width:100%;height:45px;margin:15px 0 20px 0;padding:0 15px;border:1px solid #419639;background: url(../img/layout/icon_snb_arrowD.svg) no-repeat 97% 50%;background-size: 9px 6px;color:#419639;font-weight:500;letter-spacing:-1px;z-index:10;}
 	.pdf_viewL .pdf_view {width:100%;height:auto;position:relative;top:0;left:0;box-sizing:border-box;padding-left:0px;}
     .pdf_viewL .pdf_view iframe {border:1px solid #dfdfdf;height:500px;}
 
@@ -1127,6 +1127,7 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .prevNnext li>p {width:calc(100% - 100px);height:45px;font-size:14px;line-height:45px;}
     .prevNnext li.prev>strong,
     .prevNnext li.next>strong {padding-left:35px;background-position:10px 50%;line-height:45px;}
+    .prevNnext li>.article>a>.mark_categ {line-height:45px;}
 
     .pageAddFile>div .btn_fileFind {font-size:14px;}
 
@@ -1157,8 +1158,8 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoMenu li {float:left;width:calc(50% - 2px);}
     .lineList_v.typePdfview .pdf_info .pdf_infoMenu li:nth-child(2n) {margin-left:4px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList {position:relative;height:40px;margin-top:15px;}
-    .lineList_v.typePdfview .pdf_info .pdf_infoList .btn_mSelect {display:block;position:absolute;left:0;top:0;overflow:hidden;width:100%;height:40px;box-sizing:border-box;padding:0 30px 0 13px;border:1px solid #009fdb;background:#fff url(../img/common/m/ico_arrB_blue.png) no-repeat right 10px center;background-size:auto 6px;color:#009fdb;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:15px;font-weight:500;line-height:40px;text-align:left;z-index:101;}
-    .lineList_v.typePdfview .pdf_info .pdf_infoList .list {position:absolute;overflow:hidden;height:40px;box-sizing:border-box;padding:10px 0;border:1px solid #009fdb;background:#fff;z-index:100;transition:0.2s;}
+    .lineList_v.typePdfview .pdf_info .pdf_infoList .btn_mSelect {display:block;position:absolute;left:0;top:0;overflow:hidden;width:100%;height:40px;box-sizing:border-box;padding:0 30px 0 13px;border:1px solid #6db327;background:#fff url(../img/common/m/ico_arrB_green.png) no-repeat right 10px center;background-size:auto 6px;color:#6db327;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:15px;font-weight:500;line-height:40px;text-align:left;z-index:101;}
+    .lineList_v.typePdfview .pdf_info .pdf_infoList .list {position:absolute;overflow:hidden;height:40px;box-sizing:border-box;padding:10px 0;border:1px solid #6db327;background:#fff;z-index:100;transition:0.2s;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList .list li {border:none !important}
     .lineList_v.typePdfview .pdf_info .pdf_infoList .list li a {height:auto;padding:6px 20px 6px;border:none !important;font-size:14px;background:none !important;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList .list li:hover a {font-weight:400;}
@@ -1301,6 +1302,12 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
 @media all and (max-width:360px){
     /* 이전다음 */
     .prevNnext li>strong {width:33px;}
+}
+
+@media all and (max-width:345px){
+    .lineList_v.typePdfview .pdf_info .pdf_infoMenu li {width:100%;}
+    .lineList_v.typePdfview .pdf_info .pdf_infoMenu li+li {margin-top:3px;}
+    .lineList_v.typePdfview .pdf_info .pdf_infoMenu li:nth-child(2n) {margin-left:0;}
 }
 
 @media all and (max-width:320px){

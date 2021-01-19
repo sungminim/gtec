@@ -1118,7 +1118,7 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .popLayout.pop_loginView.single .loginOpt .Grp:nth-of-type(n+2)::before{display:none;}
 
 .iconCenterBox{width:100%;height:auto;padding:0px 20px; margin-bottom:30px;box-sizing:border-box;background-color:#f5f7f9;}
-.iconCenterBox .innerBox{width:730px;margin:0 auto;padding:40px 0 40px 90px;box-sizing:border-box;background:url(../img/common/program/icon_surveyWrite.png) no-repeat left center;}
+.iconCenterBox .innerBox{width:740px;margin:0 auto;padding:40px 0 40px 90px;box-sizing:border-box;background:url(../img/common/program/icon_surveyWrite.png) no-repeat left center;}
 .iconCenterBox .innerBox .txtSt1{color:#222;}
 
 .requisiteTxt{font-size:16px;line-height:20px;color:#555;text-align:right;margin-bottom:20px;}
@@ -1135,6 +1135,11 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .surveyList li .item .inp_r:last-of-type{margin-bottom:0px;}
 .surveyList li .item .inp_c{display:block;margin:0 0 10px 0;}
 .surveyList li .item .inp_c:last-of-type{margin-bottom:0px;}
+
+.surveyFinish {min-height:750px;}
+.surveyFinish .innerArea {padding-top:174px;padding-bottom:75px;border-top:2px solid #222;border-bottom:1px solid #d9d9d9;background:url(../img/common/program/icon_surveyWrite.png) no-repeat left 50% top 80px;text-align:center;}
+.surveyFinish .innerArea .finishTit {margin-bottom:5px;font-size:36px;letter-spacing:-2px;}
+.surveyFinish .innerArea .finishTxt {display:block;font-size:18px;letter-spacing:-1px;}
 
 .resultList{width:100%;height:auto;font-size:0;}
 .resultList dt{display:inline-block;width:100px;padding-right:10px;box-sizing:border-box;margin-bottom:10px;vertical-align:top;font-size:16px;line-height:21px;color:#555;letter-spacing:-1px;}
@@ -1673,7 +1678,9 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(1){width:40px;}
     .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(2){width:calc(100% - 40px);}
     .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(4)::before,
-    .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(5)::before{content:attr(data-title);display:inline-block;vertical-align:0px;margin-right:5px;}
+    .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(5)::before,
+    .survey .lineTop_tbArea .lineTop_tb2 tbody td:nth-child(6)::before{content:attr(data-title);display:inline-block;vertical-align:0px;margin-right:5px;}
+    .survey .lineTop_tbArea .lineTop_tb2 tbody td br {display:none;}
 
     /*성폭력 신고*/
     .txtRowSort.innerFrom{padding-left:14px;}
@@ -2353,6 +2360,8 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .telColbox>ul>li a{font-size:14px;}
     
     /*설문조사*/
+    .survey .lineTop_tbArea .lineTop_tb2 tbody td {padding:3px 5px}
+
     .surveySech{padding:20px; margin-bottom:30px;}
     .surveySech .innerArea{width:100%;}
     .surveySech .item{padding-left:60px;height:40px;}
@@ -2365,7 +2374,14 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .surveySech .item.multi > .btnIconSech{height:40px;width:40px;background-size:15px auto;}
     .surveySech .item.multi .inp_s{width:85px;}
     .surveySech .item.multi .inp_t{width:calc(100% - 130px);}
-    .surveySech .item.datepicker .pickerInq .date-picker-dateval:link{right:10px;top:11px;}    
+    .surveySech .item.datepicker .pickerInq .date-picker-dateval:link{right:7px;top:11px;}    
+
+    .surveyFinish {min-height:1px;}
+    .surveyFinish .innerArea {padding-top:95px;padding-bottom:40px;background-position:left 50% top 35px;background-size:45px auto;}
+    .surveyFinish .innerArea .finishTit {font-size:22px;}
+    .surveyFinish .innerArea .finishTxt {font-size:16px;}
+    .surveyFinish .innerArea .finishTxt br {display:none;}
+
     .btnBox>span{height:30px;line-height:28px;font-size:13px;}
     
     .popLayout.pop_loginView .popInner{padding-top:20px;}

@@ -29,7 +29,7 @@
 .mVisual .mVisualDot .slick-dots li:last-of-type{margin-right:0px;}
 .mVisual .mVisualDot .slick-dots li button{width:10px;height:10px;border-radius:50%;border:1px solid #eaeaea;box-sizing:border-box;background-color:rgba(255,255,255,0);text-indent:-9999px;}
 .mVisual .mVisualDot .slick-dots li.slick-active button{border-color:#33a32a;background-color:#33a32a;}
- 
+
 .mVisual .mVisualLink{position:relative;max-width:1240px;width:100%;margin:0 auto;box-sizing:border-box;}
 .mVisual .mVisualLink .linkArea{position:absolute;right:30px;bottom:95px;width:264px;height:310px;padding:33px 38px 23px 28px;box-sizing:border-box;background:url(../img/main/bg_mVisualLink.png) no-repeat center center;z-index:10;}
 .mVisual .mVisualLink .linkArea>a{position:relative;display:block;padding:21px 0 21px 50px;box-sizing:border-box;border-bottom:1px solid #50af48;}
@@ -144,6 +144,7 @@
     .mVisual .mVisualLink .linkArea>a:nth-of-type(n+3){border-bottom:none;}
     .mVisual .mVisualLink .linkArea>a img{width:25px;top:calc(50% - 10px);left:4px;}
     .mVisual .mVisualLink .linkArea>a span{font-size:13px;line-height:16px;}
+    .mVisual .mVisualDot .slick-dots {bottom:40px;}
     
     .mSubLink .slider .item{height:auto;padding:20px 0;margin:0 10px;}
     .mSubLink .slider .item a{padding-left:45px;}

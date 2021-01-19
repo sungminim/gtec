@@ -370,7 +370,7 @@
 
 @media all and (max-width:768px){
     /* 공통 */
-    .subTit1 {;margin:25px 0 6px;font-size:14px;}
+    .subTit1 {margin:25px 0 6px;font-size:14px;}
     .subTit2 {margin:25px 0 10px;font-size:16px;}
     .subTit3 {margin:25px 0 10px;font-size:18px;}
     .subTit4 {margin:25px 0 10px;font-size:18px;}

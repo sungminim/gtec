@@ -76,9 +76,9 @@
                                 <th scope="col">설문기간</th>
                                 <th scope="col">참여일</th>
                                 <th scope="col">참여인원</th>
-                                <th scope="col">설문대상</th>
                                 <th scope="col">진행상태</th>
                                 <th scope="col">설문</th>
+                                <th scope="col">결과</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -88,9 +88,9 @@
                                 <td>2020.11.19~2020.11.29</td>
                                 <td data-title="참여일">2020.11.19</td>
                                 <td data-title="참여인원">1000</td>
-                                <td data-title="설문대상">로그인, SNS <br>(전체)</td>
                                 <!--예정 : expect / 진행 : ing / 완료 : complet-->
                                 <td class="expect">예정</td>
+                                <td></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -99,10 +99,10 @@
                                 <td>2020.11.19~2020.11.29</td>
                                 <td data-title="참여일">2020.11.19</td>
                                 <td data-title="참여인원">1000</td>
-                                <td data-title="설문대상">로그인, SNS <br>(대상자지정)</td>
                                 <!--예정 : expect / 진행 : ing / 완료 : complet-->
                                 <td class="ing">진행</td>
                                 <td><a href="#none" class="btnBox green"><span>참여하기</span></a></td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>6</td>
@@ -110,10 +110,10 @@
                                 <td>2020.11.19~2020.11.29</td>
                                 <td data-title="참여일">2020.11.19</td>
                                 <td data-title="참여인원">1000</td>
-                                <td data-title="설문대상">SNS</td>
                                 <!--예정 : expect / 진행 : ing / 완료 : complet-->
                                 <td class="complet">완료</td>
                                 <td>응시</td>
+                                <td><a href="#none" class="btnBox"><span>결과보기</span></a></td>
                             </tr>
                             <tr>
                                 <td>6</td>
@@ -121,10 +121,10 @@
                                 <td>2020.11.19~2020.11.29</td>
                                 <td data-title="참여일">2020.11.19</td>
                                 <td data-title="참여인원">1000</td>
-                                <td data-title="설문대상">SNS</td>
                                 <!--예정 : expect / 진행 : ing / 완료 : complet-->
                                 <td class="complet">완료</td>
                                 <td>미응시</td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>

@@ -145,17 +145,12 @@
                     </div>
                 </div>
 
-
-                <script>
-                    id = prompt ('아이디를 입력해주세요');
-                    if(id == 'egoing'){
-                        alert('아이디가 일치합니다.')
-                    } else {
-                        alert('아이디가 일치하지 않습니다.')
-                    }
+                
 
 
-                </script>
+                
+
+
             </div>
             <!--/컨텐츠 영역-->
         </article>

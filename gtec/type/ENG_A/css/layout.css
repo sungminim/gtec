@@ -429,7 +429,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
 
 @media all and (max-width:768px){
     .familySite .family_btn {padding:0 20px;}
-    .pop_familySite ul {padding:20px 0 10px;}
+    .pop_familySite ul {padding:0px 0 10px;}
     .pop_familySite ul>li {width:50%;margin-bottom:10px;}
 
     #snb_nav {position:absolute;top:230px;height:50px;margin:0;z-index:900 !important;}

@@ -371,7 +371,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
 
     #familySite1>section,
     #familySite2>section {left:5%;top:5%;max-height:none;margin:0;}
-    .pop_familySite ul {padding:20px 20px 10px;}
+    .pop_familySite ul {padding:0px 20px 10px;}
     .pop_familySite ul>li {width:50%;margin-bottom:10px;}
 
     footer .f_quick .btn {padding-top:11px;}
@@ -403,7 +403,6 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
 @media all and (max-width:620px){
     #familySite1>section,
     #familySite2>section {left:5%;top:5%;max-height:none;margin:0;transform:none;}
-    .pop_familySite ul {padding:20px 20px 10px;}
     .pop_familySite ul>li {width:50%;margin-bottom:10px;}
 }
 
