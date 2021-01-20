@@ -188,7 +188,7 @@ $(function(){
 		}
 	};
 
-	// $(".pop_wrap .popConts .limit").mCustomScrollbar();
+	$(".pop_wrap .popConts .limit").mCustomScrollbar();
     
     var scrollTarget = "";
     if($("body").hasClass('typeMain')){scrollTarget = "body"}

@@ -2125,6 +2125,9 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .comeway_car .contTit {margin-bottom:15px;}
     .comeway_car .mapArea {margin-top:18px;}
 
+    .clubs .list_range {width:100%;margin-left:0px;margin-top:0px;}
+    .clubs .list_range>li {width:100%;margin-left:0px;margin-top:10px;}
+
     /* 대학안내 영문 */
     #verEng .contTit_m {font-size:20px !important;}
     #verEng .greeting .greeting_cont .quoteTit {padding-bottom:15px;font-size:24px;}

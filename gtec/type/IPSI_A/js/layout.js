@@ -135,7 +135,8 @@ $(function(){
 		$("html, body").stop().animate({
 			scrollTop : 0
 		}, 150);
-	});
+    });
+    
 
 	$('.snb_util .zoom').easyView({
 		container: 'article',
@@ -179,7 +180,7 @@ $(function(){
 
 	$(window).scroll(function(){
 		var conts_loc = $(window).scrollTop();
-		console.log(conts_loc);
+		// console.log(conts_loc);
 		if($("body").hasClass('typeMain')){
 			if(conts_loc > 0){
 				$("body").addClass('mSticky')
@@ -202,7 +203,13 @@ $(function(){
 					$("body").removeClass('stickyFix');
 				}
 			}
-		}
+        }
+        
+        if(conts_loc > 100){
+            $(".btn_scrollTop").fadeIn(200);
+        }else{
+            $(".btn_scrollTop").fadeOut(200);
+        }
 	});
 
 	/*** Contents ***/

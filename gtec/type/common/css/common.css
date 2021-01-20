@@ -29,7 +29,7 @@ fieldset{border:none}
 button{margin:0;padding:0;border:none;background:none;cursor:pointer;display:inline-block;}
 b {font-weight:500}
 
-#verChn html, #verChn body, #verChn div, #verChn h1,  #verChn h2, #verChn h3, #verChn h4, #verChn h5, #verChn h6, #verChn p, #verChn ul, #verChn ol, #verChn li, #verChn dl, #verChn dt, #verChn dd, #verChn span, #verChn form, #verChn fieldset, #verChn input, #verChn select, #verChn label, #verChn textarea, #verChn table, #verChn caption, #verChn thead, #verChn tfoot, #verChn tbody, #verChn tr, #verChn th, #verChn td {font-family:'Roboto','Noto Sans Sc',"굴림",Gulim,"돋움",Dotum, Sans-serif;}
+#verChn html, #verChn body, #verChn div, #verChn h1,  #verChn h2, #verChn h3, #verChn h4, #verChn h5, #verChn h6, #verChn p, #verChn ul, #verChn ol, #verChn li, #verChn dl, #verChn dt, #verChn dd, #verChn span, #verChn form, #verChn fieldset, #verChn input, #verChn select, #verChn label, #verChn textarea, #verChn table, #verChn caption, #verChn thead, #verChn tfoot, #verChn tbody, #verChn tr, #verChn th, #verChn td {font-family:'Roboto','Noto Sans Sc','Noto Sans KR','굴림',Gulim,'돋움',Dotum, Sans-serif;}
 
 /*** Layout ***/
 .alt_hidden, legend,
