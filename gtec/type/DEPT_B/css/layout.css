@@ -139,7 +139,7 @@ footer address p>span>a {display:inline-block;}
 footer address .copyright {display:inline-block;margin:0 7px 7px 0;font-style:normal;font-size:14px;color:rgba(255,255,255,0.6);font-family:'Roboto','Noto Sans KR',sans-serif;font-weight:300;line-height:16px;letter-spacing:-1px;vertical-align:top;}
 
 /*SNB*/
-#snb_nav {position:relative;width:100%;height:55px;margin:0 0 70px;box-sizing:border-box;background:#419639;}
+#snb_nav {position:relative;width:100%;height:55px;margin:0 0 70px;box-sizing:border-box;background:#419639;z-index:900 !important;}
 #snb_nav::before {content:'';display:block;position:absolute;left:0;top:0;width:100%;height:1px;background:#fff;opacity:0.2;}
 #snb_nav .snb_area {position:relative;width:100%;max-width:1180px;height:55px;margin:0 auto;box-sizing:border-box;padding:0;z-index:500;line-height:36px;}
 #snb_nav .snb_area .btn_home {display:block;position:relative;float:left;overflow:hidden;width:53px;height:55px;margin:0;padding:0;background:url(../img/layout/snb_home_white.png) no-repeat center;color:#fff;font-family:'Malgun Gothic';font-size:16px;line-height:54px;text-indent:-999px;}
@@ -232,7 +232,7 @@ footer address .copyright {display:inline-block;margin:0 7px 7px 0;font-style:no
 
 #contents>.pageTit {width:100%;max-width:1240px;margin:0 auto 25px;box-sizing:border-box;padding:0 30px;color:#000;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:44px;line-height:54px;text-align:left;letter-spacing:-1px}
 #contents>.pateTit+article:before {content:'';position:absolute;left:0;top:0;width:100%;height:1px;background:#e1e1e1;}
-article {position: relative;max-width:1240px;min-height:500px;box-sizing: border-box;margin: 0 auto;padding: 0 30px 100px;}
+article {position: relative;max-width:1240px;min-height:500px;box-sizing: border-box;margin: 0 auto;padding: 0 30px 100px;overflow:hidden;}
 
 #pageTab {max-width:1240px;}
 
@@ -339,7 +339,7 @@ article {position: relative;max-width:1240px;min-height:500px;box-sizing: border
     #contents {padding-top:0}
 
     .sVisual,
-    .sVisual .sVisual_wrap {height:139px;background-size:1024px auto;}
+    .sVisual .sVisual_wrap {height:139px;background-size:cover;}
     .sVisual .mImg {display:block;position:absolute;left:0;top:0;z-index:0;}
     .sVisual .sVisual_tit {position:relative;font-size:30px;line-height:40px;z-index:1;}
 

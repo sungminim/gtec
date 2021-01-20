@@ -148,7 +148,7 @@
                 <div class="contTit_m">위치 및 연락처</div>
                 <ul class="contactBox list_range">
                     <li class="name">
-                        <b class="tit">담당 교수</b>
+                        <b class="tit">학과장</b>
                         <p class="txt">이경옥 교수</p>
                     </li>
                     <li class="tel">

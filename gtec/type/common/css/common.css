@@ -641,8 +641,8 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     .pagination>button {width:30px;height:30px;line-height:25px;}
     .pagination>button>span {background-size:auto 10px !important;}
     .pagination .paging {padding:4px 5px 0;}
-    .pagination .paging>li {padding:0 7px;}
-    .pagination .paging>li>button {width:13px;font-size:14px;line-height:20px;}
+    .pagination .paging>li {padding:0 5px;}
+    .pagination .paging>li>button {width:14px;font-size:14px;line-height:20px;}
 
     /* title */
     .contTit {margin-top:25px;margin-bottom:12px;font-size:25px}

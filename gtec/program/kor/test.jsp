@@ -145,7 +145,19 @@
                     </div>
                 </div>
 
-                
+                <script>
+                    function name(){
+                        return ['im', 'kim', 'min']
+                    }
+
+                    var name2 = name();
+
+                    console.log(name2.length);
+
+                    for(i = 0;i < name2.legnth;i++){
+                        
+                    }
+                </script>
 
 
                 
