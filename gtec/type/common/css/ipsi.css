@@ -190,7 +190,7 @@
 .ipsiDataList{width:100%;font-size:0;}
 .ipsiDataList >li{width:calc(25% - 15px);display:inline-block;vertical-align:top;margin:0 20px 40px 0;}
 .ipsiDataList >li:nth-of-type(4n){margin-right:0px;}
-.ipsiDataList >li .imgBox{width:100%;position:relative;margin-bottom:15px;}
+.ipsiDataList >li .imgBox{width:100%;position:relative;margin-bottom:15px;cursor:pointer}
 .ipsiDataList >li .imgBox::before{content:"";display:block;padding-top:121.5%;}
 .ipsiDataList >li .imgBox>img{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);}
 .ipsiDataList >li .nameArea{width:100%;}

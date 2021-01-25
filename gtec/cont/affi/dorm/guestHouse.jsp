@@ -32,7 +32,7 @@
                     <table class="lineTop_tb2">
                         <caption><p>게스트하우스 이용요금 표</p></caption>
                         <colgroup>
-                            <col><col><col>
+                            <col><col><col><col><col><col width="20%">
                         </colgroup>
                         <thead>
                             <tr>
@@ -51,9 +51,9 @@
                                 <td rowspan="2">1인실</td>
                                 <td>교직원</td>
                                 <td>44,000</td>
-                                <td>44,000</td>
+                                <td>440,000</td>
                                 <td>2,640,000</td>
-                                <td rowspan="6" class="txtL">
+                                <td rowspan="6">
                                     ※ 1개월 산정기준 <br>
                                     일반인 28일 (4주, 7일) <br>
                                     교직원 20일 (4주, 5일)
@@ -82,7 +82,7 @@
                                 <td rowspan="2">VIP실</td>
                                 <td>교직원</td>
                                 <td>66,000</td>
-                                <td>66,000</td>
+                                <td>660,000</td>
                                 <td>3,960,000</td>
                             </tr>
                              <tr>

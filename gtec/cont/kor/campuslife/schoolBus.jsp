@@ -25,7 +25,7 @@
                     <a href="#none" class="btnI btnDown"><span>통학버스 운행시간표 다운로드</span></a>
                 </div>
             </div>
-
+            <p class="exclam small mT15">등교만 운행함</p>
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2">
                     <caption>
@@ -135,7 +135,6 @@
                     </tbody>
                 </table>
             </div>
-            <p class="exclam small mT15">등교만 운행함</p>
 
         </div>
         <!--/컨텐츠 영역--> 	

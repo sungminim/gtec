@@ -17,7 +17,7 @@
 			<!--컨텐츠 영역-->
 		
 			<div class="intro_dept deptWrap">
-                <div class="titSt8">스마트경영학과</div>
+                <div class="titSt8">스마트산업경영공학과</div>
                 <div class="intro_head">
                     <div class="img">
                         <img src="/gtec/type/common/img/dept/bachelor/intro_smart.png" alt="">
@@ -30,7 +30,7 @@
                         </p>
 
                         <div class="info_txt">
-                            스마트경영학과 학사학위 전공심화과정은 지식·정보화 시대에 공학지식과 <br>
+                            스마트산업경영공학과 학사학위 전공심화과정은 지식·정보화 시대에 공학지식과 <br>
                             경영마인드의 융합을 통해 급변하는 산업 환경의 개편에 적응할 수 있는 <br>
                             최적의 다기능전문 인재, 경쟁력 강화를 추구하는 기업현장에서 요구되는 <br>
                             현장 접목형 기술전문 인재 양성을 교육목표로 합니다.

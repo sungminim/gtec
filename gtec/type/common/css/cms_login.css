@@ -23,7 +23,7 @@
 .cms_login .loginBox fieldset .log_pw label {background:url(../img/cms/ico_lock.png) no-repeat left 20px top 13px;}*/
 .cms_login .loginBox fieldset .log_id>input {background:#fff url(../img/cms/ico_human.png) no-repeat left 25px top 13px;}
 .cms_login .loginBox fieldset .log_pw>input {background:#fff url(../img/cms/ico_lock.png) no-repeat left 25px top 13px;}
-.cms_login .loginBox fieldset .btn_login {display:block;width:100%;height:50px;margin-top:15px;box-sizing:border-box;border-radius:2px;background:#009fdb;color:#fff;font-family:'arial';font-size:22px;font-weight:bold;line-height:50px;text-align:center;} /*200708*/
+.cms_login .loginBox fieldset .btn_login {display:block;width:100%;height:50px;margin-top:15px;box-sizing:border-box;border-radius:2px;background:#69b848;color:#fff;font-family:'arial';font-size:22px;font-weight:bold;line-height:50px;text-align:center;} /*200708*/
 .cms_login .loginBox .list_dot {position:relative;margin-top:25px;padding-top:20px;border-top:1px solid #9d9fa4;z-index:1;}
 .cms_login .loginBox .list_dot>li {position:relative;padding-left:7px;}
 .cms_login .loginBox .list_dot>li::before {content:'';display:block;position:absolute;left:0;top:8px;width:2px;height:2px;background:#3e4551;color:#000;font-size:12px;line-height:16px;letter-spacing:-1px;}

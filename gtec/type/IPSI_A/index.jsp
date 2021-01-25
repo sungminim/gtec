@@ -801,5 +801,72 @@
                 </div>
             </div>
         </div>
+
+        <!--mBanner 추가 -->
+        <div class="mBanner">
+            <div class="innerCont">
+                <div class="area">
+                    <div class="sliderArea">
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner1.png" alt="">
+                                    <i>캠퍼스 투어</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner2.png" alt="">
+                                    <i>장학금 안내</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner3.png" alt="">
+                                    <i>기숙사 안내</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner4.png" alt="">
+                                    <i>스쿨버스 운영</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner5.png" alt="">
+                                    <i>사이버 홍보실</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner4.png" alt="">
+                                    <i>스쿨버스 운영</i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#none">
+                                <span>
+                                    <img src="/gtec/type/IPSI_A/img/main/icon_mBanner4.png" alt="">
+                                    <i>스쿨버스 운영</i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--//mBanner 추가-->
     </div>
 <jsp:include page="/gtec/type/IPSI_A/inc/footer.jsp"/>

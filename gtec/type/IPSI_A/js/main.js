@@ -7,6 +7,7 @@ var ipsiMain = {
     Init : function(){
         ipsiMain.mNotice();
         ipsiMain.mIpsiServices();
+        ipsiMain.mBanner();
     },
     mNotice : function(){        
         $(".mNotice .tabBtn .default").on("click", function(e){
@@ -33,6 +34,44 @@ var ipsiMain = {
 		        nextArrow: $('.mIpsiServices .SliderBtn .next'),
             });
         }
+    },
+    mBanner : function(){
+        $('.mBanner .sliderArea').slick({
+            infinite: true,
+            speed:500,
+            slidesToScroll: 1,
+            slidesToShow: 6,
+            swipeToSlide:true,
+            touchThreshold:50,
+            dots: false,
+            arrows: true,
+            responsive: [
+            {
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 5,
+            }
+            },
+            {
+            breakpoint: 1041,
+            settings: {
+                slidesToShow: 3,
+            }
+            },
+            {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+            }
+            }
+        ]
+        });
     }
 }
 

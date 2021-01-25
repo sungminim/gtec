@@ -49,11 +49,8 @@
                 <div class="contTit_m">스마트 학생증</div>
                 <p class="titSt6 pointGreen">구비서류</p>
                 <ul class="list_dotGreen">
-                    <li>신규신청서 (소정양식) </li>
-                    <li>신분증 사본 1부 (주민등록증 또는 운전면허증)
-                        <p class="exclam small">외국인인 경우 외국인 등록증(앞,뒤면 모두 복사)과 여권사본 함께 제출 </p>
-                    </li>
-                    <li>반명함사진 1매 (사진 뒷면에 학과, 학번, 이름 기재하여 제출)</li>
+                    <li>증명사진 jpg(가로 295픽셀 × 세로 367픽셀)파일(파일명: 학번+생년월일.jpg) </li>
+                    <li>개인정보수집이용제공동의서</li>
                 </ul>
 
                 <p class="titSt6 pointGreen">신청장소</p>

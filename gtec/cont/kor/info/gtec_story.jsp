@@ -33,7 +33,7 @@
                         <a href="#none" class="on" data-id="con1">
                             한국정밀기기센터 <br>(FIC)시대 
                             <b class="year">
-                                1966 ~1979
+                                1966 ~ 1979
                             </b>
                         </a>
                     </li>
@@ -41,7 +41,7 @@
                         <a href="#none" data-id="con2">
                             한국기계금속시험연구소 <br>(KIMM)시대
                             <b class="year">
-                                1999 ~2004
+                                1979 ~ 1981
                             </b>
                         </a>
                     </li>
@@ -49,7 +49,7 @@
                         <a href="#none" data-id="con3">
                             한국기계연구소 <br>(KIMM)시대
                             <b class="year">
-                                1981 ~1989
+                                1981 ~ 1989
                             </b>
                         </a>
                     </li>
@@ -57,7 +57,7 @@
                         <a href="#none" data-id="con4">
                             한국생산기술연구원 <br>(KAITECH)시대
                             <b class="year">
-                                1989 ~1999
+                                1989 ~ 1999
                             </b>
                         </a>
                     </li>
@@ -65,7 +65,7 @@
                         <a href="#none" data-id="con5">
                             학교법인 및 <br>대학설립 인가
                             <b class="year">
-                                1955~현재
+                                1955 ~ 현재
                             </b>
                         </a>
                     </li>
@@ -115,7 +115,7 @@
 
             <div class="story_cont gtec_story2" id="con2">
                 <div class="story_tit">
-                    <strong class="year">1999~2004</strong>
+                    <strong class="year">1979~1981</strong>
                     <b>한국기계금속시험연구소</b>
                     (KIMM)시대
                 </div>

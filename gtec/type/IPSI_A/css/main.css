@@ -125,6 +125,17 @@
 .mGTECPick .movieList ul li>.item p{position:absolute;bottom:10px;left:0;padding:0 20px;box-sizing:border-box;font-size:22px;color:#fff;letter-spacing:-1px;line-height:30px;font-weight:bold;}
 .mGTECPick .movieList ul li>.item time{position:absolute;right:0;height:20px;width:auto;background-color:#17242e;padding:0 5px;font-size:14px;font-weight:500;letter-spacing:-0.5px;line-height:20px;color:#fff;;}
 
+.mBanner{width:100%;height:90px;border-top:1px solid #eeeeee;box-sizing:border-box;background-color:#f5f7f9;}
+.mBanner .sliderArea{width:100%;font-size:0;padding:0 30px;box-sizing:border-box;}
+.mBanner .sliderArea .item{display:inline-block;vertical-align:top;width:16.666%;}
+.mBanner .sliderArea .item a{display:table;width:100%;height:90px;text-align:center;font-size:0}
+.mBanner .sliderArea .item a>span{display:table-cell;width:100%;height:100%;vertical-align:middle;}
+.mBanner .sliderArea .item a>span>img{vertical-align:middle;margin-right:10px;display:inline-block;}
+.mBanner .sliderArea .item a>span>i{font-size:16px;line-height:20px;color:#222;display:inline-block;vertical-align:middle;font-style:normal;text-align:left;}
+.mBanner .sliderArea .slick-arrow{position:absolute;top:36px;width:10px;height:19px;display:inline-block;vertical-align:top;text-indent:-9999px;}
+.mBanner .sliderArea .slick-arrow.slick-prev{left:0px;background:url(../img/main/icon_SocialSliderPrev.png) no-repeat center center;}
+.mBanner .sliderArea .slick-arrow.slick-next{right:0px;background:url(../img/main/icon_SocialSliderNext.png) no-repeat center center;}
+
 @media all and (max-width:1150px){
 	.innerCont .half .mNotice{width:calc(100% - 380px); margin-right:30px;}
 	.innerItem{width:calc(33.3333% - 20px);margin-right:30px;}
@@ -267,6 +278,13 @@
     .mGTECPick .movieList ul li>.item::before{display:none;}
     .mGTECPick .movieList ul li>.item time{display:none;}
     .mGTECPick .movieList ul li>.item p{font-size:14px;line-height:18px;padding:0 10px;bottom:7px;}
+
+    .mBanner{height:auto;}
+    .mBanner .sliderArea{padding:0 5px;}
+    .mBanner .sliderArea .item a{height:55px;}
+    .mBanner .sliderArea .item a>span>img{width:20px;}
+    .mBanner .sliderArea .item a>span>i{font-size:14px;}
+    .mBanner .sliderArea .slick-arrow{width:15px;height:23px;background-size:13px auto !important;top:15px;}
 }
 
 @media all and (max-width:320px){

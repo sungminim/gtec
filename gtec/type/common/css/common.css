@@ -219,7 +219,7 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
 .pageBtm_noti {display:block;position:relative;overflow:hidden;max-width:1240px;margin:0 auto 60px;box-sizing:border-box;padding:0 30px;}
 
 /* tab */
-#pageTab {overflow:hidden;width:100%;max-width:1240px;margin:0 auto 30px;box-sizing:border-box;padding:0 30px;}
+#pageTab {overflow:hidden;width:100%;max-width:1240px;margin:0 auto 50px;box-sizing:border-box;padding:0 30px;}
 #pageTab .tabList {width:100%;overflow:hidden;padding-bottom:1px;}
 #pageTab .tabList li {display:table;float:left;overflow:hidden;height:57px;margin:0 -1px -1px 0;box-sizing:border-box;background:#fff;vertical-align:top;}
 #pageTab .tabList li a {display:table-cell;min-width:98px;height:57px;box-sizing:border-box;padding:0 20px;border:1px solid #d9d9d9;background:#f5f7f9;color:#222;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:17px;font-weight:400;line-height:19px;text-align:center;vertical-align:middle;letter-spacing:-1px;transition:0.2s;}
@@ -549,6 +549,10 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
 .mPopZone .subList li:nth-of-type(4n){margin-right:0px;}
 .mPopZone .mPopZone_close{position:absolute;top:0;right:0px;width:37px;height:37px;text-indent:-9999px;background:url(../img/common/icon_mPopZoneClose.png) no-repeat center center;z-index:10;}
 
+/*확인불가기간*/
+.noSechData{width:100%;height:310px;border:1px solid #dbdee1;padding:205px 20px 60px 20px;box-sizing:border-box;background:url(../img/common/ico_errorMark.png) no-repeat top 70px center;}
+.noSechData>p{font-size:30px;line-height:38px;font-weight:500;color:#000;text-align:center;}
+
 @media all and (max-height:1360px){
     .mPopZone .mPopZone_wrap{padding:0 60px;}
     .mPopZone .mPopZone_close{right:10px;}
@@ -858,6 +862,10 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     .mPopZone .subList li .item .innerBox .subTxt{font-size:13px;padding-left:10px;margin-bottom:5px;line-height:17px;}
     .mPopZone .mPopZone_close{width:25px;height:25px;background-size:100% auto;top:-35px;}
     .mPopZone .innerScroll{overflow-y:auto;}
+
+    /*확인불가기간*/
+    .noSechData{height:auto;padding:130px 20px 40px 20px;background-size:70px auto;background-position:top 40px center;}
+    .noSechData>p{font-size:20px;line-height:28px;}
 }
 
 @media all and (max-width:500px){

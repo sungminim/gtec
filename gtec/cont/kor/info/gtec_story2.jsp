@@ -30,7 +30,7 @@
                         <a href="#none" class="on">
                             한국기계금속시험연구소 <br>(KIMM)시대
                             <b class="year">
-                                1999 ~2004
+                                1979 ~1981
                             </b>
                         </a>
                     </li>
@@ -63,7 +63,7 @@
 
             <div class="story_cont">
                 <div class="story_tit">
-                    <strong class="year">1999~2004</strong>
+                    <strong class="year">1979~1981</strong>
                     <b>한국기계금속시험연구소</b>
                     (KIMM)시대
                 </div>

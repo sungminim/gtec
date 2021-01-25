@@ -1025,7 +1025,7 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .cyberTour .selectDtl .pageIndex .slide_custom.next{right:0;background:url(../img/common/program/icon_slideCustomNext.png) no-repeat center center;}
 .cyberTour .selectDtl .pageIndex .count .index{font-size:16px;line-height:1em;color:#555;font-weight:500;line-height:30px;}
 .cyberTour .selectDtl .pageIndex .count .totalIndex{font-size:16px;line-height:1em;color:#888;line-height:30px;}
-.cyberTour .selectDtl .floorInfo{width:100%;height:calc(100% - 305px);margin-top:25px;border-top:1px solid #222;}
+.cyberTour .selectDtl .floorInfo{width:100%;height:calc(100% - 305px);margin-top:25px;border-top:1px solid #222;overflow-y:auto;}
 .cyberTour .selectDtl .floorInfo ul{width:100%;height:auto;}
 .cyberTour .selectDtl .floorInfo ul>li{position:relative;width:100%;height:auto;padding:20px 20px 20px 35px;border-bottom:1px solid #eaeaea;box-sizing:border-box;}
 .cyberTour .selectDtl .floorInfo ul>li>span{position:absolute;left:0;top:23px;font-size:15px;color:#222;line-height:1em;}
@@ -1855,7 +1855,6 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .visionNcharacter1 .list_typeIco>li>img {margin:0 auto 10px auto;}
     .visionNcharacter1 .list_typeIco {margin-top:30px;}
 
-
     .visionNcharacter2 .quoteTop+.txtSt2 {padding-top:10px;}
     .visionNcharacter2 .cont {margin-top:25px;padding-top:35px}
     .visionNcharacter2 .missionIco:before {display:none}
@@ -1873,6 +1872,9 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .visionNcharacter2 .visionList>li>strong{height:200px;margin-bottom:15px;margin-left:0;font-size:24px;line-height:200px;}
     .visionNcharacter2 .visionList>li+li {margin-top:30px !important}
     .visionNcharacter2 .visionList>li>strong {background-size:cover;}
+    .visionNcharacter2 .visionList>li:nth-child(1)>strong {background-position:left 50%;}
+    .visionNcharacter2 .visionList>li:nth-child(2)>strong {background-position:left 22%;}
+    .visionNcharacter2 .visionList>li:nth-child(3)>strong {background-position:left 35%;}
 
     .visionNcharacter2 .missionIco {padding-top:225px}
     .visionNcharacter2 .missionIco>.missionCir {position:absolute;top:0;left:0;}
@@ -1953,7 +1955,6 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .visionNcharacter5>.visionTargetList ul.target_cont>li {height:auto;padding:15px 15px;}
     .visionNcharacter5>.visionTargetList ul.target_cont ul.list_dotGreen>li {width:100%;}
     .visionNcharacter5>.visionTargetList ul.target_cont ul.list_dotGreen>li {font-size:14px;}
-
     .visionNcharacter5>.visionTargetList ul.target_tit {width:100%;margin:0}
     .visionNcharacter5>.visionTargetList>.target_tit:before {display:none}
     .visionNcharacter5>.visionTargetList ul.target_tit>li {height:auto;padding:15px 10px;box-sizing:border-box;}
@@ -2079,7 +2080,9 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .infoOpen .guideList>li b {margin-bottom:1px;font-size:16px;}
 
     .develop_fund .btnL {margin-top:8px;}
+
     .topBoldLine_list>li>.txtSt1:nth-of-type(n+2) {margin-top:15px;}
+    
     .develop_fund .contTit_m.mT35 {margin-top:20px !important}
     .develop_fund .contTit_m.mB10 {margin-bottom:7px !important}
     .develop_fund .contTit_m.mB15 {margin-bottom:9px !important}
@@ -2458,6 +2461,8 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .inp_s.wM, 
     .inp_t.wM{width:100%;}
     .subGide{display:block;margin:10px 0 0 0 !important;font-size:13px;}
+
+    .disabled_support .topBorderBox {min-height:1px;}
 }
 
 @media all and (max-width:650px) {
