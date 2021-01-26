@@ -377,7 +377,7 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
 .academicCal .cal_group{width:100%;font-size:0;margin-bottom:40px;}
 .academicCal .cal_group+.exclam {margin-top:10px;}
 .academicCal .cal_group:last-of-type{margin-bottom:0px;}
-.academicCal .cal_group .calendar{position:relative;display:inline-block;width:370px;height:350px;border:1px solid #d9d9d9;padding:0 24px;box-sizing:border-box;vertical-align:top;}
+.academicCal .cal_group .calendar{position:relative;display:inline-block;width:370px;height:375px;border:1px solid #d9d9d9;padding:0 24px;box-sizing:border-box;vertical-align:top;}
 .academicCal .cal_group .calendar .monthTit{display:block;padding:10px;box-sizing:border-box;font-size:20px;font-weight:500;color:#222222;line-height:1em;letter-spacing:-0.5px;text-align:center;}
 .academicCal .cal_group .calendar .monthTit>span{font-size:inherit;line-height:inherit;font-weight:inherit;}
 .academicCal .cal_group .calendar>table{position:relative;width:100%;}

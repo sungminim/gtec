@@ -172,9 +172,10 @@
     .mNotice .noticeList .plus{top:-25px;width:14px;height:14px;background-size:100% auto;}
     
     .mSubBanner{width:100%;}
-    .mSubBanner .sliderArea .slider .item{height:250px;}
+    .mSubBanner .sliderArea .slider .item{height:125px;}
     .mSubBanner .sliderArea .slider .item .mSubTit{font-size:17px;line-height:26px;margin-bottom:10px;}
     .mSubBanner .sliderArea .slider .item .mSubTxt{font-size:14px;font-weight:normal;margin-bottom:15px;}
+    .mSubBanner .sliderArea .slider .item .mSubTxt br {display:none;}
     .mSubBanner .sliderArea .slider .item .mSubA{font-size:13px;}
     .mSubBanner .sliderArea .slider .item img{width:50px;right:20px; bottom:50px;}
     .mSubBanner .sliderArea .slider .slick-dots{bottom:10px;}

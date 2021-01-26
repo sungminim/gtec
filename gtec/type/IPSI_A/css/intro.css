@@ -42,8 +42,14 @@ h2.tit {display:block;margin-bottom:25px;color:#fff;font-family:'Robot','Noto Sa
 #introIndex .notice .noti .notiWrap:hover {border:1px solid #69b848;box-shadow:0 5px 20px -15px rgba(0,0,0,0.5);}
 #introIndex .notice .noti .tit {display:block;margin-bottom:17px;color:#222;font-family:'Robot','Noto Sans KR',sans-serif;font-size:24px;font-weight:500;line-height:28px;letter-spacing:-1px;}
 #introIndex .notice .noti .tit>em {font-family:'Robot','Noto Sans KR',sans-serif;color:#ff8315;font-style:normal;font-weight:400;}
-#introIndex .notice .noti .btn {display:block;position:absolute;left:0;bottom:35px;width:100%;box-sizing:border-box;padding:0 30px;font-size:0;text-align:center;}
-#introIndex .notice .noti .btn a+a {margin-left:5px;}
+#introIndex .notice .noti .btn {display:block;position:absolute;left:0;bottom:35px;width:100%;box-sizing:border-box;/*padding:0 30px;*/font-size:0;text-align:center;}
+#introIndex .notice .noti .btn a+a {margin:0 0 0 5px;}
+#introIndex .notice .noti .btn a>span {font-size:14px;}
+#introIndex .notice .noti .btn.btn01 a {width:70%;}
+#introIndex .notice .noti .btn.btn01 a+a {margin:5px 0 0;}
+
+#introIndex .notice.noAlign .noti .notiWrap {padding:25px 30px;}
+#introIndex .notice.noAlign .noti .btn {position:relative;left:auto;bottom:auto;margin:20px 0;}
 
 #introIndex .dept {padding:55px 30px 20px;background:#1c2228;}
 #introIndex .dept>ul {overflow:hidden;width:1200px;margin:0 auto;box-sizing:border-box;}
@@ -117,10 +123,13 @@ h2.tit {display:block;margin-bottom:25px;color:#fff;font-family:'Robot','Noto Sa
 
     #introIndex .notice {padding:20px 10px;}
     #introIndex .notice::before {top:120px;width:217px;height:200px;background-size:auto 200px;}
-    #introIndex .notice .noti .notiWrap {padding:20px 20px 75px;}
+    #introIndex .notice .noti .notiWrap {padding:20px 20px 75px !important;}
     #introIndex .notice .noti .tit {font-size:17px;line-height:21px;}
     #introIndex .notice .noti .btn {bottom:20px;padding:0 20px;}
     #introIndex .notice .noti .btn a>span {padding:0 10px;}
+
+    #introIndex .notice.noAlign .noti .btn {bottom:auto;padding:0;}
+    #introIndex .notice.noAlign .noti .btn a>span {padding:0 6px;font-size:12px;}
 
     #introIndex .dept {padding:30px 10px 10px;}
     #introIndex .dept>ul {width:915px;}

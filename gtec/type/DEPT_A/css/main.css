@@ -70,7 +70,7 @@
 .mNotice .noticeList .topNotice{width:100%;padding-bottom:25px;border-bottom:1px solid #dddddd;}
 .mNotice .noticeList .topNotice>a{display:block;width:100%;}
 .mNotice .noticeList .topNotice>a .topNoticeTit{width:100%;margin-bottom:15px;box-sizing:border-box;font-size:22px;line-height:1em;letter-spacing:-0.5px;color:#222;font-weight:bold;}
-.mNotice .noticeList .topNotice>a .topNoticeTit strong{display:inline-block;font-size:inherit;font-weight:inherit;color:inherit;letter-spacing:inherit;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;vertical-align:middle;}
+.mNotice .noticeList .topNotice>a .topNoticeTit strong{display:inline-block;width:100%;font-size:inherit;font-weight:inherit;color:inherit;letter-spacing:inherit;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden;vertical-align:middle;}
 .mNotice .noticeList .topNotice>a .topNoticeTit.new strong{max-width:calc(100% - 40px);}
 .mNotice .noticeList .topNotice>a .topNoticeTit .ico_new{display:inline-block;width:19px;height:21px;background:url(../img/main/new_icon.png) no-repeat center center;text-indent:-9999px;vertical-align:middle;margin-left:3px;}
 .mNotice .noticeList .topNotice>a .topNoticeSub{width:100%;font-size:16px;color:#666666;line-height:22px;height:44px;overflow:hidden;}
