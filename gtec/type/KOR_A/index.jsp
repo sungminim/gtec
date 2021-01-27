@@ -330,7 +330,6 @@
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
                     </div>
                     
-                    <!-- 21-01-04  아이프레임 감쌈 태그 추가 -->
                     <div class="youTube">
                         <div class="videoDim"></div>
                         <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
@@ -339,7 +338,6 @@
                             <div class="ytp_frame_inner"><iframe id="gtec_iframe1" src="https://www.youtube.com/embed/-depZQv44nM?;enablejsapi=1" frameborder="0" allow="" allowfullscreen></iframe></div>
                         </div>
                     </div>
-                    <!-- 21-01-04  아이프레임 감쌈 태그 추가 끝-->
                     
                     <div class="textArea">
                         <div class="greenBox"></div>
@@ -357,7 +355,6 @@
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
                     </div>
                     
-                    <!-- 21-01-04  아이프레임 감쌈 태그 추가 -->
                     <div class="youTube">
                         <div class="videoDim"></div>
                         <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
@@ -368,7 +365,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 21-01-04  아이프레임 감쌈 태그 추가 끝-->
                     
                     <div class="textArea">
                         <div class="greenBox"></div>
@@ -377,8 +373,9 @@
                         <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
                     </div>
                 </div>
-                <!--일반 이미지-->
-                <div class="item">
+                
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
+                <a href="#none" class="item">
                     <div class="imgBox">
                         <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
@@ -389,8 +386,23 @@
                         <p class="lv2"><b>Active</b> <span>Leader</span></p>
                         <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
                     </div>
-                </div>
-                <!--일반 이미지-->
+                </a>
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
+
+                <!-- 21-01-27 수정 비쥬얼에 링크 없을 경우 -->
+                <!-- <div class="item">
+                    <div class="imgBox">
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""> // pc 이미지
+                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span>  // mobile 이미지
+                    </div>
+                    <div class="textArea">
+                        <div class="greenBox"></div>
+                        <p class="lv1">creative gtec</p>
+                        <p class="lv2"><b>Active</b> <span>Leader</span></p>
+                        <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
+                    </div>
+                </div> -->
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
 
             </div>
             <div class="mVisualDot">
@@ -400,62 +412,59 @@
         </div>
         <!-- //visual -->
 
-        <!--21-01-04 스크립트 위치 수정-->
-            <script>
-                // youtube API 불러옴
-                var tag = document.createElement('script');
-                tag.src = "https://www.youtube.com/player_api";
-                var firstScriptTag = document.getElementsByTagName('script')[0];
-                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        <script>
+            // youtube API 불러옴
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/player_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-                // 플레이어변수 설정(동시2개 재생이 불가능하기에 변수 하나로 처리)
-                // 재생버튼 클릭시 플레이어 셋팅 설정
-                var gtec_iframe;
+            // 플레이어변수 설정(동시2개 재생이 불가능하기에 변수 하나로 처리)
+            // 재생버튼 클릭시 플레이어 셋팅 설정
+            var gtec_iframe;
 
-                function onPlayerReady(event) {
-                    event.target.mute();
-                    event.target.playVideo();//자동재생
+            function onPlayerReady(event) {
+                event.target.mute();
+                event.target.playVideo();//자동재생
+            }
+
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING) {
+                    //플레이어가 재생중일때 작성한 동작이 실행된다.
                 }
-
-                function onPlayerStateChange(event) {
-                    if (event.data == YT.PlayerState.PLAYING) {
-                        //플레이어가 재생중일때 작성한 동작이 실행된다.
-                    }
-                    if(event.data == YT.PlayerState.ENDED){
-                        event.target.seekTo(0, true);
-                    }
+                if(event.data == YT.PlayerState.ENDED){
+                    event.target.seekTo(0, true);
                 }
+            }
 
-                $(function(){
-                    $(".item.video .btn_Play").click(function(){
-                        $(this).parents(".item").addClass("stop").find(".imgBox").remove();
+            $(function(){
+                $(".item.video .btn_Play").click(function(){
+                    $(this).parents(".item").addClass("stop").find(".imgBox").remove();
 
-                        var PlayerTarget = $(this).parents(".item").find("iframe").attr("id");
+                    var PlayerTarget = $(this).parents(".item").find("iframe").attr("id");
 
-                        gtec_iframe = new YT.Player(PlayerTarget, {
-                            width: '100%',
-                            height: '100%',
-                            playerVars: {rel: 0, modestbranding: 0, controls: 0, fs: 0, disablekb: 1},//설정
-                            events: {
-                                'onReady': onPlayerReady, //로딩할때 이벤트 실행
-                                'onStateChange': onPlayerStateChange //플레이어 상태 변화시 이벤트실행
-                            }
-                        });
-                    });
-
-                    $(".item.video .videoDim").on("click", function(e){
-                        if(!$(this).hasClass("stop")){
-                            $(this).addClass("stop");
-                            gtec_iframe.stopVideo();
-                        } else{
-                            $(this).removeClass("stop");
-                            gtec_iframe.playVideo();
+                    gtec_iframe = new YT.Player(PlayerTarget, {
+                        width: '100%',
+                        height: '100%',
+                        playerVars: {rel: 0, modestbranding: 0, controls: 0, fs: 0, disablekb: 1},//설정
+                        events: {
+                            'onReady': onPlayerReady, //로딩할때 이벤트 실행
+                            'onStateChange': onPlayerStateChange //플레이어 상태 변화시 이벤트실행
                         }
                     });
                 });
-            </script>
-        <!--21-01-04 스크립트 위치 수정 끝-->
-        
+
+                $(".item.video .videoDim").on("click", function(e){
+                    if(!$(this).hasClass("stop")){
+                        $(this).addClass("stop");
+                        gtec_iframe.stopVideo();
+                    } else{
+                        $(this).removeClass("stop");
+                        gtec_iframe.playVideo();
+                    }
+                });
+            });
+        </script>
         
         <!--mNotice-->
         <div class="mNoticeRolling">

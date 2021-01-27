@@ -20,7 +20,7 @@
                 <div class="titSt8">컴퓨터모바일융합공학과</div>
                 <div class="intro_head">
                     <div class="img">
-                        <img src="/gtec/type/common/img/dept/bachelor/intro_media.png" alt="">
+                        <img src="/gtec/type/common/img/dept/bachelor/intro_cmc.png" alt="">
                     </div>
 
                     <div class="info">

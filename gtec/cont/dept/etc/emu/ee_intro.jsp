@@ -46,10 +46,6 @@
                         직무능력을 성공적으로 수행할 수 있는 자질과 능력을 구비한 전자정보기기 <br>
                         개발 및 생산 등의 엔지니어를 육성합니다.
                     </div>
-
-                    <div class="btn">
-                        <a href="#none" class="btnC"><span>홈페이지 바로가기</span></a>
-                    </div>
                 </div>
             </div>
 

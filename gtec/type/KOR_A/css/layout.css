@@ -53,6 +53,7 @@ header .top_util .utilGrp .topLanguage .listBox li:last-child {margin-bottom:0;}
 header .top_util .utilGrp .topLanguage .listBox li>a {margin-right:0;padding-right:17px;color:#555 !important;transition:0.2s;}
 header .top_util .utilGrp .topLanguage .listBox li>a:hover {color:#419639 !important;text-decoration:underline;}
 header .top_util .utilGrp .topLanguage .listBox li>a.on {background:url(../img/layout/ico_arrB_black.png) no-repeat right center;}
+header .top_util .utilGrp .topLanguage .listBox li>a::after {display:none;}
 header .top_util .gnbGrp {position:absolute;right:0;top:70px;width:220px;box-sizing:border-box;font-size:0;text-align:right;z-index:1100;}
 header .top_util .gnbGrp>a,
 header .top_util .gnbGrp>button,
@@ -266,7 +267,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
 .stickyFix #snb_nav {position:fixed;left:0;top:0;margin:0;z-index:500;}
 .stickyFix #snb_nav .snb_area {box-shadow:none;}
 
-.typeSub #contents {position:relative;overflow:hidden;}
+.typeSub #contents {position:relative;overflow:hidden;font-size:0;}
 .typeSub #contents>article {position:relative;max-width:1240px;min-height:500px;box-sizing:border-box;margin:0 auto;padding:0 30px 120px;}
 .typeSub #contents>article.fullArea{position:static;}
 

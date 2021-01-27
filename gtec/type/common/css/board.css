@@ -254,7 +254,8 @@ th 9번 : 조회수 / th.headView
 .lineList_ul ul.noCateg .txtL,
 .lineList_ul ul.noCateg .typeFile .txtL,
 .lineList_ul ul.noCateg .typeAns .txtL,
-.lineList_ul ul.noCateg .txtInfo {padding-left:70px !important}
+.lineList_ul ul.noCateg .txtInfo {padding-left:90px !important}
+.lineList_ul.typeSortTop .noCateg li {padding-top:13px;}
 
 .lineList_ul ul.noFile .answer {right:10px;}
 

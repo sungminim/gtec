@@ -17,7 +17,6 @@
 		<article>
 			<!--컨텐츠 영역-->
 			<div class="curriculum">
-                <strong class="contTit_m">2021학년도 1학기 교육과정</strong>
                 <div class="dtlOptSelect">
                     <select class="inp_s">
                         <option>2021년 1학기</option>

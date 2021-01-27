@@ -46,9 +46,6 @@
                         산업에 즉시 기여할 수 있는 전문 기술공학자를 양성합니다.
                     </div>
 
-                    <div class="btn">
-                        <a href="#none" class="btnC"><span>홈페이지 바로가기</span></a>
-                    </div>
                 </div>
             </div>
 
@@ -149,7 +146,7 @@
                 <li>반도체 회로 설계기업</li>
             </ul>
 
-            <div class="contTit_m">위치 및 연락처</div>
+            <div class="contTit_m">담당 교수</div>
             <ul class="contactBox list_range">
                 <li class="name">
                     <b class="tit">학과장</b>

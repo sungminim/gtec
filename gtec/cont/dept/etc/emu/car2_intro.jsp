@@ -46,10 +46,6 @@
                         전문 인력 양성을 목표로 하고 있으며, 특히 최첨단 교육기자재를 비치하고 자동차 분야에 <br>
                         대한 이론 및 실험, 실습을 통하여 자동차 전문기술인재를 양성하고 있습니다.
                     </div>
-
-                    <div class="btn">
-                        <a href="#none" class="btnC"><span>홈페이지 바로가기</span></a>
-                    </div>
                 </div>
             </div>
 
@@ -178,7 +174,7 @@
                 <li>자동차 부품 개발을 통한 벤처 창업 등</li>
             </ul>
 
-            <div class="contTit_m">위치 및 연락처</div>
+            <div class="contTit_m">담당 교수</div>
             <ul class="contactBox list_range">
                 <li class="name">
                     <b class="tit">학과장</b>

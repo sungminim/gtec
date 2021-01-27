@@ -24,7 +24,7 @@
                     <ul>
                         <li class="greenBox">
                             <strong>감사실</strong>
-                            <p>교무팀</p>
+                            <p>감사팀</p>
                         </li>
                         <li class="greenBox">
                             <strong>혁신지원사업단</strong>
@@ -78,7 +78,7 @@
                                     <strong>학생처</strong>
                                     <p>
                                         학생복지팀 <br>
-                                        취·창업지원팀 <br>
+                                        취&middot;창업지원팀 <br>
                                         학생상담센터 <br>
                                         현장실습지원센터 <br>
                                         장애학생지원센터
@@ -105,41 +105,46 @@
                             <strong>대학</strong>
                             <ul class="chart_a grayBox">
                                 <li>
-                                    <strong>기계공학부</strong>
+                                    <strong>스마트시스템학부</strong>
                                     <p>
-                                        기계자동화과 <br>
-                                        정밀기계과 <br>
-                                        금형디자인과 <br>
-                                        기계설계과 <br>
-                                        에너지기계설비과
+                                        메카트로닉스공학과 <br>
+                                        스마트자동화과 <br>
+                                        전기제어공학과 <br>
+                                        스마트경영과 <br>(빅데이터융합전공, 유통마케팅전공, 기업경영전공)
                                     </p>
                                 </li>
                                 <li>
-                                    <strong>전기전자공학부</strong>
+                                    <strong>전자&middot;정보학부</strong>
                                     <p>
-                                        메카트로닉스과 <br>
-                                        전기제어과 <br>
-                                        컴퓨터모바일융합과 <br>
-                                        전자통신과
-                                    </p>
-                                </li>
-                                <li>
-                                    <strong>융합기술공학부</strong>
-                                    <p>
-                                        건축인테리어과 <br>
-                                        산업경영과 <br>
-                                        화공환경과 <br>
+                                        전자공학과 <br>
                                         미디어디자인과 <br>
-                                        자동차과
+                                        컴퓨터모바일융합공학과
                                     </p>
                                 </li>
                                 <li>
-                                    <strong>인문사회·디자인학부</strong>
+                                    <strong>첨단기술융합학부</strong>
                                     <p>
-                                        시각정보디자인과 <br>
-                                        경영과 <br>
-                                        사회복지과 <br>
-                                        아동영어보육과
+                                        지능기계설계과 <br>
+                                        정밀기계공학과 <br>
+                                        3D융합설계학과 <br>
+                                        인공지능융합과
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>미래에너지학부</strong>
+                                    <p>
+                                        건축인테리어학과 <br>
+                                        에너지시스템과 <br>
+                                        자동차과 <br>
+                                        화공환경과
+                                    </p>
+                                </li>
+                                <li>
+                                    <strong>인문&middot;디자인학부</strong>
+                                    <p>
+                                        사회복지학과 <br>
+                                        아동영어보육학과 <br>
+                                        시각정보디자인과
                                     </p>
                                 </li>
                                 <li>

@@ -20,7 +20,7 @@
                 <div class="titSt8">건축인테리어학과</div>
                 <div class="intro_head">
                     <div class="img">
-                        <img src="/gtec/type/common/img/dept/bachelor/intro_imd.png" alt="">
+                        <img src="/gtec/type/common/img/dept/bachelor/intro_aid.png" alt="">
                     </div>
 
                     <div class="info">
