@@ -8,7 +8,7 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 #introIndex header h1 {display:inline-block;vertical-align:top;}
 #introIndex header h1 a {display:block;overflow:hidden;}
 #introIndex header h1 a img {vertical-align:top;}
-#introIndex footer {display:block;overflow:hidden;width:100%;height:85px;box-sizing:border-box;padding:20px;text-align:center;}
+#introIndex footer {display:block;overflow:hidden;width:100%;box-sizing:border-box;padding:20px;text-align:center;}
 #introIndex footer address {overflow:hidden;font-size:0;}
 #introIndex footer address>span {display:inline-block;position:relative;margin-right:11px;padding-right:11px;color:#fff;font-style:normal;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:14px;font-weight:400;line-height:18px;letter-spacing:-1px;}
 #introIndex footer address>span:last-of-type {margin-right:0;padding-right:0;}
@@ -25,10 +25,10 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 
 #introIndex p.exclam {margin-bottom:15px;background-position:left top 2px;font-size:14px;line-height:18px;}
 
-#introIndex .main_tit {display:block;width:100%;max-width:1180px;margin:0 auto 45px;color:#fff;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:42px;font-weight:300;line-height:52px;letter-spacing:-1px;text-align:center;}
+#introIndex .main_tit {display:block;width:100%;max-width:1180px;margin:0 auto 0px;color:#fff;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:42px;font-weight:300;line-height:52px;letter-spacing:-1px;text-align:center;}
 #introIndex .main_tit>em {font-style:normal;font-size:inherit;font-weight:700;}
 
-#introIndex .list_bbs {display:block;overflow:hidden;width:100%;max-width:1210px;margin:0 auto 5px;box-sizing:border-box;padding-left:15px;}
+#introIndex .list_bbs {display:block;overflow:hidden;width:100%;max-width:1210px;margin:45px auto 5px;box-sizing:border-box;padding-left:15px;}
 #introIndex .list_bbs>li {display:block;float:left;position:relative;width:calc(33.33% - 15px);margin:0 15px 15px 0;background:rgba(255,255,255,1);}
 #introIndex .list_bbs>li>a,
 #introIndex .list_bbs>li>div {display:block;position:relative;overflow:hidden;box-sizing:border-box;padding:40px 25px 25px 30px;text-align:left;}
@@ -39,8 +39,8 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 #introIndex .list_bbs>li .sort.jeon {background:#ff8315;}
 #introIndex .list_bbs>li .sort.emu {background:#12a0db;}
 #introIndex .list_bbs>li dl {overflow:hidden;}
-#introIndex .list_bbs>li dl>dt {display:block;margin-bottom:15px;color:#222;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:24px;font-weight:500;line-height:32px;letter-spacing:-1px;}
-#introIndex .list_bbs>li dl>dd {display:block;overflow:hidden;}
+#introIndex .list_bbs>li dl>dt {display:block;margin-bottom:15px;color:#222;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:24px;font-weight:500;line-height:32px;letter-spacing:-1px;word-break:break-all;}
+#introIndex .list_bbs>li dl>dd {display:block;overflow:hidden;word-break:break-all;}
 #introIndex .list_bbs>li.noArticle {background:rgba(255,255,255,0.5) url(../img/intro/ico_noArticle.png) no-repeat center;}
 #introIndex .list_bbs>li.noArticle>p {overflow:hidden;text-align:left;text-indent:-999px;}
 
@@ -66,10 +66,10 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 
     #introIndex p.exclam {padding-left:14px;background-size:auto 11px;background-position:left top 4px;font-size:13px;line-height:17px;}
 
-    #introIndex .main_tit {margin:0 auto 30px;font-size:26px;line-height:36px;}
+    #introIndex .main_tit {margin:0 auto 00px;font-size:26px;line-height:36px;}
     #introIndex .main_tit>em {display:block;text-align:center;}
 
-    #introIndex .list_bbs {padding-left:10px;}
+    #introIndex .list_bbs {margin-top:30px;padding-left:10px;}
     #introIndex .list_bbs>li {width:calc(33.33% - 10px);margin:0 10px 10px 0;}
     #introIndex .list_bbs>li>a,
     #introIndex .list_bbs>li>div {padding:30px 15px 15px 20px;}
@@ -95,7 +95,6 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 }
 
 @media all and (max-width:410px){
-    #introIndex footer {height:100px;}
     #introIndex footer address>span {display:block;margin-right:0;padding-right:0;}
     #introIndex footer address>span::after {display:none;}
 }

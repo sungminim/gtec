@@ -175,7 +175,7 @@
                     ipsiMain2.mWhyGTEC();
                 },
                 mVisualSlider : function(){
-                    if($('.mVisual .item').length > 1){
+                    if($('.mVisual .item').length >= 1){ //21-01-28 수정
                         $('.mVisual .sliderArea').slick({
                             infinite: true,
                             //autoplay:true,
@@ -255,10 +255,10 @@
                     </a>
                 </div>
                 
-                <div class="item">
+                <!-- <div class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt=""> <!--PC 이미지--> 
-                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
+                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt=""> 
+                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span> 
                     </div>
                     <div class="textArea">
                         <p class="lv1">산학일체 교육의 <b>글로벌 리더</b></p>
@@ -268,14 +268,14 @@
                 
                 <div class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt=""> <!--PC 이미지--> 
-                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
+                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt="">
+                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span>
                     </div>
                     <div class="textArea">
                         <p class="lv1">산학일체 교육의 <b>글로벌 리더</b></p>
                         <p class="lv2">대한민국 정부가 설립한 취업의 명문<br> 경기과학기술대학교</p> 
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <div class="mVisualDot">

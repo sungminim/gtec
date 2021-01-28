@@ -74,8 +74,7 @@
 .mNotice .noticeList .topNotice>a .topNoticeTit.new strong{max-width:calc(100% - 40px);}
 .mNotice .noticeList .topNotice>a .topNoticeTit .ico_new{display:inline-block;width:19px;height:21px;background:url(../img/main/new_icon.png) no-repeat center center;text-indent:-9999px;vertical-align:middle;margin-left:3px;}
 .mNotice .noticeList .topNotice>a .topNoticeSub{width:100%;font-size:16px;color:#666666;line-height:22px;height:44px;overflow:hidden;}
-
-.mNotice .noticeList ul{width:100%;padding-top:13px;font-size:0}
+.mNotice .noticeList ul{width:100%;padding-top:9px;font-size:0}
 .mNotice .noticeList ul>li{width:calc(50% - 10px);display:inline-block;vertical-align:middle;padding:3px 0;}
 .mNotice .noticeList ul>li:nth-of-type(2n){margin-left:20px;}
 .mNotice .noticeList ul>li:last-of-type{border:none;}
@@ -181,7 +180,7 @@
     .multiLine{padding:30px 0;}
     .mNotice{width:100%;padding-right:0px;margin-bottom:30px;}
     .mNotice .tabBtn .default{margin-right:15px;}
-    .mNotice .noticeList{height:240px;padding:20px;}
+    .mNotice .noticeList{height:260px;padding:20px;}
     .mNotice .noticeList .topNotice{padding-bottom:15px;}
     .mNotice .noticeList .topNotice>a .topNoticeTit{font-size:18px;margin-bottom:10px;}
     .mNotice .noticeList .topNotice>a .topNoticeTit .ico_new{width:13px;height:15px;background-size: 100% auto;vertical-align:-1px;}

@@ -290,6 +290,14 @@
 .confirmationNumber>.inp_t{width:220px !important;display:inline-block;vertical-align:middle !important;}
 .confirmationNumber>span{margin-left:10px;font-size:15px;color:#555;display:inline-block;vertical-align:middle;}
 
+/* eMu */
+.eMu_intro {min-height:665px;}
+.eMu_intro .eMu_top {padding:30px 20px 30px 20px;border:3px solid #dfe1e2;}
+.eMu_intro .eMu_top>p {width:530px;height:120px;margin:0 auto;padding-left:160px;box-sizing:border-box;background:url(../img/dept/emu/eMu_topIco.png) no-repeat left 0px top 0px;text-align:left;font-size:18px;font-weight:500;letter-spacing:-0.5px;}
+.eMu_intro .eMu_top>p>strong {display:block;padding-top:8px;margin-bottom:5px;font-size:40px;letter-spacing:-0.3px;}
+.eMu_intro .eMu_top>p>strong span {font-weight:inherit;font-size:inherit;}
+.eMu_intro .titSt3 {margin:45px 0 6px 0;font-weight:700;}
+
 @media all and (max-width:1280px) {
     /* 컨텐츠 공통 */
     .pcBr {display:none;}
@@ -341,6 +349,8 @@
     
     .confirmationNumber>.inp_t{width:100% !important;}
     .confirmationNumber>span{margin:10px 0 0 0;}
+
+    .eMu_intro br {display:none;}
 }
 
 @media all and (max-width:900px) {
@@ -515,6 +525,12 @@
     .timeArea>.inp_s{width:130px !important;}
     
     .etcData1 .itemG{margin:8px 20px 8px 0;}
+
+    .eMu_intro {min-height:1px;}
+    .eMu_intro .eMu_top {padding:15px 10px 15px 10px;border-width:2px;}
+    .eMu_intro .eMu_top>p {width:100%;height:100%;padding-top:70px;padding-left:0px;box-sizing:border-box;background-size:auto 70px;background-position:left 50% top 0;font-size:16px;text-align:center;}
+    .eMu_intro .eMu_top>p>strong {font-size:25px;}
+    .eMu_intro .titSt3 {margin:25px 0 5px 0;}
 }
 @media all and (max-width:600px) {
     .ipsiDataList >li{width:calc(50% - 10px);margin:0 20px 20px 0 !important;}

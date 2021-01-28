@@ -62,6 +62,17 @@
                         </div>
                     </div>
                 </fieldset>
+
+                <!-- 21-01-28 추가 로그인 여부 추가 -->
+                <div class="login_info">
+                    <button>
+                        <span class="name">홍길동</span>
+                        <span class="sns naver"><i>Naver</i> 간편로그인</span>
+                        <!-- <span class="sns faceBook"><i>FaecBook</i> 간편로그인</span> -->
+                        <!-- <span class="sns kakao"><i>KaKao</i> 간편로그인</span> -->
+                    </button> 
+                </div>
+                <!-- 21-01-28 추가 로그인 여부 추가 -->
                 
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2">

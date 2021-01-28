@@ -238,9 +238,9 @@
 @media all and (max-width:1200px){
     /* 소개 */
     .affi_organ .boxGreen {width:200px;}
-    .affi_organ .chart1.col4 ul li {max-width:180px;}
+    .affi_organ .chart1.col4 ul li {max-width:200px;}
     .affi_organ .chart1.col4 ul li::after {width:calc(100% + 20px);}
-    .affi_organ .chart1.col4 ul li:nth-child(1) {max-width:180px;margin-right:40px;}
+    .affi_organ .chart1.col4 ul li:nth-child(1) {max-width:200px;margin-right:0;}
     .affi_organ .chart1.col4 ul li:nth-child(1)::after {width:calc(100% + 90px);}
     .affi_organ .chart1.col4 ul li:nth-child(1) p + strong {margin-top:20px;}
     
@@ -308,19 +308,17 @@
     .affi_organ .boxGreen span {padding:8px;font-size:15px;}
     .affi_organ .roundBoxGreen {width:175px;height:40px;line-height:40px;font-size:15px;}
     .affi_organ .roundBoxLightGreen {width:230px;height:40px;line-height:40px;font-size:15px;}
-    .affi_organ .roundBoxLightGreen::before {content:'';display:block;position:absolute;top:25px;left:-40px;width:40px;height:1px;background:#d9d9d9;}
+    .affi_organ .roundBoxLightGreen::before {top:20px;}
     .affi_organ .boxLightGreen {height:40px;line-height:40px;font-size:15px;}
     .affi_organ .boxDeepGray {height:40px;line-height:40px;font-size:15px;}
     .affi_organ .borderGray {padding:8px;font-size:15px;}
     .affi_organ .boxGray li {height:40px;line-height:40px;font-size:15px;}
-    .affi_organ .chart1.col4 ul li:nth-child(1) {margin-right:0;}
     .affi_organ .chart1.col3.short ul {width:calc(100% + 20px);margin-left:-20px;}
     .affi_organ .chart1.col3.short ul li {width:calc(33.333% - 20px);margin-left:20px;}
     .affi_organ .chart1.col3.short ul li::after {width:calc(100% + 20px);}
     .affi_organ .chart3.col3>ul>li .borderGray {margin:60px auto 0;}
-    
-    .affi_organ.dorm .lineTop_tbArea colgroup col:nth-child(1) {width:100px !important}
-    .affi_organ.global .lineTop_tbArea colgroup col:nth-child(1) {width:110px !important}
+    .affi_organ.dorm .lineTop_tbArea colgroup col:nth-child(1) {width:100px !important;}
+    .affi_organ.global .lineTop_tbArea colgroup col:nth-child(1) {width:110px !important;}
 
     /* dorm 개별 */
     .dorm.dorm7 .boxGray {font-size:16px;}

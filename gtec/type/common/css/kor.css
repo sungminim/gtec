@@ -1027,7 +1027,7 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .cyberTour .selectDtl .pageIndex .count .totalIndex{font-size:16px;line-height:1em;color:#888;line-height:30px;}
 .cyberTour .selectDtl .floorInfo{width:100%;height:calc(100% - 305px);margin-top:25px;border-top:1px solid #222;overflow-y:auto;}
 .cyberTour .selectDtl .floorInfo ul{width:100%;height:auto;}
-.cyberTour .selectDtl .floorInfo ul>li{position:relative;width:100%;height:auto;padding:20px 20px 20px 35px;border-bottom:1px solid #eaeaea;box-sizing:border-box;}
+.cyberTour .selectDtl .floorInfo ul>li{position:relative;width:100%;height:auto;padding:20px 20px 20px 65px;border-bottom:1px solid #eaeaea;box-sizing:border-box;}
 .cyberTour .selectDtl .floorInfo ul>li>span{position:absolute;left:0;top:23px;font-size:15px;color:#222;line-height:1em;}
 .cyberTour .selectDtl .floorInfo ul>li>p{font-size:15px;color:#555;line-height:21px;word-break:keep-all;}
 
@@ -1072,7 +1072,7 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .btnBox{display:inline-block;width:auto;}
 .btnBox>span{display:block;padding:0 10px;height:35px;border:1px solid #222;box-sizing:border-box;font-size:15px;line-height:37px;color:#222;}
 .btnBox.green>span{border-color:#419639;color:#419639;}
-.surveySech{width:100%;height:auto;padding:35px 20px;margin-bottom:50px;box-sizing:border-box;background-color:#f5f7f9;font-size:0;text-align:center;}
+.surveySech{width:100%;height:auto;padding:35px 20px;margin-bottom:28px;box-sizing:border-box;background-color:#f5f7f9;font-size:0;text-align:center;}
 .surveySech .innerArea{width:700px;display:inline-block;font-size:0;}
 .surveySech .item{position:relative;height:50px;display:inline-block;padding-left:70px;vertical-align:top;font-size:0;box-sizing:border-box;}
 .surveySech .item>label{position:absolute;left:0;top:14px;width:70px;padding-right:10px;box-sizing:border-box;text-align:right;font-size:16px;color:#222;font-weight:500;}
@@ -1087,6 +1087,15 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .surveySech .item.multi .inp_s{width:135px;margin-right:5px;}
 .surveySech .item.multi .inp_t{width:calc(100% - 190px);border-right:none;}
 .surveySech .item.multi > .btnIconSech{width:50px;height:50px;display:inline-block;background:#222 url(../img/common/program/icon_btnIconSech.png) no-repeat center center;text-indent:-9999px;}
+.survey .login_info {position:relative;margin-bottom:20px;text-align:right;}
+.survey .login_info>button {display:inline-block;height:30px;text-align:right;}
+.survey .login_info>button .name {position:relative;top:2px;font-size:18px;font-weight:500;letter-spacing:-0.5px;}
+.survey .login_info>button .sns {font-size:15px;color:#888;letter-spacing:-0.5px;}
+.survey .login_info>button .sns i {display:inline-block;width:30px;height:30px;margin:0 5px 0 10px;background-repeat:no-repeat;background-position:center;font-size:1px;text-indent:9999px;vertical-align:middle;;}
+.survey .login_info>button .sns.naver i {background-image:url(../img/common/survey_sns_naver.png);}
+.survey .login_info>button .sns.faceBook i {background-image:url(../img/common/survey_sns_facebook.png);}
+.survey .login_info>button .sns.kakao i {background-image:url(../img/common/survey_sns_kakao.png);}
+
 .popLayout.pop_loginView{max-width:850px; width:calc(100% - 40px); transform:translate(-50%, -50%) !important;}
 .popLayout.pop_loginView .popInner{padding:40px 0px 0 0px;}
 .popLayout.pop_loginView .popConts{padding-bottom:40px;}
@@ -2344,7 +2353,7 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .cyberTour .selectDtl .sliderBox .item::before{content:"";display:block;padding-top:200px;}
     .cyberTour .selectDtl .sliderBox .item>img{position:absolute;left:50%;top:0;transform:translate(-50%,0);height:200px;}
     .cyberTour .selectDtl .floorInfo{overflow-y:scroll;height:200px;border-bottom:1px solid #222;}
-    .cyberTour .selectDtl .floorInfo ul>li{padding:15px 15px 15px 30px;}
+    .cyberTour .selectDtl .floorInfo ul>li{padding:15px 15px 15px 50px;}
     .cyberTour .selectDtl .floorInfo ul>li>span{font-size:13px;top:19px;}
     .cyberTour .selectDtl .floorInfo ul>li>p{font-size:13px;}
     .cyberTour .mapArea{height:500px;}
@@ -2381,6 +2390,11 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .surveySech .item.multi .inp_s{width:85px;}
     .surveySech .item.multi .inp_t{width:calc(100% - 130px);}
     .surveySech .item.datepicker .pickerInq .date-picker-dateval:link{right:7px;top:11px;}    
+
+    .survey .login_info {margin-bottom:10px;}
+    .survey .login_info>button .name {font-size:16px;}
+    .survey .login_info>button .sns {font-size:13px;}
+    .survey .login_info>button .sns i {width:20px;height:20px;margin:0 2px 0 5px;background-size:20px auto;}
 
     .surveyFinish {min-height:1px;}
     .surveyFinish .innerArea {padding-top:95px;padding-bottom:40px;background-position:left 50% top 35px;background-size:45px auto;}
