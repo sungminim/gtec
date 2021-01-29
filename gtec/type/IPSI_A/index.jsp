@@ -175,7 +175,9 @@
                     ipsiMain2.mWhyGTEC();
                 },
                 mVisualSlider : function(){
-                    if($('.mVisual .item').length >= 1){ //21-01-28 수정
+                    // 21-01-29 수정 시작
+                    if($('.mVisual .item').length >= 1){ 
+                    // 21-01-29 수정 끝
                         $('.mVisual .sliderArea').slick({
                             infinite: true,
                             //autoplay:true,

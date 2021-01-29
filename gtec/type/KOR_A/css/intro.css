@@ -25,7 +25,7 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 
 #introIndex p.exclam {margin-bottom:15px;background-position:left top 2px;font-size:14px;line-height:18px;}
 
-#introIndex .main_tit {display:block;width:100%;max-width:1180px;margin:0 auto 0px;color:#fff;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:42px;font-weight:300;line-height:52px;letter-spacing:-1px;text-align:center;}
+#introIndex .main_tit {display:block;width:100%;max-width:1180px;margin:0 auto 0px;color:#fff;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:42px;font-weight:300;line-height:inherit;letter-spacing:-1px;text-align:center;}
 #introIndex .main_tit>em {font-style:normal;font-size:inherit;font-weight:700;}
 
 #introIndex .list_bbs {display:block;overflow:hidden;width:100%;max-width:1210px;margin:45px auto 5px;box-sizing:border-box;padding-left:15px;}
@@ -66,7 +66,7 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 
     #introIndex p.exclam {padding-left:14px;background-size:auto 11px;background-position:left top 4px;font-size:13px;line-height:17px;}
 
-    #introIndex .main_tit {margin:0 auto 00px;font-size:26px;line-height:36px;}
+    #introIndex .main_tit {margin:0 auto 00px;font-size:26px;}
     #introIndex .main_tit>em {display:block;text-align:center;}
 
     #introIndex .list_bbs {margin-top:30px;padding-left:10px;}
@@ -100,5 +100,5 @@ body {background:url(../img/intro/bg.jpg) no-repeat center top;background-size:c
 }
 
 @media all and (max-width:320px){
-    #introIndex .main_tit {font-size:24px;line-height:32px;}
+    #introIndex .main_tit {font-size:24px;}
 }
