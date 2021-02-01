@@ -18,7 +18,7 @@
 
     <article>
         <!--컨텐츠 영역-->
-        <div class="major_info defaultWrap">
+        <div class="ipsi major_info defaultWrap">
             <p class="txt">
                 경기과학기술대학교 2,3년제 전문학사학위과정입니다.
                 <span class="info">

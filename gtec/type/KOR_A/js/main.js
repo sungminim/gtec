@@ -124,7 +124,7 @@ var Main = {
             }
             },
             {
-            breakpoint: 768,
+            breakpoint: 769, 
             settings: {
                 slidesToShow: 4,
                 variableWidth: true,

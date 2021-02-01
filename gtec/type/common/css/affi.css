@@ -50,7 +50,7 @@
 .affi_greet {position:relative;min-height:600px;padding-left:536px;box-sizing:border-box;}
 .affi_greet .greet_img {position:absolute;left:0;top:0;}
 .affi_greet .greet_cont {position:relative;}
-.affi_greet .greet_cont .greet_tit {position:relative;display:inline-block;padding:25px 0 40px;box-sizing:border-box;font-size:40px;letter-spacing:-2px;font-weight:300;line-height:1.2em;word-break:keep-all;}
+.affi_greet .greet_cont .greet_tit {position:relative;display:inline-block;padding:25px 0 40px;box-sizing:border-box;font-size:40px;letter-spacing:-2px;font-weight:300;line-height:1.2em;word-break:keep-all;text-align:left;}
 .affi_greet .greet_cont .quoteTit {position:relative;}
 .affi_greet .greet_cont .quoteTit:before {content:'';display:block;position:absolute;left:-30px;top:0px;width:27px;height:22px;background:url(../img/affi/dorm/tit_quoteL.png) no-repeat;} 
 .affi_greet .greet_cont .quoteTit:after {content:'';display:block;position:absolute;right:-35px;bottom:40px;width:27px;height:22px;background:url(../img/affi/dorm/tit_quoteR.png) no-repeat;}
@@ -377,7 +377,7 @@
     
     .imgList {width:100% !important;margin-left:0 !important;}
     .imgList li {width:100% !important;margin-left:0 !important;}
-    .imgList li+li {margin-top:40px;}
+    .imgList>li+li {margin-top:40px;}
     .imgList li>span{font-size:14px;}
     
     .borderTop {padding:20px 0;border-top:1px solid #222;}

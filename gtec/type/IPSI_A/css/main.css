@@ -268,6 +268,7 @@
     .mWhyGTEC .sliderArea .item .itemTit{margin-bottom:12px;}
     .mWhyGTEC .sliderArea .item .itemDot{font-size:14px;margin-bottom:8px;}
     
+    .mGTECPick .movieList ul li>.item img {height:auto;min-height:60px;}
     .mGTECPick .mTit2{text-align:left;font-size:27px;}
     .mGTECPick .grennBtn{top:-2px;width:90px;height:27px;line-height:27px;font-size:12px;padding-top:1px;box-sizing:border-box;}
     .mGTECPick .movieList{margin-top:25px;}

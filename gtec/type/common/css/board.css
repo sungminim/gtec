@@ -232,6 +232,7 @@ th 9번 : 조회수 / th.headView
 .lineList_ul .hasArea {position:absolute;right:5px;top:33px;min-width:20px;padding:0;}
 .lineList_ul .hasArea .hasfile {display:inline-block;overflow:hidden;width:20px;height:20px;background:url(../img/board/ico_fileDown_black.png) no-repeat 50% 50%;text-indent:-100px;}
 .lineList_ul .hasArea .hasfileNum {display:inline-block;position:relative;;left:-10px;top:5px;min-width:21px;height:21px;margin:0;box-sizing:border-box;border-radius:50%;background:#000;color:#fff;font-size:12px;line-height:21px;text-align:center;letter-spacing:-1px;text-indent:-2px;}
+.lineList_ul .answer+.hasArea {right:75px;}
 .lineList_ul .txtInfo {padding-left:180px;text-align:left;}
 .lineList_ul .txtInfo>span {display:inline-block;position:relative;margin-right:7px;padding-right:12px;color:#888;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:15px;font-weight:400;line-height:17px;}
 .lineList_ul .txtInfo>span::before {content:'';display:block;position:absolute;right:0;top:2px;width:1px;height:12px;box-sizing:border-box;background:#d9d9d9;}
@@ -330,6 +331,11 @@ th 9번 : 조회수 / th.headView
 .lineList_tb.typeFaq .typeFaqA>td.on .faqA_wrap {height:auto;}
 .lineList_tb.typeFaq .faq_a {display:block;position:absolute;left:25px;overflow:hidden;width:31px;height:31px;text-indent:-500px;}
 .lineList_tb.typeFaq .faq_a {top:29px;background:url(../img/board/faq_a.png) no-repeat 0 0;background-size:auto 18px;}
+
+.lineList_ul.typeFaq .noInfo dt>button {padding-bottom:25px;}
+.lineList_ul.typeFaq .noInfo .faq_q {top:30px;}
+.lineList_ul.typeFaq .noCateg.noInfo dt>button {padding-bottom:15px;}
+.lineList_ul.typeFaq .noCateg.noInfo .faq_q {top:15px;}
 
 /* 갤러리(목록형, 동영상) */
 .lineList_ul.typeGalleryList {}
@@ -842,6 +848,7 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .lineList_ul.typeSortTop .typeFile .txtAdd {height:auto;}
     .lineList_ul.typeSortTop .mark_categ~.txtAdd .answer,
     .lineList_ul.typeSortTop .mark_categ~.txtAdd .hasArea {margin-top:0;}
+    .lineList_ul.typeSortTop .typeAns .txtL {padding-left:0 !important}
 
     /* 갤러리 */
     .lineList_ul.typeGallery li {width:calc(33.3% - 30px);}
@@ -894,8 +901,6 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     /* pdf */
     .lineList_v.typePdfview .pdf_info {width:220px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList li a {height:48px;padding-left:20px;font-size:14px;line-height:16px;}
-    .lineList_v.typePdfview .pdf_view{width:calc(100% - 220px);height:400px;padding-left:20px;}
-    .lineList_v.typePdfview .pdf_view iframe {height:400px;}
 
     .btnPdf>span {height:48px;padding-left:20px;font-size:15px;line-height:48px;}
 
@@ -1023,6 +1028,10 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .lineList_ul.typeFaq .faq_q {top:41px;}
     .lineList_ul.typeFaq dd>p,
     .lineList_ul.typeFaq dd .fileArea {padding-left:0;margin-left:0;}
+
+    .lineList_ul.typeFaq .noCateg.noInfo .faq_q {top:20px;}
+    .lineList_ul.typeFaq .noInfo dt>button {padding-bottom:10px;}
+    .lineList_ul.typeFaq .noCateg.noInfo dt>button {padding-bottom:10px;}
 
     /* 리스트(Q&A/ul타입) */
     .lineList_ul.typeQna .mark_ing,
@@ -1170,7 +1179,8 @@ th .mark_need::before {left:auto;right:0;top:0;margin-top:2px;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList .list li:hover a {font-weight:400;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList.on .btn_mSelect {z-index:99;}
     .lineList_v.typePdfview .pdf_info .pdf_infoList.on .list {height:auto;}
-    .lineList_v.typePdfview .pdf_view {float:inherit;width:100%;margin-top:15px;padding-left:0;}
+    .lineList_v.typePdfview .pdf_view {float:inherit;width:100%;height:400px;margin-top:15px;padding-left:0;}
+    .lineList_v.typePdfview .pdf_view iframe {height:400px;}
 
     .btnPdf>span {height:40px;padding:0 40px 0 15px;background-position:right 10px center;background-size:auto 15px;font-size:14px;line-height:40px;}
 

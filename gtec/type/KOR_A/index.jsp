@@ -885,7 +885,8 @@
                         <button type="button" class="next">다음 슬라이드</button>
                     </div>
                     <div class="sliderArea">
-                        <div class="item facebook">
+                        <!-- 21-02-01 수정 sns 추가 -->
+                        <div class="item instagram">
                             <a href="#none">
                                 <div class="imgBox">
                                     <img src="/gtec/type/KOR_A/img/main/img_facebookTemp1.png" alt="">
@@ -897,7 +898,21 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item blog">
+                        <!-- 21-02-01 수정 sns 추가 -->
+                        <div class="item kakaoChannel">
+                            <a href="#none">
+                                <div class="imgBox">
+                                    <img src="/gtec/type/KOR_A/img/main/img_blogTemp1.png" alt="">
+                                    <span>blog</span>
+                                </div>
+                                <div class="txtArea">
+                                    <p>경기과학기술대학교은 지난 6월 19일 도서관동에서 2020년 GTEC 창의 아이디어 공모전 발표평가 및 온라인 시상식을 진행했다.</p>
+                                    <time>2020.01.04</time>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- 21-02-01 수정 sns 추가 -->
+                        <div class="item youtube">
                             <a href="#none">
                                 <div class="imgBox">
                                     <img src="/gtec/type/KOR_A/img/main/img_blogTemp1.png" alt="">
@@ -913,7 +928,7 @@
                             <div>
                                 <p class="ch">Kakaotalk Channel</p>
                                 <p class="tit">찾아가는 <br>경기과학기술대학교 소식</p>
-                                <p class="subTxt">경기과학기술대학교 채널을 추가 하면  유용한 정보를 카카오톡으로 받으실 수 있습니다.</p>
+                                <p class="subTxt">경기과학기술대학교 채널을 추가 하면 유용한 정보를 카카오톡으로 받으실 수 있습니다.</p>
                                 <a href="#none" class="boxlink">바로가기</a>
                             </div>
                         </div>

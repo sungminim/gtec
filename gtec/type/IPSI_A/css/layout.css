@@ -20,7 +20,7 @@ header .logo {display:block;position:absolute;left:50%;top:12px;width:304px;heig
 header .logo>a {display:block;overflow:hidden;}
 header .logo>a img {vertical-align:top;}
 header .logo>a>span {display:none;}
-header .top_util {position:absolute;left:50%;top:-35px;overflow:hidden;width:1180px;height:35px;margin-left:-590px;box-sizing:border-box;padding:0;font-size:0;text-align:right;z-index:1101;transition:0.2s;}
+header .top_util {position:absolute;left:50%;top:-35px;overflow:hidden;width:1180px;height:35px;margin-left:-590px;box-sizing:border-box;padding:0;font-size:0;text-align:right;z-index:1101;transition:0.2s;overflow:hidden;}
 header .top_util>a,
 header .top_util>button {display:inline-block;overflow:hidden;width:31px;height:30px;margin-left:12px;vertical-align:top;text-indent:-999px;}
 header .top_util>div {display:inline-block;vertical-align:top;}
@@ -238,7 +238,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     #header {position:fixed !important;overflow:visible;padding:0;height:50px;background:#69b848;}
     #header::after {display:none;}
 
-    header {padding:50px 20px 0;}
+    header {padding:50px 20px 0;border-bottom:0;}
     header::before {display:none;top:49px;height:1px;background:#fff;opacity:0.5;}
     header .logo,
     header .mLogo {left:0;top:9px;width:auto;height:28px;margin-left:0;padding-left:20px;}
@@ -247,7 +247,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     header .logo a>img {display:none;}
     header .logo a>span {display:block;}
     header .mLogo {display:block;position:fixed !important;left:-770px;top:10px;z-index:2001;transition:0.2s;}
-    header .top_util {left:-770px;top:45px;width:100%;max-width:760px;height:50px;z-index:auto;background:#69b848;z-index:2001;transition:0.2s;}
+    header .top_util {left:-770px;top:45px;width:100%;max-width:767px;height:50px;z-index:auto;background:#69b848;z-index:2001;transition:0.2s;}
     header .top_util>a,
     header .top_util>button {margin-top:15px;}
     header .top_util .snsGrp {margin:16px 0 0 20px;}
@@ -262,7 +262,8 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     header .top_util .btn_topPopZone {position:fixed;right:40px;top:0;width:50px;height:50px !important;margin:0;background:url(../img/layout/m/top_recGrp_white.png) no-repeat center;background-size:auto 19px;}
     header .top_util .btn_topSitemap {display:none !important;}
 
-    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:760px;height:100%;margin:0;box-sizing:border-box;padding:95px 0 0;background:#fff;z-index:2000;transition:0.2s;}
+    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:767px;height:100%;margin:0;box-sizing:border-box;padding:95px 0 0;background:#fff;z-index:2000;transition:0.2s;}
+    header>nav:before {display:none;}
     header>nav #gnb {overflow-x:hidden;overflow-y:auto;margin:0;padding:0 20px;text-align:left;}
     header>nav #gnb>li {display:block;width:100%;height:auto;padding:0;border-bottom:1px solid #dbdfe2;}
     header>nav #gnb>li.open {border-bottom:none;}

@@ -58,9 +58,9 @@
                                 <td class="noDay"></td>
                                 <td class="noDay"></td>
                                 <td class="noDay"></td>
-                                <td><button typ="button" data-day="(수)" title="신청가능"><span>1</span></button></td>
-                                <td><button typ="button" data-day="(목)" title="신청가능"><span>2</span></button></td>
-                                <td><button typ="button" data-day="(금)" title="신청가능"><span>3</span></button></td>
+                                <td><button typ="button" data-day="(수)" title="신청가능" class="btnOnDay"><span>1</span></button></td>
+                                <td><button typ="button" data-day="(목)" title="신청가능" class="btnOnDay"><span>2</span></button></td>
+                                <td><button typ="button" data-day="(금)" title="신청가능" class="btnOnDay"><span>3</span></button></td>
                                 <td><button typ="button" data-day="(토)" title="신청불가" disabled><span>4</span></button></td>
                             </tr>
                             <tr>
@@ -74,29 +74,29 @@
                             </tr>
                             <tr>
                                 <td><button typ="button" data-day="(일)" title="신청불가" disabled><span>12</span></button></td>
-                                <td><button typ="button" data-day="(월)" title="신청가능"><span>13</span></button></td>
-                                <td><button typ="button" data-day="(화)" title="신청가능"><span>14</span></button></td>
-                                <td><button typ="button" data-day="(수)" title="신청가능"><span>15</span></button></td>
-                                <td><button typ="button" data-day="(목)" title="신청가능"><span>16</span></button></td>
+                                <td><button typ="button" data-day="(월)" title="신청가능" class="btnOnDay"><span>13</span></button></td>
+                                <td><button typ="button" data-day="(화)" title="신청가능" class="btnOnDay"><span>14</span></button></td>
+                                <td><button typ="button" data-day="(수)" title="신청가능" class="btnOnDay"><span>15</span></button></td>
+                                <td><button typ="button" data-day="(목)" title="신청가능" class="btnOnDay"><span>16</span></button></td>
                                 <td><button typ="button" data-day="(금)" title="신청불가" disabled><span>17</span></button></td>
                                 <td><button typ="button" data-day="(토)" title="신청불가" disabled><span>18</span></button></td>
                             </tr>
                             <tr>
                                 <td><button typ="button" data-day="(일)" title="신청불가" disabled><span>19</span></button></td>
-                                <td><button typ="button" data-day="(월)" title="신청가능"><span>20</span></button></td>
-                                <td><button typ="button" data-day="(화)" title="신청가능"><span>21</span></button></td>
+                                <td><button typ="button" data-day="(월)" title="신청가능" class="btnOnDay"><span>20</span></button></td>
+                                <td><button typ="button" data-day="(화)" title="신청가능" class="btnOnDay"><span>21</span></button></td>
                                 <td class="today"><button typ="button" data-day="(수)"><span>22</span></button></td>
-                                <td><button typ="button" data-day="(목)" title="신청가능"><span>23</span></button></td>
-                                <td><button typ="button" data-day="(금)" title="신청가능"><span>24</span></button></td>
+                                <td><button typ="button" data-day="(목)" title="신청가능" class="btnOnDay"><span>23</span></button></td>
+                                <td><button typ="button" data-day="(금)" title="신청가능" class="btnOnDay"><span>24</span></button></td>
                                 <td><button typ="button" data-day="(토)" title="신청불가" disabled><span>25</span></button></td>
                             </tr>
                             <tr>
                                 <td><button typ="button" data-day="(일)" title="신청불가" disabled><span>26</span></button></td>
-                                <td><button typ="button" data-day="(월)" title="신청가능"><span>27</span></button></td>
-                                <td><button typ="button" data-day="(화)" title="신청가능"><span>28</span></button></td>
-                                <td><button typ="button" data-day="(수)" title="신청가능"><span>29</span></button></td>
-                                <td><button typ="button" data-day="(목)" title="신청가능"><span>30</span></button></td>
-                                <td><button typ="button" data-day="(금)" title="신청가능"><span>31</span></button></td>
+                                <td><button typ="button" data-day="(월)" title="신청가능" class="btnOnDay"><span>27</span></button></td>
+                                <td><button typ="button" data-day="(화)" title="신청가능" class="btnOnDay"><span>28</span></button></td>
+                                <td><button typ="button" data-day="(수)" title="신청가능" class="btnOnDay"><span>29</span></button></td>
+                                <td><button typ="button" data-day="(목)" title="신청가능" class="btnOnDay"><span>30</span></button></td>
+                                <td><button typ="button" data-day="(금)" title="신청가능" class="btnOnDay"><span>31</span></button></td>
                                 <td class="noDay"></td>
                             </tr>
                         </tbody>

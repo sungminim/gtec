@@ -27,7 +27,7 @@ header .top_util {position:absolute;right:0;top:20px;height:40px;box-sizing:bord
 header .top_util>a,
 header .top_util>button {display:inline-block;overflow:hidden;width:31px;height:30px;margin-left:12px;vertical-align:top;text-indent:-999px;}
 header .top_util>div {display:inline-block;vertical-align:top;}
-header .top_util .snsGrp {display:inline-block;float:left;overflow:hidden;width:120px;margin-left:30px;box-sizing:border-box;padding-top:3px;font-size:0;vertical-align:top;}
+header .top_util .snsGrp {display:inline-block;float:left;width:120px;margin-left:30px;box-sizing:border-box;padding-top:3px;font-size:0;vertical-align:top;}
 header .top_util .snsGrp a {display:inline-block;overflow:hidden;overflow:hidden;height:13px;margin-right:10px;background-repeat:no-repeat;background-position:center;text-indent:-999px;}
 header .top_util .snsGrp .t_sns_facebook {width:8px;background-image:url(../img/layout/t_sns_facebook_white.png);}
 header .top_util .snsGrp .t_sns_twitter {width:14px;background-image:url(../img/layout/t_sns_twitter_white.png);}
@@ -304,7 +304,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     header .top_util>a,
     header .top_util>button {margin-top:15px;}
     header .top_util .snsGrp {display:none;}
-    header .top_util .utilGrp {position:fixed;left:-770px;top:45px;width:100%;max-width:760px;height:63px;padding:20px 20px 0;background:#69b848;text-align:left;z-index:2001;transition:0.2s;}
+    header .top_util .utilGrp {position:fixed;left:-770px;top:45px;width:100%;max-width:767px;height:63px;padding:20px 20px 0;background:#69b848;text-align:left;z-index:2001;transition:0.2s;}
     header .top_util .utilGrp a,
     header .top_util .utilGrp button {height:18px;margin-top:0;font-size:14px;line-height:18px;letter-spacing:-1px;}
     header .top_util .utilGrp a {position:relative;margin-left:10px;padding-left:10px;color:#fff;}
@@ -318,7 +318,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     header .top_util .btn_topPopzone {width:20px;height:20px;background:url(../img/layout/m/top_recGrp_white.png) no-repeat center;background-size:auto 19px;}
     header .top_util .btn_topSitemap {display:none !important;}
 
-    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:760px;height:100%;margin:0;box-sizing:border-box;padding:108px 0 0;background:#fff;z-index:2000;transition:0.2s;}
+    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:767px;height:100%;margin:0;box-sizing:border-box;padding:108px 0 0;background:#fff;z-index:2000;transition:0.2s;}
     header>nav #gnb {overflow-x:hidden;overflow-y:auto;margin:0;padding:0 20px;text-align:left;}
     header>nav #gnb>li {display:block;width:100%;height:auto;padding:0;border-bottom:1px solid #dbdfe2;}
     header>nav #gnb>li.open {border-bottom:none;}

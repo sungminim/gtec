@@ -407,7 +407,7 @@ p.txt+.topBoldLine_list2 {margin-top:35px;}
 .history .bgFullGray {background:#fff;z-index:1}
 .history .bgFullGray .contTit {position:relative;padding-top:45px;}
 .history .bgFullGray .contTit:before {top:65px;}
-.history .bgFullGray .contTit:after {content:'';position:absolute;left:0;top:0;display:block;width:100%;height:388px;background:#f3f4f6;;z-index:-1}
+.history .bgFullGray .contTit:after {content:'';position:absolute;left:0;top:-85px;display:block;width:100%;height:388px;background:#f3f4f6;;z-index:-1}
 .history .bgFullGray:before, 
 .history .bgFullGray:after {height:388px;}
 .history .bgFullGray .list_range {width:calc(100% + 80px);margin-left:-80px;}
@@ -988,6 +988,10 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .it_support1 .left_icoBox.col2>li:nth-child(2) {background-image:url(../img/kor/campuslife/it_support_ico2.png);}
 .it_support1 .btn {padding-top:10px;}
 
+.accomodation .topBoldLine_list2>li {text-align:left;}
+.accomodation .imgList li .list_dotGreen>li {font-size:16px;text-align:left;}
+
+
 /* GTEC 홍보 */
 .gtec_sns>ul {border-top:2px solid #222;font-size:0}
 .gtec_sns>ul>li {position:relative;display:inline-block;padding-left:30px;width:50%;height:125px;border-bottom:1px solid #d9d9d9;border-left:1px solid #d9d9d9;vertical-align:top;box-sizing:border-box;}
@@ -1505,6 +1509,10 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .history .bgFullGray:after {height:280px;}
     .history .bgFullGray .list_range>li .txtArea span {font-size:16px;}
     .history .bgFullGray .list_range>li .txtArea span br {display:none}
+    .history .bgFullGray {background:#fff;}
+    .history .bgFullGray:before, 
+    .history .bgFullGray:after {display:none}
+    .history .bgFullGray .contTit:after {display:none;}
 
     .gtec_story .story_cont {padding-left:0}
     .gtec_story .story_cont .story_tit {position:inherit;left:0;top:0;margin-bottom:20px;font-size:40px;}
@@ -2335,6 +2343,9 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .it_support1 .left_icoBox.col2>li .titSt2 {font-size:19px}
     .it_support1 .btn {padding-top:5px;}
 
+    .accomodation .imgList li .list_dotGreen>li {font-size:14px;}
+    .accomodation .imgList>li+li {margin-top:0;}
+
     /* GTEC홍보 */
     .gtec_sns>ul>li {height:auto;width:100%;border-left:0;}
     .gtec_sns>ul>li .btn .btnC>span {height:40px;line-height:40px;}
@@ -2440,8 +2451,11 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .ruleBookList>li>.depth2>li{padding:0 20px;}
     .ruleBookList>li>.depth2>li>p{padding:13px 0 12px 10px;font-size:13px;}
     .ruleBookList>li>.depth2>li>p::before{top:20px;}
-    .ruleBookList .file{padding-right:0px;}
-    .ruleBookList .file .boxBtn{position:static;margin-bottom:13px;}
+    .ruleBookList>li>.depth2>li {padding-bottom:13px;}
+    .ruleBookList .file{padding-right:0px;padding-bottom:13px;}
+    .ruleBookList .file>button {position:inherit;width:100%;left:0;top:0;margin-bottom:0px;}
+    .ruleBookList .file .boxBtn {position:inherit;width:100%;left:0;top:0;margin-bottom:0px;}
+    .ruleBookList .file .boxBtn+.boxBtn {margin-top:5px;}
 
     .boxBtn{height:35px;}
     .boxBtn>span{padding:0 15px;font-size:13px;line-height:33px;min-width:60px;}

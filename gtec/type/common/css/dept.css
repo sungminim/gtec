@@ -291,6 +291,7 @@ p.txt+.hexagon_list {padding-top:5px;}
 .dormJoin.list .lineTop_tbArea .lineTop_tb2 thead th,
 .dormJoin.list .lineTop_tbArea .lineTop_tb2 tbody td{border-right:none;}
 .dormJoin.list .lineTop_tbArea .lineTop_tb2 tbody td{color:#555;}
+.dormJoin.write .emailArea .inp_t {width:calc(50% - 15px) !important;}
 .C_org{color:#ff8315;}
 .C_green{color:#419639;}
 

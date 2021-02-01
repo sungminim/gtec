@@ -130,21 +130,21 @@
 .refundList>li .btn.col2 a:first-child {margin-right:10px;}
 
 /* 학과안내 */
-.major_info .titSt3 {margin-top:45px;margin-bottom:8px;}
-.major_list {width:calc(100% + 32px);margin-top:-32px;margin-left:-32px;}
-.major_list>li>a {position:relative;display:block;width:100%;height:100%;}
-.major_list>li>a:before {content:'';display:block;position:absolute;left:50%;margin-left:-25px;top:50%;margin-top:-40px;width:50px;height:50px;background:url(../img/ipsi/ipsiCont/ico_youtube.png) no-repeat;}
-.major_list>li .major_name {display:block;margin-top:12px;box-sizing:border-box;font-size:18px;letter-spacing:-1px;font-weight:500}
-.major_list.col4>li {width:calc(25% - 32px);margin-left:32px;margin-top:32px;}
-.major_list.col4>li img {display:block;width:100%;font-size:0}
-.major_list.col2>li {width:calc(50% - 32px);margin-left:32px;margin-top:32px;}
-.major_info .infoCir {display:inline-block;width:19px;height:19px;border-radius:50%;background:#6ab848;vertical-align:top;font-size:12px;text-align:center;vertical-align:middle;font-style:normal;color:#fff;text-indent:-1px;font-weight:500;line-height:18.5px;}
-.major_info .infoCir.orange {background:#ff8315;}
-.major_info p.txt {letter-spacing:-0.5px;}
-.major_info p.txt .info {margin-left:11px;vertical-align:top;}
-.major_info p.txt .info .infoCir{margin-right:4px;margin-top:-3px;}
-.major_info p.txt .info .infoCir.orange {margin-left:15px;}
-.major_info .major_list .infoCir {margin-top:-3px;margin-left:5px;line-height:20px;}
+.major_info.ipsi .titSt3 {margin-top:45px;margin-bottom:8px;}
+.ipsi .major_list {width:calc(100% + 32px);margin-top:-32px;margin-left:-32px;}
+.ipsi .major_list>li>a {position:relative;display:block;width:100%;height:100%;}
+.ipsi .major_list>li>a:before {content:'';display:block;position:absolute;left:50%;margin-left:-25px;top:50%;margin-top:-40px;width:50px;height:50px;background:url(../img/ipsi/ipsiCont/ico_youtube.png) no-repeat;}
+.ipsi .major_list>li .major_name {display:block;margin-top:12px;box-sizing:border-box;font-size:18px;letter-spacing:-1px;font-weight:500}
+.ipsi .major_list.col4>li {width:calc(25% - 32px);margin-left:32px;margin-top:32px;}
+.ipsi .major_list.col4>li img {display:block;width:100%;font-size:0}
+.ipsi .major_list.col2>li {width:calc(50% - 32px);margin-left:32px;margin-top:32px;}
+.ipsi .major_info.ipsi .infoCir {display:inline-block;width:19px;height:19px;border-radius:50%;background:#6ab848;vertical-align:top;font-size:12px;text-align:center;vertical-align:middle;font-style:normal;color:#fff;text-indent:-1px;font-weight:500;line-height:18.5px;}
+.major_info.ipsi .infoCir.orange {background:#ff8315;}
+.major_info.ipsi p.txt {letter-spacing:-0.5px;}
+.major_info.ipsi p.txt .info {margin-left:11px;vertical-align:top;}
+.major_info.ipsi p.txt .info .infoCir{margin-right:4px;margin-top:-3px;}
+.major_info.ipsi p.txt .info .infoCir.orange {margin-left:15px;}
+.major_info.ipsi .major_list .infoCir {margin-top:-3px;margin-left:5px;line-height:20px;}
 
 /* 성적진단하기 */
 .gradeDiagnosis .list_dotGreen li{word-break:keep-all;}
@@ -338,10 +338,10 @@
     .refundList>li {padding:20px;}
 
     /* 학과소개 */
-    .major_list {width:calc(100% + 20px);margin-top:-20px;margin-left:-20px;}
-    .major_list>li .major_name {font-size:16px}
-    .major_list.col4>li {width:calc(25% - 20px);margin-left:20px;margin-top:20px;}
-    .major_list.col4>li img {display:block;font-size:0}
+    .ipsi .major_list {width:calc(100% + 20px);margin-top:-20px;margin-left:-20px;}
+    .ipsi .major_list>li .major_name {font-size:16px}
+    .ipsi .major_list.col4>li {width:calc(25% - 20px);margin-left:20px;margin-top:20px;}
+    .ipsi .major_list.col4>li img {display:block;font-size:0}
     
     .inp_t.mW{width:100%;}
     .emailArea .inp_t{width:calc(50% - 15px) !important;}
@@ -440,8 +440,8 @@
     .refundList>li .btn a {padding:10px 5px;font-size:15px;}
 
     /* 학과소개 */
-    .major_list.col4>li {width: calc(50% - 20px);}
-    .major_list>li .major_name {padding-right:16px;margin-top:8px;background-position:right 5px top 2px;font-size:16px;}
+    .ipsi .major_list.col4>li {width: calc(50% - 20px);}
+    .ipsi .major_list>li .major_name {padding-right:16px;margin-top:8px;background-position:right 5px top 2px;font-size:16px;}
     
     /*내신성적 산출방법*/
     .grayInfobox{padding:20px 15px;}
@@ -540,8 +540,8 @@
     .ipsiDataList >li .nameArea .inp_s{width:100%;}
 }
 @media all and (max-width:500px) {
-    .major_list {width:100%;margin-left:0;}
-    .major_list.col4>li {width:100%;margin-left:0;}
-    .major_info p.txt .info {display:block;margin-left:0;margin-top:5px;}
+    .ipsi .major_list {width:100%;margin-left:0;}
+    .ipsi .major_list.col4>li {width:100%;margin-left:0;}
+    .major_info.ipsi p.txt .info {display:block;margin-left:0;margin-top:5px;}
 }
 

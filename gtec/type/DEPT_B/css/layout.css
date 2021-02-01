@@ -62,9 +62,9 @@ header>nav #gnb ul.menuM>li:hover>a,
 header>nav #gnb ul.menuM>li.on>a,
 header>nav #gnb ul.menuM>li.act>a {color:#000;}
 header>nav #gnb ul.menuS>li {position:relative;float:left;margin:10px 20px 0 0;padding-left:9px;}
-header>nav #gnb ul.menuS>li::before {content:'';display:block;position:absolute;left:0;top:6px;width:3px;height:3px;box-sizing:border-box;background:#0097ce;}
+header>nav #gnb ul.menuS>li::before {content:'';display:block;position:absolute;left:0;top:6px;width:3px;height:3px;box-sizing:border-box;background:#419639;}
 header>nav #gnb ul.menuS>li>a {display:block;position:relative;color:#666;font-size:14px;line-height:18px;text-align:left;letter-spacing:-1px;}
-header>nav #gnb ul.menuS>li.on>a {color:#0097ce;}
+header>nav #gnb ul.menuS>li.on>a {color:#419639;}
 
 /*gnb 3depth*/
 header>nav #gnb ul.menuSS {display:none;}
@@ -155,7 +155,7 @@ footer address .copyright {display:inline-block;margin:0 7px 7px 0;font-style:no
 #snb_nav #snb li+li {margin-top:10px;}
 #snb_nav #snb li a {color:#666;font-family:'Roboto','Noto Sans KR',sans-serif;font-size:15px;font-weight:400;line-height:16px;letter-spacing:-1px;}
 #snb_nav #snb li a:hover,
-#snb_nav #snb li a:active {color:#009fdb !important;}
+#snb_nav #snb li a:active {color:#419639 !important;}
 #snb_nav #snb li .gnbTit {display:none !important;}
 #snb_nav #snb>li>ul {margin-bottom:10px;}
 #snb_nav #snb>li>ul ul {margin-bottom:0;}
@@ -302,7 +302,7 @@ article {position: relative;max-width:1240px;min-height:500px;box-sizing: border
 
     header>nav #gnb ul.menuS {width:100%;margin:0;box-sizing:border-box;padding:0;}
     header>nav #gnb ul.menuS>li {padding-left:8px;margin:0 40px 10px 0;cursor:pointer;}
-    header>nav #gnb ul.menuS>li::before {content:'';display:block;position:absolute;left:0;top:7px;width:2px;height:2px;background:#009fdb;}
+    header>nav #gnb ul.menuS>li::before {content:'';display:block;position:absolute;left:0;top:7px;width:2px;height:2px;background:#419639;}
     header>nav #gnb ul.menuS>li>a {font-size:14px;line-height:18px;}
     header>nav #gnb ul.menuS>li>a[target="_blank"] {background:url(../img/layout/ico_newWin12_black.png) no-repeat right top 1px;}
     header>nav #gnb>li li.child>ul {display:block;}

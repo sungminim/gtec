@@ -151,7 +151,7 @@ header>nav #gnb_parent>li>a {color:#000;}
     .mVisual .list .unit .img {position:relative;float:none;width:100%;height:auto;border-radius:0;}
     .mVisual .list .unit .img:before {content:'';position:absolute;left:0;top:0;display:block;width:100%;height:100%;background:rgba(0,0,0,0.4);}
     .mVisual .list .unit .img>img {display:none;}
-    .mVisual .list .unit .img>span {display:block;}
+    .mVisual .list .unit .img>span {display:block;max-height:400px;}
 
     .mVisual .list .unit .txt strong {color:#fff;font-size:63px;line-height:72px;letter-spacing:-4px;word-break:break-all;}
     .mVisual .list .unit .txt strong>em {font-size:30px;line-height:28px;letter-spacing:-1.5px;}

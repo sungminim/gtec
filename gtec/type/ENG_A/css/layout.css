@@ -27,7 +27,7 @@ header .top_util {position:absolute;right:0;top:20px;height:40px;box-sizing:bord
 header .top_util>a,
 header .top_util>button {display:inline-block;overflow:hidden;width:31px;height:30px;margin-left:12px;vertical-align:top;text-indent:-999px;}
 header .top_util>div {display:inline-block;vertical-align:top;}
-header .top_util .snsGrp {display:inline-block;float:left;overflow:hidden;width:120px;margin-left:30px;box-sizing:border-box;padding-top:3px;font-size:0;vertical-align:top;}
+header .top_util .snsGrp {display:inline-block;float:left;width:120px;margin-left:30px;box-sizing:border-box;padding-top:3px;font-size:0;vertical-align:top;}
 header .top_util .snsGrp a {display:inline-block;overflow:hidden;overflow:hidden;height:13px;margin-right:10px;background-repeat:no-repeat;background-position:center;text-indent:-999px;}
 header .top_util .snsGrp .t_sns_facebook {width:8px;background-image:url(../img/layout/t_sns_facebook_white.png);}
 header .top_util .snsGrp .t_sns_twitter {width:14px;background-image:url(../img/layout/t_sns_twitter_white.png);}
@@ -138,8 +138,6 @@ body.mSticky #header header .top_util .btn_topSearch{background-image:url(../img
 body.mSticky #header header .top_util .btn_topPopzone{background-image:url(../img/layout/top_recGrp_black.png) !important;}
 .gnbOn header .top_util .btn_topSitemap,
 body.mSticky #header header .top_util .btn_topSitemap{background-image:url(../img/layout/top_lineMenu_black.png) !important;}
-
-
 
 #footer {position:relative;background:#4c4d4f;}
 .btn_scrollTop {display:block;position:fixed;right:40px;bottom:300px;display:block;overflow:hidden;width:53px;height:63px;background:url(../img/layout/btn_scrollTop.png) no-repeat center;z-index:499;text-indent:-999px;display:none;}
@@ -284,6 +282,10 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     header>nav #gnb ul.menuM {left:0;width:100%;margin-left:0;}
 }
 
+@media all and (max-width:1175px){
+    #snb_nav .snb_area .btn_home::before {display:none;}
+}
+
 @media all and (max-width:1170px){
     footer .f_sns {top:auto;bottom:35px;}
 }
@@ -304,7 +306,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     header .top_util>a,
     header .top_util>button {margin-top:15px;}
     header .top_util .snsGrp {display:none;}
-    header .top_util .utilGrp {position:fixed;left:-770px;top:45px;width:100%;max-width:760px;height:63px;padding:20px 20px 0;background:#69b848;text-align:left;z-index:2001;transition:0.2s;}
+    header .top_util .utilGrp {position:fixed;left:-770px;top:45px;width:100%;max-width:767px;height:63px;padding:20px 20px 0;background:#69b848;text-align:left;z-index:2001;transition:0.2s;}
     header .top_util .utilGrp a,
     header .top_util .utilGrp button {height:18px;margin-top:0;font-size:14px;line-height:18px;letter-spacing:-1px;}
     header .top_util .utilGrp a {position:relative;margin-left:10px;padding-left:10px;color:#fff;}
@@ -318,7 +320,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     header .top_util .btn_topPopzone {width:20px;height:20px;background:url(../img/layout/m/top_recGrp_white.png) no-repeat center;background-size:auto 19px;}
     header .top_util .btn_topSitemap {display:none !important;}
 
-    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:760px;height:100%;margin:0;box-sizing:border-box;padding:108px 0 0;background:#fff;z-index:2000;transition:0.2s;}
+    header>nav {position:fixed !important;left:-770px;top:0;width:100%;max-width:767px;height:100%;margin:0;box-sizing:border-box;padding:108px 0 0;background:#fff;z-index:2000;transition:0.2s;}
     header>nav #gnb {overflow-x:hidden;overflow-y:auto;margin:0;padding:0 20px;text-align:left;}
     header>nav #gnb>li {display:block;width:100%;height:auto;padding:0;border-bottom:1px solid #dbdfe2;}
     header>nav #gnb>li.open {border-bottom:none;}
@@ -378,7 +380,7 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     .familySite .family_btn {padding:0 20px;}
     .familySite .family_btn button {height:35px;background-size:auto 11px;font-size:13px;line-height:35px;}
 
-    footer {padding:20px;}
+    footer {padding:30px;}
     footer .f_menu {float:none;width:100%;margin-bottom:20px;padding-bottom:10px;border-right:none;border-bottom:1px solid #5e5f61;}
     footer .f_menu li {width:20%;font-size:13px !important;line-height:16px;}
     footer .f_sns {bottom:18px;right:20px;z-index:2;}
@@ -429,6 +431,8 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
 }
 
 @media all and (max-width:768px){
+    footer {padding:20px;}
+
     .familySite .family_btn {padding:0 20px;}
     .pop_familySite ul {padding:0px 0 10px;}
     .pop_familySite ul>li {width:50%;margin-bottom:10px;}
