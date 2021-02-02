@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>경기과학기술대학교</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/intro_illust.css" />
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+
+<script>
+$(function(){
+
+
+    function notice(){
+        $("#introIllust .notice .noti .notiWrap").removeAttr('style');
+        if(window.innerWidth > 768){
+            $("#introIllust .notice>ul>li").each(function(){
+                var arry = [
+                    $(this).children('.noti:nth-of-type(1)').height(),
+                    $(this).children('.noti:nth-of-type(2)').height()
+                ];
+
+                var h_max = Math.max.apply(null, arry);
+                $(this).children('.noti:nth-of-type(1)').find('.notiWrap').css("height", h_max);
+                $(this).children('.noti:nth-of-type(2)').find('.notiWrap').css("height", h_max);
+            });
+        }else{
+            $("#introIllust .notice .noti .notiWrap").css("height","");
+        }
+    }
+
+
+    $(window).bind('load resize', function(){
+        notice();
+    })
+});
+</script>
+</head>
+
+<body>
+
+<div id="introIllust">
+
+	<article id="contents">
+        <div class="visual"><div class="visualWrap">
+            <span class="top">
+                <em class="korea">대한민국정부가 설립한</em>
+                <em class="getc">경기과학기술대학교</em>
+            </span>
+            <div class="txtWrap">
+                <strong class="tit">
+                    <span class="tit_b">수도권 공학계열 <br /><em>취업률 1위</em><span class="t_small">(나군)</span></span>
+                    <span class="tit_s">졸업생 유지취업률 <em>1위</em><span class="t_small">(나군)</span></span>
+                    <span class="tit_b">학생특허 <br /><em>전국최다(53건)</em></span>
+                </strong>
+                <p class="txt">
+                    정시에 합격했어도 자율모집 지원 가능합니다.<br />
+                    <br />
+                    <b class="txt_b">학과별 선착순 서류전형</b>
+                    <b class="txt_b t_green">2021년 2월 28일 까지 접수</b><br />
+                    학과선택과 원서접수는 아래에서<br />
+                    <br />
+                    <span class="tel">문의전화 : <b>1588 - 2725</b></span>
+                </p>
+            </div>
+        </div></div>
+
+        <div class="benefit"><div class="benefitWrap">
+            <ul>
+                <li>
+                    <div class="unit">
+                        <span class="num">혜택, 하나</span>
+                        <strong>
+                            <span class="txt_b">국가장학금</span>
+                            (자율개선대학)
+                        </strong>
+                    </div>
+                </li>
+                <li>
+                    <div class="unit">
+                        <span class="num">혜택, 둘</span>
+                        <strong>
+                            <span class="item">학습장려장학금</span>
+                            <em>100</em>만원<br />
+                            현금지급!
+                        </strong>
+                    </div>
+                </li>
+                <li>
+                    <div class="unit">
+                        <span class="num">혜택, 셋</span>
+                        <strong>
+                            <span class="item">친구추천장학금</span>
+                            <em>20</em>만원<br />
+                            현금지급!!
+                        </strong>
+                    </div>
+                </li>
+            </ul>
+        </div></div>
+
+        <div class="dept">
+            <h2 class="tit">자율모집 / 정원내  일반전형</h2>
+            <ul>
+                <li>
+                    <a href="#none">
+                        <strong>메카트로닉스공학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>스마트자동화과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>전기제어공학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>스마트경영과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>전자공학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>미디어디자인과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>컴퓨터모바일융합공학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#none">
+                        <strong>지능기계설계과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>정미기계공학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>3D융합설계학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>인공지능융합과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>건축인테리어학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>에너지시스템과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>자동차과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>화공환경과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>사회복지학과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+                <li>
+                    <a href="#none" class="first">
+                        <strong>아동영어보육학과</strong>
+                        선착순 원서접수
+                    </a>
+                </li>
+                <li>
+                    <a href="#none">
+                        <strong>시각정보디자인과</strong>
+                        원서접수 예약하기
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="notice">
+            <ul>
+                <li>
+                    <div class="noti"><div class="notiWrap">
+                        <strong class="tit">
+                            <em>[자율모집]</em>
+                            <span>2021학년도 자율모집 안내</span>
+                        </strong>
+                        <b class="tit_s">선탁순 서류전형 합격! 다른 대학 정시합격자도 지원가증!</b>
+                        <ul class="list_dot">
+                            <li>원서접수기간 : 2021.1.26.(화) ∼ 2021.2.28.(일)</li>
+                            <li>지원문의 1588-2725</li>
+                        </ul>
+                        <div class="btn btn03">
+                            <a href="https://ur1.kr/g8gR" target="_blank" title="새창" class="btn_green"><span>모바일 원서접수<span>(3회 무료)</span></span></a>
+                            <a href="http://ta.uwayapply.com/coll/kinst/?CHA=2" target="_blank" title="새창" class="btn_red"><span>유웨이 원서접수</span></a>
+                            <a href="https://apply.jinhakapply.com/Notice/4007023/A" target="_blank" title="새창" class="btn_navy"><span>진학사 원서접수</span></a>
+                        </div>
+
+                        <b class="tit_s">자율모집 원서접수 예약하기</b>
+                        <div class="btn">
+                            <a href="https://advice.applykr.com/advice/l/FF7FF57EB18F3EA0B7/" target="_blank" title="새창" class="btn_black"><span>자율모집 원서접수 예약(알림받기)</span></a>
+                        </div>
+                    </div></div>
+
+                    <div class="noti"><div class="notiWrap">
+                        <strong class="tit">
+                            <em>[수시/정시/자율]</em>
+                            <span>2021학년도 신입생 합격자 발표안내</span>
+                        </strong>
+                        <ul class="list_dot">
+                            <li>정시모집 합격자 발표 :  2021.02.05.(금), 10시</li>
+                            <li>정시/자율 모집 등록금 납부 기간</br>: 2021.02.08.(월) ∼ 2021.02.10.(수)</li>
+                            <li>수시 모집 잔여등록금 납부 기간</br>: 2021.02.08.(월) ∼ 2021.02.10.(수)</li>
+                        </ul>
+                        <div class="btn btn01">
+                            <a href="https://pims.jinhakapply.com/pass/4007/passservicelist.aspx" target="_blank" title="새창" class="btn_black"><span>수시 합격자조회 / 잔여등록금 고지서 출력</span></a>
+                            <a href="#none" target="_blank" title="새창" class="btn_black"><span>정시/자율모집 합격자조회/등록금 고지서 출력</span></a>
+                        </div>
+                    </div></div>
+                </li>
+                <li>
+                    <div class="noti"><div class="notiWrap">
+                        <strong class="tit">
+                            <em>[산업체위탁]</em>
+                            <span>2021학년도 산업체위탁과정 모집안내</span>
+                        </strong>
+                        <ul class="list_dot">
+                            <li>원서접수 기간 : 2020.11.02(월) ~ 2020.12.28(월)</li>
+                            <li>산업체위탁과정 입학상담 : 1899-3191</li>
+                        </ul>
+                        <div class="btn btn03">
+                            <a href="https://apply2.gtec.ac.kr" class="btn_green"><span>모바일 원서접수</span></a>
+                            <a href="https://ipsiw.gtec.ac.kr/Main.do?ipsi_gb=2" class="btn_green"><span>인터넷 원서접수</span></a>
+                            <a href="#none" class="btn_black"><span>합격자조회 <span>/ 고지서출력</span></span></a>
+                        </div>
+                    </div></div>
+
+                    <div class="noti"><div class="notiWrap">
+                        <strong class="tit">
+                            <em>[전공심화]</em>
+                            <span>2021학년도 학사학위과정 모집안내</span>
+                        </strong>
+                        <ul class="list_dot">
+                            <li>원서접수기간 : 2021.01.15(금)~2021.02.17(수)</li>
+                            <li>합격자발표 : 2021.01.15(금)~2021.02.17(수)</li>
+                            <li>학사학위 전공심화과정 입학상담 : 031-496-4792</li>
+                        </ul>
+                        <div class="btn btn02">
+                            <a href="https://ipsiw.gtec.ac.kr/Main.do?ipsi_gb=5" class="btn_green"><span>인터넷 원서접수</span></a>
+                            <a href="#none" class="btn_black"><span>합격자조회 <span>/ 고지서출력</span></span></a>
+                        </div>
+                    </div></div>
+                </li>
+                <li>
+                    <div class="noti"><div class="notiWrap">
+                        <strong class="tit">
+                            <em>[수강안내]</em>
+                            <span>2021학년도 1학기 수강신청 안내</span>
+                        </strong>
+                        <ul class="list_dot">
+                            <li>수강신청 기간 : 2021.02.17(수) 08:00 ~ 2021.02.22(월) 24:00</li>
+                            <li>수강신청 정정기간 : 2021.03.08(월) 09:30 ~ 2021.03.13(토) 24:00</li>
+                        </ul>
+                        <p class="exclam">신입생(1학년 복학생 포함)은 일괄수장신청으로 수강신청 할 필요 없습니다.</p>
+                        <div class="btn">
+                            <a href="#none" class="btn_black"><span>수강신청시스템 바로가기</span></a>
+                        </div>
+                    </div></div>
+                </li>
+            </ul>
+        </div>
+	</article>
+
+	<footer>
+        <div class="f_quick"><div class="f_wrap">
+            <ul class="btn">
+                <li><a href="http://www.gtec.ac.kr/">대표홈페이지</a></li>
+                <li><a href="http://www.gtec.ac.kr/indexPage/ipsi_intro.html">입학홈페이지</a></li>
+                <li><a href="https://tis.gtec.ac.kr/main/login/pm01_81110login_t.jsp">종합정보시스템</a></li>
+            </ul>
+
+            <div class="sns">
+                <a href="https://bit.ly/3kfjbTY" target="_blank" title="새창"><img src="img/sns_facebook.png" alt="facebook" /></a>
+                <!--<a href="#none" target="_blank" title="새창"><img src="img/sns_twitter.png" alt="twitter" /></a>-->
+                <a href="https://bit.ly/32zv40Z" target="_blank" title="새창"><img src="img/sns_nBlog.png" alt="naver blog" /></a>
+                <a href="https://bit.ly/2ZHRRpI" target="_blank" title="새창"><img src="img/sns_youtube.png" alt="youtube" /></a>
+                <a href="https://bit.ly/2ZJFwkW" target="_blank" title="새창"><img src="img/sns_instagram.png" alt="instagram" /></a>
+            </div>
+        </div></div>
+
+        <div class="f_wrap">
+            <div class="f_ipsi">
+                <strong class="tit">입학문의</strong>
+                <ul>
+                    <li>
+                        <b>수시,정시</b>
+                        입학관리팀 <a href="tel:1588-2725">1588-2725</a>
+                    </li>
+                    <li>
+                        <b>외국인전형</b>
+                        국제학생지원센터 <a href="tel:031-495-6405">031-496-6405</a>
+                    </li>
+                    <li>
+                        <b>산업체위탁교육</b>
+                        기업인재관리팀 <a href="tel:1899-3191">1899-3191</a>
+                    </li>
+                    <li>
+                        <b>학사학위 전공심화</b>
+                        입학관리팀 <a href="tel:031-469-4792">031-469-4792</a>
+                    </li>
+                    <li>
+                        <b>e-MU</b>
+                        학군인력양성센터 <a href="tel:031-496-6418">031-496-6418</a>
+                    </li>
+                    <li>
+                        <b>계약학과</b>
+                        기업인재관리팀 <a href="tel:1899-3191">1899-3191</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="f_menu">
+                <li><a href="http://www.gtec.ac.kr/content.do?method=getContent&gcd=G1001&cmscd=CM0094" class="point">개인정보처리방침</a></li>
+                <li><a href="http://www.gtec.ac.kr/gallery.do?method=getList&gcd=G1001&cmscd=CM0024">사이버홍보실</a></li>
+            </ul>
+            <address>
+                <p>15073 경기도 시흥시 경기과기대로 269(정왕동)</p>
+                <p class="copyright">© 2020 Gyeonggi University of Science and Technology. All Rights Reserved</p>
+            </address>
+        </div>
+	</footer>
+</div>
+
+</body>
+</html>

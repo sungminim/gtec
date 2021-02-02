@@ -348,7 +348,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     #snb_nav.active3 #snb,
     #snb_nav.active4 #snb {padding-top:15px;}
 
-    .sVisual {height:138px;background-size:auto 138px;}
+    .sVisual {height:138px;background-size:cover;}
     .sVisual>strong {font-size:30px;line-height:40px;}
 
     .gnbOn .sVisual {margin-bottom:80px;}
@@ -361,7 +361,7 @@ footer address .copyright {display:block;font-family:'Robot',sans-serif;font-siz
     .stickyFix header .logo>a>span {display:block;}
     .stickyFix header .top_util {background:#fff;}
     .stickyFix header .top_util .btn_topSearch {background-image:url(../img/layout/m/ico_topSearch_black.png);}
-    .stickyFix #snb_nav {top:50px;height:40px;}
+    .stickyFix #snb_nav {top:50px;height:50px;}
     .stickyFix .sVisual {margin-bottom:65px;}
 
     .typeSub #container {padding-top:50px;}

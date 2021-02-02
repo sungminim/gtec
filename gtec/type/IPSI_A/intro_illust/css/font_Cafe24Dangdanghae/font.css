@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: 'Dangdanghae';
+   font-style: normal;
+   /*font-weight: normal;*/
+   src: url(./Cafe24Dangdanghae.otf) format('opentype'),
+   url(./Cafe24Dangdanghae.ttf) format('truetype'),
+   url(./Cafe24Dangdanghae.woff) format('woff'),
+   url(./Cafe24Dangdanghae.woff2) format('woff2'),
+   url(./Cafe24Dangdanghae.eot) format('eot');
+}

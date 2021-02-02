@@ -288,6 +288,10 @@
     .mBanner .sliderArea .slick-arrow{width:15px;height:23px;background-size:13px auto !important;top:15px;}
 }
 
+@media all and (max-width:500px){
+    .mGTECPick .movieList ul li>.item img {width:100%;height:100%;}
+}
+
 @media all and (max-width:320px){
     .mIpsiServices .sliderArea .item>a span{font-size:11px;}
 }
