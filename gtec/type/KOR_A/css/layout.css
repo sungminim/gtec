@@ -103,7 +103,7 @@ header .mBtn_topMenu,
 header .mBtn {display:none;}
 
 .gnbOn,
-body.mSticky #header{overflow:hidden;background:#fff;}
+body.mSticky #header{background:#fff;}
 .gnbOn::after,
 body.mSticky #header::after {background:#d9d9d9 !important;opacity:1 !important;}
 .gnbOn header .logo>a>img,
@@ -140,6 +140,8 @@ body.mSticky #header header .top_util .btn_topSearch{background-image:url(../img
 body.mSticky #header header .top_util .btn_topPopzone{background-image:url(../img/layout/top_recGrp_black.png) !important;}
 .gnbOn header .top_util .btn_topSitemap,
 body.mSticky #header header .top_util .btn_topSitemap{background-image:url(../img/layout/top_lineMenu_black.png) !important;}
+.gnbOn header .mBtn_topMenu,
+body.mSticky header .mBtn_topMenu {background-image:url(../img/layout/top_lineMenu_black.png) !important;}
 
 #footer {position:relative;background:#4c4d4f;}
 .btn_scrollTop {display:block;position:fixed;right:40px;bottom:300px;display:block;overflow:hidden;width:53px;height:63px;background:url(../img/layout/btn_scrollTop.png) no-repeat center;z-index:499;text-indent:-999px;display:none;}
@@ -419,6 +421,8 @@ footer address .copyright {display:block;padding-top:8px;font-style:normal;font-
     .stickyFix header .top_util {background:#fff;}
     .stickyFix header .top_util .btn_topSearch {background-image:url(../img/layout/m/top_search_black.png);}
     .stickyFix header .top_util .btn_topPopzone {background-image:url(../img/layout/m/top_recGrp_black.png);}
+    .gnbOn header .top_util .utilGrp .btn_topLanguage,
+    body.mSticky #header header .top_util .utilGrp .btn_topLanguage{background-image:url(../img/layout/ico_arrB_white.png) !important;}
     .stickyFix #snb_nav {top:45px;height:50px;}
     .stickyFix .sVisual {margin-bottom:65px;}
 

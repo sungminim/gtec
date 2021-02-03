@@ -242,7 +242,7 @@ p.txt+.hexagon_list {padding-top:5px;}
 
 /*교수진소개*/
 .professor.list{}
-.professorListArea{width:100%;height:auto;}
+.professorListArea{width:100%;height:auto;min-height:650px;}
 .professorListArea>ul{width:100%;height:auto;font-size:0}
 .professorListArea>ul>li{display:inline-block;width:calc(50% - 20px);margin:0 40px 40px 0;vertical-align:top;min-height:260px;border:1px solid #d9d9d9;box-sizing:border-box;}
 .professorListArea>ul>li:nth-of-type(2n){margin-right:0px;}

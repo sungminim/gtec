@@ -696,155 +696,106 @@
         <div class="mContArea line3">
             <div class="innerCont">
                 <div class="mGTECPick">
-                    <p class="mTit2">학과 홍보영상</p>
+                    <p class="mTit2">GTEC PICK</p>
                     <a href="#none" class="grennBtn">영상 구독하기</a>
                     
                     <div class="movieList">
+                        <strong>어떤 학과 가야할까?</strong>
                         <ul>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail1.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>메카트로닉스공학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_deptTemp1.png" alt="">
+                                    <time>3:43</time>
+                                    <p>시각정보디자인학과</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail2.png" alt="">
-                                    <!-- <time>1:02</time> -->
-                                    <p>스마트자동화과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_deptTemp2.png" alt="">
+                                    <time>1:02</time>
+                                    <p>아동영어보육과</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail3.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>전기제어공학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_deptTemp3.png" alt="">
+                                    <time>3:43</time>
+                                    <p>사회복지과</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail4.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>스마트경영과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_deptTemp4.png" alt="">
+                                    <time>3:43</time>
+                                    <p>기계자동화과</p>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     
                     <div class="movieList">
+                        <strong>우리대학 입학 꿀팁!</strong>
                         <ul>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail5.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>전자공학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_ipsitTip1.png" alt="">
+                                    <time>3:43</time>
+                                    <p>대입전형 완벽가이드</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail6.png" alt="">
-                                    <!-- <time>1:02</time> -->
-                                    <p>미디어디자인과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_ipsitTip2.png" alt="">
+                                    <time>1:02</time>
+                                    <p>면접 제대로 준비하기</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail7.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>컴퓨터모바일융합공학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_ipsitTip3.png" alt="">
+                                    <time>3:43</time>
+                                    <p>2020 부사관 전형 모집 안내</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail8.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>지능기계설계과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_ipsitTip4.png" alt="">
+                                    <time>3:43</time>
+                                    <p>고교방문 입시설명회</p>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     
                     <div class="movieList">
+                        <strong>대학교소식</strong>
                         <ul>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail9.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>정밀기계공학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_newsTemp1.png" alt="">
+                                    <time>3:43</time>
+                                    <p>GTEC영어캠프</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail10.png" alt="">
-                                    <!-- <time>1:02</time> -->
-                                    <p>3D융합설계학과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_newsTemp2.png" alt="">
+                                    <time>1:02</time>
+                                    <p>시흥시 정책협의회 개최</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail11.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>인공지능융합과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_newsTemp3.png" alt="">
+                                    <time>3:43</time>
+                                    <p>창의교육, 대학의 길</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail12.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>건축인테리어학과</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="movieList">
-                        <ul>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail13.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>에너지시스템과</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail14.png" alt="">
-                                    <!-- <time>1:02</time> -->
-                                    <p>자동차과</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail15.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>화공환경과</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail16.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>사회복지학과</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="movieList">
-                        <ul>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail17.png" alt="">
-                                    <!-- <time>3:43</time> -->
-                                    <p>아동영어보육학과</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#none" class="item">
-                                    <img src="/gtec/type/IPSI_A/img/main/dept_thunmail18.png" alt="">
-                                    <!-- <time>1:02</time> -->
-                                    <p>시각정보디자인과</p>
+                                    <img src="/gtec/type/IPSI_A/img/main/img_newsTemp4.png" alt="">
+                                    <time>3:43</time>
+                                    <p>한울제 축제 공연 영상</p>
                                 </a>
                             </li>
                         </ul>

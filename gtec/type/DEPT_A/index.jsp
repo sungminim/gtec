@@ -14,15 +14,17 @@
 		<div class="mVisual">
             <div class="sliderArea">
                 <div class="item">
-                    <div class="imgBox">
-                        <img src="/gtec/type/DEPT_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
-                        <span class="mobile" style="background-image:url(/gtec/type/DEPT_A/img/main/img_mVisual1.jpg)"></span> <!--mobile 이미지-->
-                    </div>
-                    <div class="textArea">
-                        <p class="lv1">Gyeonggi University of Science and Technology</p>
-                        <p class="lv2"><b>컴퓨터모바일융합공학과</b></p>
-                        <p class="lv3">지식정보화사회를 주도하는 컴퓨터모바일 소프트웨어 개발자</p>
-                    </div>
+                    <a href="#" target="_self" title="현재창" tabindex="0">
+                        <div class="imgBox">
+                            <img src="/gtec/type/DEPT_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
+                            <span class="mobile" style="background-image:url(/gtec/type/DEPT_A/img/main/img_mVisual1.jpg)"></span> <!--mobile 이미지-->
+                        </div>
+                        <div class="textArea">
+                            <p class="lv1">Deparment of 3D Convergence Design</p>
+                            <p class="lv2"><b>3D융합설계학과</b></p>
+                            <p class="lv3">소비자의 다양한 니즈(needs)를 충족 제품 개발의 원천!</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             

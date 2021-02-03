@@ -4,6 +4,7 @@
 .mVisual{width:100%;height:auto;}
 .mVisual .sliderArea{max-width:1920px;width:100%;margin:0 auto;}
 .mVisual .sliderArea .item{position:relative;display:block;width:100%;height:508px;overflow:hidden;}
+.mVisual .sliderArea .item>a {position:relative;display:block;width:100%;height:100%;}
 .mVisual .sliderArea .item .imgBox{position:absolute;width:1920px;left:50%;top:0;transform:translate(-50%,0);-webkit-transform:translate(-50%,0);z-index:1}
 .mVisual .sliderArea .item .imgBox>img{position:relative;z-index:1;}
 .mVisual .sliderArea .item .imgBox .mobile{display:none;}

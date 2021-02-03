@@ -63,12 +63,6 @@ var ipsiMain = {
             settings: {
                 slidesToShow: 2,
             }
-            },
-            {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-            }
             }
         ]
         });
