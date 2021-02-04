@@ -196,6 +196,11 @@
 .ipsiDataList >li .nameArea{width:100%;}
 .ipsiDataList >li .nameArea > p{font-size:18px;color:#000;margin-bottom:15px;}
 .ipsiDataList >li .nameArea .inp_s{width:135px;}
+.ipsiData .termsArea>div .txt {color:#555;}
+.ipsiData .termsArea>div .txt + .txt{margin-top:20px;}
+.ipsiData .termsArea>div b {display:block;margin-bottom:5px;color:#000;}
+.ipsiData .termsArea>div .list_dotGreen {padding-left:10px;}
+.ipsiData .termsArea>div span {padding-left:20px;}
 
 /*입학상담신청*/
 .onLineipsiCounselCal{}
@@ -481,6 +486,10 @@
     .ipsiData .lineList_tbW.typeDefault2 th{height:auto;}
     .ipsiData .lineList_tbW.typeDefault2 td .inp_t{height:40px;}
     .ipsiData .exclam{margin-top:10px;}
+    .ipsiData .termsArea>div .txt + .txt{margin-top:13px;}
+    .ipsiData .termsArea>div b {display:block;margin-bottom:3px;}
+    .ipsiData .termsArea>div .list_dotGreen {padding-left:10px;}
+    .ipsiData .termsArea>div span {padding-left:16px;}
     
     /*입시상담신청*/
     .ipsiPeriod{margin-bottom:10px;}

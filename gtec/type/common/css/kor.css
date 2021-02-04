@@ -842,7 +842,7 @@ p.txt+.topBoldLine_list2 {margin-top:35px;}
 .sexualhar_report p.txt+p.txt {margin-top:6px;margin-bottom:5px;}
 .sexualhar_report p.txt b {color:#222;}
 .sexualhar_report .report_step {width:calc(100% + 40px);margin-left:-40px;}
-.sexualhar_report .report_step>li {width:calc(16.666% - 40px);margin-left:40px;}
+.sexualhar_report .report_step>li {width:calc(20% - 40px);margin-left:40px;}
 .sexualhar_report .report_step>li>div {position:relative;}
 .sexualhar_report .report_step>li>div.arrR:before {content:'';display:block;position:absolute;right:-28px;top:50%;margin-top:-12.5px;width:12px;height:25px;background:url(../img/kor/campuslife/report_step_arrR.png) no-repeat;}
 .sexualhar_report .report_step>li>div>p {display:table;width:100%;height:100%;text-align:center;}
@@ -1635,7 +1635,7 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .sexualhar_report .report_step>li .boxOrange>p>span {font-size:16px;}
     .sexualhar_report .report_step>li .boxOrange {height:70px;}
     .sexualhar_report .report_step {width: calc(100% + 20px);margin-left:-20px}
-    .sexualhar_report .report_step>li {width: calc(16.666% - 20px);margin-left:20px;}
+    .sexualhar_report .report_step>li {width: calc(20% - 20px);margin-left:20px;}
     .sexualhar_report .report_step>li>div.arrR:before {right:-19px;background-size:8px auto;}
 
     .degree_class .left_icoBox.col2>li {height:180px}
