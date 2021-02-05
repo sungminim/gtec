@@ -21,7 +21,7 @@
 			<div class="rntcGuide Guide2">
                 <strong class="contTit_m">모집인원</strong>
                 <p class="txt point_gray">
-                    비자연장은 외국인등록증 체류기간 만료 전에 신청합니다.
+                    33명(여학생 3명)
                 </p>
                 
                 <strong class="contTit_m mT40">선발 일정</strong>

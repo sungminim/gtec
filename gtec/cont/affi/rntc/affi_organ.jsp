@@ -33,7 +33,7 @@
                                 <strong class="boxLightGreen">교수 (2중대)</strong>
                             </li>
                             <li>
-                                <strong class="boxLightGreen">교수 (3중대)</strong>
+                                <strong class="boxLightGreen">훈육관</strong>
                             </li>
                         </ul>
                     </li>
@@ -41,7 +41,8 @@
                         <ul class="boxGray">
                             <li>후보생대대</li>
                         </ul>
-                        <span class="borderGray">1중대<br>2중대</span>
+                        <span class="borderGray">1중대</span>
+                        <span class="borderGray">2중대</span>
                     </li>
                 </ul>
 			</div>

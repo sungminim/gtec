@@ -251,33 +251,38 @@
                             <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
                         </div>
                         <div class="textArea">
-                            <p class="lv1">산학일체 교육의 <b>글로벌 리더</b></p>
-                            <p class="lv2">대한민국 정부가 설립한 취업의 명문<br> 경기과학기술대학교</p> 
+                            <p class="lv1">대한민국 정부가 설립한 <br><b>취업의 명문</b></p>
+                            <p class="lv2">
+                                1차 유지취업률 92.2% <br>
+                                수도권 전문대학 나그룹 1위
+                            </p> 
                         </div>
                     </a>
                 </div>
                 
-                <!-- <div class="item">
+                <div class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt=""> 
-                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span> 
+                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual2.jpg" alt=""> 
+                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual2.jpg)"></span> 
                     </div>
                     <div class="textArea">
-                        <p class="lv1">산학일체 교육의 <b>글로벌 리더</b></p>
-                        <p class="lv2">대한민국 정부가 설립한 취업의 명문<br> 경기과학기술대학교</p> 
+                        <p class="lv1">맞춤형 취업을 위한 <br> <b>학생역량강화시스템운영</b></p>
                     </div>
                 </div>
                 
                 <div class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual1.jpg" alt="">
-                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual1.jpg)"></span>
+                        <img src="/gtec/type/IPSI_A/img/main/img_mVisual3.jpg" alt="">
+                        <span class="mobile" style="background-image:url(/gtec/type/IPSI_A/img/main/m/m_img_mVisual3.jpg)"></span>
                     </div>
                     <div class="textArea">
-                        <p class="lv1">산학일체 교육의 <b>글로벌 리더</b></p>
-                        <p class="lv2">대한민국 정부가 설립한 취업의 명문<br> 경기과학기술대학교</p> 
+                        <p class="lv1">교육부 대학평가 최고등급 <br><b>자율개선대학</b></p>
+                        
+                        
+
+                        <p class="lv2">2019 ~ 2021년 교육부 재정지원 100억원 이상</p> 
                     </div>
-                </div> -->
+                </div>
             </div>
             
             <div class="mVisualDot">

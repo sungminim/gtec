@@ -991,7 +991,7 @@ p.numTxt>span.cirNum:before {content:'';display:block;position:absolute;top:4px;
 .it_support1 .btn {padding-top:10px;}
 
 .accomodation .topBoldLine_list2>li {text-align:left;}
-.accomodation .imgList li .list_dotGreen>li {font-size:16px;text-align:left;}
+.accomodation .imgList li .list_dotGreen>li {display:block;font-size:16px;text-align:left;}
 
 
 /* GTEC 홍보 */

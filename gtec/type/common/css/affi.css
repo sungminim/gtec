@@ -138,7 +138,8 @@
 .affi_organ .roundGreen span {display:table-cell;vertical-align:middle;font-size:20px;color:#fff;line-height:1.4em;}
 .affi_organ .boxLightGreen {display:inline-block;position:relative;width:100%;height:50px;line-height:50px;font-size:16px;font-weight:400;color:#fff;text-align:center;background:#a7bf04;}
 .affi_organ .boxDeepGray {display:inline-block;position:relative;width:100%;height:50px;line-height:50px;font-size:16px;font-weight:400;color:#fff;text-align:center;background:#555;}
-.affi_organ .borderGray {display:inline-block;position:relative;width:100%;padding:12px 0;border:1px solid #d9d9d9;border-top:0;font-size:16px;color:#555;background:#fff;text-align:center;box-sizing:border-box;}
+.affi_organ .borderGray {display:inline-block;position:relative;width:50%;padding:12px 0;border:1px solid #d9d9d9;border-top:0;font-size:16px;color:#555;background:#fff;text-align:center;box-sizing:border-box;}
+.affi_organ .borderGray+.borderGray {border-left:0;}
 .affi_organ .boxGray li {display:block;position:relative;width:100%;height:50px;line-height:50px;font-size:16px;text-align:center;background:#dcdfe3;}
 .affi_organ .boxGray li.none {height:40px;line-height:40px;background:#fff;}
 .affi_organ .boxGray li + li {margin-top:10px;}
@@ -163,7 +164,7 @@
 .affi_organ .chart1 ul li:last-child::after {display:none;}
 .affi_organ .chart1.col4 ul li:nth-child(1)::after {width:calc(100% + 90px);}
 .affi_organ .chart1.col4 ul li:nth-child(1) p + strong {margin-top:20px;}
-.affi_organ .chart2 {max-width:890px;margin:20px auto 0;}
+.affi_organ .chart2 {max-width:890px;margin:20px auto 0;font-size:0;}
 .affi_organ .chart3.col3 {margin:60px auto 0;}
 .affi_organ .chart3.col3>ul {width:calc(100% + 100px);margin-left:-100px;}
 .affi_organ .chart3.col3>ul>li {width:calc(33.333% - 100px);margin-left:100px;}

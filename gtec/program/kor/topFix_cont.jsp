@@ -21,19 +21,20 @@
             </ul>
         </div>
 
+        <!-- 21-02-04 추가 -->
+        <div class="pageTop_noti">
+            <div class="topFix_notice">
+                <div class="inner">
+                    <img src="/gtec/type/common/img/common/ico_topFix.png" alt="">
+                    <p>로그인 후 사용할 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+        <!-- 21-02-04 추가 -->
+
 		<article>
 			<!--컨텐츠 영역-->
             <div class="telNumber">
-
-                <!-- 21-02-04 추가 -->
-                <div class="topFix_notice">
-                    <div class="inner">
-                        <img src="/gtec/type/common/img/common/ico_topFix.png" alt="">
-                        <p>로그인 후 사용할 수 있습니다.</p>
-                    </div>
-                </div>
-                <!-- 21-02-04 추가 -->
-                
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2" style="min-width:550px;">
                         <caption><p>부서 전화번호 안내 표</p></caption>

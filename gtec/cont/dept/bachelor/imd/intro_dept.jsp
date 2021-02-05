@@ -138,18 +138,18 @@
                 <ul class="contactBox list_range">
                     <li class="name">
                         <b class="tit">학과장</b>
-                        <p class="txt">정효상 교수</p>
+                        <p class="txt">최인대 교수</p>
                     </li>
                     <li class="tel">
                         <b class="tit">전화번호</b>
                         <p class="txt">
-                            <a href="tel:031-496-4757">031-496-4757</a>
+                            <a href="tel:031-496-4738">031-496-4738</a>
                         </p>
                     </li>
                     <li class="email">
                         <b class="tit">이메일</b>
                         <p class="txt">
-                            <a href="mailto:hszung@gtec.ac.kr">hszung@gtec.ac.kr</a>
+                            <a href="mailto:indae.choi@gtec.ac.kr">indae.choi@gtec.ac.kr</a>
                         </p>
                     </li>
                 </ul>

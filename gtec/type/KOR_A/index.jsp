@@ -171,7 +171,6 @@
             <div class="mPopZone_wrap">
                 <div class="innerScroll">
                     <div class="pop_list">
-                    <!--20-12-24 메인상단 배너 CMS 등록하도록 수정-->
                     <div class="centerBanner" style="background-image:url(/gtec/type/common/img/common/bg_centerBanner.jpg)">
                         <p class="grayBoxTit">2021학년도 신설학과 안내</p>
                         <p class="lv1">4차산업혁명시대 실무형 인공지능(Machine Leaming) 전문기술인력 양성!</p>
@@ -322,11 +321,69 @@
         <!-- visual -->
         <div class="mVisual">
             <div class="sliderArea">
+                
+                <div class="item video">
+                    <button type="button" class="btn_Play">Play</button>
+                    <div class="imgBox">
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual2.jpg" alt=""><!--PC 이미지--> 
+                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual2.jpg)"></span> <!--mobile 이미지-->
+                    </div>
+                    
+                    <div class="youTube">
+                        <div class="videoDim"></div>
+                        <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
+                        유튜브 플레이어는 class 기반이나 상대경로지정이 아닌 유니크한 ID만 설정 가능함-->
+                        <div class="ytp_frame">
+                            <div class="ytp_frame_inner">
+                                <iframe id="gtec_iframe2" src="https://www.youtube.com/embed/UbidhgjAzn4?rel=0&modestbranding=0&controls=0&fs=0&disablekb=1&loop=1&enablejsapi=1" frameborder="0" allow="" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="textArea">
+                        <div class="greenBox"></div>
+                        <p class="lv1">creative gtec</p>
+                        <p class="lv2"><b>Active Leader</b> </p>
+                        <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
+                    </div>
+                </div>
+                
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
+                <a href="#none" class="item">
+                    <div class="imgBox">
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual3.jpg" alt=""><!--PC 이미지--> 
+                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual3.jpg)"></span> <!--mobile 이미지-->
+                    </div>
+                    <div class="textArea">
+                        <div class="greenBox"></div>
+                        <p class="lv1">creative gtec</p>
+                        <p class="lv2"><b>Modest Behavior</b></p>
+                        <p class="lv3">수도권 공학계열 취업률 1위(나군)</p>
+                    </div>
+                </a>
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
+
+                <!-- 21-01-27 수정 비쥬얼에 링크 없을 경우 -->
+                <div class="item">
+                    <div class="imgBox">
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt="">   <!--PC 이미지--> 
+                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual4.jpg)"></span>   <!--mobile 이미지-->
+                    </div>
+                    <div class="textArea">
+                        <div class="greenBox"></div>
+                        <p class="lv1">creative gtec</p>
+                        <p class="lv2"><b>Professional</b></p>
+                        <p class="lv3">학생특허 전국최다(53건)</p>
+                    </div>
+                </div>
+                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
+
+                
                 <!--20-12-24 유튜브 영생재생관련 추가 영상재생일경우 class video 추가 밑 재생버튼, youTube 아이프레임 영역 추가 -->
                 <div class="item video">
                     <button type="button" class="btn_Play">Play</button>
                     <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt=""><!--PC 이미지--> 
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
                     </div>
                     
@@ -347,62 +404,6 @@
                     </div>
                 </div>
                 <!--//20-12-24 유튜브 영생재생관련 추가-->
-                
-                <div class="item video">
-                    <button type="button" class="btn_Play">Play</button>
-                    <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
-                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
-                    </div>
-                    
-                    <div class="youTube">
-                        <div class="videoDim"></div>
-                        <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
-                        유튜브 플레이어는 class 기반이나 상대경로지정이 아닌 유니크한 ID만 설정 가능함-->
-                        <div class="ytp_frame">
-                            <div class="ytp_frame_inner">
-                                <iframe id="gtec_iframe2" src="https://www.youtube.com/embed/-depZQv44nM?;enablejsapi=1" frameborder="0" allow="" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="textArea">
-                        <div class="greenBox"></div>
-                        <p class="lv1">creative gtec</p>
-                        <p class="lv2"><b>Active</b> <span>Leader</span></p> 
-                        <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
-                    </div>
-                </div>
-                
-                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
-                <a href="#none" class="item">
-                    <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""><!--PC 이미지--> 
-                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
-                    </div>
-                    <div class="textArea">
-                        <div class="greenBox"></div>
-                        <p class="lv1">creative gtec</p>
-                        <p class="lv2"><b>Active</b> <span>Leader</span></p>
-                        <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
-                    </div>
-                </a>
-                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
-
-                <!-- 21-01-27 수정 비쥬얼에 링크 없을 경우 -->
-                <!-- <div class="item">
-                    <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual1.jpg" alt=""> // pc 이미지
-                        <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span>  // mobile 이미지
-                    </div>
-                    <div class="textArea">
-                        <div class="greenBox"></div>
-                        <p class="lv1">creative gtec</p>
-                        <p class="lv2"><b>Active</b> <span>Leader</span></p>
-                        <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
-                    </div>
-                </div> -->
-                <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
 
             </div>
             <div class="mVisualDot">

@@ -11,7 +11,7 @@
 .mVisual .sliderArea .item .imgBox{position:absolute;width:1920px;left:50%;top:0;transform:translate(-50%,0);-webkit-transform:translate(-50%,0)}
 .mVisual .sliderArea .item .imgBox .mobile{display:none;}
 .mVisual .sliderArea .item .textArea{position:relative;max-width:1240px;width:100%;margin:0 auto;padding:0 30px;box-sizing:border-box;top:220px;z-index:1;}
-.mVisual .sliderArea .item .textArea .lv1{position:relative;opacity:0;top:15px;font-size:45px;letter-spacing:-2px;color:#fff;line-height:45px;font-weight:300;}
+.mVisual .sliderArea .item .textArea .lv1{position:relative;opacity:0;top:10px;font-size:45px;letter-spacing:-2px;color:#fff;line-height:60px;font-weight:300;}
 .mVisual .sliderArea .item .textArea .lv1>b{font-size:inherit;letter-spacing:inherit;color:inherit;line-height:inherit;font-weight:bold;}
 .mVisual .sliderArea .item .textArea .lv2{position:relative;opacity:0;top:20px;margin-top:25px;font-size:20px;letter-spacing:-1px;color:#fff;line-height:30px;}
 

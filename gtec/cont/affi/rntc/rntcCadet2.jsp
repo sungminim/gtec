@@ -33,9 +33,9 @@
                                 <th scope="col" colspan="2">2학년</th>
                             </tr>
                             <tr>
-                                <th scope="col">2학기(SSH)</th>
-                                <th scope="col">1학기(SSH)</th>
-                                <th scope="col">2학기(SSH)</th>
+                                <th scope="col">2학기(55H)</th>
+                                <th scope="col">1학기(55H)</th>
+                                <th scope="col">2학기(55H)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -60,9 +60,9 @@
                                 <th scope="col" colspan="2">2학년</th>
                             </tr>
                             <tr>
-                                <th scope="col">2학기(SSH)</th>
-                                <th scope="col">1학기(SSH)</th>
-                                <th scope="col">2학기(SSH)</th>
+                                <th scope="col">2학기(55H)</th>
+                                <th scope="col">1학기(55H)</th>
+                                <th scope="col">2학기(55H)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -88,7 +88,7 @@
                                 </td>
                                 <td>
                                     <ul class="list_dotGreen">
-                                        <li>정훈교육
+                                        <li>정훈교육</li>
                                         <li>해군일반II</li>
                                         <li>군인기본법</li>
                                         <li>해군규정</li>
@@ -146,7 +146,7 @@
                                 <th scope="col">가입단<br>(2주, 80H)</th>
                                 <th scope="col">동계<br>(2주, 160H)</th>
                                 <th scope="col">하계<br>(2주, 160H)</th>
-                                <th scope="col">동계<br>(3주, 80H)</th>
+                                <th scope="col">동계<br>(3주, 180H)</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -177,7 +177,7 @@
                                 <th scope="col">가입단<br>(2주, 80H)</th>
                                 <th scope="col">동계<br>(2주, 160H)</th>
                                 <th scope="col">하계<br>(2주, 160H)</th>
-                                <th scope="col">동계<br>(3주, 80H)</th>
+                                <th scope="col">동계<br>(3주, 180H)</th>
                             </tr>
                         </thead>
                         <tbody>

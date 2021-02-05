@@ -20,6 +20,50 @@
             <ul class="topBoldLine_list2 imgList">
                 <li>
                     <div class="img">
+                        <img src="/gtec/type/common/img/kor/campuslife/accomodation5.png" alt="">
+                    </div>
+
+                    <p class="titSt2">G-Zone (智尊)</p>
+
+                    <p class="txtSt1">시설설명</p>
+                    <p class="txt">학생들의 학습·문화·휴식 공간</p>
+
+                    <p class="txtSt1">이용시간</p>
+                    <p class="txt">학기중 09:30~22:00 (방학중 09:30~18:00)</p>
+
+                    <p class="txtSt1">이용방법</p>
+                    <ul class="list_dotGreen">
+                        <li>스터디룸 : 도서관 홈페이지 lib.gtec.ac.kr에서 예약 후 이용</li>
+                        <li>휴식공간 : 자유롭게 이용</li>
+                    </ul>
+
+                    <p class="txtSt1">위치 및 이용안내</p>
+                    <p class="txt">도서관 3층 (031-496-4635)</p>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="/gtec/type/common/img/kor/campuslife/accomodation8.png" alt="">
+                    </div>
+
+                    <p class="titSt2">C-Zone</p>
+
+                    <p class="txtSt1">시설설명</p>
+                    <p class="txt">학생들의 창의학습․휴식 공간</p>
+
+                    <p class="txtSt1">이용시간</p>
+                    <p class="txt">학기중 09:30~22:00 (방학중 09:30~18:00)</p>
+
+                    <p class="txtSt1">이용방법</p>
+                    <ul class="list_dotGreen">
+                        <li>스터디룸 : 도서관 홈페이지 lib.gtec.ac.kr에서 예약 후 이용</li>
+                        <li>휴식공간 : 자유롭게 이용</li>
+                    </ul>
+
+                    <p class="txtSt1">위치 및 이용안내</p>
+                    <p class="txt">도서관 2층 (031-496-4697)</p>
+                </li>
+                <li>
+                    <div class="img">
                         <img src="/gtec/type/common/img/kor/campuslife/accomodation1.png" alt="">
                     </div>
                     
@@ -113,65 +157,6 @@
                         <li>도서관 자료실 (031-496-4572)</li>
                     </ul>
 
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="/gtec/type/common/img/kor/campuslife/accomodation5.png" alt="">
-                    </div>
-                    
-                    <p class="titSt2">G-Zone (智尊)</p>
-                    
-                    <p class="txtSt1">시설설명</p>
-                    <p class="txt">학생들의 학습·문화·휴식 공간</p>
-
-                    <p class="txtSt1">이용시간</p>
-                    <div class="lineTop_tbArea tbScroll">
-                        <table class="lineTop_tb2" style="min-width:400px">
-                            <caption>
-                                <p>구분,운영시간,비고 항목 순으로 이용시간 안내표</p>
-                            </caption>
-                            <colgroup>
-                                <col>
-                                <col>
-                                <col>
-                                <col>
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th scope="col" rowspan="2">구분</th>
-                                    <th scope="col" colspan="2">운영시간</th>
-                                    <th scope="col" rowspan="2">비고</th>
-                                </tr>
-                                <tr>
-                                    <th scope="col">학기</th>
-                                    <th scope="col">방학</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>자유열람실</td>
-                                    <td>08:30 ~ 22:00</td>
-                                    <td>08:30 ~ 18:00</td>
-                                    <td>자유롭게 개인 학습</td>
-                                </tr>
-                                <tr>
-                                    <td>스터디룸</td>
-                                    <td>09:30 ~ 22:00</td>
-                                    <td>09:30 ~ 18:00</td>
-                                    <td>예약제 운영</td>
-                                </tr>
-                                <tr>
-                                    <td>카페</td>
-                                    <td>09:30 ~ 22:00</td>
-                                    <td>09:30 ~ 18:00</td>
-                                    <td>자유롭게 이용(커피 판매)</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <p class="txtSt1">위치 및 이용안내</p>
-                    <p class="txt">정보문화관 3층 (031-496-4635)</p>
                 </li>
                 <li>
                     <div class="img">
