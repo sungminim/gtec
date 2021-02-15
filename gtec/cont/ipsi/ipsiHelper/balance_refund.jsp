@@ -20,37 +20,38 @@
         <!--컨텐츠 영역-->
 
         <div class="balance_refund defaultWrap">
-            <div class="titSt3">2020학년도 입학 포기자 환불 신청</div>
-
+            <div class="titSt3">2021학년도 입학 포기자 환불 신청</div>
             <ul class="list_range refundList">
                 <li>
                     <div class="txtSt2">수시1차 예치금 / 등록금 환불</div>
-
                     <div class="btn col2">
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=AE622E7594" title="새 창 열림" target="_blank">수시1차 예치금</a>
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=E2484EAF1A" title="새 창 열림" target="_blank">수시1차 등록금</a>
+                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=909CB0E702" title="새 창 열림"
+                            target="_blank">수시1차 예치금</a><a
+                            href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=2F42FE007E" title="새 창 열림"
+                            target="_blank">수시1차 등록금</a>
                     </div>
                 </li>
                 <li>
                     <div class="txtSt2">수시2차 예치금 / 등록금 환불</div>
-
                     <div class="btn col2">
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=3A64872EC1" title="새 창 열림" target="_blank">수시2차 예치금</a>
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=1007629602" title="새 창 열림" target="_blank">수시2차 등록금</a>
+                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=6884393481" title="새 창 열림"
+                            target="_blank">수시2차 예치금</a><a
+                            href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=C46B45A174" title="새 창 열림"
+                            target="_blank">수시2차 등록금</a>
                     </div>
                 </li>
                 <li>
                     <div class="txtSt2">정시 등록금 환불</div>
-
                     <div class="btn">
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=58E10E72DA" title="새 창 열림" target="_blank">정시 등록금</a>
+                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=588756F8E7" title="새 창 열림"
+                            target="_blank">정시 등록금</a>
                     </div>
                 </li>
                 <li>
                     <div class="txtSt2">자율모집 등록금 환불</div>
-
                     <div class="btn">
-                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=9954BA517A" title="새 창 열림" target="_blank">자율모집 등록금 환불</a>
+                        <a href="https://pims.jinhakapply.com/Refund/Attention.aspx?Code=169111E6DB" title="새 창 열림"
+                            target="_blank">자율모집 등록금 환불</a>
                     </div>
                 </li>
             </ul>

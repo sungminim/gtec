@@ -879,6 +879,8 @@ p.txt+.topBoldLine_list2 {margin-top:35px;}
 .degree_test .left_icoBox.col1 ul.list_dotGreen>li:nth-child(even) {max-width:540px;width:100%;}
 .degree_test .left_icoBox.col1 ul.list_dotGreen>li {margin-top:7px;}
 
+.studentLoan_info .lineTop_tbArea.min700 .lineTop_tb2 {min-width:700px;}
+.studentLoan_info .lineTop_tbArea.min700 .lineTop_tb2 .mobileBr {display:none;}
 .degree_placement .lineTop_tbArea .lineTop_tb2 tbody td {padding-left:30px;padding-right:30px;color:#555;line-height:1.8em;}
 .degree_placement .lineTop_tbArea.tbWhite .lineTop_tb2 thead th {background:#fff;}
 
@@ -1639,6 +1641,7 @@ fieldset.telNumber .bar{width:20px;text-align:center;font-size:16px;color:#222;d
     .sexualhar_report .report_step>li>div.arrR:before {right:-19px;background-size:8px auto;}
 
     .degree_class .left_icoBox.col2>li {height:180px}
+    .studentLoan_info .lineTop_tbArea.min700 .lineTop_tb2 .mobileBr {display:block;}
     .degree_placement .lineTop_tbArea.tbWhite .lineTop_tb2 thead th {font-size:14px}
     .degree_placement .lineTop_tbArea.tbWhite .lineTop_tb2 tbody td {padding-left:10px;padding-right:10px;font-size:14px}
     .degree_placement .lineTop_tbArea .lineTop_tb2 tbody td br {display: none;}

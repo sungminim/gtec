@@ -44,23 +44,19 @@
                     <div class="cirTit">
                         <p>
                             <span>
-                                전기공학 기술자 <br>
-                                및 연구원
+                                전기시스템 전문가
                             </span>
                         </p>
                     </div>
-                    <div class="cirTxt">NCS 직무 : 전기기기 설계 </div>
                 </li>
                 <li>
                     <div class="cirTit">
                         <p>
                             <span>
-                                전기 alc <br>
-                                전자설비 조작원
+                                스마트제어 전문가
                             </span>
                         </p>
                     </div>
-                    <div class="cirTxt">NCS 직무 : 자동제어 시스템 운영</div>
                 </li>
             </ul>
 

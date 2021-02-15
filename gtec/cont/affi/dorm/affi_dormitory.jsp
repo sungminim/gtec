@@ -158,8 +158,8 @@
                         <span>카페테리아</span>
                     </li>
                     <li>
-                        <img src="/gtec/type/common/img/affi/dorm/intro_dorm_facil11.png" alt="제2기숙사 세탁실">
-                        <span>제2기숙사 세탁실</span>
+                        <img src="/gtec/type/common/img/affi/dorm/intro_dorm_facil11.png" alt="세탁실">
+                        <span>세탁실</span>
                     </li>
                     <li>
                         <img src="/gtec/type/common/img/affi/dorm/intro_dorm_facil12.png" alt="소회의실">

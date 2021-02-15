@@ -118,7 +118,9 @@
             mNoticeRolling : function(){ 
                 $('.mNoticeRolling .sliderArea .noticeSlider').slick({
                     infinite: true,
+                    // 21-02-08 수정
                     variableWidth: true,
+                    // 21-02-08 수정 끝
                     speed:5000,
                     slidesToScroll: 1,
                     slidesToShow: 3,
@@ -476,18 +478,14 @@
                 </div>
                 
                 <div class="noticeSlider">
-                    <a href="#none" class="item">2020학년도 대학생 창업아이디어 경진대회 참가결과 현황</a>
+                    <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고2020학년도 1학기 교원(전임, 겸임) 초빙 공고2020학년도 1학기  교원(전임, 겸임) 초빙 공고</a>
                     <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
                     <a href="#none" class="item">2020학년도 스쿨버스 등 · 하교 코스 배차 시간 및 버스카드 발급 안내</a>
                     <a href="#none" class="item">2020학년도 대학생 창업아이디어 경진대회 참가결과 현황</a>
-                    <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
+                    <a href="#none" class="item">test</a>
                     <a href="#none" class="item">2020학년도 스쿨버스 등 · 하교 코스 배차 시간 및 버스카드 발급 안내</a>
                     <a href="#none" class="item">2020학년도 대학생 창업아이디어 경진대회 참가결과 현황</a>
                     <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
-                    <a href="#none" class="item">2020학년도 스쿨버스 등 · 하교 코스 배차 시간 및 버스카드 발급 안내</a>
-                    <a href="#none" class="item">2020학년도 대학생 창업아이디어 경진대회 참가결과 현황</a>
-                    <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
-                    <a href="#none" class="item">2020학년도 스쿨버스 등 · 하교 코스 배차 시간 및 버스카드 발급 안내</a>
                 </div>
                 
                 <div class="linkArea">

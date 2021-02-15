@@ -48,8 +48,8 @@
             <div class="contTit">문의처</div>
             <div class="pL_tit">
                 <ul class="list_dotGreen">
-                    <li>전화 : 031-496-4234</li>
-                    <li>위치 : 학생복지팀 학생회관 D동 313호</li>
+                    <li>전화 : 031-496-4690</li>
+                    <li>위치 : 학생회관동 D동 2층 206호 장애학생지원센터</li>
                 </ul>
             </div>
         </div>
