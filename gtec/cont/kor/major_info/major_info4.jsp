@@ -19,13 +19,13 @@
             <div class="contTit mT0">전문학사</div>
             <ul class="major_list list_range col2">
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info4_thum1.png" alt="">
                         <span class="major_name">전자통신과</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info4_thum2.png" alt="">
                         <span class="major_name">자동차과</span>
                     </a>
@@ -34,13 +34,13 @@
             <div class="contTit">학사학위과정</div>
             <ul class="major_list list_range col2">
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info4_thum3.png" alt="">
                         <span class="major_name">전자통신공학과</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info4_thum4.png" alt="">
                         <span class="major_name">특수자동차공학과</span>
                     </a>

@@ -38,7 +38,7 @@
                 <div class="contTit_m">위치</div>
                 <p class="txt">학생회관 3층(전화 031-496-6443/6445)</p>
                 <div class="btn">
-                    <a href="#none" class="btnC"><span>학군단 홈페이지 바로가기</span></a>
+                    <a href="#none" class="btnC" title="새 창 열림" target="_blank"><span>학군단 홈페이지 바로가기</span></a>
                 </div>
 
                 <div class="contTit_m">부서 사람들</div>

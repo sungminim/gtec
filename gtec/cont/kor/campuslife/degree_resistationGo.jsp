@@ -41,7 +41,7 @@
                     </strong>
                     <ul class="list_dotGreen">
                         <li>반드시 수강신청 전에 지도교수의 지도를 받아 시행</li>
-                        <li>본 대학 홈페이지(http://www.gtec.ac.kr)에 접속하여 수강신청시스템 로그인</li>
+                        <li>본 대학 홈페이지(<a href="http://www.gtec.ac.kr" title="새 창 열림" target="_blank">http://www.gtec.ac.kr</a>)에 접속하여 수강신청시스템 로그인</li>
                         <li>수강신청시스템 → 개설과목조회 → 수강신청 교과목 선택 → 수강신청</li>
                         <li>조회를 클릭하면 전체 개설된 과목이 개설과목조회 내역에 나타남</li>
                         <li>개설과목조회 내역 중 수강을 희망하는 과목을 신청에 체크한 후 저장</li>

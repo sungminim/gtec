@@ -18,25 +18,25 @@
         <div class="major_info">
             <ul class="major_list list_range col2">
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info3_thum1.png" alt="">
                         <span class="major_name">기계나노융합과</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info3_thum2.png" alt="">
                         <span class="major_name">LED제어설계과</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info3_thum3.png" alt="">
                         <span class="major_name">스마트제어소프트웨어과</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#none">
+                    <a href="#none" target="_blank" title="새 창 열림">
                         <img src="/gtec/type/common/img/kor/major_info/info3_thum4.png" alt="">
                         <span class="major_name">전자기기융합과</span>
                     </a>

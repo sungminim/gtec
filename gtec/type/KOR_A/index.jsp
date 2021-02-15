@@ -503,7 +503,7 @@
                 <div class="slider">
                     <!--링크로 사용할경우 A태그 로 해도 무관함-->
                     <a href="#none" class="item">
-                        <img src="/gtec/type/KOR_A/img/main/img_newsTemp1.png" alt="">
+                        <img src="/gtec/type/KOR_A/img/main/img_newsTemp6.png" alt="">
                         <p>
                             <span>경기과기대-지멘스</span>
                             <b>SMSCP 인증교육기관 협약</b>

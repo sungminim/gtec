@@ -130,7 +130,7 @@
 
             <div class="contTit">취업정보싸이트 운영 </div>
             <div class="pL_tit">
-                <p class="txt">학생역량지원시스템(http://kit.gtec.ac.kr)</p>
+                <p class="txt">학생역량지원시스템(<a href="http://kit.gtec.ac.kr" target="_blank" title="새 창 열림">http://kit.gtec.ac.kr</a>)</p>
                 <ul class="list_dotGreen">
                     <li>기업채용 정보 게시(교내채용, 교외추천, 워크넷, 잡코리아, 사람인)</li>
                     <li>취업프로그램 신청 등 </li>
