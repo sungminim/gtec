@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=utf-8" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" style="overflow:hidden;">
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,7 +39,158 @@
 
 </head>
 
-<body class="typeMain"><!-- 메인:typeMain / 서브:typeSub -->
+<body class="typeMain" style="overflow:hidden;"><!-- 메인:typeMain / 서브:typeSub -->
+
+<!-- popzone -->
+<script>
+    $(".btn_topPopzone").on("click",function(e){
+        $(".mPopZone").addClass("on");
+        $("html, body").css("overflow","hidden");
+        listBbs_h();
+    });
+
+    $(".mPopZone .mPopZone_close").on("click",function(e){
+        $(".mPopZone").removeClass("on");
+        $("html, body").css("overflow","");
+    });
+
+    function listBbs_h(){
+        if(window.innerWidth > 768){
+            $(".mPopZone .subList li").removeAttr('style');
+
+            var listLine = Math.ceil($(".mPopZone .subList li").length / 4);
+            for(i=0; i < listLine; i++){
+                var next_p = 4*i;
+                var arry = [];
+                for(j=0; j < 4; j++){
+                    var p_list = $(".mPopZone .subList li").eq(next_p + j).height();
+                    arry.push(p_list);
+                }
+
+                var p_list_max = Math.max.apply(null, arry);
+                $(".mPopZone .subList li").eq(next_p + 0).css("height", p_list_max);
+                $(".mPopZone .subList li").eq(next_p + 1).css("height", p_list_max);
+                $(".mPopZone .subList li").eq(next_p + 2).css("height", p_list_max);
+                $(".mPopZone .subList li").eq(next_p + 3).css("height", p_list_max);
+            }
+            $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar("update");
+        }else{
+            $(".mPopZone .subList li").removeAttr('style');
+            $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar("destroy");
+        }
+
+        //20-12-29 팝업 센터정렬 변경
+        var popH = $(".mPopZone .mPopZone_wrap").innerHeight(),
+            popW = $(".mPopZone .mPopZone_wrap").innerWidth();
+
+            $(".mPopZone .mPopZone_wrap").css({
+                top : "calc(50% - "+ (popH / 2) +"px)",
+                left : "calc(50% - "+ (popW / 2) +"px)"
+            });
+    }
+
+    $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar();
+
+    $(window).bind('load resize', function(){
+        $(".mPopZone .mPopZone_wrap .innerScroll").css({
+            "max-height": (window.innerHeight * 0.8)
+        });
+        listBbs_h();
+    });
+</script>
+<div class="mPopZone on">
+    <div class="mPopZone_wrap">
+        <div class="innerScroll">
+            <div class="pop_list">
+            <div class="centerBanner" style="background-image:url(/gtec/type/common/img/common/bg_centerBanner.jpg)">
+                <p class="grayBoxTit">2021학년도 신설학과 안내</p>
+                <p class="lv1">4차산업혁명시대 실무형 인공지능(Machine Leaming) 전문기술인력 양성!</p>
+                <strong class="cBtit">인공지능융합과</strong>
+                <span class="cBsub">첨단기술융합학부</span>
+                <a href="#none" class="blackLink">학과 알아보기</a>
+            </div>
+
+            <ul class="subList">
+                <li>
+                    <a href="none" class="item">
+                        <p class="topTit green">산업체 위탁과정</p>
+                        <div class="innerBox">
+                            <strong>산업체 위탁과정 모집안내</strong>
+
+                            <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
+                            <p class="subTxt">입학상담(산업체위탁) : 1899-1391</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item">
+                        <p class="topTit green">온라인 Job Festival</p>
+                        <div class="innerBox">
+                            <strong>2020경기과학기술대학교 온라인 취업박람회 참가안내</strong>
+
+                            <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item">
+                        <p class="topTit green">행사안내</p>
+                        <div class="innerBox">
+                            <strong>제10회 G-창업리그 개최안내</strong>
+
+                            <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
+                            <p class="subTxt">입학상담(산업체위탁) : 1899-1391</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item">
+                        <p class="topTit green">산업체위탁교육</p>
+                        <div class="innerBox">
+                            <strong>산업체 위탁교육 입시자료 다운로드</strong>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item small">
+                        <p class="topTit orange">4년제 학사학위 전공심화</p>
+                        <div class="innerBox">
+                            <strong>산업체 위탁과정 모집안내</strong>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item small">
+                        <p class="topTit orange">4년제 학사학위 전공심화</p>
+                        <div class="innerBox">
+                            <strong>등록금고지서 바로가기</strong>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item small">
+                        <p class="topTit orange">4년제 학사학위 전공심화</p>
+                        <div class="innerBox">
+                            <strong>서류제출 확인 바로가기</strong>
+
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="none" class="item small">
+                        <p class="topTit orange">4년제 학사학위 전공심화</p>
+                        <div class="innerBox">
+                            <strong>입시자료 다운로드</strong>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <button type="button" class="mPopZone_close">팝업존 닫기</button>
+    </div>
+</div>
+<!-- //popzone -->
 
 <div id="skip_menu">
     <a href="#contents">컨텐츠 바로가기</a>
@@ -247,7 +398,7 @@
     						<li><a href="#none">ENG</a></li>
     						<li><a href="#none">CHN</a></li>
     						<li><a href="#none">JPN</a></li>
-    					</ul> 
+    					</ul>
     				</div>
     			</div>
             </div>

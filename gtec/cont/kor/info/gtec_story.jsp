@@ -24,6 +24,17 @@
                         $(this).addClass('on');
                         $("#" + $(this).data('id')).addClass('on');
                     });
+
+                    $("#story_tab>ul>li>a").keydown(function(event){
+                        var v_keyCode = event.keyCode || event.which;
+                        if(v_keyCode == 9){
+                            if(event.shiftKey){
+                                $(this).trigger('click');
+                            }else{
+                                $(this).trigger('click');
+                            }
+                        };
+                    });
                 });
             </script>
 

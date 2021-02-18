@@ -168,6 +168,18 @@
                                 $(this).addClass('on');
                                 $("#" + $(this).data('id')).addClass('on');
                             });
+
+                            // 접근성
+                            $(".history_area .periodTab>button").keydown(function(event){
+                                var v_keyCode = event.keyCode || event.which;
+                                if(v_keyCode == 9){
+                                    if(event.shiftKey){
+                                        $(this).trigger('click');
+                                    }else{
+                                        $(this).trigger('click');
+                                    }
+                                };
+                            });
                         });
                     </script>
                     <div class="periodTab">

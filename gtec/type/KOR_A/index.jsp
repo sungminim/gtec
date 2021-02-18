@@ -21,7 +21,7 @@
                 Main2.mVisualSlider();
                 Main2.mNoticeRolling();
             },
-            mVisualSlider : function(){ 
+            mVisualSlider : function(){
                 /*20-12-24 if 조건 삭제, change 이벤트 변경 */
                 /*if($('.mVisual .item').length > 1){*/
                     $('.mVisual .sliderArea').slick({
@@ -51,10 +51,10 @@
                         }
                     }).on('afterChange', function (event, slick, currentSlide, nextSlide) {
                         txtAnimate();
-                    
+
                     }).on('beforeChange', function (event, slick, currentSlide, nextSlide) {
                         $(".mVisual .item .textArea *").css("opacity","0").removeAttr("style");
-                        
+
                         if(typeof(gtec_iframe) != 'undefined'){
                             if(gtec_iframe.getIframe() != null){
                                 gtec_iframe.destroy();
@@ -80,8 +80,8 @@
                             }
                         }
                     });
-                /*}  수정 끝 */ 
-                
+                /*}  수정 끝 */
+
                 txtAnimate();
                 function txtAnimate(){
                     $(".mVisual .item.slick-active .textArea .lv1").stop().delay(300).animate({
@@ -98,15 +98,15 @@
                         "opacity": "1",
                         "left": "0"
                     }, 800, "easeOutCirc");
-                    
+
                     var boxsize = "475px";
                     if($(window).innerWidth() < 1041){boxsize = "400px";}
                     if($(window).innerWidth() < 768){boxsize = "190px";}
                     $(".mVisual .item.slick-active .textArea .greenBox").stop().delay(1800).animate({
                         "width": boxsize
-                    }, 500, "easeOutCirc");          
+                    }, 500, "easeOutCirc");
                 }
-                
+
                 $(window).bind('resize', function(){
                     var boxsize = "475px";
                     if($(window).innerWidth() < 1041){boxsize = "400px";}
@@ -115,7 +115,7 @@
                 });
             },
 
-            mNoticeRolling : function(){ 
+            mNoticeRolling : function(){
                 $('.mNoticeRolling .sliderArea .noticeSlider').slick({
                     infinite: true,
                     // 21-02-08 수정
@@ -144,16 +144,16 @@
                 ]
                 }).on('afterChange', function (event, slick, currentSlide, nextSlide) {
                     setTimeout(function(){
-                        $(".mNoticeRolling .item.slick-active").attr("tabindex", "0");    
+                        $(".mNoticeRolling .item.slick-active").attr("tabindex", "0");
                     },100);
                 });
-                
+
                 $(".mNoticeRolling .sliderArea .noticeSlider *").on("mouseover focusin", function(e){
                     $('.mNoticeRolling .sliderArea .noticeSlider').slick('slickPause');
                 }).on("mouseleave focusout", function(e){
                     $('.mNoticeRolling .sliderArea .noticeSlider').slick('slickPlay');
-                });	
-                
+                });
+
                 $('.rollTit .paused').on('click', function () {
                     if ($(this).hasClass('play')) {
                         $('.mNoticeRolling .sliderArea .noticeSlider').slick('slickPlay');
@@ -168,169 +168,17 @@
         </script>
         <!-- 21-01-06 스크립트 추가 끝 -->
 
-        <!-- popzone -->
-        <div class="mPopZone">
-            <div class="mPopZone_wrap">
-                <div class="innerScroll">
-                    <div class="pop_list">
-                    <div class="centerBanner" style="background-image:url(/gtec/type/common/img/common/bg_centerBanner.jpg)">
-                        <p class="grayBoxTit">2021학년도 신설학과 안내</p>
-                        <p class="lv1">4차산업혁명시대 실무형 인공지능(Machine Leaming) 전문기술인력 양성!</p>
-                        <strong class="cBtit">인공지능융합과</strong>
-                        <span class="cBsub">첨단기술융합학부</span>
-                        <a href="#none" class="blackLink">학과 알아보기</a>
-                    </div>
-
-                    <ul class="subList">
-                        <li>
-                            <a href="none" class="item">
-                                <p class="topTit green">산업체 위탁과정</p>
-                                <div class="innerBox">
-                                    <strong>산업체 위탁과정 모집안내</strong>
-
-                                    <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
-                                    <p class="subTxt">입학상담(산업체위탁) : 1899-1391</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item">
-                                <p class="topTit green">온라인 Job Festival</p>
-                                <div class="innerBox">
-                                    <strong>2020경기과학기술대학교 온라인 취업박람회 참가안내</strong>
-
-                                    <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item">
-                                <p class="topTit green">행사안내</p>
-                                <div class="innerBox">
-                                    <strong>제10회 G-창업리그 개최안내</strong>
-
-                                    <p class="subTxt">기간 : 2020.11.02(월) ~ 2020.12.28(월)</p>
-                                    <p class="subTxt">입학상담(산업체위탁) : 1899-1391</p>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item">
-                                <p class="topTit green">산업체위탁교육</p>
-                                <div class="innerBox">
-                                    <strong>산업체 위탁교육 입시자료 다운로드</strong>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item small">
-                                <p class="topTit orange">4년제 학사학위 전공심화</p>
-                                <div class="innerBox">
-                                    <strong>산업체 위탁과정 모집안내</strong>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item small">
-                                <p class="topTit orange">4년제 학사학위 전공심화</p>
-                                <div class="innerBox">
-                                    <strong>등록금고지서 바로가기</strong>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item small">
-                                <p class="topTit orange">4년제 학사학위 전공심화</p>
-                                <div class="innerBox">
-                                    <strong>서류제출 확인 바로가기</strong>
-
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="none" class="item small">
-                                <p class="topTit orange">4년제 학사학위 전공심화</p>
-                                <div class="innerBox">
-                                    <strong>입시자료 다운로드</strong>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                </div>
-                <button type="button" class="mPopZone_close">팝업존 닫기</button>
-            </div>
-        </div> 
-        <script>
-                $(".btn_topPopzone").on("click",function(e){
-                $(".mPopZone").addClass("on");
-                $("html, body").css("overflow","hidden");
-                listBbs_h();
-            });
-
-            $(".mPopZone .mPopZone_close").on("click",function(e){
-                $(".mPopZone").removeClass("on");
-                $("html, body").css("overflow","");
-            });
-
-            function listBbs_h(){
-                if(window.innerWidth > 768){
-                    $(".mPopZone .subList li").removeAttr('style');
-                    
-                    var listLine = Math.ceil($(".mPopZone .subList li").length / 4);
-                    for(i=0; i < listLine; i++){
-                        var next_p = 4*i;
-                        var arry = [];
-                        for(j=0; j < 4; j++){
-                            var p_list = $(".mPopZone .subList li").eq(next_p + j).height();
-                            arry.push(p_list);
-                        }
-                        
-                        var p_list_max = Math.max.apply(null, arry);
-                        $(".mPopZone .subList li").eq(next_p + 0).css("height", p_list_max);
-                        $(".mPopZone .subList li").eq(next_p + 1).css("height", p_list_max);
-                        $(".mPopZone .subList li").eq(next_p + 2).css("height", p_list_max);
-                        $(".mPopZone .subList li").eq(next_p + 3).css("height", p_list_max);
-                    }
-                    $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar("update");
-                }else{
-                    $(".mPopZone .subList li").removeAttr('style');
-                    $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar("destroy");
-                }
-                
-                //20-12-29 팝업 센터정렬 변경
-                var popH = $(".mPopZone .mPopZone_wrap").innerHeight(),
-                    popW = $(".mPopZone .mPopZone_wrap").innerWidth();
-                
-                    $(".mPopZone .mPopZone_wrap").css({
-                        top : "calc(50% - "+ (popH / 2) +"px)",
-                        left : "calc(50% - "+ (popW / 2) +"px)"
-                    });
-            }
-            
-            $(".mPopZone .mPopZone_wrap .innerScroll").mCustomScrollbar();
-            
-            $(window).bind('load resize', function(){
-                $(".mPopZone .mPopZone_wrap .innerScroll").css({
-                    "max-height": (window.innerHeight * 0.8)
-                });
-                listBbs_h();
-            });
-            
-        </script>
-        <!-- //popzone -->
-
         <!-- visual -->
         <div class="mVisual">
             <div class="sliderArea">
-                
+
                 <div class="item video">
                     <button type="button" class="btn_Play">Play</button>
                     <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual2.jpg" alt=""><!--PC 이미지--> 
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual2.jpg" alt=""><!--PC 이미지-->
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual2.jpg)"></span> <!--mobile 이미지-->
                     </div>
-                    
+
                     <div class="youTube">
                         <div class="videoDim"></div>
                         <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
@@ -341,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="textArea">
                         <div class="greenBox"></div>
                         <p class="lv1">creative gtec</p>
@@ -349,11 +197,11 @@
                         <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
                     </div>
                 </div>
-                
+
                 <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
                 <a href="#none" class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual3.jpg" alt=""><!--PC 이미지--> 
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual3.jpg" alt=""><!--PC 이미지-->
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual3.jpg)"></span> <!--mobile 이미지-->
                     </div>
                     <div class="textArea">
@@ -368,7 +216,7 @@
                 <!-- 21-01-27 수정 비쥬얼에 링크 없을 경우 -->
                 <div class="item">
                     <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt="">   <!--PC 이미지--> 
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt="">   <!--PC 이미지-->
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual4.jpg)"></span>   <!--mobile 이미지-->
                     </div>
                     <div class="textArea">
@@ -380,15 +228,15 @@
                 </div>
                 <!-- 21-01-27 수정 비쥬얼에 링크 있을 경우 -->
 
-                
+
                 <!--20-12-24 유튜브 영생재생관련 추가 영상재생일경우 class video 추가 밑 재생버튼, youTube 아이프레임 영역 추가 -->
                 <div class="item video">
                     <button type="button" class="btn_Play">Play</button>
                     <div class="imgBox">
-                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt=""><!--PC 이미지--> 
+                        <img src="/gtec/type/KOR_A/img/main/img_mVisual4.jpg" alt=""><!--PC 이미지-->
                         <span class="mobile" style="background-image:url(/gtec/type/KOR_A/img/main/m/m_img_mVisual1.jpg)"></span> <!--mobile 이미지-->
                     </div>
-                    
+
                     <div class="youTube">
                         <div class="videoDim"></div>
                         <!--유튜브 아이프레임 추가할경우 유니크한 ID 값 부여해야함.
@@ -397,11 +245,11 @@
                             <div class="ytp_frame_inner"><iframe id="gtec_iframe1" src="https://www.youtube.com/embed/-depZQv44nM?;enablejsapi=1" frameborder="0" allow="" allowfullscreen></iframe></div>
                         </div>
                     </div>
-                    
+
                     <div class="textArea">
                         <div class="greenBox"></div>
                         <p class="lv1">creative gtec</p>
-                        <p class="lv2"><b>Active</b> <span>Leader</span></p> 
+                        <p class="lv2"><b>Active</b> <span>Leader</span></p>
                         <p class="lv3">산업통상자원부가 설립한 창조적인 전문기술인 양성대학</p>
                     </div>
                 </div>
@@ -410,7 +258,7 @@
             </div>
             <div class="mVisualDot">
             </div>
-            
+
             <span class="scrollMove"></span>
         </div>
         <!-- //visual -->
@@ -468,7 +316,7 @@
                 });
             });
         </script>
-        
+
         <!--mNotice-->
         <div class="mNoticeRolling">
             <div class="sliderArea">
@@ -476,7 +324,7 @@
                     <p>공지사항</p>
                     <button type="button" class="paused">정지하기</button>
                 </div>
-                
+
                 <div class="noticeSlider">
                     <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고2020학년도 1학기 교원(전임, 겸임) 초빙 공고2020학년도 1학기  교원(전임, 겸임) 초빙 공고</a>
                     <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
@@ -487,14 +335,14 @@
                     <a href="#none" class="item">2020학년도 대학생 창업아이디어 경진대회 참가결과 현황</a>
                     <a href="#none" class="item">2020학년도 1학기 교원(전임, 겸임) 초빙 공고</a>
                 </div>
-                
+
                 <div class="linkArea">
                     <a href="#none"><span>입학안내</span></a>
                 </div>
             </div>
         </div>
         <!--//mNotice-->
-        
+
         <!--mNews-->
         <div class="mNews">
             <div class="sliderArea">
@@ -565,7 +413,7 @@
             </div>
         </div>
         <!--//mNews-->
-        
+
         <!--mLink-->
         <div class="mLink">
             <div class="innerCont">
@@ -598,7 +446,7 @@
             </div>
         </div>
         <!--//mLink-->
-        
+
         <!--mNotice-->
         <div class="mNotice">
             <div class="innerCont">
@@ -614,7 +462,7 @@
                             <button type="button" class="default"><span>입학</span></button>
                             <button type="button" class="default"><span>모집채용</span></button>
                             <button type="button" class="default"><span>기타</span></button>
-                            
+
                             <span class="bar"></span>
                         </div>
 
@@ -654,15 +502,15 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                         <div id="noticeTab2" class="noticeList">
-                            
+
                             <div class="typeNoArticle">
                                 <p class="no_article">등록된 게시물이 없습니다.</p>
                             </div>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                         <div id="noticeTab3" class="noticeList">
@@ -698,7 +546,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                         <div id="noticeTab4" class="noticeList">
@@ -734,7 +582,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                         <div id="noticeTab5" class="noticeList">
@@ -770,7 +618,7 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                         <div id="noticeTab6" class="noticeList">
@@ -806,38 +654,38 @@
                                     </a>
                                 </li>
                             </ul>
-                            
+
                             <a href="#none" class="plus">더 보기</a>
                         </div>
                     </div>
                     <!--//공지사항 목록-->
-                    
+
                     <!--PR Movice-->
                     <div class="half">
                         <strong class="mTit">PR Movie</strong>
-                        
+
                         <div class="PR_Movie">
                             <div class="imgBox"><img src="/gtec/type/KOR_A/img/main/img_PR_Movie.png" alt=""></div>
-                            
+
                             <p>
                                 <span>Creative</span>
                                 <b>GTEC</b>
                             </p>
-                            
+
                             <a href="#none">영상보기</a>
-                            
+
                             <div class="pointR">
                                 <img src="/gtec/type/KOR_A/img/main/icon_mainPointRblue.png" alt="">
                                 <img src="/gtec/type/KOR_A/img/main/icon_mainPointRgreen.png" alt="">
                             </div>
-                        </div> 
+                        </div>
                     </div>
                     <!--//PR Movice-->
                 </div>
             </div>
         </div>
         <!--//mNotice-->
-        
+
         <!--mGlobalGTEC-->
         <div class="mGlobalGTEC">
             <div class="innerCont">
@@ -846,13 +694,13 @@
                         <img src="/gtec/type/KOR_A/img/main/icon_mainPointLgreen.png" alt="">
                         <img src="/gtec/type/KOR_A/img/main/icon_mainPointLgray.png" alt="">
                     </div>
-                    
+
                     <div class="textArea">
                         <strong class="mTit">Global GTEC</strong>
                         <p class="mSub">경기과학기술대학교의 다양한 해외 프로그램을 만나보세요.</p>
                         <a href="#">더보기</a>
                     </div>
-                    
+
                     <div class="mobileSlider">
                         <a href="#none" class="item large">
                             <img src="/gtec/type/KOR_A/img/main/img_GlobalGTEC_Temp1.png" alt="">
@@ -873,7 +721,7 @@
             </div>
         </div>
         <!--//mGlobalGTEC-->
-        
+
         <!--mSocial-->
         <div class="mSocial">
             <div class="innerCont">
@@ -969,7 +817,7 @@
             </div>
         </div>
         <!--//mSocial-->
-        
+
         <!--mBanner-->
         <div class="mBanner">
             <div class="innerCont">
