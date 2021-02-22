@@ -41,6 +41,7 @@
 
 <!-- popzone -->
 <script>
+$(function(){
     $(".btn_topPopzone").on("click",function(e){
         $(".mPopZone").addClass("on");
         $("html, body").css("overflow","hidden");
@@ -95,7 +96,9 @@
         });
         listBbs_h();
     });
+});
 </script>
+
 <div class="mPopZone">
     <div class="mPopZone_wrap">
         <div class="innerScroll">
