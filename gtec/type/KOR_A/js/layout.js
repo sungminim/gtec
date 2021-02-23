@@ -378,7 +378,6 @@ $(function(){
 			}else{
 				$("header .top_util .btn_topPopzone").focus();
 			}
-
 			return false;
 		}
 	});
@@ -401,7 +400,6 @@ $(function(){
 				// Shift + Tab 이벤트
 				if($(".mPopZone .pop_list .centerBanner").length < 1){
 					$(".mPopZone .mPopZone_close").focus();
-
 				}else{
 					$(".mPopZone .centerBanner").find('a').first().focus();
 				}
@@ -413,5 +411,32 @@ $(function(){
 	/*gnb*/
 	$("#gnb>li>a").focusin(function(){
 		$(this).trigger('mouseover');
+	});
+
+	$(".top_util .utilGrp .btn_topLanguage").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".top_util .utilGrp .topLanguage .listBox>ul>li:first-child>a").focus();
+			return false;
+		}
+	});
+
+	$(".top_util .utilGrp .btn_topLanguage").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".top_util .utilGrp .topLanguage .listBox>ul>li:first-child>a").focus();
+			return false;
+		}
+	});
+
+	$(".top_util .utilGrp .btn_topPopzone").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".mPopZone .centerBanner a").focus();
+			return false;
+		}
 	});
 });
