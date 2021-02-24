@@ -375,6 +375,7 @@ $(function(){
 			$(".mPopZone .mPopZone_close").trigger('click');
 			if($(".mPopZone").hasClass('firstPop')){
 				$("#skip_menu").find('a').first().focus();
+				$(".mPopZone").removeClass('firstPop');
 			}else{
 				$("header .top_util .btn_topPopzone").focus();
 			}
@@ -412,13 +413,10 @@ $(function(){
 	$("#gnb>li>a").focusin(function(){
 		$(this).trigger('mouseover');
 	});
-
-	$(".top_util .utilGrp .btn_topLanguage").keydown(function(event){
+	$("#gnb>li:last-child>a").keydown(function(event){
 		var v_keyCode = event.keyCode || event.which;
-		if(v_keyCode == 13){
-			$(this).trigger('click');
-			$(".top_util .utilGrp .topLanguage .listBox>ul>li:first-child>a").focus();
-			return false;
+		if(v_keyCode == 9){
+			$(this).trigger('mouseleave');
 		}
 	});
 
@@ -431,12 +429,171 @@ $(function(){
 		}
 	});
 
-	$(".top_util .utilGrp .btn_topPopzone").keydown(function(event){
+	$(".top_util .utilGrp .btn_topLanguage").keydown(function(event){
 		var v_keyCode = event.keyCode || event.which;
 		if(v_keyCode == 13){
 			$(this).trigger('click');
-			$(".mPopZone .centerBanner a").focus();
+			$(".top_util .utilGrp .topLanguage .listBox>ul>li:first-child>a").focus();
 			return false;
+		}
+	});
+
+	$(".top_util .btn_topSearch").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".pop_iframe").contents().find("fieldset>input").focus();
+			return false;
+		}
+	});
+
+	$(".top_util .btn_topPopzone").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".mPopZone .mCustomScrollBox").focus();
+			return false;
+		}
+	});
+
+	/*snb*/
+	$("#snb_nav .snb_area>button").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			if($("#snb_nav").hasClass("active1")) {
+				$("#snb_nav .snb_area>button.active").attr("title","1레벨메뉴 확장됨");
+			}
+			if($("#snb_nav").hasClass("active2")) {
+				$("#snb_nav .snb_area>button.active").attr("title","2레벨메뉴 확장됨");
+			}
+			if($("#snb_nav").hasClass("active3")) {
+				$("#snb_nav .snb_area>button.active").attr("title","3레벨메뉴 확장됨");
+			}
+			return false;
+		}
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$("#snb_nav .snb_area>button.active").trigger('click');
+			}else{
+				if($(this).hasClass('active')){
+					if($("#snb_nav").hasClass("active1")){
+						$("#snb_nav #snb>li:first-child").find('a').focus();
+					}
+					if($("#snb_nav").hasClass("active2")){
+						$("#snb_nav #snb>li>ul>li:first-child").find('a').focus();
+					}
+					if($("#snb_nav").hasClass("active3")){
+						$("#snb_nav #snb>li>ul>li>ul>li:first-child").find('a').focus();
+					}
+					return false;
+				}
+
+			}
+		}
+	});
+
+	$("#snb_nav #snb li:first-child>a").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$("#snb_nav .snb_area>button.active").trigger('click').focus();
+				if($("#snb_nav").hasClass("active1")) {
+					$("#snb_nav .snb_area>button.active").attr("title","1레벨메뉴 축소됨");
+				}
+				if($("#snb_nav").hasClass("active2")) {
+					$("#snb_nav .snb_area>button.active").attr("title","2레벨메뉴 축소됨");
+				}
+				if($("#snb_nav").hasClass("active3")) {
+					$("#snb_nav .snb_area>button.active").attr("title","3레벨메뉴 축소됨");
+				}
+				return false;
+			}else{
+			}
+		}
+	});
+	$("#snb_nav #snb li:last-child>a").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+			}else{
+				if($("#snb_nav .snb_area .active").hasClass("on")){
+					$("#snb_nav .snb_area").find('.active').trigger('click');
+					$("#snb_nav .snb_util").find('button').first().focus();
+				}else{
+					$("#snb_nav .snb_area").find('.active');
+					$("#snb_nav .snb_area").find('.active').trigger('click').next().focus();
+				}
+				return false;
+			}
+		}
+	});
+
+	$("#snb_nav .snb_util .btn_share").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(this).attr("title","메뉴 확장됨");
+			return false;
+		}
+	});
+
+	$("#snb_nav .snb_util .shareBox ul>li:last-child>button").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+			}else{
+				//$("#snb_nav .snb_util .shareBox").removeClass('on');
+				$("#snb_nav .snb_util .btn_share").trigger('click').attr("title","메뉴 축소됨").focus();
+				return false;
+			}
+		}
+	});
+
+	/*footer*/
+	var familyBtn_loc;
+	$(".familySite .family_btn li>button").keydown(function(event){
+		familyBtn_loc = $(this).parent('li').index();
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$("#footer .pop_wrap.on .pop_familySite li:first-child").find('a').first().focus();
+			return false;
+		}
+	});
+	$("#footer .popLayout .btn_popClose").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$("#footer .pop_wrap.on .pop_familySite li:last-child").find('a').first().focus();
+				return false;
+			}else{
+				$("#footer .pop_wrap.on .pop_familySite li:first-child").find('a').first().focus();
+				return false;
+			}
+		}
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			$(".familySite .family_btn li:nth-child(" + (familyBtn_loc+1) + ")>button").focus();
+			return false;
+		}
+	});
+	$("#familySite1 .pop_familySite>ul>li:first-child>a").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$("#familySite1 .btn_popClose").focus();
+				return false;
+			}
+		}
+	});
+	$("#familySite2 .pop_familySite>ul>li:first-child>a").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$("#familySite2 .btn_popClose").focus();
+				return false;
+			}
 		}
 	});
 });

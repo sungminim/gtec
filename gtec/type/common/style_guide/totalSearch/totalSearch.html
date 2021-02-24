@@ -17,7 +17,7 @@
 <script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/gtec/type/common/js/slick/slick.css" /><!-- swipe -->
-<script type="text/javascript" src="/gtec/type/common/js/slick/slick.js"></script><!-- swipe -->
+<script type="text/javascript" src="/gtec/type/common/js/slick/slick.min.js"></script><!-- swipe -->
 
 <link rel="stylesheet" type="text/css" href="/gtec/type/common/js/mCustomScrollbar/jquery.mCustomScrollbar.css" /><!-- 커스텀스크롤 -->
 <script type="text/javascript" src="/gtec/type/common/js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script><!-- 커스텀스크롤 -->
@@ -27,6 +27,37 @@
 
 <script type="text/javascript" src="/gtec/type/common/js/board.js"></script>
 <script type="text/javascript" src="/gtec/type/common/js/totalSearch.js"></script>
+<script>
+$(function(){
+    $(".conts_searchOn .searchOn .btn_close").click(function(){
+        $(parent.document).find("html").css("overflow","");
+		$(parent.document).find("body").css("overflow","");
+		$(parent.document).find("header .btn_topSearch").focus();
+        $(parent.document).find("#iframeSearchPop").removeClass('on');
+    });
+
+	/*** keyboard nav ***/
+	$(".conts_searchOn .searchOn fieldset>input").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$(".conts_searchOn .searchOn .btn_close").focus();
+				return false;
+			}
+		}
+	});
+	$(".conts_searchOn .searchOn .btn_close").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+			}else{
+				$(".conts_searchOn .searchOn fieldset>input").focus();
+				return false;
+			}
+		}
+	});
+});
+</script>
 </head>
 <body>
 

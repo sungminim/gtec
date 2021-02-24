@@ -418,6 +418,17 @@ $(function(){
 </div>
 <!-- //header -->
 
+<!-- 퍼블확인용 -->
+<iframe id="iframeSearchPop" name="iframeSearchPop" src="/gtec/type/common/style_guide/totalSearch/totalSearch.html" frameborder="0" class="pop_iframe" title="팝업프레임" style="left: 0px; border: 0px currentcolor; width: 100%; height: 100%; z-index: 999999;"></iframe>
+<script>
+$(function(){
+    $("header .top_util .btn_topSearch").click(function(){
+        $(".pop_iframe").addClass('on');
+    });
+});
+</script>
+<!-- //퍼블확인용 -->
+
 <hr />
 
 <!-- container -->

@@ -347,7 +347,6 @@
         <div class="mNews">
             <div class="sliderArea">
                 <strong class="mTit">News</strong>
-                <a href="#none" class="plus">더 보기</a>
                 <div class="slider">
                     <!--링크로 사용할경우 A태그 로 해도 무관함-->
                     <a href="#none" class="item">
@@ -357,56 +356,71 @@
                             <b>SMSCP 인증교육기관 협약</b>
                         </p>
                     </a>
-                    <div class="item">
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp2.png" alt="">
                         <p>
                             <span>경기과학기술대</span>
                             <b>LINC+ 육성사업 선정</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp3.png" alt="">
                         <p>
                             <span>경기과학기술대</span>
                             <b>경기도 기술개발사업 최다 선정</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp4.png" alt="">
                         <p>
                             <span>2020학년도 외국인 유학생</span>
                             <b>학위수여식 개최</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp1.png" alt="">
                         <p>
                             <span>경기과기대-지멘스</span>
                             <b>SMSCP 인증교육기관 협약</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp2.png" alt="">
                         <p>
                             <span>경기과학기술대</span>
                             <b>LINC+ 육성사업 선정</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp3.png" alt="">
                         <p>
                             <span>경기과학기술대</span>
                             <b>경기도 기술개발사업 최다 선정</b>
                         </p>
-                    </div>
-                    <div class="item">
+                    </a>
+                    <!--</div>-->
+                    <!--<div class="item">-->
+                    <a href="#none" class="item">
                         <img src="/gtec/type/KOR_A/img/main/img_newsTemp4.png" alt="">
                         <p>
                             <span>2020학년도 외국인 유학생</span>
                             <b>학위수여식 개최</b>
                         </p>
-                    </div>
+                    </a>
+                    <!--</div>-->
                 </div>
+                <a href="#none" class="plus">더 보기</a><!-- 210223 -->
             </div>
             <div class="Scrollbar">
                 <span class="bar"></span>
@@ -511,7 +525,7 @@
                                 <p class="no_article">등록된 게시물이 없습니다.</p>
                             </div>
 
-                            <a href="#none" class="plus">더 보기</a>
+                            <!--<a href="#none" class="plus">더 보기</a>-->
                         </div>
                         <div id="noticeTab3" class="noticeList">
                             <ul>
@@ -698,7 +712,7 @@
                     <div class="textArea">
                         <strong class="mTit">Global GTEC</strong>
                         <p class="mSub">경기과학기술대학교의 다양한 해외 프로그램을 만나보세요.</p>
-                        <a href="#">더보기</a>
+
                     </div>
 
                     <div class="mobileSlider">
@@ -717,6 +731,8 @@
                             <p>글로벌현장학습 프로그램</p>
                         </a>
                     </div>
+
+                    <a href="#">더보기</a><!--20210223-->
                 </div>
             </div>
         </div>
