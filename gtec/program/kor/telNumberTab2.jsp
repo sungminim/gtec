@@ -38,7 +38,7 @@
             <div class="lineTop_tbArea">
                 <table class="lineTop_tb2" style="min-width:550px;">
                     <caption>
-                        <p>학과 전화번호 안내 표</p>
+                        <p>부서(학과)명,담당업무,전화번호,팩스 항목으로 학과 전화번호 안내 표</p>
                     </caption>
                     <colgroup>
                         <col width="25%">

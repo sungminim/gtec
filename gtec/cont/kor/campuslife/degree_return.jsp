@@ -75,7 +75,7 @@
                     <div class="lineTop_tbArea">
                         <table class="lineTop_tb2">
                             <caption>
-                                <p>휴학원 접수일,복학시 추가 등록금 항목 순으로 유의사항 표</p>
+                                <p>휴학원 접수일, 복학시 추가 등록금 항목 순으로 복학/조기복학 유의사항 표</p>
                             </caption>
                             <colgroup>
                                 <col>

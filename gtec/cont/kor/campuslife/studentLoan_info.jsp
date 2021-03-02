@@ -23,7 +23,7 @@
                 <div class="lineTop_tbArea min700">
                     <table class="lineTop_tb2">
                         <caption>
-                            <p>교내장학금 안내표</p>
+                            <p>구분, 장학명, 선발 기본 조건, 장학금액, 신처영부, 지급방법, 비고 항목 순으로 2021학년도 교내장학금 안내표</p>
                         </caption>
                         <colgroup>
                             <col width="12%"/>
@@ -400,7 +400,7 @@
                 <div class="lineTop_tbArea min700">
                     <table class="lineTop_tb2">
                         <caption>
-                            <p>교외장학금(국가 및 기타) - 한국장학재단 국가장학금 안내표</p>
+                            <p>장학명, 지원금액(2020년 기준), 선발기준, 비고 항목 순으로 2021학년도 교외장학금(국가 및 기타) - 한국장학재단 국가장학금 안내표</p>
                         </caption>
                         <colgroup>
                             <col width="15%"/>
@@ -557,7 +557,7 @@
                 <div class="lineTop_tbArea min700">
                     <table class="lineTop_tb2">
                         <caption>
-                            <p>교외장학금(국가 및 기타) - 한국장학재단 기타 장학금 안내표</p>
+                            <p>장학명, 지원대상, 지원금액, 비고 항목 순으로 2021학년도 교외장학금(국가 및 기타) - 한국장학재단 기타 장학금 안내표</p>
                         </caption>
                         <colgroup>
                             <col width="18%"/>
@@ -636,7 +636,7 @@
                 <div class="lineTop_tbArea min700">
                     <table class="lineTop_tb2">
                         <caption>
-                            <p>교외장학금(국가 및 기타) - 기타 교외 장학금 안내표</p>
+                            <p>구분, 기관, 장학금명, 지원대상, 비고 항목 순으로 2021학년도 교외장학금(국가 및 기타) - 기타 교외 장학금 안내표</p>
                         </caption>
                         <colgroup>
                             <col width="14%" />
@@ -725,7 +725,7 @@
                 <div class="lineTop_tbArea min700">
                     <table class="lineTop_tb2">
                         <caption>
-                            <p>교내외장학금 FAQ 표</p>
+                            <p>연번, 질의, 답변 항목 순으로 2021학년도 교내외장학금 FAQ 표</p>
                         </caption>
                         <colgroup>
                             <col width="6%" />

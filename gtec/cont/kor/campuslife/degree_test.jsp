@@ -46,7 +46,7 @@
             <div class="lineTop_tbArea">
                 <table class="lineTop_tb2">
                     <caption>
-                        <p>주간,야간 항목 순으로 수업 일수 및 시간 표</p>
+                        <p>등급, 배점 평점 항목 순으로 성적평가 요소 안내 표</p>
                     </caption>
                     <colgroup>
                         <col/>

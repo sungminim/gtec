@@ -40,7 +40,7 @@
             <div class="lineTop_tbArea">
                 <table class="lineTop_tb2">
                     <caption>
-                        <p>구분,과정 항목 순으로 재학생입영연기 제한연력 안내표</p>
+                        <p>구분, 과정(2년제, 3년제, 4년제) 항목 순으로 재학생입영연기 제한연령 안내표</p>
                     </caption>
                     <colgroup>
                         <col>

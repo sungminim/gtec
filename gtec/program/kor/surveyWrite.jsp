@@ -20,12 +20,12 @@
                 <div class="iconCenterBox">
                     <div class="innerBox">
                         <p class="txtSt1">
-                            경기과학기술대학교 홈페이지 리뉴얼에 대한 재학생 들의 인지도와 건의사항 등을 조사하여 
+                            경기과학기술대학교 홈페이지 리뉴얼에 대한 재학생 들의 인지도와 건의사항 등을 조사하여
                             홈페이지 운영 및 정책 수립에 활용하고자 합니다.
                         </p>
                     </div>
                 </div>
-                
+
                 <p class="requisiteTxt"><span class="bulletRequisite">필수</span>표시 필수 입력 항목</p>
                 <ul class="surveyList">
                     <li>
@@ -51,7 +51,7 @@
                         <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">단답형 노출영역 입니다. 단답형 노출영역 입니다. 단답형 노출영역 입니다.단답형 노출영역 입니다.</p>
                         <div class="item">
-                            <textarea class="inp_area" rows="2"></textarea>
+                            <textarea class="inp_area" rows="2" title="단답형 내용을 입력하세요."></textarea>
                         </div>
                     </li>
                     <li>
@@ -62,7 +62,7 @@
                         <!-- 21-01-18 수정 끝 -->
                         <p class="surveyTit">서술형 노출영역 입니다. 서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.서술형 노출영역 입니다.</p>
                         <div class="item">
-                            <textarea class="inp_area" rows="4"></textarea>
+                            <textarea class="inp_area" rows="4" title="서술할 내용을 입력하세요."></textarea>
                         </div>
                     </li>
                     <li>
@@ -84,10 +84,10 @@
                         <strong class="number">5</strong>
                         <p class="surveyTit">필수가 아닌 영역입니다.필수가 아닌 영역입니다.필수가 아닌 영역입니다.필수가 아닌 영역입니다.</p>
                         <div class="item">
-                            <textarea class="inp_area" rows="4"></textarea>
+                            <textarea class="inp_area" rows="4" title="서술할 내용을 입력하세요."></textarea>
                         </div>
                     </li>
-                </ul>     
+                </ul>
             </div>
 
             <div class="btn_Area">

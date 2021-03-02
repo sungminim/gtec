@@ -20,7 +20,7 @@
                 <li><a href="#none" class="on">기타</a></li>
             </ul>
         </div>
-        
+
 		<article>
 			<!--컨텐츠 영역-->
             <div class="telNumber">
@@ -31,10 +31,10 @@
                         <li><b>행정본부</b><a href="#none">031-496-내선번호</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2" style="min-width:550px;">
-                        <caption><p>기타 전화번호 안내 표</p></caption>
+                        <caption><p>부서(학과)명,담당업무,전화번호,팩스 항목으로 기타 전화번호 안내 표</p></caption>
                         <colgroup>
                             <col width="25%"><col width="25%"><col width="25%"><col width="25%">
                         </colgroup>

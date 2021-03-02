@@ -22,7 +22,7 @@
                     <div class="innerArea">
                         <div class="item datepicker">
                             <label for="datepicker02_1">기간검색</label>
-                            <div class="pickerInq"><input type="text" class="inp_t" name="datepicker02_1" id="datepicker02_1" title="시작 날짜 입력" value="2020/08/04"/></div>
+                            <div class="pickerInq"><input type="text" class="inp_t" name="datepicker02_1" id="datepicker02_1" title="시작 날짜 입력" value="2020/08/04" /></div>
                             <span class="picker_txt">~</span>
                             <div class="pickerInq"><input type="text" class="inp_t" name="datepicker02_2" id="datepicker02_2" title="종료 날짜 입력" value="2020/08/20" /></div>
 
@@ -39,7 +39,7 @@
                                     "datepicker02_2":"%Y-%m-%d"
                                 }
                             });
-                            </script>    
+                            </script>
                         </div>
                         <div class="item select">
                             <label for="">구분</label>
@@ -56,8 +56,8 @@
                             <select class="inp_s" title="상세검색 옵션을 선택해주세요">
                                 <option selected>제목</option>
                             </select>
-                            <input type="text" class="inp_t">
-                            
+                            <input type="text" class="inp_t" title="검색할 내용을 입력하세요." />
+
                             <button type="button" class="btnIconSech">검색</button>
                         </div>
                     </div>
@@ -70,10 +70,10 @@
                         <span class="sns naver"><i>Naver</i> 간편로그인</span>
                         <!-- <span class="sns faceBook"><i>FaecBook</i> 간편로그인</span> -->
                         <!-- <span class="sns kakao"><i>KaKao</i> 간편로그인</span> -->
-                    </button> 
+                    </button>
                 </div>
                 <!-- 21-01-28 추가 로그인 여부 추가 -->
-                
+
                 <div class="lineTop_tbArea">
                     <table class="lineTop_tb2">
                         <caption><p>온라인 설문조사 목록 표</p></caption>
@@ -140,7 +140,7 @@
                         </tbody>
                     </table>
                 </div>
-                
+
                 <div class="pagination">
                     <button type="button" class="btn_first"><span>처음</span></button>
                     <button type="button" class="btn_prev"><span>이전</span></button>

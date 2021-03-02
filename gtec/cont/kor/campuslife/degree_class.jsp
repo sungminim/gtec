@@ -54,7 +54,7 @@
             <div class="lineTop_tbArea">
                 <table class="lineTop_tb2">
                     <caption>
-                        <p>주간,야간 항목 순으로 수업 일수 및 시간 표</p>
+                        <p>주간(교시, 시간), 야간(교시, 시간) 항목 순으로 수업일수 및 시간 표</p>
                     </caption>
                     <colgroup>
                         <col width="15%"/>
@@ -142,7 +142,7 @@
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2" style="min-width:490px">
                     <caption>
-                        <p>연번,사유,증빙서류,일수 항목 순으로 부득이한 사정으로 결석할 경우 출석인정 방법 표</p>
+                        <p>연번, 사유, 증빙서류, 일수 항목 순으로 부득이한 사정으로 결석할 경우 출석인정 방법 표</p>
                     </caption>
                     <colgroup>
                         <col width="10%"/>

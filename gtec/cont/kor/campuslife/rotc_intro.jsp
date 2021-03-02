@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <div class="contTit">경기과기대 해군 부사관학군단소개</div>
+            <div class="contTit">경기과기대 해군 부사관학군단 소개</div>
             <div class="pL_tit">
                 <div class="contTit_m">위치</div>
                 <p class="txt">학생회관 3층(전화 031-496-6443/6445)</p>
@@ -47,7 +47,7 @@
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2" style="min-width:550px">
                     <caption>
-                        <p>직위,성명,전화번호,이메일,담당업무 항목 순으로 부서 사람들 안내 표</p>
+                        <p>직위, 성명, 전화번호, 이메일, 담당업무 항목 순으로 경기과기대 해군 부사관학군단 부서 사람들 안내 표</p>
                     </caption>
                     <colgroup>
                         <col/><col/><col/><col/><col/>

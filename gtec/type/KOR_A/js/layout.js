@@ -462,13 +462,25 @@ $(function(){
 		if(v_keyCode == 13){
 			$(this).trigger('click');
 			if($("#snb_nav").hasClass("active1")) {
-				$("#snb_nav .snb_area>button.active").attr("title","1레벨메뉴 확장됨");
+				if($(this).hasClass("active")){
+					$(this).attr("title","1레벨메뉴 확장됨");
+				}else{
+					$(this).attr("title","1레벨메뉴 축소됨");
+				}
 			}
 			if($("#snb_nav").hasClass("active2")) {
-				$("#snb_nav .snb_area>button.active").attr("title","2레벨메뉴 확장됨");
+				if($(this).hasClass("active")){
+					$(this).attr("title","2레벨메뉴 확장됨");
+				}else{
+					$(this).attr("title","2레벨메뉴 축소됨");
+				}
 			}
 			if($("#snb_nav").hasClass("active3")) {
-				$("#snb_nav .snb_area>button.active").attr("title","3레벨메뉴 확장됨");
+				if($(this).hasClass("active")){
+					$(this).attr("title","3레벨메뉴 확장됨");
+				}else{
+					$(this).attr("title","3레벨메뉴 축소됨");
+				}
 			}
 			return false;
 		}
@@ -488,7 +500,6 @@ $(function(){
 					}
 					return false;
 				}
-
 			}
 		}
 	});
@@ -497,15 +508,14 @@ $(function(){
 		var v_keyCode = event.keyCode || event.which;
 		if(v_keyCode == 9){
 			if(event.shiftKey){
-				$("#snb_nav .snb_area>button.active").trigger('click').focus();
 				if($("#snb_nav").hasClass("active1")) {
-					$("#snb_nav .snb_area>button.active").attr("title","1레벨메뉴 축소됨");
+					$("#snb_nav .snb_area>button.active").trigger('click').focus().attr("title","1레벨메뉴 축소됨");
 				}
 				if($("#snb_nav").hasClass("active2")) {
-					$("#snb_nav .snb_area>button.active").attr("title","2레벨메뉴 축소됨");
+					$("#snb_nav .snb_area>button.active").trigger('click').focus().attr("title","2레벨메뉴 축소됨");
 				}
 				if($("#snb_nav").hasClass("active3")) {
-					$("#snb_nav .snb_area>button.active").attr("title","3레벨메뉴 축소됨");
+					$("#snb_nav .snb_area>button.active").trigger('click').focus().attr("title","3레벨메뉴 축소됨");
 				}
 				return false;
 			}else{
@@ -518,12 +528,21 @@ $(function(){
 			if(event.shiftKey){
 			}else{
 				if($("#snb_nav .snb_area .active").hasClass("on")){
-					$("#snb_nav .snb_area").find('.active').trigger('click');
 					$("#snb_nav .snb_util").find('button').first().focus();
 				}else{
-					$("#snb_nav .snb_area").find('.active');
-					$("#snb_nav .snb_area").find('.active').trigger('click').next().focus();
+					$("#snb_nav .snb_area").find('.active').next().focus();
 				}
+
+				if($("#snb_nav").hasClass("active1")) {
+					$("#snb_nav .snb_area>button.active").trigger('click').attr("title","1레벨메뉴 축소됨");
+				}
+				if($("#snb_nav").hasClass("active2")) {
+					$("#snb_nav .snb_area>button.active").trigger('click').attr("title","2레벨메뉴 축소됨");
+				}
+				if($("#snb_nav").hasClass("active3")) {
+					$("#snb_nav .snb_area>button.active").trigger('click').attr("title","3레벨메뉴 축소됨");
+				}
+
 				return false;
 			}
 		}
@@ -592,6 +611,51 @@ $(function(){
 		if(v_keyCode == 9){
 			if(event.shiftKey){
 				$("#familySite2 .btn_popClose").focus();
+				return false;
+			}
+		}
+	});
+
+	/*컨텐츠(사이버투어)*/
+	var tourNum = $(".cyberTour .mapPoint ul>li").length;
+	var tourLoc;
+	$(".cyberTour .mapPoint ul>li>button").keydown(function(event){
+		tourLoc = $(this).parent('li').index();
+		console.log(tourLoc)
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 13){
+			$(this).trigger('click');
+			return false;
+		}
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+			}else{
+				if($(this).hasClass('on')){
+					$(".cyberTour .selectDtl.on").find('button').first().focus();
+					return false;
+				}
+
+			}
+		}
+	});
+	$(".cyberTour .selectDtl .pageIndex .slide_custom.prev").keydown(function(event){
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+				$(".cyberTour .mapPoint ul>li:nth-child(" +(tourLoc+1)+ ")>button").focus();
+				return false;
+			}
+		}
+	});
+	$(".cyberTour .selectDtl .mCustomScrollBox").keydown(function(event){
+		alert('정상');
+		var v_keyCode = event.keyCode || event.which;
+		if(v_keyCode == 9){
+			if(event.shiftKey){
+			}else{
+				if(tourLoc < (tourNum-1)){
+					$(".cyberTour .mapPoint ul>li:nth-child(" +(tourLoc+2)+ ")>button").focus();
+				}
 				return false;
 			}
 		}

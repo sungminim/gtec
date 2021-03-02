@@ -29,7 +29,7 @@
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2">
                     <caption>
-                        <p>순번,정왕역,순번,학교,순번,정왕역 항목 순으로 셔틀버스 운행시간표</p>
+                        <p>노선, 정차지역, 등교 항목 순으로 통학버스 운행 시간표 - 장거리 노선 운행(학기 중 시간표)</p>
                     </caption>
                     <colgroup>
                         <col />

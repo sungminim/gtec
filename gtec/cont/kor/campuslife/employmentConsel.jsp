@@ -21,7 +21,7 @@
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2" style="min-width:615px">
                     <caption>
-                        <p>검사명,내용,비고 항목 순으로 취업역량 강화를 위한 개별 및 집단 상담 표</p>
+                        <p>검사명, 내용, 비고 항목 순으로 취업역량 강화를 위한 개별 및 집단 상담 표</p>
                     </caption>
                     <colgroup>
                         <col width="20%">
@@ -65,7 +65,7 @@
             <div class="lineTop_tbArea tbScroll">
                 <table class="lineTop_tb2" style="min-width:615px">
                     <caption>
-                        <p>검사명,내용,비고 항목 순으로 취업 고나련 검사 실시 및 해석 안내표</p>
+                        <p>검사명, 내용, 비고 항목 순으로 진로(취업) 관련 검사 실시 및 해석 안내표</p>
                     </caption>
                     <colgroup>
                         <col width="20%">
@@ -142,7 +142,7 @@
             <div class="lineTop_tbArea">
                 <table class="lineTop_tb2">
                     <caption>
-                        <p>학과,상담사 항목 순으로 학과별 전담상담사 운영 안내표</p>
+                        <p>학과, 상담사 항목 순으로 학과별 전담상담사 운영 안내표</p>
                     </caption>
                     <colgroup>
                         <col>

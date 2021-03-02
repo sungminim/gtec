@@ -21,9 +21,9 @@
                     <button type="button" class="btn_prev">이전</button>
                     <span>2020</span>
                     <button type="button" class="btn_next">다음</button>
-                    
+
                     <button type="button" class="btn_today">오늘</button>
-                    
+
                     <div class="type_btnBox">
                         <a href="#none" class="type_cal on">달력</a>
                         <a href="#none" class="type_list">목록</a>
@@ -57,11 +57,11 @@
                         <p class="bul_etc">기타</p>
                     </li>
                 </ul>
-                
+
                 <div class="cal_group cB">
                     <div class="lineTop_tbArea">
                         <table class="lineTop_tbL2">
-                            <caption><p>학사일정을 확인 하는 표</p></caption>
+                            <caption><p>월별로 학사일정을 확인 하는 표</p></caption>
                             <colgroup>
                                 <col width="25%"><col width="75%">
                             </colgroup>
@@ -71,7 +71,7 @@
                                         <strong class="monthTit"><span>7</span>월</strong>
                                     </th>
                                     <td>
-                                        <ul class="calList_con"> 
+                                        <ul class="calList_con">
                                             <!-- 공통:bul_com / 휴무:bul_dayOff / 공휴일:bul_holiday / 기타:bul_etc -->
                                             <li class="bul_com">
                                                 <strong>07-16(월) ~ 07-30(월)</strong>
@@ -105,7 +105,7 @@
                                         <strong class="monthTit"><span>8</span>월</strong>
                                     </th>
                                     <td>
-                                        <ul class="calList_con"> 
+                                        <ul class="calList_con">
                                             <!-- 공통:bul_com / 휴무:bul_dayOff / 공휴일:bul_holiday / 기타:bul_etc -->
                                             <li class="bul_com">
                                                 <strong>07-16(월) ~ 07-30(월)</strong>
@@ -148,9 +148,9 @@
                         </table>
                     </div>
                 </div>
-                
-                
-            </div>    
+
+
+            </div>
 			<!--/컨텐츠 영역-->
 		</article>
 	</div>

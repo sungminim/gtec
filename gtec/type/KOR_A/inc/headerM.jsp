@@ -190,6 +190,10 @@ $(function(){
                 </ul>
             </div>
         </div>
+        <div class="chk_closeToday">
+            <label for="closeToday">오늘 하루 그만 보기</label>
+            <input type="checkbox" id="closeToday">
+        </div>
         <button type="button" class="mPopZone_close">팝업존 닫기</button>
     </div>
 </div>

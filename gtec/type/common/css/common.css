@@ -555,7 +555,9 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
 .mPopZone .subList li .item.small .innerBox{min-height:80px;}
 .mPopZone .subList li:nth-of-type(4n){margin-right:0px;}
 .mPopZone .mPopZone_close{position:absolute;top:0;right:0px;width:37px;height:37px;text-indent:-9999px;background:url(../img/common/icon_mPopZoneClose.png) no-repeat center center;z-index:10;}
-
+.mPopZone .chk_closeToday {position:absolute;top:-45px;right:70px;}
+.mPopZone .chk_closeToday label {color:#fff;font-size:16px;letter-spacing:-1px;}
+.mPopZone .chk_closeToday input {width:15px;height:15px;margin-left:10px;}
 /*확인불가기간*/
 .noSechData{width:100%;height:310px;border:1px solid #dbdee1;padding:205px 20px 60px 20px;box-sizing:border-box;background:url(../img/common/ico_errorMark.png) no-repeat top 70px center;}
 .noSechData>p{font-size:30px;line-height:38px;font-weight:500;color:#000;text-align:center;}
@@ -629,6 +631,8 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     .mPopZone .subList li .item .innerBox strong{font-size:17px;line-height:22px;}
     .mPopZone .subList li .item .innerBox .subTxt{font-size:14px;}
     .mPopZone .subList li .item .innerBox .subTxt:nth-of-type(1){margin-top:10px;}
+
+    .mPopZone .chk_closeToday {top:-30px;right:60px;}
 }
 @media all and (max-width:850px){
     /*학사일정*/
@@ -642,6 +646,8 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     /*팝업존*/
     .mPopZone .mPopZone_wrap{padding:0 20px;}
     .mPopZone .mPopZone_close{top:-50px;right:20px}
+
+    .mPopZone .chk_closeToday {right:80px;}
 
 }
 @media all and (max-width:768px){
@@ -850,7 +856,7 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     .SSO_login fieldset .btnC.Black{margin-top:20px;}
     .SSO_login .linkArrGrp>a{margin-right:15px;font-size:13px;padding-right:10px;background-size:4px auto;}
 
-    .typeSSO footer {height:auto;padding:0 20px 15px;}  
+    .typeSSO footer {height:auto;padding:0 20px 15px;}
     .typeSSO footer address {padding:15px 0 0 0;}
     .typeSSO footer address p>span {display:block;margin-right:0;margin-bottom:5px;padding-right:0;font-size:13px;}
     .typeSSO footer address p>span:after {display:none;}
@@ -870,6 +876,10 @@ p.txt {color:#222;font-family:'Noto Sans KR','Noto Sans SC',sans-serif;font-size
     .mPopZone .subList li .item .innerBox .subTxt{font-size:13px;padding-left:10px;margin-bottom:5px;line-height:17px;}
     .mPopZone .mPopZone_close{width:25px;height:25px;background-size:100% auto;top:-35px;}
     .mPopZone .innerScroll{overflow-y:auto;}
+
+    .mPopZone .chk_closeToday {right:60px;}
+    .mPopZone .chk_closeToday label {font-size:14px;}
+    .mPopZone .chk_closeToday input {width:13px;height:13px;margin-left:7px;}
 
     /*확인불가기간*/
     .noSechData{height:auto;padding:130px 20px 40px 20px;background-size:70px auto;background-position:top 40px center;}
