@@ -21,7 +21,8 @@
 <script src="/gtec/type/common/js/html5shiv.js"></script>
 <![endif]-->
 
-<script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script>
+<!--<script type="text/javascript" src="/gtec/type/common/js/jquery-2.2.1.min.js"></script> *웹취약점 문제로 사용중지-->
+<script type="text/javascript" src="/gtec/type/common/js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="/gtec/type/common/js/jquery.font-accessibility.dev.js"></script>
 
 <!-- slick -->

@@ -621,7 +621,7 @@ $(function(){
 	var tourLoc;
 	$(".cyberTour .mapPoint ul>li>button").keydown(function(event){
 		tourLoc = $(this).parent('li').index();
-		console.log(tourLoc)
+		//console.log(tourLoc)
 		var v_keyCode = event.keyCode || event.which;
 		if(v_keyCode == 13){
 			$(this).trigger('click');
@@ -629,6 +629,9 @@ $(function(){
 		}
 		if(v_keyCode == 9){
 			if(event.shiftKey){
+				if($(this).hasClass('on')){
+					$(this).trigger('click');
+				}
 			}else{
 				if($(this).hasClass('on')){
 					$(".cyberTour .selectDtl.on").find('button').first().focus();
@@ -647,14 +650,13 @@ $(function(){
 			}
 		}
 	});
-	$(".cyberTour .selectDtl .mCustomScrollBox").keydown(function(event){
-		alert('정상');
+	$(".cyberTour .selectDtl .floorInfo").keydown(function(event){
 		var v_keyCode = event.keyCode || event.which;
 		if(v_keyCode == 9){
 			if(event.shiftKey){
 			}else{
 				if(tourLoc < (tourNum-1)){
-					$(".cyberTour .mapPoint ul>li:nth-child(" +(tourLoc+2)+ ")>button").focus();
+					$(".cyberTour .mapPoint ul>li:nth-child(" +(tourLoc+1)+ ")>button").focus().trigger('click');
 				}
 				return false;
 			}
